@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Shuffle Code Claimer
 // @namespace    http://www.shufflecodeclaimer.com/
-// @version      1.4.0
-// @description  Shuffle Code Claimer
-// @author       ShuffleCodeClaimer
+// @version      1.5.0
+// @description  Shuffle Code Claimer - Auto-Detection + Telegram DM Notifications
+// @author       Kylor07
 // @license      MIT
 // @match        https://shuffle.com/*
 // @match        https://shuffle.bet/*
@@ -21,6 +21,2636 @@
 // @noframes
 // ==/UserScript==
 
+// IMMEDIATE LOG TO PROVE SCRIPT IS RUNNING
+console.log('%c🚨 TAMPERMONKEY SCRIPT IS RUNNING! 🚨', 'background: red; color: white; font-size: 20px; padding: 10px;');
+console.log('Script loaded at:', new Date().toISOString());
+console.log('Current URL:', window.location.href);
 
-// @license      MIT
-(function(_0x5f1de9,_0x1fc424){const _0x170e82=_0x3e38,_0x3a444a=_0x5f1de9();while(!![]){try{const _0x3ee368=-parseInt(_0x170e82(0x229))/0x1*(parseInt(_0x170e82(0x181))/0x2)+-parseInt(_0x170e82(0x31e))/0x3+parseInt(_0x170e82(0x1f6))/0x4+parseInt(_0x170e82(0x27a))/0x5+-parseInt(_0x170e82(0x2e5))/0x6+parseInt(_0x170e82(0x2d7))/0x7+-parseInt(_0x170e82(0x343))/0x8;if(_0x3ee368===_0x1fc424)break;else _0x3a444a['push'](_0x3a444a['shift']());}catch(_0x231d44){_0x3a444a['push'](_0x3a444a['shift']());}}}(_0x383b,0x55d02),function(_0x2bde9c,_0x21644a){const _0x19a9ce=_0x3e38,_0x5d7f6f=_0x2bf4,_0x26d14f=_0x2bde9c();while(!![]){try{const _0x5c56ef=parseInt(_0x5d7f6f(0x288))/0x1*(-parseInt(_0x5d7f6f(0x2c7))/0x2)+parseInt(_0x5d7f6f(0x2d4))/0x3+-parseInt(_0x5d7f6f(0x254))/0x4*(-parseInt(_0x5d7f6f(0x263))/0x5)+parseInt(_0x5d7f6f(0x24f))/0x6+-parseInt(_0x5d7f6f(0x261))/0x7+parseInt(_0x5d7f6f(0x19c))/0x8*(parseInt(_0x5d7f6f(0x31a))/0x9)+-parseInt(_0x5d7f6f(0x157))/0xa;if(_0x5c56ef===_0x21644a)break;else _0x26d14f[_0x19a9ce(0x32e)](_0x26d14f[_0x19a9ce(0x211)]());}catch(_0x2b0134){_0x26d14f['push'](_0x26d14f['shift']());}}}(_0x23f1,0x5a851));function _0x1007(_0x318d98,_0x3e9090){_0x318d98=_0x318d98-0x66;const _0x1d0701=_0x1c0f();let _0x4b6c47=_0x1d0701[_0x318d98];return _0x4b6c47;}(function(_0x44e004,_0x503951){const _0x5e7bc1=_0x3e38,_0x56abcd=_0x2bf4,_0x198947=_0x1007,_0x1f3544=_0x44e004();while(!![]){try{const _0x5b71ba=parseInt(_0x198947(0xeb))/0x1+parseInt(_0x198947(0x1e3))/0x2+-parseInt(_0x198947(0x84))/0x3+parseInt(_0x198947(0xc7))/0x4+parseInt(_0x198947(0x19f))/0x5+parseInt(_0x198947(0x17c))/0x6+-parseInt(_0x198947(0x1a5))/0x7;if(_0x5b71ba===_0x503951)break;else _0x1f3544[_0x56abcd(0x338)](_0x1f3544[_0x56abcd(0x1b8)]());}catch(_0x2e238d){_0x1f3544[_0x5e7bc1(0x32e)](_0x1f3544[_0x5e7bc1(0x211)]());}}}(_0x1c0f,0x67b1f),(function(_0x18d4c6,_0x52a9d3){const _0xce33f=_0x2bf4,_0x3ae28f=_0x1007,_0xba5126=_0x5cf3,_0x3956b6=_0x18d4c6();while(!![]){try{const _0x4f65ff=-parseInt(_0xba5126(0xea))/0x1*(parseInt(_0xba5126(0x2b1))/0x2)+parseInt(_0xba5126(0xf9))/0x3*(-parseInt(_0xba5126(0x2be))/0x4)+parseInt(_0xba5126(0x22f))/0x5*(parseInt(_0xba5126(0x2cc))/0x6)+parseInt(_0xba5126(0xed))/0x7*(parseInt(_0xba5126(0x205))/0x8)+-parseInt(_0xba5126(0x13f))/0x9+-parseInt(_0xba5126(0x2c7))/0xa*(-parseInt(_0xba5126(0x19d))/0xb)+parseInt(_0xba5126(0x2cb))/0xc;if(_0x4f65ff===_0x52a9d3)break;else _0x3956b6[_0x3ae28f(0x9b)](_0x3956b6[_0xce33f(0x1b8)]());}catch(_0x2f4579){_0x3956b6[_0x3ae28f(0x9b)](_0x3956b6[_0x3ae28f(0x12f)]());}}}(_0x1cab,0xb9c54),(function(_0x1c9bb9,_0x586920){const _0x31e4be=_0x1007,_0x4027af=_0x5cf3,_0x2cd920=_0xa334,_0x1a6d76=_0x1c9bb9();while(!![]){try{const _0x42b2ba=parseInt(_0x2cd920(0x292))/0x1*(-parseInt(_0x2cd920(0xfd))/0x2)+-parseInt(_0x2cd920(0x170))/0x3*(parseInt(_0x2cd920(0xfc))/0x4)+-parseInt(_0x2cd920(0x101))/0x5*(-parseInt(_0x2cd920(0x229))/0x6)+parseInt(_0x2cd920(0x206))/0x7*(parseInt(_0x2cd920(0x1ab))/0x8)+-parseInt(_0x2cd920(0x21d))/0x9*(-parseInt(_0x2cd920(0x244))/0xa)+parseInt(_0x2cd920(0x1e8))/0xb+parseInt(_0x2cd920(0x22b))/0xc*(-parseInt(_0x2cd920(0x14f))/0xd);if(_0x42b2ba===_0x586920)break;else _0x1a6d76[_0x4027af(0x1cc)](_0x1a6d76[_0x4027af(0x27f)]());}catch(_0x2a576b){_0x1a6d76[_0x4027af(0x1cc)](_0x1a6d76[_0x31e4be(0x12f)]());}}}(_0x7e67,0x70db4),(function(_0x555046,_0x5d9e87){const _0x4cbc86=_0x1007,_0x2baf21=_0x5cf3,_0xaa2f3c=_0xa334,_0x534e41=_0x823d,_0x5434f3=_0x555046();while(!![]){try{const _0x234eda=parseInt(_0x534e41(0xce))/0x1+parseInt(_0x534e41(0x15e))/0x2+-parseInt(_0x534e41(0x267))/0x3+parseInt(_0x534e41(0x146))/0x4*(parseInt(_0x534e41(0x1d7))/0x5)+-parseInt(_0x534e41(0x18c))/0x6+-parseInt(_0x534e41(0x157))/0x7*(-parseInt(_0x534e41(0x15c))/0x8)+-parseInt(_0x534e41(0x1d5))/0x9;if(_0x234eda===_0x5d9e87)break;else _0x5434f3[_0x4cbc86(0x9b)](_0x5434f3[_0x2baf21(0x27f)]());}catch(_0x44ea97){_0x5434f3[_0xaa2f3c(0x140)](_0x5434f3[_0xaa2f3c(0x284)]());}}}(_0x3edf,0xe4a14),(function(_0x33ce85,_0x396c9d){const _0x40060d=_0xa334,_0x26a362=_0x823d,_0x2123c8=_0x44c8,_0x3e32fb=_0x33ce85();while(!![]){try{const _0x38940a=parseInt(_0x2123c8(0x124))/0x1*(parseInt(_0x2123c8(0x21e))/0x2)+parseInt(_0x2123c8(0x1b3))/0x3*(parseInt(_0x2123c8(0x236))/0x4)+-parseInt(_0x2123c8(0x108))/0x5*(parseInt(_0x2123c8(0x1e4))/0x6)+-parseInt(_0x2123c8(0xc9))/0x7*(parseInt(_0x2123c8(0x255))/0x8)+parseInt(_0x2123c8(0x27a))/0x9+-parseInt(_0x2123c8(0x256))/0xa*(parseInt(_0x2123c8(0x204))/0xb)+parseInt(_0x2123c8(0x103))/0xc*(parseInt(_0x2123c8(0xea))/0xd);if(_0x38940a===_0x396c9d)break;else _0x3e32fb[_0x40060d(0x140)](_0x3e32fb[_0x26a362(0x1f0)]());}catch(_0x2c53f0){_0x3e32fb[_0x40060d(0x140)](_0x3e32fb[_0x40060d(0x284)]());}}}(_0x1f6a,0x48c16),(function(_0x37efce,_0x11fc43){const _0x5b39ce=_0x823d,_0x21d3ec=_0x44c8,_0x2f1567=_0x5818,_0x48b668=_0x37efce();while(!![]){try{const _0x36bd13=-parseInt(_0x2f1567(0x1f1))/0x1*(-parseInt(_0x2f1567(0x1aa))/0x2)+-parseInt(_0x2f1567(0x228))/0x3*(-parseInt(_0x2f1567(0x324))/0x4)+parseInt(_0x2f1567(0x2fb))/0x5+-parseInt(_0x2f1567(0x208))/0x6+-parseInt(_0x2f1567(0x322))/0x7+parseInt(_0x2f1567(0x1dd))/0x8+parseInt(_0x2f1567(0x2ed))/0x9*(-parseInt(_0x2f1567(0x31d))/0xa);if(_0x36bd13===_0x11fc43)break;else _0x48b668[_0x21d3ec(0xb3)](_0x48b668[_0x21d3ec(0xdf)]());}catch(_0xfae0f0){_0x48b668[_0x21d3ec(0xb3)](_0x48b668[_0x5b39ce(0x1f0)]());}}}(_0x4a24,0x6e3fd),function(_0x1055a5,_0xcb29b8){const _0x1fa794=_0x44c8,_0x4c1be0=_0x5818,_0x4cc7c1=_0x3536,_0x4ff31e=_0x1055a5();while(!![]){try{const _0x4d1997=parseInt(_0x4cc7c1(0x149))/0x1+-parseInt(_0x4cc7c1(0xfe))/0x2*(-parseInt(_0x4cc7c1(0x1eb))/0x3)+-parseInt(_0x4cc7c1(0x21f))/0x4+parseInt(_0x4cc7c1(0x1fa))/0x5*(-parseInt(_0x4cc7c1(0x1c9))/0x6)+parseInt(_0x4cc7c1(0x1c2))/0x7*(parseInt(_0x4cc7c1(0x198))/0x8)+-parseInt(_0x4cc7c1(0x22f))/0x9*(-parseInt(_0x4cc7c1(0x246))/0xa)+parseInt(_0x4cc7c1(0xfa))/0xb*(-parseInt(_0x4cc7c1(0x132))/0xc);if(_0x4d1997===_0xcb29b8)break;else _0x4ff31e[_0x4c1be0(0x310)](_0x4ff31e[_0x1fa794(0xdf)]());}catch(_0x4b7f4a){_0x4ff31e[_0x4c1be0(0x310)](_0x4ff31e[_0x4c1be0(0x339)]());}}}(_0x3e75,0x9c2f5)))))));function _0x532d(_0x4cb7a4,_0x1cccd2){_0x4cb7a4=_0x4cb7a4-0x1bd;const _0x2d4eaa=_0x1585();let _0x12f7d5=_0x2d4eaa[_0x4cb7a4];return _0x12f7d5;}function _0x383b(){const _0xbc2ae8=['</code>\x0a─────────────────\x0a💰\x20<b>VALUE:</b>\x20','display','isArray','No\x20active\x20subscription','1986341Xrdpcw',':\x20CLAIMED!','hash','❌\x20<b>CODE\x20REJECTED</b>\x0a<code>','getComputedStyle','7141020eAsQbQ','\x20(style-first\x20mode)','stopPropagation','340gkQSAK','img[src*=\x22redeem\x22],\x20img[alt=\x22redeem\x22]','70kMNaMF',';\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x202px\x2010px\x20rgba(0,0,0,0.3);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20▲\x20Show\x20Code\x20Claimer\x0a\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22shuffle-manual-panel\x22\x20style=\x22position:\x20fixed;\x20top:\x2070px;\x20right:\x20370px;\x20z-index:\x201000000;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#1a1f2e;\x20border:\x202px\x20solid\x20#00ff88;\x20border-radius:\x2012px;\x20padding:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x208px\x2032px\x20rgba(0,255,136,0.4),\x200\x200\x2060px\x20rgba(0,255,136,0.2);\x20width:\x20350px;\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27Inter\x27,\x20\x27Segoe\x20UI\x27,\x20sans-serif;\x20color:\x20#e0e6ed;\x22>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22margin-bottom:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<label\x20style=\x22display:block;\x20margin-bottom:8px;\x20font-size:13px;\x20opacity:0.8;\x20font-weight:600;\x22>Enter\x20Promo\x20Code:</label>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<input\x20id=\x22manual-code-input\x22\x20type=\x22text\x22\x20placeholder=\x22TYPE\x20CODE\x20HERE...\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20style=\x22width:\x20100%;\x20padding:\x2010px\x2014px;\x20background:\x20rgba(255,255,255,0.1);\x20border:\x201px\x20solid\x20rgba(255,255,255,0.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x20color:\x20#fff;\x20font-size:\x2014px;\x20outline:\x20none;\x20box-sizing:\x20border-box;\x20text-transform:\x20uppercase;\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20autocomplete=\x22off\x22\x20spellcheck=\x22false\x22\x20maxlength=\x2220\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22manual-claim-btn\x22\x20style=\x22width:\x20100%;\x20background:\x20linear-gradient(135deg,\x20#00ff88,\x20#00cc6e);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none;\x20color:\x20#000;\x20padding:\x2012px\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x20cursor:\x20pointer;\x20font-size:\x2014px;\x20font-weight:\x20700;\x20transition:\x20all\x200.3s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x204px\x2015px\x20rgba(0,255,136,0.4);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20⚡\x20GO\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22shuffle-panel\x22\x20style=\x22position:\x20fixed;\x20top:\x2060px;\x20right:\x2020px;\x20bottom:\x2020px;\x20z-index:\x20999998;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#1a1f2e;\x20border:\x201px\x20solid\x20#2a3f5f;\x20border-radius:\x2012px;\x20padding:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x208px\x2032px\x20rgba(0,0,0,0.5);\x20width:\x20450px;\x20display:\x20none;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27Inter\x27,\x20\x27Segoe\x20UI\x27,\x20sans-serif;\x20color:\x20#e0e6ed;\x20overflow:\x20hidden;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:\x20column;\x22>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20justify-content:space-between;\x20align-items:center;\x20padding:20px;\x20border-bottom:\x201px\x20solid\x20#2a3f5f;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3\x20style=\x22margin:0;\x20color:#fff;\x20font-size:20px;\x22>📊\x20Code\x20Dashboard</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22shuffle-panel-close\x22\x20style=\x22background:none;\x20border:none;\x20color:#fff;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:22px;\x20cursor:pointer;\x20padding:0;\x20width:30px;\x20height:30px;\x22>✕</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20gap:12px;\x20padding:15px\x2020px;\x20border-bottom:\x201px\x20solid\x20#2a3f5f;\x20background:\x20rgba(255,255,255,0.02);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:1;\x20padding:\x2012px;\x20background:\x20rgba(255,255,255,0.05);\x20border-radius:\x208px;\x20border:\x201px\x20solid\x20rgba(255,255,255,0.1);\x20text-align:center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22opacity:0.6;\x20font-size:11px;\x20text-transform:uppercase;\x20margin-bottom:4px;\x22>Total</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:24px;\x20font-weight:700;\x22>','359029SNuKQS',';\x20border:\x202px\x20solid\x20','<div\x20id=\x22shuffle-status\x22\x20style=\x22padding:\x205px\x2012px;\x20background:\x20rgba(0,255,136,0.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20#00ff88;\x20border-radius:\x205px;\x20font-size:\x2012px;\x20color:\x20#00ff88;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20✅\x20Active\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>',';\x22></div></div></div></div><div\x20style=\x22margin-top:\x2012px;\x20padding:\x2010px\x2014px;\x20background:\x20rgba(0,0,0,0.2);\x20border-radius:\x208px;\x20font-size:\x2011px;\x20color:\x20rgba(255,255,255,0.5);\x22><span>💡\x20','filter','557841shTRlI','⚠️\x20Response\x20arrived\x20but\x20no\x20longer\x20authenticated\x20-\x20ignoring','❌\x20Error\x20getting\x20geetest\x20nonce:','Ready','findIndex','❌\x20No\x20auth\x20token\x20found','═════════════════════════════════════════','reload','5571ajxooV','ceil','✅\x20Found\x20JWT\x20in\x20parsed\x20object:','🎰\x20<b>NEW\x20CODE\x20FOUND!</b>\x0a<code>','</div>','109pBnOuO','stringify','Hash:','1570605fWxxrl','1277739llgBRk','Rejected','5087202qBEIzZ','<div\x20class=\x22code-rejection-reason\x22>🚫\x20','background:\x20rgba(255,193,7,0.2);','.svg\x22\x20alt=\x22','Please\x20redeem\x20','Network\x20error:\x20','298qZyVgv','10OyIyHo','onclick','Failed\x20to\x20parse\x20claim\x20result:','dogwifhat','shuffle-status','🔄\x20Retrying\x20code\x20after\x20Geetest\x20refresh:\x20','❌\x20Rejected','claimed','fetch','❌\x20Not\x20subscribed:\x20','</div></div></div><div\x20id=\x22dashboard-telegram-toggle\x22\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2012px;\x20cursor:\x20','#00e676','USD\x20Coin','jpg','1286216DsoTee','11FUDqYW','subscriptionExpiry','DOGE','Auth\x20token\x20not\x20found','amount','keypress','⚠️\x20Next.js\x20router\x20not\x20found\x20via\x20unsafeWindow','📡\x20GraphQL\x20interceptor\x20ready',';\x22><span\x20style=\x22font-size:\x2013px;\x20font-weight:\x20700;\x20color:\x20#fff;\x20text-transform:\x20uppercase;\x22>','🔍\x20PostHog\x20Username\x20detected:','scroll-up-btn','insertAdjacentHTML','18874966LaFSeg','7090FiKDuh','12mcOOrK','</code>','2780850PbrVLR','undefined','Bitcoin','⚠️\x20No\x20Telegram\x20chat\x20ID\x20found','<span\x20style=\x22font-size:\x2013px;\x20font-weight:\x20700;\x20color:\x20#fff;\x20text-transform:\x20uppercase;\x22>','N/A','shuffle-manual-panel','getElementById','https://shufflecodeclaimer.com','1028646zbhoKs','shift','POLL_CODES','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22currency-option\x22\x20data-currency=\x22','272701ebWCFd','data','✅\x20Found\x20JWT\x20token\x20in:','3510114dEuDlK','key','then','</span></div></div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22shuffle-codes-list\x22\x20style=\x22flex:\x201;\x20overflow-y:\x20auto;\x20padding:\x2015px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Codes\x20loaded\x20from\x20API\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Scroll\x20Controls\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22shuffle-scroll-controls\x22\x20style=\x22position:\x20absolute;\x20bottom:\x2020px;\x20right:\x2020px;\x20display:\x20flex;\x20flex-direction:\x20column;\x20gap:\x208px;\x20z-index:\x2010;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22scroll-up-btn\x22\x20style=\x22background:\x20rgba(255,255,255,0.15);\x20border:\x201px\x20solid\x20rgba(255,255,255,0.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#fff;\x20width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2050%;\x20cursor:\x20pointer;\x20font-size:\x2018px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20transition:\x20all\x200.2s;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20⬆️\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22scroll-down-btn\x22\x20style=\x22background:\x20rgba(255,255,255,0.15);\x20border:\x201px\x20solid\x20rgba(255,255,255,0.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#fff;\x20width:\x2040px;\x20height:\x2040px;\x20border-radius:\x2050%;\x20cursor:\x20pointer;\x20font-size:\x2018px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20transition:\x20all\x200.2s;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20⬇️\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<style>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20@keyframes\x20pulse-dot\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x200%,\x20100%\x20{\x20opacity:\x201;\x20transform:\x20scale(1);\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2050%\x20{\x20opacity:\x200.5;\x20transform:\x20scale(1.2);\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#shuffle-codes-list::-webkit-scrollbar\x20{\x20width:\x208px;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#shuffle-codes-list::-webkit-scrollbar-track\x20{\x20background:\x20#1a1f2e;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#shuffle-codes-list::-webkit-scrollbar-thumb\x20{\x20background:\x20#3a5f8f;\x20border-radius:\x204px;\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20#scroll-up-btn:hover,\x20#scroll-down-btn:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20rgba(255,255,255,0.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1.1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.code-item\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20rgba(255,255,255,0.05);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20#2a3f5f;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x208px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2015px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x2012px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transition:\x20all\x200.3s\x20ease;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.code-item:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20rgba(255,255,255,0.08);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateY(-2px);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.code-item.claimed\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20rgba(0,255,136,0.1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-color:\x20#00ff88;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.code-item.rejected\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20rgba(255,68,68,0.1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-color:\x20#ff4444;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.code-rejection-reason\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20rgba(255,68,68,0.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20#ff4444;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#ff6666;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2013px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20600;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.code-header\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20space-between;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-bottom:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.code-value\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20700;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#667eea;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20\x27Courier\x20New\x27,\x20monospace;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.code-badge\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x204px\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2012px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2011px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20600;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.code-badge.claimed\x20{\x20background:\x20#00ff88;\x20color:\x20#000;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.code-badge.rejected\x20{\x20background:\x20#ff4444;\x20color:\x20#fff;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.code-badge.pending\x20{\x20background:\x20#ffa500;\x20color:\x20#000;\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.code-info-grid\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20grid;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20grid-template-columns:\x201fr\x201fr;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20gap:\x208px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x2010px\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20rgba(0,0,0,0.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2012px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.code-info-label\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x200.6;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-transform:\x20uppercase;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.code-info-value\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20600;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x202px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20.code-rejection-reason\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20rgba(255,68,68,0.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-left:\x203px\x20solid\x20#ff4444;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x2010px\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x204px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2012px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#ffaaaa;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20</style>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-info-label\x22>Limit</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-info-value\x22>','rgba(255,255,255,0.15)','91ihwKgH','catch','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-info-label\x22>Wager\x20Req.</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-info-value\x22>','SHIB','🎰\x20NEW\x20CODE:\x20','mutation\x20RedeemPromoCode($data:\x20PromotionCodeInput!)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20redeemPromotionCode(data:\x20$data)\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20id\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20currency\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20createdAt\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20afterBalance\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20usdRedeemValue\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20__typename\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}','26525412nxpppZ','startsWith','951MVrCEL','deadline','<div\x20id=\x22shuffle-status\x22\x20style=\x22padding:\x205px\x2012px;\x20background:\x20rgba(255,193,7,0.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20#ffc107;\x20border-radius:\x205px;\x20font-size:\x2012px;\x20color:\x20#ffc107;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🔍\x20Auto-detecting...\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','11547byuzHD','8ziBnSx','/sendMessage','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:1;\x20padding:\x2012px;\x20background:\x20rgba(0,255,136,0.1);\x20border-radius:\x208px;\x20border:\x201px\x20solid\x20rgba(0,255,136,0.3);\x20text-align:center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22opacity:0.7;\x20font-size:11px;\x20text-transform:uppercase;\x20margin-bottom:4px;\x22>Claimed</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:24px;\x20font-weight:700;\x20color:#00ff88;\x22>','35134zdHgHq','🤖\x20Captcha\x20detected\x20-\x20refreshing\x20to\x20retry\x20','\x22\x20alt=\x22','refreshToken','target','🎯\x20Manual\x20code\x20added:\x20','🚀\x20Starting\x20auto-refresh\x20for\x20subscribed\x20user...','\x20→\x20','✅\x20All\x20codes\x20processed','normal','417805DCNVxI','keys','OFF\x20(200ms)','/api/auth/connect','Polygon','Failed\x20to\x20parse\x20processed\x20codes:','Auto-refresh\x20error:','\x22\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2012px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2012px\x2016px;\x20cursor:\x20pointer;\x20transition:\x20background\x200.2s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','2195412foSKmY','next','750fqHreJ','TRUMP','mutation\x20GetGeetestNonce\x20{\x20geetestNonce\x20}','\x22],\x20[data-testid=\x22currency-','replaceState','eyJ',';\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20linear-gradient(135deg,\x20#1a1f2e\x200%,\x20#2a1f3d\x2050%,\x20#1f2937\x20100%);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20backdrop-filter:\x20blur(10px);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x204px\x2020px\x20rgba(0,0,0,0.5),\x200\x200\x2060px\x20rgba(102,126,234,0.15);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-bottom:\x202px\x20solid\x20rgba(102,126,234,0.3);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2012px\x2024px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x20justify-content:\x20space-between;\x20font-family:\x20\x27Inter\x27,\x20\x27Segoe\x20UI\x27,\x20sans-serif;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#fff;\x20font-size:\x2014px;\x22>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20gap:20px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20gap:12px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22https://i.postimg.cc/D0vSfm2H/unnamed-3.jpg\x22\x20alt=\x22Shuffle\x20Code\x20Claimer\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20style=\x22width:\x2045px;\x20height:\x2045px;\x20border-radius:\x208px;\x20box-shadow:\x200\x200\x2020px\x20rgba(102,126,234,0.4);\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20onerror=\x22this.style.display=\x27none\x27\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:700;\x20font-size:18px;\x20background:\x20linear-gradient(135deg,\x20#00ff88,\x20#667eea,\x20#ff6b9d);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20-webkit-background-clip:\x20text;\x20-webkit-text-fill-color:\x20transparent;\x20background-clip:\x20text;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20SHUFFLE\x20CODE\x20CLAIMER\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:10px;\x20opacity:0.7;\x20margin-top:2px;\x22>v1.4.0</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<a\x20href=\x22https://t.me/ShuffleSubscriptionBot\x22\x20target=\x22_blank\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20style=\x22padding:\x208px\x2016px;\x20background:\x20linear-gradient(135deg,\x20#667eea,\x20#764ba2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x208px;\x20text-decoration:\x20none;\x20color:\x20#fff;\x20font-size:\x2013px;\x20font-weight:\x20600;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x204px\x2015px\x20rgba(102,126,234,0.4);\x20transition:\x20all\x200.3s;\x20border:\x201px\x20solid\x20rgba(255,255,255,0.2);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20onmouseover=\x22this.style.transform=\x27translateY(-2px)\x27;\x20this.style.boxShadow=\x270\x206px\x2025px\x20rgba(102,126,234,0.6)\x27;\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20onmouseout=\x22this.style.transform=\x27translateY(0)\x27;\x20this.style.boxShadow=\x270\x204px\x2015px\x20rgba(102,126,234,0.4)\x27;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<svg\x20style=\x22width:\x2018px;\x20height:\x2018px;\x22\x20viewBox=\x220\x200\x2024\x2024\x22\x20fill=\x22currentColor\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<path\x20d=\x22M12\x200C5.373\x200\x200\x205.373\x200\x2012s5.373\x2012\x2012\x2012\x2012-5.373\x2012-12S18.627\x200\x2012\x200zm5.562\x208.161c-.18\x201.897-.962\x206.502-1.359\x208.627-.168.9-.5\x201.201-.82\x201.23-.697.064-1.226-.461-1.901-.903-1.056-.693-1.653-1.124-2.678-1.8-1.185-.781-.417-1.21.258-1.911.177-.184\x203.247-2.977\x203.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793\x201.139-5.062\x203.345-.479.329-.913.489-1.302.481-.428-.009-1.252-.242-1.865-.442-.752-.244-1.349-.374-1.297-.789.027-.216.325-.437.893-.663\x203.498-1.524\x205.831-2.529\x206.998-3.014\x203.332-1.386\x204.025-1.627\x204.476-1.635.099-.002.321.023.465.14.121.099.154.232.17.326.016.094.036.308.02.475z\x22/>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</svg>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20💎\x20Buy\x20Subscription\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</a>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20id=\x22shuffle-username\x22\x20style=\x22font-size:13px;\x20padding:6px\x2014px;\x20background:rgba(255,255,255,0.1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20backdrop-filter:\x20blur(5px);\x20border-radius:8px;\x20border:\x201px\x20solid\x20rgba(255,255,255,0.2);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20👤\x20','\x20(lookup\x20failed)','\x20(local\x20only)','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22telegram-settings-panel\x22\x20style=\x22padding:\x2016px\x2020px;\x20border-bottom:\x201px\x20solid\x20#2a3f5f;\x20background:\x20linear-gradient(135deg,\x20rgba(0,136,255,0.08),\x20rgba(102,126,234,0.08));\x22><div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20space-between;\x22><div\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x2014px;\x22><div\x20style=\x22width:\x2048px;\x20height:\x2048px;\x20background:\x20linear-gradient(135deg,\x20#0088ff,\x20#00aaff);\x20border-radius:\x2012px;\x20display:\x20flex;\x20align-items:\x20center;\x20justify-content:\x20center;\x20font-size:\x2024px;\x20box-shadow:\x200\x204px\x2015px\x20rgba(0,136,255,0.3);\x22>📲</div><div><div\x20style=\x22font-weight:\x20700;\x20font-size:\x2015px;\x20color:\x20#fff;\x22>Telegram\x20DM\x20Alerts</div><div\x20style=\x22font-size:\x2012px;\x20opacity:\x200.7;\x20margin-top:\x203px;\x20max-width:\x20200px;\x20line-height:\x201.4;\x22>','350JGNxMU','4CGFHNv','/api/codes','lastClaimResult','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','textContent','</span><div\x20style=\x22width:\x2050px;\x20height:\x2026px;\x20background:\x20','💓\x20Heartbeat\x20started\x20(30s\x20interval)','closest','smooth','find','localCodes','7cbmYev','❌\x20Failed\x20to\x20get\x20geetest\x20nonce:','Bearer\x20','📲\x20Telegram\x20notifications\x20','timeline','\x20in\x203s...','🔄\x20Account\x20switch\x20detected\x20-\x20resetting\x20auth\x20state','8mXLsuc','⚡\x20AUTO-REDEEMING:\x20','7SWEWfc','.currency-option','shuffle-minimize-btn','ms\x20(','✅\x20CLAIMED','1045775aTwbFv','currency','276axNPLm','left:\x202px',';\x20padding:\x2010px\x2016px;\x20border-radius:\x2030px;\x20transition:\x20all\x200.3s;\x20background:\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-info-grid\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-info-label\x22>Value</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-info-value\x22>','rgba(255,193,7,0.2)','PUMP','Get\x20code\x20alerts\x20in\x20Telegram','19164GvMmUh','7KnoKEV','447685ZVyNBM','🛡️\x20Captcha\x20triggered\x20-\x20waiting...','\x20manually','1129416LWzIXf','2473051waiDTB','⚡\x20CLAIMING:\x20','errors','8eQlpPj','alt','✅\x20Notifications\x20enabled!','substring','2602640uBywmK','❌\x20Network\x20error','Link\x20via\x20@ShuffleSubscriptionBot','Failed\x20to\x20parse\x20stored\x20codes,\x20starting\x20fresh:','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:10px;\x20opacity:0.6;\x22>▼</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22currency-dropdown\x22\x20style=\x22display:\x20none;\x20position:\x20absolute;\x20top:\x20100%;\x20left:\x200;\x20margin-top:\x208px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20#1a1f2e;\x20border:\x201px\x20solid\x20rgba(255,255,255,0.2);\x20border-radius:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x208px\x2032px\x20rgba(0,0,0,0.6);\x20min-width:\x20180px;\x20max-height:\x20300px;\x20overflow-y:\x20auto;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x201000001;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22display:flex;\x20align-items:center;\x20gap:20px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','name','9259305cKNPVP','5754iRHaEN','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','⚠️\x20Link\x20Telegram\x20to\x20enable\x20alerts','WIF','🔒\x20Connect\x20to\x20claim\x20codes','BTC','height','rgba(255,255,255,0.3)','Network\x20error:','operationName','🚪\x20Closing\x20modal...','LTC','1038404zMLvNM','string','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-bottom:\x201px\x20solid\x20rgba(255,255,255,0.05);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','Using\x20auth\x20token:','graphql','pointer','</code>\x0a📝\x20<i>','517032WLShlt','✅\x20Router\x20push\x20completed,\x20watching\x20for\x20Redeem\x20button...','headerVisible','❌\x20Code\x20rejected\x20(Attempt\x20','toUpperCase','Ripple','25ZEFnCr','✅\x20Code\x20processed\x20-\x20network\x20error\x20after\x20max\x20retries','First\x20','__next','Solana','cookie','Litecoin','38396KSiFmK','\x22\x20style=\x22width:\x2024px;\x20height:\x2024px;\x20border-radius:\x2050%;\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20onerror=\x22this.style.display=\x27none\x27\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-weight:\x20600;\x20color:\x20#fff;\x22>','pointerEvents','username','linear-gradient(135deg,\x20#00c853,\x20#00e676)','background:\x20red;\x20color:\x20white;\x20font-size:\x2020px;\x20padding:\x2010px;','3082244XjWfgc',':\x20Eligible,\x20waiting\x20for\x20redeem...','🔗\x20Auto-connecting\x20with\x20username:\x20','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-header\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-value\x22>','1361772fxPHBu','limit','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22shuffle-panel-btn\x22\x20style=\x22background:\x20linear-gradient(135deg,\x20rgba(102,126,234,0.3),\x20rgba(118,75,162,0.3));\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20rgba(255,255,255,0.3);\x20color:\x20#fff;\x20padding:\x208px\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x208px;\x20cursor:\x20pointer;\x20font-size:\x2013px;\x20font-weight:\x20600;\x20transition:\x20all\x200.3s;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20📊\x20Dashboard\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22shuffle-minimize-btn\x22\x20style=\x22background:\x20rgba(255,255,255,0.1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20rgba(255,255,255,0.2);\x20color:\x20#fff;\x20padding:\x208px\x2014px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x208px;\x20cursor:\x20pointer;\x20font-size:\x2013px;\x20font-weight:\x20600;\x20transition:\x20all\x200.3s;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20▼\x20Hide\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22shuffle-show-btn\x22\x20style=\x22position:\x20fixed;\x20top:\x2010px;\x20right:\x2010px;\x20z-index:\x20999999;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20linear-gradient(135deg,\x20#667eea\x200%,\x20#764ba2\x20100%);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20rgba(255,255,255,0.3);\x20color:\x20#fff;\x20padding:\x208px\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x206px;\x20cursor:\x20pointer;\x20font-size:\x2013px;\x20font-weight:\x20600;\x20display:\x20','GET','3532uTDQvd','📲\x20Telegram\x20OFF','5308568wSPemx','4346523dWjkii','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20style=\x22font-size:10px;\x20opacity:0.6;\x22>▼</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','pollInterval','⚠️\x20Manual\x20Redemption\x20Needed','telegramChatId','log','✅\x20Found\x20auth\x20token\x20in\x20persist:root','✅\x20Code\x20claimed\x20via\x20direct\x20GraphQL!','_posthog','\x0a📍\x20Open\x20https://shuffle.com/redeem/',':\x20Modal\x20stuck,\x20retrying...','2918295BjtADb','history','linear-gradient(135deg,\x20#444,\x20#555)','parentElement','299aUJtqh','102gamMej','scrollBy','921427aojkUQ','svg','5384996XumADW','geetestNonce','🚀\x20redeemCodeDirect\x20called\x20for:\x20','test','connectionTimestamp','🏠\x20DIRECT\x20GRAPHQL\x20MODE\x20-\x20No\x20page\x20navigation\x20needed','Invalid\x20code','0\x204px\x2015px\x20rgba(0,200,83,0.4)','manual-claim-btn','Get\x20Telegram\x20alerts\x20for\x20all\x20codes','31830uyQtNc','now','href','1244830HVGPIg','Captcha/Rate\x20limit\x20-\x20try\x20again\x20later','⏹️\x20Stopped\x20claim\x20result\x20polling','🧹\x20Filtered\x20out\x20','3235078oAhQti','❌\x20Connection\x20error','\x20and\x20click\x20REDEEM!','trim','⏳\x20PENDING','5hMaHWm','addEventListener','Trump','click','36uPEWkT','OFF','2673840jQvtsb','✅\x20Got\x20geetest\x20nonce','1762397EcqEDN','1327170hXhuxC','body','✅\x20Telegram\x20message\x20sent\x20to\x20','Ethereum','Claimed','❌\x20Connection\x20timeout','currency-dropdown',';\x20box-shadow:\x20','dataset','375hjJMEc','⚡\x20NEW\x20CODE!','visibility','wagerRequirement','https://shuffle.com/main-api/graphql/api/graphql','[class*=\x22geetest_box\x22],\x20.geetest_box_layer,\x20[class*=\x22geetest_panel\x22]','⏳\x20Retrying\x20','✅\x20<b>CODE\x20CLAIMED!</b>\x0a<code>','1316392onjULP','redeem',':\x20Invalid\x20code\x20(no\x20modal)','boxShadow','toLowerCase','POST','retryAttempts','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22flex:1;\x20padding:\x2012px;\x20background:\x20rgba(255,68,68,0.1);\x20border-radius:\x208px;\x20border:\x201px\x20solid\x20rgba(255,68,68,0.3);\x20text-align:center;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22opacity:0.7;\x20font-size:11px;\x20text-transform:uppercase;\x20margin-bottom:4px;\x22>Rejected</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:24px;\x20font-weight:700;\x20color:#ff4444;\x22>','✅\x20Code\x20Claimed!','application/json','toISOString','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22text-align:center;\x20padding:60px\x2020px;\x20color:#666;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3\x20style=\x22margin:0\x200\x2010px;\x22>No\x20Codes\x20Yet</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>Codes\x20from\x20Telegram\x20will\x20appear\x20here</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','⚠️\x20This\x20code\x20has\x20already\x20been\x20claimed!','currency-selected-btn','scroll-down-btn','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-info-label\x22>Timeline</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-info-value\x22>','%c🚨\x20TAMPERMONKEY\x20SCRIPT\x20IS\x20RUNNING!\x20🚨',';\x22></div></div>','❌\x20Network\x20error:','\x20(Attempt\x20','Tether','Pathname:','none','.Modal_overlay,\x20[data-testid=\x22modal-overlay\x22]','11988837LYJDtB','186HNaqrj','Manual\x20Entry','⏳\x20Connection\x20already\x20in\x20progress,\x20skipping...','Shuffle','Error\x20parsing\x20persist:root:','🔄\x20Username\x20changed:\x20','⏹️\x20Stopped\x20auto-refresh\x20polling','5151080vGsXae','warn','\x20min','endsWith',':\x20Timeout\x20waiting\x20for\x20GraphQL\x20response','code','⚠️\x20','⚡\x20Shuffle\x20Code\x20Claimer\x20','1233552zopKao','</i>','19513710LnstMQ','599092AQclsA','⚡\x20NEW\x20CODE\x20INSTANT:\x20','⏭️\x20Already\x20notified\x20for:\x20','shuffle-panel-close','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22shuffle-header\x22\x20style=\x22position:\x20fixed;\x20top:\x200;\x20left:\x200;\x20right:\x200;\x20z-index:\x20999999;\x20display:\x20','RedeemPromoCode','location','✅\x20Auth\x20state\x20completely\x20reset','425706ukYtzH','✅\x20Found\x20router\x20via\x20unsafeWindow.__NEXT_ROUTER__','shuffle-reset-btn','Failed\x20to\x20get\x20geetest\x20nonce','63ucSoYb','push','Unknown\x20reason','🛡️\x20Captcha\x20Detected','18572RTtquF','\x20old\x20codes\x20from\x20storage','👁️\x20Starting\x20live\x20username\x20tracking...','Dogecoin','length','\x0a🎯\x20<b>WAGER\x20REQ:</b>\x20','https://api.telegram.org/bot','22892sWpQiS','TON','TURBO\x20MODE','143693ZHWCVH','pending','unshift','Tron','ENABLED','4odIkbS','❌\x20Network\x20error\x20sending\x20Telegram\x20message:','💱\x20Detected\x20currency\x20change\x20on\x20Shuffle:\x20','719608NXYcHN','getItem','success','dashboard-telegram-toggle','SHFL','Script\x20loaded\x20at:','✅\x20Found\x20Next.js\x20router\x20-\x20using\x20shallow\x20navigation','❌\x20Rejected:\x20',';\x20opacity:\x20','USDT','shuffle-manual-open-btn','1110971nEDPRW','BONK','🛡️\x20CAPTCHA/RATE\x20LIMIT\x20DETECTED\x20-\x20Stopping\x20retries','Unknown','4873fIVWua','focus','🔄\x20Found\x20pending\x20retry\x20code:\x20','status','shuffle-panel','36bozBLc','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','1145ebRpsy','340613pFIAKS','✅\x20Found\x20router\x20via\x20unsafeWindow.next.router','⏭️\x20Already\x20processed:\x20','1856325bDXmoZ','⚠️\x20Telegram\x20Not\x20Set\x20Up','🚀\x20Super\x20Turbo\x20Mode:\x20','3956752ZCoBZl','getBoundingClientRect','clearTimestamp','❌\x20No\x20username\x20to\x20connect\x20with','superTurbo','⚠️\x20Missing\x20bot\x20token\x20or\x20chat\x20ID\x20for\x20Telegram\x20notification','\x20|\x20','2995506WInfmz','value','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</span>\x0a\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<!--\x20Currency\x20Picker\x20-->\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20id=\x22currency-picker\x22\x20style=\x22position:\x20relative;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22currency-selected-btn\x22\x20style=\x22display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x20padding:\x208px\x2014px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background:\x20linear-gradient(135deg,\x20rgba(255,193,7,0.2),\x20rgba(255,152,0,0.2));\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20rgba(255,193,7,0.5);\x20border-radius:\x208px;\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#fff;\x20font-size:\x2013px;\x20font-weight:\x20600;\x20transition:\x20all\x200.3s;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22/icons/crypto/','🎨\x20STYLE-FIRST\x20mode\x20enabled\x20for\x20button\x20detection','365740VrgYNH','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22shuffle-reset-btn\x22\x20style=\x22background:\x20linear-gradient(135deg,\x20rgba(255,68,68,0.2),\x20rgba(255,68,68,0.3));\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20rgba(255,68,68,0.5);\x20color:\x20#ff4444;\x20padding:\x208px\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x208px;\x20cursor:\x20pointer;\x20font-size:\x2013px;\x20font-weight:\x20600;\x20transition:\x20all\x200.3s;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20🗑️\x20Reset\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','510115lMsPFN','57604nNcWwM','Current\x20URL:','.BalanceSelect_balanceSelectContainer__3vVbL','➕\x20New\x20code\x20added:\x20','USERNAME_CHECK','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','width','ETH','🔄\x20Router\x20not\x20immediately\x20available,\x20polling\x20for\x20unsafeWindow.next.router...','webp','shuffle-header','1428KXjYkQ','💱\x20Clicked\x20Shuffle\x20currency:\x20','$stored_person_properties','forEach','Toncoin','✅\x20Router\x20became\x20available!\x20Using\x20it\x20now...','responseText','img[alt]','error','⚠️\x20Please\x20enter\x20a\x20code','4736142zXXAVJ','❌\x20Cannot\x20start\x20auto-refresh\x20-\x20not\x20authenticated','DAI','❌\x20Timeout','86948AjXzVN','📲\x20Stored\x20Telegram\x20bot\x20token\x20(encrypted)','🔒\x20','shuffle-codes-list','✅\x20Router\x20push\x20completed\x20via\x20fallback\x20polling','router','4880yHmcMm','⚠️\x20Currency\x20button\x20not\x20found:\x20','ON\x20(50ms)','too\x20many','lookupPromotionCode','✅\x20Claimed!','\x0a📊\x20<b>LIMIT:</b>\x20','XRP','❌\x20REJECTED','map','DISABLED','opacity','Router\x20push\x20failed:','✓\x20ON','Failed\x20to\x20parse\x20codes:','GraphQL\x20Response:','hidden','9NskLIp','pendingRetryTime','Telegram\x20notifications\x20disabled','querySelectorAll','📲\x20Sending\x20status\x20update\x20for:\x20','1521LgOQlf','<div\x20id=\x22shuffle-searching\x22\x20style=\x22padding:\x205px\x2012px;\x20background:\x20rgba(0,255,136,0.1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20#00ff88;\x20border-radius:\x205px;\x20font-size:\x2012px;\x20color:\x20#00ff88;\x20display:\x20flex;\x20align-items:\x20center;\x20gap:\x208px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22green-dot\x22\x20style=\x22width:\x208px;\x20height:\x208px;\x20background:\x20#00ff88;\x20border-radius:\x2050%;\x20animation:\x20pulse-dot\x201.5s\x20infinite;\x22></span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Searching\x20for\x20Codes...\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>','✅\x20Dashboard\x20updated:\x20'];_0x383b=function(){return _0xbc2ae8;};return _0x383b();}function _0x5cf3(_0x2be48d,_0x20b540){_0x2be48d=_0x2be48d-0xe7;const _0x227579=_0x1cab();let _0x5b3386=_0x227579[_0x2be48d];return _0x5b3386;}function _0x3e38(_0x13116a,_0x56af06){_0x13116a=_0x13116a-0x17d;const _0x383b97=_0x383b();let _0x3e38bc=_0x383b97[_0x13116a];return _0x3e38bc;}(function(_0xa5321d,_0x10e304){const _0x3b8c64=_0x5818,_0x32cfe3=_0x3536,_0x3bc90f=_0x532d,_0x3311f7=_0xa5321d();while(!![]){try{const _0x18c96a=-parseInt(_0x3bc90f(0x27f))/0x1+-parseInt(_0x3bc90f(0x2db))/0x2+parseInt(_0x3bc90f(0x35e))/0x3*(-parseInt(_0x3bc90f(0x360))/0x4)+parseInt(_0x3bc90f(0x2e5))/0x5*(-parseInt(_0x3bc90f(0x352))/0x6)+-parseInt(_0x3bc90f(0x2b1))/0x7*(parseInt(_0x3bc90f(0x337))/0x8)+-parseInt(_0x3bc90f(0x355))/0x9+-parseInt(_0x3bc90f(0x261))/0xa*(-parseInt(_0x3bc90f(0x2bc))/0xb);if(_0x18c96a===_0x10e304)break;else _0x3311f7[_0x32cfe3(0x162)](_0x3311f7[_0x32cfe3(0x19c)]());}catch(_0x6a1b09){_0x3311f7[_0x32cfe3(0x162)](_0x3311f7[_0x3b8c64(0x339)]());}}}(_0x1585,0x5bee7));const _0x1c14d8=_0x5332;function _0x44c8(_0x3a0827,_0x561166){_0x3a0827=_0x3a0827-0xb3;const _0x198bd2=_0x1f6a();let _0x3bf2cf=_0x198bd2[_0x3a0827];return _0x3bf2cf;}function _0x2bf4(_0x363bc2,_0x4896e2){_0x363bc2=_0x363bc2-0x14c;const _0x5311c8=_0x23f1();let _0x532ebe=_0x5311c8[_0x363bc2];return _0x532ebe;}function _0x4a24(){const _0x428c2b=_0x5cf3,_0x23c27a=_0xa334,_0x38cf3c=_0x823d,_0x49f9ac=_0x44c8,_0x269a5b=[_0x49f9ac(0x168),_0x49f9ac(0x14d),_0x49f9ac(0x1b7),_0x49f9ac(0x15c),_0x49f9ac(0x261),_0x38cf3c(0x208),_0x49f9ac(0x207),_0x49f9ac(0xba),_0x49f9ac(0x16f),_0x49f9ac(0x186),_0x38cf3c(0xf7),_0x49f9ac(0xd5),_0x49f9ac(0x245),_0x49f9ac(0x223),_0x49f9ac(0x1eb),_0x23c27a(0x1e5),_0x49f9ac(0x25e),_0x49f9ac(0x1dc),_0x49f9ac(0x1d9),_0x49f9ac(0x1c9),_0x49f9ac(0x192),_0x38cf3c(0x111),_0x49f9ac(0x251),_0x49f9ac(0x1ba),_0x49f9ac(0x26f),_0x49f9ac(0x128),_0x38cf3c(0xfb),_0x49f9ac(0x161),_0x49f9ac(0x254),_0x49f9ac(0x1a6),_0x49f9ac(0xf8),_0x49f9ac(0x117),_0x49f9ac(0x278),_0x38cf3c(0x15b),_0x23c27a(0x216),_0x49f9ac(0xb4),_0x49f9ac(0x137),_0x49f9ac(0x10d),_0x49f9ac(0x1e1),_0x49f9ac(0x138),_0x38cf3c(0x10a),_0x49f9ac(0x1d0),_0x49f9ac(0xd6),_0x49f9ac(0x15e),_0x23c27a(0x21f),_0x38cf3c(0x149),_0x49f9ac(0x1c1),_0x49f9ac(0x18e),_0x38cf3c(0xf4),_0x49f9ac(0x1fd),_0x49f9ac(0x142),_0x49f9ac(0x10b),_0x49f9ac(0x20b),_0x49f9ac(0xf0),_0x49f9ac(0xfd),_0x49f9ac(0x1be),_0x23c27a(0x209),_0x49f9ac(0xfb),_0x49f9ac(0x123),_0x38cf3c(0x26d),_0x38cf3c(0x23f),_0x49f9ac(0x153),_0x38cf3c(0x9d),_0x49f9ac(0x1bc),_0x49f9ac(0xf7),_0x49f9ac(0x21a),_0x49f9ac(0x219),_0x38cf3c(0x1b9),_0x49f9ac(0x1e0),_0x49f9ac(0x21f),_0x49f9ac(0x1c2),_0x49f9ac(0x201),_0x49f9ac(0x144),_0x49f9ac(0x12b),_0x49f9ac(0x1e3),_0x49f9ac(0x259),_0x49f9ac(0x14e),_0x23c27a(0x1ed),_0x49f9ac(0x19a),_0x49f9ac(0x121),_0x49f9ac(0xe6),_0x49f9ac(0x156),_0x49f9ac(0xc6),_0x49f9ac(0x199),_0x49f9ac(0x224),_0x49f9ac(0x19c),_0x49f9ac(0xf1),_0x49f9ac(0x188),_0x49f9ac(0x240),_0x49f9ac(0x181),_0x49f9ac(0xf6),_0x49f9ac(0x1a4),_0x38cf3c(0xd8),_0x49f9ac(0x1a2),_0x49f9ac(0x218),_0x49f9ac(0x1c4),_0x49f9ac(0x24f),_0x49f9ac(0x1bb),_0x49f9ac(0x126),_0x49f9ac(0x16b),_0x38cf3c(0x1fb),_0x49f9ac(0x145),_0x49f9ac(0xd7),_0x38cf3c(0x236),_0x49f9ac(0x25a),_0x38cf3c(0xaf),_0x49f9ac(0xe3),_0x49f9ac(0x166),_0x38cf3c(0xca),_0x38cf3c(0xe3),_0x49f9ac(0x1b0),_0x38cf3c(0x251),_0x38cf3c(0x1eb),_0x49f9ac(0x18a),_0x38cf3c(0x1cd),_0x49f9ac(0x10e),_0x49f9ac(0x208),_0x49f9ac(0x19f),_0x49f9ac(0x1a8),_0x49f9ac(0x1a1),_0x49f9ac(0x139),_0x49f9ac(0x23a),_0x49f9ac(0x1af),_0x49f9ac(0x1c8),_0x23c27a(0xb8),_0x49f9ac(0x1ef),_0x38cf3c(0x12f),_0x49f9ac(0x1d2),_0x49f9ac(0x158),_0x23c27a(0x18e),_0x49f9ac(0x106),_0x49f9ac(0x11a),_0x49f9ac(0x118),_0x49f9ac(0xdf),_0x23c27a(0x20b),_0x49f9ac(0xf4),_0x49f9ac(0x1b6),_0x49f9ac(0x22c),_0x49f9ac(0x12a),_0x49f9ac(0x22f),_0x49f9ac(0x1f5),_0x49f9ac(0xff),_0x49f9ac(0x100),_0x38cf3c(0x221),_0x23c27a(0x18c),_0x49f9ac(0x19e),_0x38cf3c(0x145),_0x49f9ac(0x15b),_0x38cf3c(0x222),_0x49f9ac(0x270),_0x49f9ac(0x1cb),_0x49f9ac(0x1a0),_0x49f9ac(0x1aa),_0x49f9ac(0x262),_0x38cf3c(0x129),_0x49f9ac(0xcb),_0x38cf3c(0xc6),_0x49f9ac(0x257),_0x38cf3c(0x102),_0x49f9ac(0x228),_0x49f9ac(0x176),_0x49f9ac(0x205),_0x49f9ac(0xbc),_0x49f9ac(0x178),_0x38cf3c(0x1aa),_0x38cf3c(0x265),_0x38cf3c(0x175),_0x38cf3c(0xb4),_0x49f9ac(0x171),_0x49f9ac(0x246),_0x38cf3c(0x23b),_0x49f9ac(0xc1),_0x49f9ac(0x1ad),_0x38cf3c(0x179),_0x49f9ac(0x249),_0x49f9ac(0x1e8),_0x49f9ac(0x11f),_0x49f9ac(0x175),_0x49f9ac(0x227),_0x38cf3c(0x14d),_0x38cf3c(0xe6),_0x49f9ac(0x112),_0x49f9ac(0x141),_0x49f9ac(0x232),_0x49f9ac(0x225),_0x49f9ac(0x216),_0x49f9ac(0x25f),_0x49f9ac(0xcf),_0x49f9ac(0x275),_0x49f9ac(0x1d8),_0x23c27a(0xc3),_0x49f9ac(0x16e),_0x49f9ac(0xbb),_0x49f9ac(0x1ca),_0x38cf3c(0x1af),_0x49f9ac(0x230),_0x49f9ac(0x237),_0x49f9ac(0x1bd),_0x38cf3c(0x1b6),_0x23c27a(0x268),_0x49f9ac(0x266),_0x49f9ac(0x1d1),_0x428c2b(0x28d),_0x49f9ac(0x252),_0x49f9ac(0x1c0),_0x49f9ac(0x1c6),_0x49f9ac(0x215),_0x49f9ac(0x1fe),_0x49f9ac(0x114),_0x49f9ac(0x1ac),_0x49f9ac(0x24c),_0x38cf3c(0x165),_0x49f9ac(0x213),_0x49f9ac(0x15a),_0x49f9ac(0x198),_0x49f9ac(0x193),_0x23c27a(0x1d3),_0x38cf3c(0x1b7),_0x38cf3c(0x1e9),_0x49f9ac(0x150),_0x49f9ac(0x170),_0x38cf3c(0xb7),_0x38cf3c(0x1f7),_0x23c27a(0x21c),_0x428c2b(0x2a2),_0x49f9ac(0x187),_0x49f9ac(0x25b),_0x38cf3c(0x209),_0x428c2b(0x20f),_0x38cf3c(0x249),_0x49f9ac(0x135),_0x38cf3c(0x1a9),_0x23c27a(0x270),_0x49f9ac(0x238),_0x38cf3c(0xe7),_0x49f9ac(0x182),_0x38cf3c(0x219),_0x38cf3c(0xdf),_0x38cf3c(0x1cf),_0x23c27a(0x118),_0x49f9ac(0x17c),_0x49f9ac(0x222),_0x49f9ac(0xb5),_0x49f9ac(0xb9),_0x49f9ac(0x152),_0x49f9ac(0x148),_0x23c27a(0x136),_0x49f9ac(0x22d),_0x49f9ac(0x13c),_0x38cf3c(0x1ea),_0x38cf3c(0x229),_0x49f9ac(0x25c),_0x49f9ac(0x17b),_0x49f9ac(0xfc),_0x38cf3c(0x139),_0x49f9ac(0xcd),_0x49f9ac(0x23c),_0x49f9ac(0xda),_0x49f9ac(0x1b5),_0x49f9ac(0xf3),_0x49f9ac(0x1f8),_0x49f9ac(0xd4),_0x38cf3c(0x23e),_0x38cf3c(0x18f),_0x49f9ac(0x1ce),_0x49f9ac(0x120),_0x49f9ac(0x234),_0x38cf3c(0x117),_0x38cf3c(0xec),_0x49f9ac(0x13e),_0x49f9ac(0x243),_0x49f9ac(0xe1),_0x49f9ac(0x149),_0x49f9ac(0xed),_0x38cf3c(0x1f3),_0x38cf3c(0x186),_0x38cf3c(0x170),_0x38cf3c(0xae),_0x23c27a(0x1d4),_0x49f9ac(0xee),_0x49f9ac(0x211),_0x38cf3c(0x27b),_0x49f9ac(0xde),_0x49f9ac(0xe0),_0x49f9ac(0x265),_0x38cf3c(0x1cb),_0x49f9ac(0x101),_0x49f9ac(0x20e),_0x23c27a(0x252),_0x49f9ac(0xc3),_0x49f9ac(0xce),_0x38cf3c(0x276),_0x49f9ac(0x113),_0x49f9ac(0x163),_0x38cf3c(0x25e),_0x38cf3c(0x203),_0x49f9ac(0x1b8),_0x49f9ac(0xc5),_0x38cf3c(0x23d),_0x38cf3c(0x201),_0x49f9ac(0x14a),_0x49f9ac(0x110),_0x49f9ac(0x1b4),_0x38cf3c(0x198),_0x49f9ac(0x134),_0x49f9ac(0x13a),_0x49f9ac(0x264),_0x49f9ac(0x244),_0x49f9ac(0xb8),_0x428c2b(0x25a),_0x49f9ac(0x220),_0x49f9ac(0xd1),_0x49f9ac(0x107),_0x49f9ac(0x12e),_0x49f9ac(0x23d),_0x49f9ac(0x274),_0x49f9ac(0x195),_0x49f9ac(0x1fb),_0x49f9ac(0x105),_0x49f9ac(0x11e),_0x38cf3c(0x112),_0x49f9ac(0x277),_0x38cf3c(0xf2),_0x49f9ac(0x22e),_0x38cf3c(0xf9),_0x38cf3c(0x1b3),_0x49f9ac(0xf9),_0x49f9ac(0x235),_0x49f9ac(0x279),_0x49f9ac(0x17d),_0x49f9ac(0x1c5),_0x49f9ac(0x1f2),_0x49f9ac(0x162),_0x49f9ac(0x16d),_0x49f9ac(0x115),_0x38cf3c(0x192),_0x23c27a(0x17e),_0x49f9ac(0x263),_0x49f9ac(0x18b),_0x38cf3c(0x11e),_0x49f9ac(0xe4),_0x49f9ac(0x102),_0x49f9ac(0x18d),_0x49f9ac(0x136),_0x49f9ac(0x1a7),_0x49f9ac(0xeb),_0x49f9ac(0xe7),_0x49f9ac(0x1e2),_0x38cf3c(0x1ed),_0x49f9ac(0x231),_0x49f9ac(0x267),_0x49f9ac(0x10c),_0x49f9ac(0xf5),_0x49f9ac(0x26e),_0x49f9ac(0x1df),_0x23c27a(0xd8),_0x38cf3c(0xa1),_0x49f9ac(0x1ee),_0x38cf3c(0x1be),_0x49f9ac(0x20d),_0x49f9ac(0x24d),_0x49f9ac(0x169),_0x38cf3c(0xff),_0x49f9ac(0x15f),_0x49f9ac(0x143),_0x38cf3c(0x1a4),_0x49f9ac(0xe5),_0x49f9ac(0x26a),_0x38cf3c(0x1c5),_0x49f9ac(0x17e),_0x49f9ac(0x1f7),_0x49f9ac(0x221),_0x49f9ac(0x1ff),_0x49f9ac(0x1c3),_0x49f9ac(0x272),_0x49f9ac(0x1fc),_0x49f9ac(0x154),_0x38cf3c(0xe9),_0x49f9ac(0x1f4),_0x38cf3c(0x126),_0x49f9ac(0x203),_0x38cf3c(0x13d),_0x38cf3c(0xc4),_0x428c2b(0x13a),_0x49f9ac(0x21b),_0x49f9ac(0x209),_0x49f9ac(0x212),_0x49f9ac(0x1f9),_0x49f9ac(0x173),_0x49f9ac(0x242),_0x38cf3c(0x9e),_0x38cf3c(0x20a),_0x38cf3c(0x173),_0x49f9ac(0x250),_0x49f9ac(0x11b),_0x23c27a(0x1f8),_0x49f9ac(0x189),_0x49f9ac(0x217),_0x49f9ac(0x1ea),_0x23c27a(0x1b3),_0x23c27a(0x1be),_0x23c27a(0x247),_0x49f9ac(0x202),_0x49f9ac(0x21c),_0x49f9ac(0x214),_0x38cf3c(0x279),_0x49f9ac(0x247),_0x49f9ac(0x19b),_0x38cf3c(0xc0),_0x38cf3c(0x10c),_0x38cf3c(0xf8),_0x49f9ac(0x11d),_0x49f9ac(0x241),_0x49f9ac(0x276),_0x49f9ac(0x1dd),_0x49f9ac(0x116),_0x49f9ac(0x248),_0x49f9ac(0x1d5),_0x49f9ac(0x132),_0x49f9ac(0xc2),_0x49f9ac(0x1f3),_0x49f9ac(0xd9),_0x49f9ac(0x16c),_0x428c2b(0x1d4),_0x38cf3c(0x148),_0x49f9ac(0x1f0),_0x49f9ac(0x140),_0x49f9ac(0x24b),_0x49f9ac(0x15d),_0x38cf3c(0xb6),_0x49f9ac(0x1bf),_0x49f9ac(0x271),_0x49f9ac(0x10f),_0x23c27a(0xd3),_0x49f9ac(0x174),_0x49f9ac(0x22b),_0x49f9ac(0x185),_0x49f9ac(0x260),_0x49f9ac(0x129),_0x49f9ac(0x16a),_0x49f9ac(0x146),_0x49f9ac(0x258),_0x49f9ac(0x14f),_0x49f9ac(0x127),_0x38cf3c(0x1d4),_0x49f9ac(0xc8),_0x49f9ac(0x1a9),_0x38cf3c(0x22f),_0x38cf3c(0x11c),_0x49f9ac(0x1cf),_0x49f9ac(0x119),_0x49f9ac(0x268),_0x49f9ac(0x157),_0x49f9ac(0xbf),_0x49f9ac(0x1d3),_0x49f9ac(0x190),_0x49f9ac(0x210),_0x49f9ac(0xc4),_0x428c2b(0xef),_0x49f9ac(0x26c),_0x49f9ac(0x19d),_0x38cf3c(0x158),_0x49f9ac(0xcc),_0x49f9ac(0x17f),_0x49f9ac(0x184),_0x49f9ac(0x160),_0x38cf3c(0x151),_0x49f9ac(0x1ec),_0x49f9ac(0x20f),_0x49f9ac(0x1cd),_0x49f9ac(0x196),_0x49f9ac(0x1e5),_0x49f9ac(0x18c),_0x49f9ac(0x25d),_0x49f9ac(0x11c),_0x38cf3c(0x210),_0x49f9ac(0x1cc),_0x49f9ac(0x122),_0x38cf3c(0x1e1),_0x49f9ac(0x180)];return _0x4a24=function(){return _0x269a5b;},_0x4a24();}function _0x23f1(){const _0x55fc0d=_0x3e38,_0x489eec=['❌\x20Not\x20authenticated',_0x55fc0d(0x20e),_0x55fc0d(0x1f4),_0x55fc0d(0x265),_0x55fc0d(0x19d),_0x55fc0d(0x18a),_0x55fc0d(0x221),_0x55fc0d(0x206),'24FfplAz',_0x55fc0d(0x1c1),_0x55fc0d(0x1f7),'querySelector',_0x55fc0d(0x2bb),_0x55fc0d(0x1cb),'telegramLinked','captcha','url',_0x55fc0d(0x223),_0x55fc0d(0x2eb),_0x55fc0d(0x1f9),'✅\x20Modal\x20closed,\x20URL\x20cleaned',_0x55fc0d(0x2fd),_0x55fc0d(0x29f),_0x55fc0d(0x290),_0x55fc0d(0x33f),'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-badge\x20','rate\x20limit',_0x55fc0d(0x2ea),'1113792cQkjXS',_0x55fc0d(0x33b),_0x55fc0d(0x1e6),'⚠️\x20Next.js\x20router\x20not\x20found,\x20using\x20fallback...',_0x55fc0d(0x1bf),_0x55fc0d(0x22e),'border',_0x55fc0d(0x348),_0x55fc0d(0x263),_0x55fc0d(0x334),_0x55fc0d(0x1d2),_0x55fc0d(0x1c7),_0x55fc0d(0x35d),_0x55fc0d(0x2f5),_0x55fc0d(0x328),_0x55fc0d(0x259),_0x55fc0d(0x1a8),_0x55fc0d(0x300),_0x55fc0d(0x2ac),_0x55fc0d(0x20c),_0x55fc0d(0x356),'clone','591006sUnwDA',_0x55fc0d(0x353),_0x55fc0d(0x241),_0x55fc0d(0x18d),'#222',_0x55fc0d(0x266),'beforeend','⚠️\x20No\x20longer\x20authenticated\x20-\x20stopping\x20polling',_0x55fc0d(0x2ef),'not-allowed',_0x55fc0d(0x204),_0x55fc0d(0x25b),_0x55fc0d(0x1b1),'⏭️\x20Already\x20sent\x20status\x20update\x20for:\x20','USDC','⚡\x20Redeeming\x20',_0x55fc0d(0x2a5),'_status',_0x55fc0d(0x2f6),_0x55fc0d(0x31a),_0x55fc0d(0x2d0),'block','📲\x20Sending\x20Telegram\x20notification\x20for:\x20',_0x55fc0d(0x2af),'Unknown\x20error','SOL',_0x55fc0d(0x183),_0x55fc0d(0x1a9),'\x20-\x20','50ozzero',_0x55fc0d(0x282),_0x55fc0d(0x22a),_0x55fc0d(0x29d),_0x55fc0d(0x32b),_0x55fc0d(0x23c),'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',_0x55fc0d(0x337),_0x55fc0d(0x236),_0x55fc0d(0x27f),_0x55fc0d(0x1b0),_0x55fc0d(0x35b),'38311ksfqoE',_0x55fc0d(0x25a),_0x55fc0d(0x30f),_0x55fc0d(0x20b),_0x55fc0d(0x256),_0x55fc0d(0x2cf),_0x55fc0d(0x289),_0x55fc0d(0x30a),'⚠️\x20Invalid\x20code\x20format.\x20Codes\x20must\x20be\x204-20\x20alphanumeric\x20characters.',_0x55fc0d(0x1f3),_0x55fc0d(0x33c),_0x55fc0d(0x1dc),_0x55fc0d(0x302),'1845iQLIgd',_0x55fc0d(0x32d),_0x55fc0d(0x1da),'1LWTuOK',_0x55fc0d(0x29e),_0x55fc0d(0x1dd),_0x55fc0d(0x1ef),'228688oDpPZL',_0x55fc0d(0x2d3),'\x22\x20style=\x22width:18px;\x20height:18px;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','Search:',_0x55fc0d(0x285),_0x55fc0d(0x252),_0x55fc0d(0x220),_0x55fc0d(0x2c3),_0x55fc0d(0x2b2),_0x55fc0d(0x2b3),_0x55fc0d(0x30e),_0x55fc0d(0x2ca),'auto',_0x55fc0d(0x2b8),_0x55fc0d(0x2b6),'Wait\x20a\x20bit\x20before\x20claiming\x20more\x20codes',_0x55fc0d(0x1a3),'message','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-info-label\x22>Status</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-info-value\x22>',_0x55fc0d(0x1cf),'❌\x20Not\x20logged\x20in',_0x55fc0d(0x2bc),_0x55fc0d(0x280),_0x55fc0d(0x332),_0x55fc0d(0x313),_0x55fc0d(0x2ed),_0x55fc0d(0x1e5),_0x55fc0d(0x29b),_0x55fc0d(0x28e),'❌\x20ALREADY\x20PROCESSED\x20-\x20Skipping:\x20',_0x55fc0d(0x296),_0x55fc0d(0x28c),_0x55fc0d(0x2e1),'MATIC','48srZunj',_0x55fc0d(0x2d4),_0x55fc0d(0x281),_0x55fc0d(0x314),_0x55fc0d(0x222),_0x55fc0d(0x32c),_0x55fc0d(0x1cd),_0x55fc0d(0x199),_0x55fc0d(0x217),_0x55fc0d(0x2ff),_0x55fc0d(0x2ab),'join','0.5','No\x20auth\x20token\x20found!',_0x55fc0d(0x35e),_0x55fc0d(0x2ba),_0x55fc0d(0x1b2),_0x55fc0d(0x251),_0x55fc0d(0x351),'⚡\x20CLAIMING!',_0x55fc0d(0x185),_0x55fc0d(0x1aa),_0x55fc0d(0x344),_0x55fc0d(0x24c),'description',_0x55fc0d(0x28d),_0x55fc0d(0x367),_0x55fc0d(0x1b9),_0x55fc0d(0x228),_0x55fc0d(0x349),_0x55fc0d(0x2df),_0x55fc0d(0x2c7),'onmouseout',_0x55fc0d(0x28a),_0x55fc0d(0x21e),_0x55fc0d(0x34c),_0x55fc0d(0x190),_0x55fc0d(0x262),'1305054WXUSHo','🔒\x20LOCKED\x20-\x20Already\x20processing:\x20','⏭️\x20Auto-refresh\x20already\x20running,\x20skipping...',_0x55fc0d(0x26e),_0x55fc0d(0x2ad),_0x55fc0d(0x188),'Please\x20link\x20your\x20account\x20via\x20@ShuffleSubscriptionBot\x20first',_0x55fc0d(0x1ff),_0x55fc0d(0x310),'\x20->\x20',_0x55fc0d(0x1b8),'ph_phc_',_0x55fc0d(0x203),'search',_0x55fc0d(0x238),_0x55fc0d(0x18c),'\x20-\x20$',_0x55fc0d(0x324),'❌\x20NOT\x20AUTHENTICATED\x20-\x20Cannot\x20redeem',_0x55fc0d(0x287),_0x55fc0d(0x35f),_0x55fc0d(0x321),_0x55fc0d(0x230),_0x55fc0d(0x339),_0x55fc0d(0x232),'innerHTML',_0x55fc0d(0x362),'<button\x20id=\x22shuffle-manual-open-btn\x22\x20style=\x22background:\x20linear-gradient(135deg,\x20#00ff88,\x20#00cc6e);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x201px\x20solid\x20rgba(0,255,136,0.5);\x20color:\x20#000;\x20padding:\x208px\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x208px;\x20cursor:\x20pointer;\x20font-size:\x2013px;\x20font-weight:\x20700;\x20transition:\x20all\x200.3s;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x202px\x2010px\x20rgba(0,255,136,0.3);\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20⚡\x20Manual\x20Code\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</button>',_0x55fc0d(0x244),_0x55fc0d(0x258),_0x55fc0d(0x284),_0x55fc0d(0x1d5),'right:\x202px',_0x55fc0d(0x2db),_0x55fc0d(0x1ba),_0x55fc0d(0x2fa),'Shiba\x20Inu',_0x55fc0d(0x298),_0x55fc0d(0x226),_0x55fc0d(0x200),_0x55fc0d(0x342),_0x55fc0d(0x2a0),'/3)...',_0x55fc0d(0x335),_0x55fc0d(0x2fc),_0x55fc0d(0x1b3),_0x55fc0d(0x27c),_0x55fc0d(0x23d),'✅\x20Found\x20JWT\x20in\x20cookie:',_0x55fc0d(0x34a),_0x55fc0d(0x1e3),'usdRedeemValue',_0x55fc0d(0x218),_0x55fc0d(0x2fe),_0x55fc0d(0x197),'rgba(255,255,255,0.1)',_0x55fc0d(0x227),_0x55fc0d(0x233),_0x55fc0d(0x1e8),_0x55fc0d(0x269),_0x55fc0d(0x311),_0x55fc0d(0x365),'[class*=\x22ModalContent\x22],\x20[role=\x22dialog\x22]','6100NtMkTx',_0x55fc0d(0x240),_0x55fc0d(0x261),'2px\x20solid\x20#00e676',_0x55fc0d(0x317),_0x55fc0d(0x2dc),_0x55fc0d(0x268),_0x55fc0d(0x1d6),_0x55fc0d(0x2f0),'/icons/crypto/',_0x55fc0d(0x318),_0x55fc0d(0x17d),_0x55fc0d(0x2d6),'9252657cGEYLY',_0x55fc0d(0x354),_0x55fc0d(0x1df),'manual-code-input',_0x55fc0d(0x368),'📲\x20Stored\x20Telegram\x20chat\x20ID',_0x55fc0d(0x364),'rejectionReason','🚀\x20TAMPERMONKEY\x20SCRIPT\x20STARTED',_0x55fc0d(0x34d),_0x55fc0d(0x27b),_0x55fc0d(0x341),_0x55fc0d(0x2a9),_0x55fc0d(0x1a6),_0x55fc0d(0x1c5),'2px\x20solid\x20rgba(255,255,255,0.15)',_0x55fc0d(0x26d),'Clear\x20all\x20codes\x20from\x20dashboard?','split','❌\x20Failed\x20to\x20parse\x20response:','Lifetime',_0x55fc0d(0x212),_0x55fc0d(0x219),_0x55fc0d(0x369),'push','🔍\x20Waiting\x20for\x20login...',_0x55fc0d(0x1ad),'🗑️\x20All\x20codes\x20cleared\x20-\x20clearTimestamp\x20updated\x20to:',_0x55fc0d(0x1a0),'BNB',_0x55fc0d(0x2c9),_0x55fc0d(0x182),_0x55fc0d(0x295),_0x55fc0d(0x2d5),_0x55fc0d(0x207),'onmouseover',_0x55fc0d(0x1c9),_0x55fc0d(0x19c),_0x55fc0d(0x2a4),_0x55fc0d(0x2a2),_0x55fc0d(0x2e6),_0x55fc0d(0x345),_0x55fc0d(0x2e2),_0x55fc0d(0x1d0),_0x55fc0d(0x1c4),'\x20-\x20Will\x20retry\x20after\x20auth...',_0x55fc0d(0x319),'42UCuabX',_0x55fc0d(0x1d1),_0x55fc0d(0x294),'HEARTBEAT',_0x55fc0d(0x33a),_0x55fc0d(0x180),_0x55fc0d(0x26f),_0x55fc0d(0x214),_0x55fc0d(0x2e0),_0x55fc0d(0x350),_0x55fc0d(0x352),_0x55fc0d(0x30b),'style','background','SUCCESS',_0x55fc0d(0x336),_0x55fc0d(0x1c8),_0x55fc0d(0x2bd),_0x55fc0d(0x276),_0x55fc0d(0x2cb),_0x55fc0d(0x1a5),_0x55fc0d(0x1bc),_0x55fc0d(0x27e),_0x55fc0d(0x2b5),_0x55fc0d(0x198),_0x55fc0d(0x278),_0x55fc0d(0x2b9),_0x55fc0d(0x196),_0x55fc0d(0x271),'0\x202px\x208px\x20rgba(0,0,0,0.3)','HTML',_0x55fc0d(0x1af),'isGeetestRetry','isAuthenticated',_0x55fc0d(0x208),_0x55fc0d(0x1f2),_0x55fc0d(0x299),_0x55fc0d(0x22d),_0x55fc0d(0x237),_0x55fc0d(0x225),_0x55fc0d(0x283),_0x55fc0d(0x253),'[data-testid=\x22currency-','5747944GgBwmq','GetGeetestNonce',_0x55fc0d(0x1db),'telegramBotToken',_0x55fc0d(0x2fb),_0x55fc0d(0x292),_0x55fc0d(0x2cc),_0x55fc0d(0x25d),_0x55fc0d(0x209),_0x55fc0d(0x304),_0x55fc0d(0x1fd),'\x20hr','🔄\x20RESETTING\x20AUTH\x20STATE\x20-\x20Clearing\x20all\x20authentication\x20data','accessToken',_0x55fc0d(0x23f),_0x55fc0d(0x301),_0x55fc0d(0x2e8),_0x55fc0d(0x2a1),_0x55fc0d(0x20d),'redeemPromotionCode',_0x55fc0d(0x34e),'4816MhLNYY',_0x55fc0d(0x316),_0x55fc0d(0x25e),'getTime',_0x55fc0d(0x26a),'TRX','664456oreOEi',_0x55fc0d(0x25f),_0x55fc0d(0x1de),_0x55fc0d(0x1be),'1353912XBrXgP',_0x55fc0d(0x28f),_0x55fc0d(0x322),'\x0a⏰\x20<b>TIMELINE:</b>\x20','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22code-item\x20','❌\x20Failed\x20to\x20get\x20nonce',_0x55fc0d(0x235),_0x55fc0d(0x26b),_0x55fc0d(0x1ab),_0x55fc0d(0x1ca),_0x55fc0d(0x329),_0x55fc0d(0x1fb),_0x55fc0d(0x21b),_0x55fc0d(0x2f9),_0x55fc0d(0x1d9),_0x55fc0d(0x2cd),'✅\x20Claimed:\x20',_0x55fc0d(0x2ec),_0x55fc0d(0x211),_0x55fc0d(0x2b4),_0x55fc0d(0x213),_0x55fc0d(0x260),'Pump','💱\x20Changing\x20currency\x20to:\x20','4509700hwnHEc',_0x55fc0d(0x2a6),_0x55fc0d(0x2f4),_0x55fc0d(0x32f),_0x55fc0d(0x333),_0x55fc0d(0x291),_0x55fc0d(0x31d),'5150124NoaNix',_0x55fc0d(0x357),'1022270NcJiRb',_0x55fc0d(0x234),_0x55fc0d(0x2f3),_0x55fc0d(0x1c6),_0x55fc0d(0x1f5),_0x55fc0d(0x2ae),'✅\x20Code\x20claimed\x20successfully!','👋\x20User\x20logged\x20out\x20-\x20FULL\x20RESET',_0x55fc0d(0x2e4),'Expired','✅\x20Auto-connected!\x20Username:\x20',_0x55fc0d(0x2c8),_0x55fc0d(0x186),_0x55fc0d(0x2c0),_0x55fc0d(0x24a),'📥\x20Claim\x20result\x20from\x20other\x20tab:',_0x55fc0d(0x359),_0x55fc0d(0x277),_0x55fc0d(0x2c1),_0x55fc0d(0x1c2),_0x55fc0d(0x33d),_0x55fc0d(0x347),_0x55fc0d(0x361),_0x55fc0d(0x254),_0x55fc0d(0x210),_0x55fc0d(0x270),_0x55fc0d(0x1e0),_0x55fc0d(0x320),'Could\x20not\x20open\x20redeem\x20modal\x20-\x20please\x20try\x20manually',_0x55fc0d(0x1e1),'🔗\x20Connecting\x20','2036uDmaCj',_0x55fc0d(0x2b1),_0x55fc0d(0x264),'🗑️\x20Cleared\x20all\x20codes',_0x55fc0d(0x288),'remove',_0x55fc0d(0x1b6),_0x55fc0d(0x1d4),'flex','apply',_0x55fc0d(0x17f),_0x55fc0d(0x1b5),_0x55fc0d(0x21c),_0x55fc0d(0x2c4),'rejected',_0x55fc0d(0x22f),_0x55fc0d(0x24f),_0x55fc0d(0x2c5),_0x55fc0d(0x1e2),'pathname',_0x55fc0d(0x21f),_0x55fc0d(0x279),_0x55fc0d(0x239),'Enter',_0x55fc0d(0x1ee),_0x55fc0d(0x23b),'shuffle-show-btn','selectedCurrency',_0x55fc0d(0x303),'📲\x20Telegram\x20ON',_0x55fc0d(0x28b),'#balance-button,\x20.BalanceSelect_balanceBtn__a2IXa',_0x55fc0d(0x29c),_0x55fc0d(0x312),_0x55fc0d(0x34f),_0x55fc0d(0x205),'15625qaDsPa',_0x55fc0d(0x18b),';\x20border-radius:\x2013px;\x20position:\x20relative;\x22><div\x20style=\x22width:\x2022px;\x20height:\x2022px;\x20background:\x20#fff;\x20border-radius:\x2050%;\x20position:\x20absolute;\x20top:\x202px;\x20','</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','toString','⏭️\x20Already\x20resolved:\x20',_0x55fc0d(0x202),_0x55fc0d(0x2ee),'❌\x20API\x20Error',_0x55fc0d(0x2f8),_0x55fc0d(0x192),_0x55fc0d(0x24b),_0x55fc0d(0x297),_0x55fc0d(0x327),_0x55fc0d(0x366),_0x55fc0d(0x184),'🔄\x20',_0x55fc0d(0x19f),'🔄\x20Retrying\x20Code'];return _0x23f1=function(){return _0x489eec;},_0x23f1();}function _0x1f6a(){const _0x1a2fea=_0x2bf4,_0x3da866=_0x1007,_0x5a90d8=_0x5cf3,_0x1ad737=_0xa334,_0x2869de=_0x823d,_0x3fad32=[_0x2869de(0x214),_0x1ad737(0x224),_0x2869de(0x127),_0x2869de(0x1fe),_0x2869de(0x1c2),_0x1ad737(0x1f3),_0x2869de(0x1c3),_0x1ad737(0x19c),_0x2869de(0x1e8),_0x2869de(0x242),_0x2869de(0xf1),_0x2869de(0x1e0),_0x2869de(0x155),_0x2869de(0x195),_0x2869de(0xa6),_0x2869de(0x169),_0x2869de(0x1a1),_0x2869de(0x202),_0x1ad737(0x248),_0x2869de(0xd9),_0x3da866(0xda),_0x2869de(0xad),_0x1ad737(0xea),_0x5a90d8(0x120),_0x2869de(0x182),_0x2869de(0x278),_0x2869de(0xb2),_0x2869de(0x152),_0x2869de(0xd2),_0x2869de(0x9a),_0x2869de(0x1e7),_0x5a90d8(0x294),_0x1ad737(0x1d7),_0x2869de(0x119),_0x5a90d8(0xf6),_0x2869de(0x1a7),_0x2869de(0xb8),_0x2869de(0x23a),_0x2869de(0x10f),_0x2869de(0x14b),_0x2869de(0xcc),_0x2869de(0x1bc),_0x2869de(0xc9),_0x1ad737(0x19e),_0x2869de(0x187),_0x2869de(0x116),_0x5a90d8(0x2d4),_0x2869de(0x13b),_0x2869de(0x17e),_0x2869de(0x22d),_0x2869de(0x193),_0x2869de(0xcb),_0x2869de(0x103),_0x1ad737(0x25d),_0x5a90d8(0x17e),_0x2869de(0xa9),_0x2869de(0x109),_0x2869de(0x1d0),_0x2869de(0x21d),_0x1ad737(0x1b5),_0x2869de(0xcd),_0x2869de(0xf0),_0x2869de(0x274),_0x1ad737(0x1b1),_0x1ad737(0x1b4),_0x1ad737(0xf5),_0x2869de(0xe0),_0x2869de(0x24b),_0x2869de(0xfc),_0x2869de(0x231),_0x2869de(0x215),_0x1ad737(0x14c),_0x2869de(0x1d2),_0x2869de(0x16a),_0x2869de(0x250),_0x2869de(0x17c),_0x2869de(0x211),_0x2869de(0x19e),_0x1ad737(0x231),_0x2869de(0x1d1),_0x2869de(0x22b),_0x1ad737(0x27e),_0x2869de(0x1b0),_0x1ad737(0xc5),_0x2869de(0xee),_0x2869de(0x12b),_0x2869de(0x1bf),_0x2869de(0x275),_0x1ad737(0xb5),_0x2869de(0x199),_0x1ad737(0x1fc),_0x2869de(0x226),_0x2869de(0x232),_0x1ad737(0x14e),_0x2869de(0x1c8),_0x2869de(0x235),_0x2869de(0x178),_0x2869de(0x188),_0x2869de(0xcf),_0x2869de(0x11f),_0x2869de(0xea),_0x2869de(0x130),_0x2869de(0x247),_0x2869de(0x115),_0x2869de(0x113),_0x2869de(0x132),_0x2869de(0x17b),_0x2869de(0x24f),_0x2869de(0x19f),_0x2869de(0x272),_0x2869de(0x1a2),_0x1ad737(0x20a),_0x5a90d8(0x1d1),_0x2869de(0x248),_0x2869de(0x171),_0x2869de(0xac),_0x2869de(0xe4),_0x5a90d8(0x231),_0x5a90d8(0x268),_0x1ad737(0xe8),_0x5a90d8(0x29f),_0x2869de(0x12e),_0x2869de(0x225),_0x2869de(0xfe),_0x2869de(0x14c),_0x2869de(0xa0),_0x1ad737(0x1f7),_0x2869de(0x1fd),_0x2869de(0xd3),_0x1ad737(0xbe),_0x2869de(0xc5),_0x2869de(0x22e),_0x2869de(0x104),_0x2869de(0x141),_0x5a90d8(0x116),_0x2869de(0x1c4),_0x2869de(0x238),_0x2869de(0xb5),_0x2869de(0x261),_0x2869de(0x154),_0x2869de(0x142),_0x5a90d8(0x289),_0x2869de(0x204),_0x2869de(0x20f),_0x5a90d8(0x106),_0x1ad737(0x24e),_0x2869de(0x25f),_0x2869de(0x1c0),_0x2869de(0xaa),_0x2869de(0x1dc),_0x2869de(0x14e),_0x1ad737(0x253),_0x1ad737(0xe6),_0x2869de(0x241),_0x2869de(0xef),_0x2869de(0xbd),_0x2869de(0x254),_0x1ad737(0x189),_0x2869de(0x159),_0x2869de(0xde),_0x2869de(0x25d),_0x1ad737(0x297),_0x2869de(0xda),_0x2869de(0xd4),_0x2869de(0x16e),_0x2869de(0xd7),_0x2869de(0xa2),_0x1ad737(0x107),_0x2869de(0x26a),_0x2869de(0x1c9),_0x2869de(0x20e),_0x2869de(0x18a),_0x2869de(0xc3),_0x1ad737(0x175),_0x1ad737(0x207),_0x2869de(0xc7),_0x1ad737(0x165),_0x2869de(0x10b),_0x2869de(0xc1),_0x2869de(0x21c),_0x1ad737(0x14a),_0x5a90d8(0x147),_0x2869de(0x26b),_0x2869de(0x1fc),_0x2869de(0x11d),_0x2869de(0x122),_0x2869de(0x22c),_0x2869de(0x166),_0x1ad737(0x161),_0x2869de(0xdb),_0x2869de(0x138),_0x2869de(0xe5),_0x2869de(0x153),_0x2869de(0x19d),_0x2869de(0x136),_0x2869de(0x9c),_0x2869de(0x17f),_0x2869de(0x196),_0x2869de(0x184),_0x2869de(0x161),_0x1ad737(0x115),_0x2869de(0x1ce),_0x2869de(0x1e6),_0x2869de(0x18e),_0x1ad737(0x12e),_0x1ad737(0xbf),_0x2869de(0x172),_0x2869de(0xa7),_0x5a90d8(0x28f),_0x2869de(0xe2),_0x2869de(0x255),_0x5a90d8(0x241),_0x2869de(0x101),_0x2869de(0x23c),_0x2869de(0x9f),_0x1ad737(0x1df),_0x2869de(0x106),_0x2869de(0x11b),_0x1ad737(0x14b),_0x1ad737(0x1a8),_0x5a90d8(0x226),_0x2869de(0x120),_0x3da866(0x9b),_0x2869de(0x1ab),_0x2869de(0x180),_0x1ad737(0x16f),_0x2869de(0xc8),_0x2869de(0x26c),_0x2869de(0x245),_0x2869de(0xf6),_0x1ad737(0x162),_0x2869de(0x110),_0x2869de(0x17a),_0x1ad737(0x1a7),_0x2869de(0x1c1),_0x2869de(0x156),_0x2869de(0x216),_0x1ad737(0x1af),_0x2869de(0x1f2),_0x2869de(0x20d),_0x2869de(0x123),_0x2869de(0x10d),_0x2869de(0x1ba),_0x2869de(0xa4),_0x2869de(0x190),_0x2869de(0xc2),_0x2869de(0x16f),_0x2869de(0x269),_0x2869de(0x191),_0x2869de(0x256),_0x1ad737(0x123),_0x2869de(0xbe),_0x2869de(0x17d),_0x2869de(0x1aa),_0x1ad737(0x1ef),_0x2869de(0x1bb),_0x2869de(0x25c),_0x2869de(0x1d9),_0x2869de(0x21a),_0x2869de(0x1b4),_0x5a90d8(0xe8),_0x2869de(0x124),_0x2869de(0xfd),_0x2869de(0x24c),_0x2869de(0xbc),_0x1ad737(0x2a9),_0x2869de(0x1f0),_0x2869de(0x19c),_0x2869de(0x144),_0x2869de(0x125),_0x2869de(0x15f),_0x2869de(0x24a),_0x1ad737(0x1ac),_0x2869de(0x277),_0x1ad737(0xca),_0x2869de(0x174),_0x5a90d8(0x1de),_0x2869de(0xdd),_0x2869de(0x234),_0x2869de(0x12a),_0x2869de(0x118),_0x2869de(0x1b2),_0x1ad737(0x2ab),_0x2869de(0x1db),_0x2869de(0x1cc),_0x2869de(0x1ff),_0x2869de(0x1b5),_0x1ad737(0xf7),_0x1ad737(0x26e),_0x2869de(0x26e),_0x2869de(0x108),_0x5a90d8(0x1fe),_0x2869de(0x1bd),_0x1ad737(0x282),_0x2869de(0x246),_0x1ad737(0xdd),_0x2869de(0xb0),_0x2869de(0x164),_0x2869de(0x133),_0x2869de(0x213),_0x2869de(0x1ca),_0x2869de(0x1ad),_0x2869de(0x140),_0x2869de(0xa1),_0x1ad737(0x271),_0x2869de(0x1ee),_0x1ad737(0x1fb),_0x2869de(0x1e5),_0x2869de(0x18b),_0x2869de(0x100),_0x2869de(0x220),_0x2869de(0x13c),_0x2869de(0x212),_0x2869de(0x1a3),_0x2869de(0x13f),_0x2869de(0x1a6),_0x2869de(0x1dd),_0x2869de(0x1ef),_0x2869de(0x22a),_0x5a90d8(0x28b),_0x1ad737(0x1e2),_0x2869de(0x194),_0x2869de(0xa3),_0x2869de(0x273),_0x2869de(0x1d6),_0x2869de(0x237),_0x2869de(0x1f1),_0x1ad737(0x1c3),_0x5a90d8(0x288),_0x2869de(0x259),_0x2869de(0xfa),_0x1ad737(0x106),_0x2869de(0xbb),_0x2869de(0x233),_0x2869de(0x16c),_0x2869de(0x200),_0x2869de(0xa5),_0x2869de(0x14a),_0x2869de(0xb9),_0x1ad737(0x29e),_0x2869de(0x137),_0x2869de(0xa8),_0x5a90d8(0x173),_0x2869de(0x13e),_0x2869de(0x20c),_0x2869de(0x258),_0x2869de(0x1a0),_0x2869de(0x147),_0x2869de(0x1c6),_0x1ad737(0xf0),_0x2869de(0xd0),_0x1ad737(0x28e),_0x3da866(0x6f),_0x2869de(0x27a),_0x1ad737(0x242),_0x2869de(0x1d3),_0x2869de(0x227),_0x5a90d8(0x2c0),_0x1ad737(0x157),_0x2869de(0x1e4),_0x2869de(0x12c),_0x1ad737(0x1a6),_0x2869de(0x203),_0x1a2fea(0x234),_0x1ad737(0xe0),_0x2869de(0x26f),_0x5a90d8(0x13d),_0x2869de(0x16b),_0x1ad737(0x1bb),_0x2869de(0x1f5),_0x1ad737(0x166),_0x1ad737(0x1d5),_0x2869de(0x185),_0x2869de(0x223),_0x2869de(0x16d),_0x3da866(0x9f),_0x5a90d8(0x11f),_0x1ad737(0x1e9),_0x2869de(0x25b),_0x2869de(0x19b),_0x2869de(0x24d),_0x2869de(0x160),_0x1a2fea(0x1fa),_0x2869de(0x168),_0x2869de(0x9b),_0x2869de(0xba),_0x2869de(0x207),_0x2869de(0x1ae),_0x2869de(0x19a),_0x1ad737(0x285),_0x2869de(0xe1),_0x2869de(0x135),_0x2869de(0x1a8),_0x2869de(0x1b1),_0x2869de(0xd5),_0x1ad737(0x145),_0x2869de(0x262),_0x2869de(0x1da),_0x2869de(0x25a),_0x2869de(0x11a),_0x1ad737(0x17b),_0x2869de(0x253),_0x2869de(0xf5),_0x2869de(0x1f8),_0x2869de(0x260),_0x2869de(0x105),_0x2869de(0x114),_0x2869de(0x131),_0x2869de(0x189),_0x2869de(0xab),_0x2869de(0x1df),_0x1ad737(0xef),_0x2869de(0x143),_0x2869de(0x162),_0x1ad737(0x264),_0x2869de(0x24e),_0x2869de(0x21b),_0x2869de(0x1d8),_0x1ad737(0x1f4),_0x2869de(0x1a5),_0x5a90d8(0x2c3),_0x2869de(0x268),_0x2869de(0x121),_0x2869de(0x13a),_0x2869de(0x1b8),_0x2869de(0x183),_0x2869de(0x15d),_0x1ad737(0xc4),_0x2869de(0x205),_0x2869de(0x240),_0x2869de(0x176),_0x2869de(0xd6),_0x2869de(0xb1),_0x2869de(0x264),_0x2869de(0x1e2),_0x2869de(0x128),_0x1ad737(0x13e),_0x2869de(0x14f),_0x2869de(0xb3),_0x2869de(0x1fa),_0x2869de(0x20b),_0x1ad737(0x1aa),_0x2869de(0x1ac),_0x2869de(0x197),_0x2869de(0x21f),_0x2869de(0x134),_0x2869de(0x181),_0x1ad737(0x14d),_0x2869de(0x257),_0x2869de(0x167),_0x5a90d8(0x2af),_0x2869de(0x218),_0x1ad737(0x16a),_0x2869de(0x230),_0x2869de(0x1f6),_0x2869de(0xdc)];return _0x1f6a=function(){return _0x3fad32;},_0x1f6a();}function _0xa334(_0x29577b,_0x50ee80){_0x29577b=_0x29577b-0xb5;const _0x469446=_0x7e67();let _0x217ce5=_0x469446[_0x29577b];return _0x217ce5;}function _0x1cab(){const _0x5d3f36=_0x3e38,_0x2c59cc=_0x2bf4,_0x43072f=_0x1007,_0x31acd9=[_0x2c59cc(0x2b9),_0x43072f(0x12e),_0x43072f(0x1ac),_0x2c59cc(0x229),_0x43072f(0xf6),_0x43072f(0x247),_0x2c59cc(0x155),_0x43072f(0x161),_0x43072f(0xa8),_0x43072f(0x226),_0x2c59cc(0x22a),_0x2c59cc(0x167),_0x43072f(0x1bf),_0x43072f(0x236),_0x43072f(0xc4),_0x2c59cc(0x1da),_0x2c59cc(0x287),_0x2c59cc(0x2e3),_0x43072f(0x1ce),_0x43072f(0x1da),_0x43072f(0x229),_0x43072f(0x6d),_0x43072f(0x1d6),_0x43072f(0xe9),_0x43072f(0x140),_0x2c59cc(0x1eb),_0x43072f(0x1ab),_0x43072f(0x1c3),_0x2c59cc(0x2dc),_0x43072f(0x110),_0x43072f(0xae),_0x43072f(0x234),_0x2c59cc(0x30a),_0x43072f(0xd1),_0x43072f(0x70),_0x43072f(0x67),_0x43072f(0x188),_0x43072f(0x1c1),_0x43072f(0xb9),_0x2c59cc(0x1ab),_0x43072f(0x24d),_0x43072f(0x101),_0x43072f(0x190),_0x43072f(0x6e),_0x2c59cc(0x327),_0x43072f(0xcc),_0x43072f(0xe0),_0x43072f(0xb2),_0x43072f(0x213),_0x2c59cc(0x29d),_0x43072f(0x124),_0x43072f(0x8b),_0x43072f(0x12f),_0x43072f(0x179),_0x2c59cc(0x17c),_0x43072f(0xcf),_0x2c59cc(0x17b),_0x43072f(0x1c4),_0x43072f(0xbf),_0x43072f(0x79),_0x43072f(0xca),_0x2c59cc(0x212),_0x43072f(0x1e6),_0x43072f(0x18f),_0x43072f(0x186),_0x43072f(0x11e),_0x43072f(0x216),_0x43072f(0x1cb),_0x43072f(0x1f2),_0x43072f(0x128),_0x43072f(0x142),_0x5d3f36(0x325),_0x43072f(0x187),_0x43072f(0xd5),_0x43072f(0x78),_0x43072f(0x9d),_0x43072f(0x88),_0x43072f(0x14a),_0x43072f(0x112),_0x2c59cc(0x246),_0x43072f(0xcb),_0x43072f(0x13d),_0x43072f(0x169),_0x43072f(0x1eb),_0x43072f(0x1dd),_0x43072f(0x104),_0x43072f(0x18d),_0x43072f(0x15a),_0x43072f(0xd2),_0x43072f(0x8c),_0x43072f(0x1a3),_0x43072f(0x13a),_0x43072f(0xfe),_0x2c59cc(0x1dc),_0x5d3f36(0x1a1),_0x43072f(0xad),_0x43072f(0xba),_0x43072f(0x160),_0x43072f(0x240),_0x43072f(0x170),_0x43072f(0x242),_0x43072f(0x8e),_0x43072f(0xf8),_0x2c59cc(0x272),_0x43072f(0x1d3),_0x43072f(0x13c),_0x2c59cc(0x1f9),_0x5d3f36(0x224),_0x2c59cc(0x241),_0x2c59cc(0x1b2),_0x43072f(0xea),_0x2c59cc(0x23b),_0x43072f(0x211),_0x43072f(0x196),_0x43072f(0x23d),_0x43072f(0x77),_0x43072f(0x207),_0x43072f(0x134),_0x43072f(0x6a),_0x2c59cc(0x324),_0x2c59cc(0x1a7),_0x43072f(0x1b3),_0x2c59cc(0x27a),_0x2c59cc(0x268),_0x43072f(0x9c),_0x43072f(0x11f),_0x43072f(0x136),_0x43072f(0x1ea),_0x2c59cc(0x15e),_0x43072f(0x198),_0x43072f(0x1b0),_0x43072f(0x20d),_0x2c59cc(0x1f5),_0x43072f(0x1a9),_0x43072f(0x215),_0x43072f(0x1c5),_0x43072f(0x13e),_0x2c59cc(0x258),_0x43072f(0x94),_0x43072f(0xb3),_0x43072f(0x20f),_0x43072f(0x235),_0x43072f(0x72),_0x43072f(0x118),_0x43072f(0x1ae),_0x2c59cc(0x1ec),_0x2c59cc(0x2fb),_0x43072f(0x1fd),_0x43072f(0x154),_0x43072f(0xe3),_0x2c59cc(0x316),_0x43072f(0x156),_0x43072f(0xd4),_0x43072f(0x143),_0x43072f(0x1ed),_0x43072f(0x174),_0x43072f(0x122),_0x43072f(0x1a8),_0x43072f(0x239),_0x2c59cc(0x237),_0x43072f(0x8f),_0x2c59cc(0x181),_0x43072f(0xac),_0x43072f(0x208),_0x43072f(0xc8),_0x43072f(0x148),_0x43072f(0x1e8),_0x2c59cc(0x31d),_0x43072f(0x24b),_0x43072f(0x17f),_0x2c59cc(0x24e),_0x5d3f36(0x1c0),_0x43072f(0xf9),_0x43072f(0xc0),_0x43072f(0x1c2),_0x2c59cc(0x278),_0x43072f(0x138),_0x43072f(0xf4),_0x5d3f36(0x30c),_0x43072f(0x111),_0x43072f(0x1d0),_0x2c59cc(0x33a),_0x43072f(0xf1),_0x43072f(0x217),_0x2c59cc(0x2a5),_0x43072f(0xa5),_0x2c59cc(0x201),_0x43072f(0x249),_0x43072f(0x119),_0x43072f(0x95),_0x43072f(0x1c7),_0x43072f(0x218),_0x43072f(0x16a),_0x2c59cc(0x2ce),_0x43072f(0x1a4),_0x2c59cc(0x23c),_0x43072f(0x221),_0x43072f(0x205),_0x43072f(0x80),_0x43072f(0xd3),_0x43072f(0x1dc),_0x43072f(0x245),_0x43072f(0x1d8),_0x2c59cc(0x240),_0x43072f(0x1cd),_0x43072f(0x132),_0x43072f(0x212),_0x43072f(0x173),_0x43072f(0xd8),_0x43072f(0x73),_0x43072f(0x1f8),_0x43072f(0xb7),_0x43072f(0x18e),_0x43072f(0x1ef),_0x43072f(0xde),_0x43072f(0x133),_0x43072f(0xc5),_0x43072f(0xe8),_0x43072f(0x219),_0x2c59cc(0x249),_0x43072f(0xbc),_0x43072f(0x182),_0x43072f(0xec),_0x43072f(0xb4),_0x43072f(0xbd),_0x2c59cc(0x2f9),_0x43072f(0x149),_0x43072f(0x10d),_0x43072f(0x100),_0x2c59cc(0x1ca),_0x43072f(0x144),_0x43072f(0xf5),_0x43072f(0x1b7),_0x43072f(0x18a),_0x43072f(0x227),_0x43072f(0x167),_0x43072f(0x9e),_0x43072f(0x117),_0x5d3f36(0x326),_0x43072f(0xdb),_0x5d3f36(0x267),_0x43072f(0x7d),_0x2c59cc(0x210),_0x43072f(0x86),_0x43072f(0x21b),_0x43072f(0x1e5),_0x2c59cc(0x269),_0x43072f(0x19d),_0x43072f(0x109),_0x43072f(0xdf),_0x43072f(0x121),_0x43072f(0x192),_0x43072f(0xe1),_0x2c59cc(0x1d3),_0x43072f(0xb1),_0x43072f(0x165),_0x43072f(0x13f),_0x43072f(0x15f),_0x2c59cc(0x1e3),_0x43072f(0x21c),_0x2c59cc(0x15b),_0x43072f(0x14e),_0x43072f(0x199),_0x2c59cc(0x33d),'__NEXT_ROUTER__',_0x43072f(0x23a),_0x43072f(0x232),'</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20style=\x22font-size:\x2011px;\x20opacity:\x200.6;\x22>',_0x2c59cc(0x221),_0x43072f(0x157),_0x43072f(0xfc),_0x43072f(0x246),_0x43072f(0x159),_0x43072f(0x1ba),_0x2c59cc(0x1b6),_0x2c59cc(0x32b),_0x43072f(0x108),_0x2c59cc(0x161),_0x2c59cc(0x2e8),_0x43072f(0x1a6),_0x43072f(0xb6),_0x2c59cc(0x223),'telegramNotifyEnabled',_0x2c59cc(0x1e9),_0x2c59cc(0x243),_0x43072f(0x15d),_0x43072f(0x153),_0x2c59cc(0x303),_0x43072f(0x1f1),_0x43072f(0xcd),_0x43072f(0x21f),_0x43072f(0x68),_0x2c59cc(0x2ac),_0x2c59cc(0x1e7),_0x2c59cc(0x15d),_0x43072f(0x113),_0x43072f(0x21a),_0x43072f(0x71),_0x2c59cc(0x2c5),_0x2c59cc(0x1c4),_0x43072f(0x19b),_0x43072f(0x15e),_0x43072f(0x214),_0x43072f(0x168),_0x43072f(0x177),_0x43072f(0x1f3),_0x43072f(0x12a),_0x43072f(0x1e2),_0x43072f(0xfb),_0x2c59cc(0x2f5),_0x2c59cc(0x325),_0x43072f(0x85),_0x43072f(0x1e7),_0x43072f(0xee),_0x2c59cc(0x1bc),_0x43072f(0x1ca),_0x43072f(0x1f6),_0x43072f(0xa1),_0x43072f(0x83),_0x2c59cc(0x2c2),_0x43072f(0x163),_0x43072f(0x11d),_0x43072f(0x1aa),_0x43072f(0x231),_0x43072f(0x1bc),_0x43072f(0x151),_0x2c59cc(0x202),_0x43072f(0x180),_0x2c59cc(0x26c),_0x2c59cc(0x32d),_0x43072f(0x92),_0x43072f(0x189),_0x43072f(0x10e),_0x2c59cc(0x228),_0x43072f(0x22d),_0x43072f(0x23b),_0x43072f(0x24c),_0x43072f(0x19a),_0x43072f(0x241),_0x43072f(0xb8),_0x43072f(0xab),_0x43072f(0x1ee),_0x43072f(0x22a),_0x43072f(0x87),_0x43072f(0x98),_0x2c59cc(0x16d),_0x43072f(0x1b4),_0x43072f(0xdd),_0x43072f(0x200),_0x2c59cc(0x1c7),_0x43072f(0x1b1),_0x43072f(0x106),_0x5d3f36(0x2f2),_0x43072f(0x22f),_0x5d3f36(0x1eb),_0x5d3f36(0x2f7),_0x43072f(0x175),'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22',_0x43072f(0x1b6),_0x43072f(0xc6),_0x2c59cc(0x179),_0x43072f(0x8d),_0x2c59cc(0x1df),_0x2c59cc(0x180),_0x2c59cc(0x1e4),_0x43072f(0xb5),_0x43072f(0x197),_0x2c59cc(0x19f),_0x43072f(0x184),_0x2c59cc(0x176),_0x43072f(0x1bb),_0x43072f(0x9b),_0x43072f(0x228),_0x43072f(0x21e),_0x43072f(0x209),_0x2c59cc(0x16b),'shuffleUsername',_0x2c59cc(0x2e2),_0x43072f(0xd9),_0x43072f(0x66),_0x5d3f36(0x1b7),_0x43072f(0x237),_0x43072f(0x210),_0x2c59cc(0x2fe),_0x43072f(0x13b),_0x43072f(0x147),_0x43072f(0x99),_0x5d3f36(0x273),_0x43072f(0x1ec),_0x43072f(0xf2),_0x43072f(0x89),_0x2c59cc(0x2a1),_0x2c59cc(0x18d),_0x43072f(0xa7),_0x2c59cc(0x1ce),_0x43072f(0x22c),_0x43072f(0x10f),_0x43072f(0x105),_0x43072f(0x15c),_0x43072f(0x176),_0x2c59cc(0x250),_0x43072f(0x7b),_0x2c59cc(0x178),_0x43072f(0x127),_0x43072f(0xb0),_0x2c59cc(0x1a5),_0x43072f(0x20c),_0x43072f(0x1a0),_0x43072f(0x162),_0x43072f(0x1c9),_0x2c59cc(0x156),_0x2c59cc(0x17e),_0x43072f(0x10a),_0x2c59cc(0x1b5),_0x43072f(0x16d),_0x43072f(0x1e1),_0x43072f(0x16e),_0x43072f(0x1fc),_0x2c59cc(0x150),_0x43072f(0x1f4),_0x43072f(0x19c),_0x43072f(0x14b),_0x43072f(0x1b5),_0x43072f(0xaa),_0x43072f(0x1a7),_0x43072f(0x202),_0x43072f(0x12d),_0x43072f(0x1bd),_0x43072f(0x1be),_0x43072f(0x1f0),_0x43072f(0x131),_0x43072f(0x123),_0x43072f(0xe7),_0x43072f(0x9a),_0x43072f(0xd6),_0x2c59cc(0x2ae),_0x43072f(0x204),_0x2c59cc(0x301),'\x22\x20style=\x22width:18px;\x20height:18px;\x20border-radius:50%;\x22\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20onerror=\x22this.style.display=\x27none\x27\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>',_0x2c59cc(0x291),_0x43072f(0x1f5),_0x43072f(0xe6),_0x43072f(0xbb),_0x2c59cc(0x2b6),_0x43072f(0x145),_0x43072f(0xf7),_0x43072f(0xef),_0x43072f(0x1a1),_0x43072f(0x1ad),_0x43072f(0xdc),_0x43072f(0xa4),_0x43072f(0x1d4),_0x43072f(0x178),_0x2c59cc(0x183),_0x5d3f36(0x35c),_0x43072f(0x1a2),_0x43072f(0x96),_0x43072f(0x17a),_0x43072f(0x1d5),_0x5d3f36(0x31f),_0x43072f(0xff),_0x43072f(0x1c0),_0x2c59cc(0x190),_0x43072f(0x15b),_0x43072f(0x1e9),_0x43072f(0x114),_0x2c59cc(0x30f),_0x43072f(0xe5),_0x2c59cc(0x21b),_0x43072f(0x6b),_0x43072f(0x1d7),_0x43072f(0x90),_0x2c59cc(0x26b),_0x43072f(0x137),_0x5d3f36(0x2a8),_0x43072f(0xce),_0x43072f(0x1d1),_0x43072f(0x195),_0x43072f(0x244),_0x43072f(0x139),_0x2c59cc(0x1bb),_0x2c59cc(0x273),_0x43072f(0x18c),_0x43072f(0x11a),_0x2c59cc(0x284),_0x43072f(0x12c),_0x43072f(0x7e),_0x43072f(0x10b),_0x43072f(0x183),_0x43072f(0xe4),_0x2c59cc(0x1db),_0x43072f(0x14c),_0x2c59cc(0x196),_0x2c59cc(0x207),_0x43072f(0x166),_0x43072f(0xbe),_0x2c59cc(0x282),_0x43072f(0x74)];return _0x1cab=function(){return _0x31acd9;},_0x1cab();}function _0x823d(_0x17e109,_0x3887c3){_0x17e109=_0x17e109-0x9a;const _0x124031=_0x3edf();let _0x2fa3da=_0x124031[_0x17e109];return _0x2fa3da;}function _0x3536(_0xc2bfae,_0x8662b){_0xc2bfae=_0xc2bfae-0xce;const _0xb125cf=_0x3e75();let _0x12d1fe=_0xb125cf[_0xc2bfae];return _0x12d1fe;}function _0x1585(){const _0x27c2cc=_0x2bf4,_0x3a05cd=_0x823d,_0x463393=_0x44c8,_0x556229=_0x5818,_0x3c5f1c=_0x3536,_0x4debb7=[_0x3c5f1c(0x139),_0x3c5f1c(0x185),_0x3c5f1c(0x1a8),_0x3c5f1c(0x160),_0x556229(0x26d),_0x3c5f1c(0x194),_0x3c5f1c(0x13a),_0x3c5f1c(0x1dc),_0x556229(0x256),_0x556229(0x32f),_0x3c5f1c(0x24d),_0x3c5f1c(0x1a0),_0x3c5f1c(0x13f),_0x3c5f1c(0x141),_0x3c5f1c(0x161),_0x3c5f1c(0x25e),_0x3c5f1c(0x245),_0x3c5f1c(0xe1),_0x3c5f1c(0x1ae),_0x463393(0xe2),_0x3c5f1c(0x216),_0x3c5f1c(0x229),_0x3c5f1c(0x154),_0x556229(0x20e),_0x3c5f1c(0x1cf),_0x3c5f1c(0x1fc),_0x3c5f1c(0x241),_0x3c5f1c(0x1f9),_0x556229(0x21e),_0x3c5f1c(0x142),_0x3c5f1c(0x223),_0x556229(0x30b),_0x3a05cd(0x263),_0x3c5f1c(0xfb),_0x556229(0x2ab),_0x3c5f1c(0x14c),_0x3c5f1c(0x200),_0x556229(0x1fc),_0x3c5f1c(0x18f),_0x556229(0x1f4),_0x3c5f1c(0x1fd),_0x3c5f1c(0x140),_0x3c5f1c(0x120),_0x3c5f1c(0x274),_0x463393(0x200),_0x3c5f1c(0x147),_0x3c5f1c(0xee),_0x3c5f1c(0x125),_0x3c5f1c(0x15a),_0x3c5f1c(0x11e),_0x3c5f1c(0x103),_0x556229(0x1c2),_0x556229(0x2b4),_0x556229(0x23f),_0x556229(0x1a9),_0x556229(0x175),_0x3c5f1c(0xe2),_0x556229(0x1e5),_0x3c5f1c(0x21b),_0x3c5f1c(0x22c),_0x3c5f1c(0x1a9),_0x3c5f1c(0x276),_0x3c5f1c(0x109),_0x556229(0x340),_0x3c5f1c(0x17b),_0x463393(0x164),_0x3c5f1c(0x145),_0x463393(0x232),_0x463393(0x226),_0x3c5f1c(0x134),_0x556229(0x347),_0x3c5f1c(0x1aa),_0x3c5f1c(0x178),_0x3c5f1c(0x218),_0x3c5f1c(0x27e),_0x3c5f1c(0x1e7),_0x3c5f1c(0x1d2),_0x3c5f1c(0x284),_0x556229(0x19a),_0x3c5f1c(0x195),_0x3c5f1c(0x248),_0x3a05cd(0xe8),_0x556229(0x325),_0x3c5f1c(0x214),_0x556229(0x317),_0x3c5f1c(0x17e),_0x556229(0x309),_0x556229(0x2bf),_0x3c5f1c(0x22e),_0x556229(0x2de),_0x3c5f1c(0x24a),_0x463393(0x12c),_0x556229(0x215),_0x3c5f1c(0x227),_0x3c5f1c(0x17a),_0x3c5f1c(0x1d4),_0x3c5f1c(0x1b8),_0x3c5f1c(0xea),_0x3c5f1c(0x16e),_0x556229(0x1a7),_0x3c5f1c(0x1fb),_0x3c5f1c(0x1d5),_0x3c5f1c(0x27a),_0x3c5f1c(0x1de),_0x3c5f1c(0x202),_0x556229(0x2fe),_0x3c5f1c(0x1d8),_0x3a05cd(0x1f4),_0x463393(0xb6),_0x3c5f1c(0x20a),_0x3c5f1c(0x226),_0x556229(0x314),_0x3c5f1c(0x157),_0x3c5f1c(0x259),_0x556229(0x2df),_0x3c5f1c(0xeb),_0x3c5f1c(0x1d7),_0x3c5f1c(0xce),_0x3c5f1c(0x1bd),_0x3c5f1c(0xd0),_0x556229(0x189),_0x3c5f1c(0x130),_0x556229(0x23b),_0x556229(0x18c),_0x463393(0x167),_0x3c5f1c(0x255),_0x556229(0x341),_0x463393(0x104),_0x3c5f1c(0x1e2),_0x3c5f1c(0x133),_0x3c5f1c(0xf2),_0x3c5f1c(0x176),_0x3c5f1c(0x251),_0x3c5f1c(0x1f3),_0x556229(0x2a3),_0x556229(0x304),_0x3c5f1c(0x100),_0x3c5f1c(0x144),_0x3c5f1c(0x287),_0x3c5f1c(0x180),_0x3c5f1c(0x14d),_0x3c5f1c(0x1ab),_0x3c5f1c(0xd3),_0x556229(0x1d0),_0x3c5f1c(0x260),_0x3c5f1c(0x14a),_0x556229(0x327),_0x3c5f1c(0x153),_0x556229(0x1f5),_0x3c5f1c(0xcf),_0x556229(0x330),_0x3c5f1c(0x1ec),_0x3c5f1c(0x131),_0x3c5f1c(0x10f),_0x3c5f1c(0x26e),_0x3c5f1c(0x268),_0x3c5f1c(0x155),_0x3c5f1c(0x211),_0x3c5f1c(0x1b0),_0x3c5f1c(0x10e),_0x3c5f1c(0x23b),_0x3c5f1c(0xdc),_0x3c5f1c(0x236),_0x3c5f1c(0x1c1),_0x3c5f1c(0x21a),_0x3c5f1c(0x156),_0x3c5f1c(0x25b),_0x3c5f1c(0x12a),_0x3c5f1c(0x1bf),_0x3c5f1c(0x12b),_0x3c5f1c(0x1d3),_0x556229(0x2f9),_0x3c5f1c(0x266),_0x556229(0x28a),_0x556229(0x289),_0x3c5f1c(0x239),_0x3c5f1c(0xf8),_0x556229(0x30d),_0x3c5f1c(0x102),_0x3c5f1c(0xe6),_0x3c5f1c(0x18d),_0x3c5f1c(0x11f),_0x3c5f1c(0x26d),_0x3c5f1c(0x19f),_0x3c5f1c(0x1c8),_0x3c5f1c(0xd8),_0x3a05cd(0x18d),_0x3c5f1c(0x12d),_0x3c5f1c(0x170),_0x3c5f1c(0x11d),_0x3c5f1c(0x267),_0x556229(0x25a),_0x3c5f1c(0x167),_0x3c5f1c(0x1f5),_0x556229(0x345),_0x463393(0x1ed),_0x3c5f1c(0x163),_0x3c5f1c(0x184),_0x3c5f1c(0x237),_0x3c5f1c(0x233),_0x3a05cd(0x239),_0x556229(0x2e7),_0x3c5f1c(0x1af),_0x556229(0x1e9),_0x556229(0x296),_0x3c5f1c(0x189),_0x463393(0x13b),_0x3c5f1c(0xed),_0x556229(0x218),_0x3c5f1c(0x1a1),_0x3c5f1c(0x1b2),_0x556229(0x184),_0x3c5f1c(0x27b),_0x3c5f1c(0x270),_0x556229(0x2cc),_0x3c5f1c(0xf5),_0x3c5f1c(0x285),_0x556229(0x185),_0x3c5f1c(0x1f1),_0x463393(0x26b),_0x3c5f1c(0xe7),_0x3c5f1c(0x104),_0x3c5f1c(0x126),_0x556229(0x211),_0x3c5f1c(0x18b),_0x556229(0x1a0),_0x3c5f1c(0x173),_0x3c5f1c(0xf9),_0x3c5f1c(0x25d),_0x3c5f1c(0x26b),_0x556229(0x19d),_0x3c5f1c(0xd1),_0x3c5f1c(0x159),_0x463393(0xb3),_0x463393(0xe9),_0x3c5f1c(0x117),_0x556229(0x29e),_0x3c5f1c(0x21d),_0x556229(0x2b7),_0x3c5f1c(0x166),_0x3c5f1c(0x281),_0x556229(0x2c0),_0x556229(0x313),_0x3c5f1c(0x12c),_0x3c5f1c(0x186),_0x3c5f1c(0x206),_0x3c5f1c(0xd7),_0x3c5f1c(0x23c),_0x3c5f1c(0x1c6),_0x3c5f1c(0xdb),_0x3c5f1c(0x10a),_0x3c5f1c(0x10c),_0x3c5f1c(0xec),_0x3c5f1c(0x169),_0x556229(0x1df),_0x556229(0x260),_0x556229(0x1dc),_0x3c5f1c(0xd6),_0x556229(0x27d),_0x463393(0xd8),_0x3c5f1c(0x1ea),_0x3c5f1c(0x1ee),_0x3c5f1c(0x243),_0x3c5f1c(0x275),_0x556229(0x231),_0x3c5f1c(0xe9),_0x556229(0x18a),_0x3c5f1c(0xf3),_0x3c5f1c(0x23a),_0x3c5f1c(0x24b),_0x3c5f1c(0x262),_0x3c5f1c(0x249),_0x3c5f1c(0x19d),_0x3c5f1c(0x151),_0x3c5f1c(0xfc),_0x3c5f1c(0xd9),_0x3c5f1c(0x171),_0x3c5f1c(0x14e),_0x3c5f1c(0x247),_0x556229(0x31f),_0x3c5f1c(0x1cc),_0x3c5f1c(0x23e),_0x3c5f1c(0x11a),_0x3c5f1c(0x27c),_0x556229(0x1db),_0x3a05cd(0x12d),_0x3c5f1c(0x1c0),_0x3c5f1c(0x18a),_0x556229(0x2d6),_0x3c5f1c(0x217),_0x3c5f1c(0x165),_0x3c5f1c(0x25a),_0x556229(0x2ee),_0x3c5f1c(0x208),_0x556229(0x174),_0x556229(0x1c1),_0x3c5f1c(0x1cb),_0x3c5f1c(0x1db),_0x3c5f1c(0x1fe),_0x3c5f1c(0x158),_0x3c5f1c(0x1b5),_0x3c5f1c(0x175),_0x3c5f1c(0x188),_0x3c5f1c(0x138),_0x3c5f1c(0x11c),_0x3c5f1c(0x1a7),_0x556229(0x1c7),_0x3c5f1c(0x1a5),_0x556229(0x30f),_0x556229(0x217),_0x3c5f1c(0x1b7),_0x3c5f1c(0x13d),_0x3c5f1c(0x110),_0x3c5f1c(0x1bb),_0x3c5f1c(0x12f),_0x556229(0x1de),_0x3c5f1c(0x152),_0x556229(0x237),_0x556229(0x280),_0x3c5f1c(0x123),_0x556229(0x2a7),_0x3c5f1c(0x115),_0x556229(0x32a),_0x3c5f1c(0x1c4),_0x3c5f1c(0x1a4),_0x3c5f1c(0x23f),_0x463393(0x12d),_0x556229(0x241),_0x556229(0x305),_0x3c5f1c(0x1a2),_0x3c5f1c(0x273),_0x3c5f1c(0x136),_0x3c5f1c(0x118),_0x3c5f1c(0x27d),_0x3c5f1c(0x22a),_0x3c5f1c(0x244),_0x556229(0x220),_0x3c5f1c(0x15d),_0x3c5f1c(0x1e9),_0x556229(0x21a),_0x27c2cc(0x262),_0x3c5f1c(0x15c),_0x556229(0x28c),_0x3c5f1c(0x1e3),_0x3c5f1c(0x203),_0x556229(0x1ac),_0x556229(0x2c5),_0x3c5f1c(0x1ad),_0x3c5f1c(0x192),_0x3c5f1c(0x257),_0x556229(0x1cb),_0x3c5f1c(0x1f0),_0x3c5f1c(0x253),_0x3c5f1c(0x190),_0x3c5f1c(0x116),_0x556229(0x2ef),_0x3c5f1c(0x219),_0x3c5f1c(0x271),_0x3c5f1c(0x129),_0x3c5f1c(0x18e),_0x3c5f1c(0x1d1),_0x3c5f1c(0x221),_0x3c5f1c(0x187),_0x3c5f1c(0x196),_0x556229(0x2a9),_0x556229(0x2e6),_0x3a05cd(0x243),_0x556229(0x2c8),_0x3c5f1c(0x106),_0x3c5f1c(0x24f),_0x3c5f1c(0x250),_0x556229(0x295),_0x3c5f1c(0x15f),_0x3c5f1c(0x240),_0x463393(0xdd),_0x3c5f1c(0x1b3),_0x3c5f1c(0x17f),_0x3c5f1c(0x193),_0x3c5f1c(0x1b4),_0x3c5f1c(0x24c),_0x3c5f1c(0xde),_0x556229(0x1c8),_0x3c5f1c(0x1f2),_0x3c5f1c(0x16a),_0x3c5f1c(0x220),_0x3c5f1c(0x127),_0x3c5f1c(0x1cd),_0x3c5f1c(0x107),_0x3c5f1c(0x16d),_0x3c5f1c(0x26a),_0x3c5f1c(0x1f7),_0x3c5f1c(0x1c7),_0x3c5f1c(0x21c),_0x3a05cd(0xbf),_0x3c5f1c(0x1b9),_0x3c5f1c(0x19c),_0x3c5f1c(0x1ca),_0x3c5f1c(0x230),_0x556229(0x2e0),_0x3c5f1c(0x1b1),_0x3c5f1c(0x105),_0x3c5f1c(0x20f),_0x3c5f1c(0x177),_0x556229(0x202),_0x556229(0x329),_0x3c5f1c(0x1f8),_0x556229(0x233),_0x3c5f1c(0x179),_0x3c5f1c(0x205),_0x3c5f1c(0x252),_0x3c5f1c(0x14b),_0x3c5f1c(0x18c),_0x3a05cd(0x10e),_0x3c5f1c(0xd5),_0x3c5f1c(0x1e1),_0x3c5f1c(0x286),_0x3c5f1c(0x261),_0x3c5f1c(0x1f6),_0x3c5f1c(0x1e4),_0x556229(0x318),_0x463393(0x1de),_0x3c5f1c(0xe0),_0x3c5f1c(0x242),_0x3c5f1c(0x199),_0x3c5f1c(0x1c5),_0x556229(0x266),_0x3c5f1c(0x11b),_0x3c5f1c(0x191),_0x3c5f1c(0x22d),_0x3c5f1c(0x182),_0x3c5f1c(0x27f),_0x3c5f1c(0x280),_0x3c5f1c(0x112),_0x3c5f1c(0x181),_0x3c5f1c(0x234),_0x3c5f1c(0x1e6),_0x3c5f1c(0x238),_0x3c5f1c(0x228),_0x3c5f1c(0x1c3),_0x3c5f1c(0x146),_0x3c5f1c(0xf4),_0x556229(0x25f),_0x3c5f1c(0x12e),_0x556229(0x24c),_0x3c5f1c(0x121),_0x3c5f1c(0x289),_0x3c5f1c(0xfd),_0x3c5f1c(0x1be),_0x3c5f1c(0x264),_0x556229(0x1c6),_0x3c5f1c(0x204),_0x3c5f1c(0x111),_0x556229(0x31e),_0x463393(0x130),_0x3c5f1c(0x1b6),_0x3c5f1c(0x1ff),_0x3c5f1c(0x19a),_0x3c5f1c(0x197),_0x3c5f1c(0x222),_0x463393(0x131),_0x3a05cd(0x21e),_0x3c5f1c(0x207),_0x3c5f1c(0x24e),_0x3c5f1c(0x135)];return _0x1585=function(){return _0x4debb7;},_0x1585();}function _0x5332(_0x1e6e97,_0x1c4540){_0x1e6e97=_0x1e6e97-0x123;const _0x2b8e0e=_0x2e05();let _0x30542a=_0x2b8e0e[_0x1e6e97];return _0x30542a;}function _0x7e67(){const _0x5e5237=_0x3e38,_0x5927b8=_0x2bf4,_0x155702=_0x1007,_0xf55a83=_0x5cf3,_0x46e2ba=[_0xf55a83(0x2a5),_0xf55a83(0x108),_0xf55a83(0x2ba),_0x155702(0xfd),_0xf55a83(0x25e),_0xf55a83(0x25d),_0xf55a83(0x189),_0xf55a83(0x155),_0xf55a83(0x162),_0xf55a83(0x15d),_0xf55a83(0x112),_0xf55a83(0xf7),_0xf55a83(0x229),_0xf55a83(0x14c),_0x5927b8(0x1d7),_0xf55a83(0x146),_0xf55a83(0x2d0),_0xf55a83(0x1dd),_0xf55a83(0xee),_0xf55a83(0x15a),_0xf55a83(0xfe),_0xf55a83(0x1d5),_0xf55a83(0x167),_0xf55a83(0x28e),_0xf55a83(0x21d),_0xf55a83(0x1b8),_0xf55a83(0xf2),_0xf55a83(0x2b0),_0x155702(0x1c8),_0xf55a83(0x27a),_0xf55a83(0x11d),_0xf55a83(0x224),_0xf55a83(0x282),_0x155702(0x69),_0xf55a83(0x1ed),_0x155702(0x17e),_0xf55a83(0x2d7),_0xf55a83(0x232),_0xf55a83(0xfb),_0xf55a83(0x277),_0xf55a83(0x1aa),_0x5e5237(0x31b),_0xf55a83(0x17d),_0xf55a83(0x213),_0xf55a83(0x25f),_0x5927b8(0x2ee),_0xf55a83(0x139),_0x5927b8(0x2c9),_0x155702(0x220),_0xf55a83(0x1ce),_0x155702(0x81),_0xf55a83(0x2c8),_0xf55a83(0x148),_0xf55a83(0x19c),_0xf55a83(0x1e1),_0xf55a83(0x126),_0xf55a83(0x1ae),_0xf55a83(0x1ea),_0xf55a83(0x206),_0xf55a83(0x257),_0xf55a83(0x16c),_0xf55a83(0x298),_0xf55a83(0x299),_0xf55a83(0x29a),_0x155702(0x152),_0xf55a83(0x177),_0xf55a83(0x1cf),_0xf55a83(0x269),_0xf55a83(0x2d3),_0xf55a83(0x19f),_0xf55a83(0x260),_0x155702(0x248),_0xf55a83(0x114),_0xf55a83(0x164),_0xf55a83(0x1f8),_0xf55a83(0x22c),_0xf55a83(0x127),_0xf55a83(0x152),_0xf55a83(0x138),_0xf55a83(0xfd),_0xf55a83(0x242),_0xf55a83(0x29c),_0xf55a83(0x1ca),_0xf55a83(0xeb),_0x5927b8(0x20c),_0xf55a83(0x1ac),_0xf55a83(0x10e),_0xf55a83(0x124),_0xf55a83(0x1d7),_0xf55a83(0x251),_0x5927b8(0x2f8),_0xf55a83(0x211),_0xf55a83(0x273),_0xf55a83(0x15e),_0xf55a83(0x2c9),_0xf55a83(0x157),_0xf55a83(0x133),_0x155702(0x20b),_0xf55a83(0x234),_0xf55a83(0x21b),_0xf55a83(0x18c),_0xf55a83(0x2c4),_0xf55a83(0x207),_0x155702(0x16f),_0xf55a83(0x1a5),_0xf55a83(0x1c3),_0xf55a83(0x1da),_0xf55a83(0x17f),_0xf55a83(0x1a3),_0xf55a83(0x194),_0x155702(0x193),_0xf55a83(0x153),_0x155702(0xf0),_0x155702(0x164),_0xf55a83(0x2ce),_0xf55a83(0x15f),_0xf55a83(0x29b),_0xf55a83(0x22d),_0xf55a83(0x161),_0xf55a83(0x111),_0xf55a83(0x204),_0xf55a83(0x1d2),_0xf55a83(0x26f),_0xf55a83(0x292),_0x155702(0xed),_0x5927b8(0x33e),_0xf55a83(0x233),_0x155702(0x1af),_0x5927b8(0x1ba),_0x155702(0x11b),_0xf55a83(0x166),_0xf55a83(0x259),_0xf55a83(0x1bb),_0x155702(0x201),_0xf55a83(0x20d),_0xf55a83(0x24a),_0xf55a83(0xec),_0xf55a83(0x24c),_0xf55a83(0x216),_0xf55a83(0x10b),_0xf55a83(0x2a6),_0xf55a83(0x1f9),_0x155702(0xc1),_0xf55a83(0x22a),_0xf55a83(0x279),_0xf55a83(0x1a9),_0xf55a83(0x1cd),_0xf55a83(0x258),_0x155702(0x125),_0xf55a83(0x236),_0xf55a83(0x2ae),_0xf55a83(0x2cd),_0x155702(0x7f),_0xf55a83(0x238),_0xf55a83(0xff),_0x5e5237(0x323),_0xf55a83(0x2bb),_0xf55a83(0x179),_0xf55a83(0x1e2),_0xf55a83(0x1ab),_0xf55a83(0x188),_0xf55a83(0x221),_0xf55a83(0x142),_0x5927b8(0x242),_0xf55a83(0xe9),_0xf55a83(0x267),_0xf55a83(0x202),_0xf55a83(0x183),_0xf55a83(0x23a),_0xf55a83(0x278),_0xf55a83(0x17c),_0xf55a83(0x2b9),_0xf55a83(0x22b),_0xf55a83(0x2a9),_0x5927b8(0x2d5),_0xf55a83(0x107),_0xf55a83(0x23b),_0xf55a83(0x2bd),_0xf55a83(0x195),_0xf55a83(0x145),_0xf55a83(0x1bd),_0x155702(0xc9),_0xf55a83(0x181),_0xf55a83(0x175),_0xf55a83(0x10f),_0x155702(0x230),_0xf55a83(0x18b),_0x5927b8(0x264),_0xf55a83(0x171),_0xf55a83(0x156),_0x155702(0x17d),_0xf55a83(0x16e),_0xf55a83(0x2bc),_0xf55a83(0x2b8),_0x5e5237(0x2e9),_0xf55a83(0x2ab),_0x155702(0x22b),_0x5927b8(0x318),_0xf55a83(0x248),_0xf55a83(0x192),_0x155702(0x102),_0xf55a83(0x13c),_0xf55a83(0x1b5),_0xf55a83(0x1f2),_0x155702(0xe2),_0x155702(0x1b2),_0xf55a83(0x180),_0x155702(0x130),_0xf55a83(0x22e),_0x155702(0x233),_0xf55a83(0x125),_0xf55a83(0x13e),_0xf55a83(0x10d),_0xf55a83(0x1c4),_0xf55a83(0x240),_0xf55a83(0x223),_0x5e5237(0x1d7),_0xf55a83(0x1ad),_0x155702(0x23f),_0x155702(0x1d9),_0xf55a83(0x1a6),_0xf55a83(0x25c),_0xf55a83(0x15b),_0xf55a83(0x141),'⚠️\x20Telegram\x20not\x20set\x20up\x20-\x20missing\x20bot\x20token\x20or\x20chat\x20ID',_0xf55a83(0x1a4),_0xf55a83(0x1ec),_0xf55a83(0xf3),_0xf55a83(0x274),_0xf55a83(0x1b2),_0x155702(0xa2),_0x155702(0xd7),_0xf55a83(0x295),_0xf55a83(0x16b),_0xf55a83(0x184),_0x155702(0xfa),_0xf55a83(0x197),_0x155702(0x11c),_0xf55a83(0x20b),_0xf55a83(0x1c9),_0x5927b8(0x2b7),_0xf55a83(0xf4),_0x155702(0x14d),_0x155702(0x24a),_0xf55a83(0x1af),_0xf55a83(0x1c0),_0xf55a83(0x158),_0xf55a83(0x2a3),_0x155702(0xa6),_0xf55a83(0x100),_0xf55a83(0x149),_0xf55a83(0x263),_0xf55a83(0x12b),_0x155702(0x1cc),_0xf55a83(0x227),_0xf55a83(0x14e),_0x155702(0x194),_0x155702(0xa3),_0xf55a83(0x178),_0xf55a83(0x10c),_0xf55a83(0x245),_0xf55a83(0x103),_0xf55a83(0x1bc),_0xf55a83(0x21f),_0xf55a83(0x272),_0xf55a83(0x287),_0xf55a83(0x1c1),_0xf55a83(0x26a),_0xf55a83(0x128),_0xf55a83(0x1df),_0xf55a83(0x170),_0xf55a83(0x2c2),_0x5e5237(0x32a),_0xf55a83(0x1c7),_0xf55a83(0x2d8),_0xf55a83(0x18d),_0xf55a83(0x1d9),_0xf55a83(0x293),_0x155702(0x181),_0xf55a83(0x208),_0xf55a83(0x28c),_0xf55a83(0x27c),_0x155702(0x1f7),_0x155702(0x238),_0xf55a83(0x2b3),_0xf55a83(0x2b2),_0x155702(0xc2),_0x155702(0x1b8),_0xf55a83(0x187),_0xf55a83(0x185),_0xf55a83(0x13b),_0xf55a83(0x212),_0xf55a83(0x1f3),_0x155702(0x191),_0xf55a83(0x135),_0xf55a83(0x21c),_0xf55a83(0x200),_0xf55a83(0x2b4),_0xf55a83(0x284),_0xf55a83(0x239),_0xf55a83(0x1f4),_0xf55a83(0x190),_0xf55a83(0x15c),_0xf55a83(0x119),_0xf55a83(0x271),_0x5e5237(0x286),_0xf55a83(0x11c),_0xf55a83(0x228),_0xf55a83(0x104),_0x155702(0xd0),_0xf55a83(0x27f),_0xf55a83(0x18a),_0xf55a83(0x249),_0xf55a83(0x2ad),_0xf55a83(0x246),_0xf55a83(0x1b6),_0xf55a83(0x1a2),_0xf55a83(0x201),_0xf55a83(0x109),_0xf55a83(0x1ff),_0x155702(0x93),_0xf55a83(0x121),_0xf55a83(0x2a0),_0xf55a83(0x165),_0xf55a83(0x136),_0x155702(0x10c),_0x5927b8(0x1dd),_0xf55a83(0x14f),_0xf55a83(0x10a),_0x155702(0x203),_0xf55a83(0x19a),_0x155702(0x20a),_0x155702(0x1c6),_0xf55a83(0x2d5),_0xf55a83(0x143),_0xf55a83(0x225),_0xf55a83(0xf8),_0xf55a83(0x14b),_0xf55a83(0x163),_0x5927b8(0x2b0),_0xf55a83(0x24f),_0xf55a83(0x1b7),_0xf55a83(0x2c5),_0xf55a83(0x12c),_0x155702(0x76),_0x5927b8(0x1c0),_0xf55a83(0x250),_0x155702(0x116),_0xf55a83(0x2bf),_0xf55a83(0x270),_0xf55a83(0x2aa),_0xf55a83(0x247),_0xf55a83(0x12f),_0xf55a83(0x122),_0xf55a83(0x118),_0x155702(0x158),_0x155702(0xf3),_0xf55a83(0x2a7),_0xf55a83(0x1db),_0xf55a83(0x218),_0x5927b8(0x244),_0x155702(0x91),_0xf55a83(0x1f7),_0xf55a83(0x1fd),_0x155702(0x1df),_0x155702(0x222),_0xf55a83(0xf0),_0xf55a83(0x131),_0xf55a83(0x198),_0xf55a83(0x2c6),_0xf55a83(0x137),_0xf55a83(0x101),'You\x20will\x20receive\x20code\x20alerts\x20in\x20Telegram\x20DM!',_0xf55a83(0x281),_0xf55a83(0x150),_0xf55a83(0x132),_0xf55a83(0x286),_0xf55a83(0x160),_0xf55a83(0x27e),_0x155702(0x107),_0xf55a83(0x11b),_0x5927b8(0x1b9),_0x5927b8(0x30b),_0xf55a83(0x23d),_0xf55a83(0x191),_0xf55a83(0x2d1),_0x155702(0x223),_0xf55a83(0x1a8),_0xf55a83(0x2b5),_0xf55a83(0x1a0),_0xf55a83(0x19b),_0xf55a83(0x21e),_0xf55a83(0x24d),_0xf55a83(0x290),_0x155702(0x146),_0xf55a83(0x20a),_0x5e5237(0x2b7),_0xf55a83(0x1be),_0xf55a83(0x219),_0xf55a83(0x220),_0xf55a83(0x26c),_0x155702(0x141),_0xf55a83(0x1e6),_0xf55a83(0x14a),_0xf55a83(0x203),_0xf55a83(0x17a),_0xf55a83(0x129),_0xf55a83(0x105),_0x155702(0x16b),_0xf55a83(0x186),_0xf55a83(0x230),_0xf55a83(0x1a7),_0xf55a83(0x110),_0xf55a83(0x26d),_0xf55a83(0x2d6),_0xf55a83(0x1e9),_0x155702(0xc3),_0xf55a83(0x11a),_0xf55a83(0x1b9),_0xf55a83(0x1f0),_0xf55a83(0x262),_0x155702(0x16c),_0x5927b8(0x33c),_0xf55a83(0x1c8),_0xf55a83(0x23f),_0xf55a83(0x1b1),_0x5e5237(0x29a),_0xf55a83(0xf5),_0xf55a83(0x2c1),_0xf55a83(0x2ac),_0xf55a83(0x1a1),_0xf55a83(0x17b),_0x155702(0x1de),_0xf55a83(0x1e5),_0xf55a83(0x1b3),_0xf55a83(0x280),_0xf55a83(0x1bf),_0xf55a83(0x252),_0x155702(0x206),_0x155702(0x20e),_0xf55a83(0x266),_0xf55a83(0x285),_0xf55a83(0x1f1),_0x155702(0x1fb),_0xf55a83(0x1e4),_0x155702(0x97),_0x155702(0x150),_0x5e5237(0x2e7),_0x155702(0x172),_0xf55a83(0x16a),_0xf55a83(0x255),_0x155702(0xa0),_0xf55a83(0xf1),_0x155702(0x75),_0xf55a83(0x117),_0xf55a83(0x2b6),_0x155702(0x171),_0xf55a83(0x2ca),_0xf55a83(0x2d2),_0xf55a83(0x2b7),_0xf55a83(0x237),_0xf55a83(0x1fa),_0x155702(0x115),_0x155702(0x18b),_0x155702(0x17b),_0xf55a83(0x265),_0xf55a83(0x182),_0x155702(0x23e),_0xf55a83(0x235),_0xf55a83(0xe7),_0xf55a83(0x174),_0xf55a83(0x144),_0x155702(0x129),_0xf55a83(0x1ee),_0x5927b8(0x317),_0xf55a83(0x214),_0xf55a83(0x20e),_0xf55a83(0x102),_0xf55a83(0x134),_0xf55a83(0x27d),_0xf55a83(0x256),_0xf55a83(0x297),_0xf55a83(0x1d8),_0x155702(0x1cf),_0xf55a83(0x20c),_0xf55a83(0x26e),_0x155702(0x1e0),_0x5927b8(0x24a),_0x155702(0x120),_0xf55a83(0x1cc),_0xf55a83(0x19e),_0x155702(0x19e),_0xf55a83(0x1f5),_0xf55a83(0x176),_0xf55a83(0x24e),_0xf55a83(0x172),_0x155702(0x21d),_0xf55a83(0x1e3),_0xf55a83(0x1b0),_0xf55a83(0x296),_0xf55a83(0x12a),_0xf55a83(0x1fc),_0xf55a83(0x23e)];return _0x7e67=function(){return _0x46e2ba;},_0x7e67();}function _0x2e05(){const _0x516884=_0xa334,_0x4e2511=_0x823d,_0x49b8bd=_0x44c8,_0x30be55=_0x5818,_0x555b08=_0x3536,_0x143a07=_0x532d,_0x8115dd=[_0x143a07(0x1da),_0x143a07(0x249),_0x143a07(0x372),_0x555b08(0x113),_0x143a07(0x363),_0x555b08(0x14f),_0x143a07(0x332),_0x143a07(0x338),_0x143a07(0x222),_0x143a07(0x33c),_0x143a07(0x242),_0x143a07(0x336),_0x143a07(0x2d3),_0x555b08(0x26c),_0x555b08(0x13b),_0x143a07(0x1c3),_0x143a07(0x29c),_0x143a07(0x214),_0x143a07(0x2d0),_0x143a07(0x33e),_0x555b08(0x1ba),_0x143a07(0x2dc),_0x143a07(0x247),_0x143a07(0x266),_0x555b08(0x1e5),_0x143a07(0x346),_0x143a07(0x370),_0x143a07(0x30f),_0x30be55(0x2a5),_0x143a07(0x231),_0x143a07(0x1e8),_0x143a07(0x327),_0x143a07(0x334),_0x143a07(0x248),_0x143a07(0x1dc),_0x143a07(0x209),_0x143a07(0x339),_0x143a07(0x357),_0x143a07(0x2be),_0x555b08(0x13c),_0x143a07(0x37c),_0x143a07(0x1df),_0x555b08(0x164),_0x555b08(0xdf),_0x143a07(0x299),_0x49b8bd(0xd2),_0x143a07(0x1db),_0x143a07(0x273),_0x143a07(0x23c),_0x555b08(0xe5),_0x143a07(0x1cd),_0x143a07(0x291),_0x143a07(0x356),_0x143a07(0x2cc),_0x143a07(0x1cc),_0x555b08(0x258),_0x555b08(0xf0),_0x143a07(0x20f),_0x143a07(0x293),_0x143a07(0x2c2),_0x143a07(0x1c4),_0x555b08(0x256),_0x143a07(0x287),_0x143a07(0x211),_0x143a07(0x335),_0x143a07(0x313),_0x143a07(0x33a),_0x143a07(0x29d),_0x143a07(0x239),_0x143a07(0x238),_0x143a07(0x240),_0x143a07(0x2bb),_0x143a07(0x233),_0x143a07(0x1c5),_0x143a07(0x284),_0x555b08(0x201),_0x143a07(0x302),_0x143a07(0x2f2),_0x30be55(0x1d1),_0x143a07(0x234),_0x143a07(0x2ce),_0x143a07(0x341),_0x143a07(0x205),_0x143a07(0x21e),_0x143a07(0x216),_0x143a07(0x260),_0x555b08(0x267),_0x143a07(0x2e3),_0x143a07(0x24b),_0x143a07(0x2c1),_0x143a07(0x2cf),_0x143a07(0x237),_0x555b08(0x1f4),_0x555b08(0x173),_0x143a07(0x2e2),_0x143a07(0x25a),_0x143a07(0x35b),_0x555b08(0x148),_0x143a07(0x2d1),_0x143a07(0x269),_0x143a07(0x318),_0x555b08(0x212),_0x143a07(0x385),_0x30be55(0x27b),_0x143a07(0x276),_0x143a07(0x210),_0x143a07(0x34d),_0x555b08(0x143),_0x143a07(0x2ae),_0x143a07(0x279),_0x555b08(0x20b),_0x143a07(0x1c9),_0x143a07(0x300),_0x49b8bd(0x193),_0x143a07(0x387),_0x143a07(0x27d),_0x143a07(0x2f5),_0x143a07(0x380),_0x555b08(0x1d9),_0x143a07(0x286),_0x143a07(0x2a5),_0x143a07(0x2f4),_0x555b08(0x25f),_0x143a07(0x263),_0x143a07(0x2a9),_0x143a07(0x37b),_0x555b08(0x174),_0x143a07(0x26c),_0x555b08(0x288),_0x143a07(0x32f),_0x143a07(0x277),_0x143a07(0x1be),_0x143a07(0x1f1),_0x143a07(0x1c2),_0x143a07(0x347),_0x143a07(0x1f8),_0x143a07(0x351),_0x30be55(0x29f),_0x143a07(0x1de),_0x143a07(0x2f9),_0x143a07(0x23f),_0x143a07(0x32b),_0x555b08(0xe3),_0x143a07(0x259),_0x143a07(0x255),_0x555b08(0x15b),_0x143a07(0x2b5),_0x30be55(0x2b2),_0x143a07(0x378),_0x143a07(0x2e0),_0x143a07(0x28c),_0x30be55(0x2d0),_0x143a07(0x340),_0x143a07(0x354),_0x555b08(0x232),_0x143a07(0x298),_0x143a07(0x297),_0x30be55(0x2a0),_0x143a07(0x1c0),_0x143a07(0x2a4),_0x143a07(0x268),_0x143a07(0x229),_0x143a07(0x1d7),_0x143a07(0x26e),_0x555b08(0xd2),_0x143a07(0x1fc),_0x555b08(0xdd),_0x143a07(0x1dd),_0x143a07(0x21a),_0x555b08(0x248),_0x143a07(0x31a),_0x143a07(0x2f8),_0x555b08(0x1a3),_0x143a07(0x258),_0x143a07(0x1f2),_0x143a07(0x271),_0x143a07(0x1bd),_0x143a07(0x22f),_0x555b08(0x16f),_0x143a07(0x25b),_0x555b08(0x259),_0x143a07(0x221),_0x143a07(0x21f),_0x143a07(0x362),_0x143a07(0x219),_0x143a07(0x2b0),_0x555b08(0x1da),_0x555b08(0x108),_0x555b08(0x186),_0x143a07(0x25f),_0x143a07(0x2c6),_0x143a07(0x265),_0x143a07(0x228),_0x143a07(0x24e),_0x143a07(0x30c),_0x143a07(0x369),_0x143a07(0x2b6),_0x143a07(0x27a),_0x143a07(0x1e2),_0x143a07(0x2da),_0x143a07(0x350),_0x143a07(0x33d),_0x143a07(0x294),_0x143a07(0x383),_0x143a07(0x1c7),_0x143a07(0x384),_0x143a07(0x24c),_0x555b08(0x17f),_0x555b08(0x225),_0x143a07(0x2b4),_0x143a07(0x320),_0x143a07(0x2fe),_0x143a07(0x227),_0x30be55(0x343),_0x143a07(0x361),_0x143a07(0x28a),_0x143a07(0x27c),_0x143a07(0x280),_0x555b08(0x128),_0x143a07(0x1bf),_0x143a07(0x225),_0x143a07(0x236),_0x143a07(0x22d),_0x555b08(0xda),_0x143a07(0x2af),_0x143a07(0x34f),_0x143a07(0x31b),_0x143a07(0x317),_0x143a07(0x25c),_0x143a07(0x309),_0x143a07(0x2aa),_0x143a07(0x29a),_0x143a07(0x2d7),_0x555b08(0x16b),_0x555b08(0x26f),_0x49b8bd(0x172),_0x143a07(0x1d8),_0x143a07(0x31f),_0x30be55(0x2d3),_0x143a07(0x267),_0x143a07(0x35f),_0x143a07(0x26f),_0x555b08(0xef),_0x143a07(0x20e),_0x143a07(0x28d),_0x143a07(0x314),_0x555b08(0x17d),_0x143a07(0x1f9),_0x143a07(0x1e5),_0x143a07(0x35a),_0x143a07(0x26d),_0x143a07(0x36e),_0x143a07(0x353),_0x555b08(0x263),_0x143a07(0x319),_0x143a07(0x270),_0x555b08(0x215),_0x555b08(0x279),_0x143a07(0x2b3),_0x555b08(0x213),_0x143a07(0x376),_0x30be55(0x298),_0x143a07(0x2d2),_0x143a07(0x2a3),_0x143a07(0x2d6),_0x143a07(0x272),_0x30be55(0x2c6),_0x143a07(0x1fb),_0x555b08(0x1ef),_0x30be55(0x1a1),_0x143a07(0x311),_0x555b08(0x278),_0x555b08(0x254),_0x555b08(0xf1),_0x4e2511(0x163),_0x30be55(0x2b8),_0x143a07(0x2a6),_0x143a07(0x27b),_0x143a07(0x38c),_0x555b08(0x22b),_0x143a07(0x31e),_0x143a07(0x281),_0x143a07(0x1e1),_0x143a07(0x23a),_0x555b08(0x25c),_0x555b08(0x210),_0x143a07(0x34e),_0x555b08(0x224),_0x555b08(0x282),_0x143a07(0x2d9),_0x30be55(0x2c1),_0x143a07(0x359),_0x555b08(0x265),_0x143a07(0x37d),_0x143a07(0x36b),_0x143a07(0x342),_0x143a07(0x2ad),_0x143a07(0x1e6),_0x516884(0x1a0),_0x143a07(0x31d),_0x555b08(0x229),_0x143a07(0x2e7),_0x143a07(0x303),_0x143a07(0x2f0),_0x143a07(0x2bf),_0x143a07(0x31c),_0x143a07(0x2ff),_0x555b08(0x1ac),_0x143a07(0x23b),_0x143a07(0x207),_0x555b08(0x21e),_0x143a07(0x1fe),_0x143a07(0x2b8),_0x143a07(0x33b),_0x143a07(0x2f7),_0x143a07(0x1cf),_0x143a07(0x307),_0x143a07(0x252),_0x143a07(0x2c0),_0x143a07(0x330),_0x555b08(0x19e),_0x143a07(0x2d8),_0x143a07(0x38a),_0x143a07(0x275),_0x30be55(0x198),_0x143a07(0x374),_0x143a07(0x2fd),_0x143a07(0x344),_0x143a07(0x208),_0x143a07(0x304),_0x555b08(0x251),_0x143a07(0x262),_0x143a07(0x251),_0x30be55(0x1fb),_0x143a07(0x1ec),_0x555b08(0x1d0),_0x143a07(0x29b),_0x143a07(0x2f6),_0x143a07(0x1f0),_0x143a07(0x1c6),_0x143a07(0x364),_0x143a07(0x1c8),_0x143a07(0x30e),_0x143a07(0x333),_0x143a07(0x1e4),_0x143a07(0x264),_0x143a07(0x310),_0x143a07(0x35d),_0x143a07(0x2ee),_0x143a07(0x253),_0x555b08(0x1a6),_0x143a07(0x1d2),_0x555b08(0x19b),_0x555b08(0x15e),_0x555b08(0x137),_0x143a07(0x285),_0x143a07(0x1d5),_0x143a07(0x28e),_0x143a07(0x28f),_0x143a07(0x30d),_0x143a07(0x30b),_0x143a07(0x2cd),_0x143a07(0x32c),_0x555b08(0x277),_0x143a07(0x36d),_0x143a07(0x373),_0x555b08(0x124),_0x143a07(0x316),_0x143a07(0x1d6),_0x143a07(0x365),_0x143a07(0x292),_0x143a07(0x349),_0x555b08(0x231),_0x143a07(0x38b),_0x143a07(0x2eb),_0x143a07(0x1eb),_0x143a07(0x24f),_0x143a07(0x289),_0x143a07(0x230),_0x143a07(0x2a7),_0x143a07(0x1f6),_0x143a07(0x1ef),_0x143a07(0x200),_0x143a07(0x1e3),_0x143a07(0x20a),_0x143a07(0x215),_0x143a07(0x34c),_0x143a07(0x367),_0x555b08(0x150),_0x143a07(0x328),_0x143a07(0x283),_0x143a07(0x295),_0x143a07(0x2ef),_0x143a07(0x204),_0x555b08(0xf6),_0x143a07(0x32e),_0x143a07(0x22a),_0x143a07(0x2ab),_0x555b08(0x1bc),_0x143a07(0x324),_0x143a07(0x32a),_0x143a07(0x2df),_0x143a07(0x246),_0x143a07(0x241),_0x30be55(0x16a),_0x143a07(0x2d4),_0x555b08(0x144),_0x555b08(0x1e6),_0x143a07(0x23d),_0x143a07(0x37a),_0x555b08(0x17c),_0x143a07(0x1f7),_0x143a07(0x2bd),_0x143a07(0x306),_0x555b08(0x1dd),_0x143a07(0x2ba),_0x143a07(0x382),_0x143a07(0x29e),_0x143a07(0x1ee),_0x555b08(0x23d),_0x143a07(0x358),_0x143a07(0x232),_0x143a07(0x217),_0x30be55(0x1c5),_0x143a07(0x312),_0x143a07(0x388),_0x143a07(0x1cb),_0x555b08(0x283),_0x143a07(0x274),_0x555b08(0x119),_0x555b08(0x10b),_0x143a07(0x2ac),_0x143a07(0x1d1),_0x143a07(0x1e9),_0x143a07(0x371),_0x555b08(0x235),_0x143a07(0x1ff),_0x143a07(0x2b2),_0x143a07(0x254),_0x143a07(0x223),_0x143a07(0x25e),_0x143a07(0x2fc),_0x143a07(0x325),_0x143a07(0x322),_0x143a07(0x1e0),_0x143a07(0x235),_0x143a07(0x2a8),_0x143a07(0x22c),_0x143a07(0x2e1),_0x30be55(0x315),_0x143a07(0x2e8),_0x143a07(0x348),_0x555b08(0x1e0),_0x143a07(0x1d0)];return _0x2e05=function(){return _0x8115dd;},_0x2e05();}function _0x1c0f(){const _0x4d230a=_0x3e38,_0x344f81=_0x2bf4,_0x56b8b1=[_0x344f81(0x232),_0x344f81(0x16a),_0x344f81(0x215),_0x344f81(0x2c3),_0x344f81(0x231),_0x344f81(0x2ab),_0x344f81(0x1a8),_0x344f81(0x185),_0x4d230a(0x340),_0x344f81(0x31e),_0x344f81(0x247),_0x4d230a(0x2d1),_0x344f81(0x186),_0x344f81(0x31c),_0x4d230a(0x2d9),_0x344f81(0x299),'Claim\x20failed',_0x344f81(0x1b3),_0x4d230a(0x272),_0x344f81(0x158),_0x344f81(0x25d),_0x344f81(0x1ee),_0x344f81(0x1b8),_0x344f81(0x2ca),_0x344f81(0x334),_0x344f81(0x19e),_0x344f81(0x1d6),_0x344f81(0x267),_0x344f81(0x2db),_0x344f81(0x153),_0x4d230a(0x1bd),_0x4d230a(0x1ce),_0x344f81(0x18a),_0x344f81(0x31b),_0x344f81(0x248),_0x344f81(0x328),_0x344f81(0x276),_0x4d230a(0x215),_0x344f81(0x160),_0x344f81(0x1c8),_0x4d230a(0x187),_0x344f81(0x1e5),_0x344f81(0x1d2),_0x344f81(0x294),_0x344f81(0x1cd),_0x344f81(0x1fb),_0x4d230a(0x1f8),_0x344f81(0x27f),_0x344f81(0x204),_0x4d230a(0x1b4),'✅\x20Code\x20processed\x20-\x20max\x20retries\x20reached',_0x4d230a(0x19b),_0x344f81(0x2ec),_0x344f81(0x16e),_0x344f81(0x251),_0x344f81(0x25b),_0x4d230a(0x27d),_0x344f81(0x2fc),_0x344f81(0x199),_0x344f81(0x1a6),_0x344f81(0x1ad),_0x344f81(0x2ba),_0x4d230a(0x2f1),_0x344f81(0x2d8),_0x4d230a(0x195),_0x4d230a(0x26c),_0x344f81(0x224),_0x344f81(0x238),'Router\x20navigation\x20failed',_0x344f81(0x1bf),_0x344f81(0x1aa),_0x344f81(0x2fd),_0x344f81(0x23a),_0x344f81(0x188),'AVAX','timestamp',_0x344f81(0x259),_0x4d230a(0x274),_0x4d230a(0x21a),_0x344f81(0x1be),_0x344f81(0x19b),_0x344f81(0x257),_0x344f81(0x28e),_0x4d230a(0x338),_0x344f81(0x2ea),_0x344f81(0x22b),_0x344f81(0x209),_0x344f81(0x2d9),_0x344f81(0x2a3),_0x344f81(0x310),_0x344f81(0x1ff),_0x344f81(0x1f8),_0x4d230a(0x363),_0x344f81(0x2de),_0x344f81(0x1f0),_0x344f81(0x170),_0x344f81(0x235),_0x344f81(0x33b),_0x344f81(0x339),_0x344f81(0x2b8),_0x344f81(0x213),_0x344f81(0x17d),_0x344f81(0x1af),_0x344f81(0x1c1),_0x4d230a(0x2c6),_0x344f81(0x32e),_0x344f81(0x277),_0x4d230a(0x307),_0x344f81(0x2dd),_0x344f81(0x20f),_0x344f81(0x2d6),_0x344f81(0x1b4),_0x344f81(0x208),_0x344f81(0x2d2),_0x344f81(0x252),_0x344f81(0x30e),_0x4d230a(0x19a),_0x344f81(0x22c),_0x344f81(0x166),_0x344f81(0x1d8),_0x344f81(0x32f),_0x344f81(0x1bd),_0x4d230a(0x330),_0x344f81(0x236),_0x4d230a(0x34b),_0x344f81(0x296),_0x344f81(0x2bf),_0x4d230a(0x2c2),_0x344f81(0x1f2),_0x344f81(0x191),_0x4d230a(0x1a4),_0x4d230a(0x191),_0x344f81(0x1a0),_0x344f81(0x22e),_0x344f81(0x245),_0x4d230a(0x25c),'1550oVttfm',_0x344f81(0x270),'shuffle-panel-btn',_0x344f81(0x198),_0x344f81(0x1c5),_0x344f81(0x308),'json',_0x344f81(0x169),_0x4d230a(0x189),'pendingRetryCode',_0x344f81(0x1fd),_0x344f81(0x2f0),_0x344f81(0x17f),_0x4d230a(0x305),_0x344f81(0x168),_0x4d230a(0x308),_0x344f81(0x292),'2043456pPdLFk',_0x344f81(0x200),_0x344f81(0x2d3),_0x344f81(0x14d),_0x344f81(0x239),_0x4d230a(0x18f),_0x344f81(0x2b1),_0x344f81(0x16c),_0x344f81(0x1d4),_0x344f81(0x2e5),_0x344f81(0x151),_0x344f81(0x279),_0x344f81(0x18e),_0x344f81(0x2c1),_0x4d230a(0x2a3),'persist:root',_0x344f81(0x2cf),_0x344f81(0x25c),_0x344f81(0x311),_0x344f81(0x21f),_0x344f81(0x2df),_0x344f81(0x1b7),_0x4d230a(0x1ea),_0x344f81(0x330),_0x344f81(0x329),_0x344f81(0x2a6),_0x4d230a(0x2de),_0x344f81(0x2fa),_0x344f81(0x2a0),'expiryAt',_0x344f81(0x233),_0x4d230a(0x2b0),_0x4d230a(0x346),_0x344f81(0x24b),_0x344f81(0x193),_0x344f81(0x313),_0x344f81(0x29c),_0x344f81(0x274),_0x4d230a(0x360),_0x344f81(0x1b0),_0x344f81(0x18b),'...',_0x344f81(0x1c9),_0x4d230a(0x1d3),_0x344f81(0x333),_0x4d230a(0x2bf),_0x344f81(0x2ad),_0x344f81(0x2bc),_0x344f81(0x28d),_0x4d230a(0x17e),_0x344f81(0x184),_0x344f81(0x20d),_0x344f81(0x331),_0x344f81(0x218),_0x344f81(0x2a2),_0x4d230a(0x2d2),_0x344f81(0x25a),_0x4d230a(0x255),_0x344f81(0x1f1),_0x344f81(0x322),'❌\x20Router\x20never\x20became\x20available\x20after\x20polling',_0x344f81(0x304),_0x344f81(0x2a7),_0x344f81(0x32c),_0x344f81(0x20b),_0x344f81(0x332),'18PsMHaj',_0x344f81(0x314),_0x344f81(0x2f3),_0x344f81(0x29e),'Bonk',_0x344f81(0x1cb),_0x344f81(0x2b3),_0x344f81(0x1f3),_0x344f81(0x305),_0x4d230a(0x315),_0x344f81(0x15f),_0x344f81(0x2ff),_0x344f81(0x25f),_0x344f81(0x2e9),_0x344f81(0x32a),_0x344f81(0x1d0),_0x4d230a(0x1ae),_0x344f81(0x18f),_0x344f81(0x323),_0x4d230a(0x243),_0x344f81(0x31f),_0x344f81(0x2c8),_0x344f81(0x290),_0x4d230a(0x2d8),_0x4d230a(0x193),_0x344f81(0x260),_0x4d230a(0x2aa),_0x344f81(0x1f6),_0x4d230a(0x33e),_0x344f81(0x302),_0x344f81(0x29a),_0x344f81(0x266),_0x344f81(0x1de),_0x4d230a(0x1ac),_0x344f81(0x2a4),_0x344f81(0x2bb),_0x4d230a(0x1ec),_0x344f81(0x2a8),_0x344f81(0x159),_0x4d230a(0x1fc),_0x344f81(0x297),_0x344f81(0x28a),_0x344f81(0x177),_0x344f81(0x187),'button[class*=\x22ButtonVariants_primary\x22]',_0x344f81(0x227),_0x344f81(0x265),_0x344f81(0x2bd),_0x4d230a(0x23a),_0x344f81(0x165),_0x4d230a(0x30d),_0x344f81(0x1ef),_0x344f81(0x27c),_0x344f81(0x2b5),_0x344f81(0x1a9),_0x4d230a(0x257),_0x344f81(0x2f6),_0x4d230a(0x250),_0x4d230a(0x245),_0x344f81(0x18c),_0x344f81(0x298),'/api/heartbeat',_0x344f81(0x1d9),_0x344f81(0x326),_0x344f81(0x175),_0x4d230a(0x306),_0x344f81(0x14e),_0x344f81(0x1d1),_0x344f81(0x28b),_0x4d230a(0x216),_0x344f81(0x19d),_0x344f81(0x172),_0x344f81(0x2c0),_0x344f81(0x289),_0x344f81(0x1e8),_0x344f81(0x230),_0x344f81(0x27b),_0x344f81(0x1ed),_0x344f81(0x1c3),_0x344f81(0x26f),_0x4d230a(0x31c),'replace',_0x344f81(0x2d0),_0x344f81(0x2cc),_0x344f81(0x25e),_0x344f81(0x1a3),_0x344f81(0x2f2),_0x344f81(0x1ac),_0x4d230a(0x1c3),_0x344f81(0x2c6),_0x4d230a(0x293),_0x344f81(0x2c4),_0x4d230a(0x2dd),_0x344f81(0x1f5),_0x4d230a(0x1f0),_0x344f81(0x26d),_0x344f81(0x2d7),_0x4d230a(0x201),_0x344f81(0x14f),_0x4d230a(0x247),_0x4d230a(0x358),_0x344f81(0x2e6),_0x4d230a(0x1fa),_0x344f81(0x1ae),_0x344f81(0x1fe),_0x344f81(0x1c2),_0x344f81(0x27d),_0x344f81(0x1a2),_0x344f81(0x1b1),_0x344f81(0x1e6),_0x4d230a(0x309),_0x344f81(0x320),_0x4d230a(0x331),_0x344f81(0x1a4),'✅\x20Found\x20router\x20via\x20unsafeWindow.__next.router',_0x344f81(0x192),_0x344f81(0x300),'Avalanche',_0x344f81(0x2eb),_0x4d230a(0x1a7),_0x4d230a(0x23e),_0x344f81(0x2e1),_0x4d230a(0x1ed),_0x344f81(0x2cd),_0x344f81(0x1ea),'preventDefault',_0x4d230a(0x21d),_0x4d230a(0x1e9),_0x344f81(0x174),_0x344f81(0x307),_0x4d230a(0x355),_0x344f81(0x225),_0x4d230a(0x2ce),'🔄\x20Auto-refresh\x20enabled\x20-\x20polling\x20every\x20',_0x4d230a(0x18e),_0x344f81(0x182),_0x344f81(0x319),_0x344f81(0x2e7),_0x344f81(0x220),'includes',_0x344f81(0x15a),_0x4d230a(0x20a),_0x344f81(0x312),_0x344f81(0x338),_0x344f81(0x1d5),_0x344f81(0x22f),'contains',_0x4d230a(0x246),_0x344f81(0x197),_0x344f81(0x154),_0x344f81(0x285),_0x344f81(0x275),_0x4d230a(0x194),_0x344f81(0x21d),_0x4d230a(0x1fe),_0x344f81(0x2aa),_0x344f81(0x1a1),_0x344f81(0x23f),_0x344f81(0x152),_0x4d230a(0x242),_0x344f81(0x222),_0x344f81(0x30d),_0x344f81(0x219),_0x4d230a(0x1bb),_0x344f81(0x211),_0x344f81(0x28c),_0x344f81(0x164),_0x344f81(0x2f4),_0x344f81(0x2f7),_0x4d230a(0x231),_0x344f81(0x271),_0x344f81(0x1e0),_0x344f81(0x29f),'parse',_0x4d230a(0x2be),_0x344f81(0x171),_0x344f81(0x162),_0x344f81(0x26e),_0x344f81(0x163),'🎯\x20Clicking\x20Redeem\x20button',_0x4d230a(0x2da),_0x4d230a(0x20f),_0x344f81(0x21c),_0x344f81(0x206),_0x344f81(0x2af),_0x344f81(0x2b4),'[data-testid=\x22modal-close\x22],\x20.Modal_closeButton,\x20button[aria-label=\x22Close\x22]',_0x4d230a(0x2a7),_0x344f81(0x283),_0x344f81(0x2cb),_0x4d230a(0x2e3),'Dai',_0x344f81(0x336),_0x344f81(0x27e),_0x344f81(0x255),_0x344f81(0x15c),_0x4d230a(0x1f1),_0x344f81(0x173),'object','wager','❌\x20Telegram\x20API\x20error:\x20',_0x344f81(0x309),_0x344f81(0x19a),_0x4d230a(0x1a2),_0x344f81(0x2be),_0x344f81(0x17a),_0x344f81(0x2da),_0x4d230a(0x1d8),_0x344f81(0x16f),_0x344f81(0x253),_0x344f81(0x286),_0x344f81(0x24c),_0x4d230a(0x22c),_0x4d230a(0x1e4),_0x344f81(0x2d1),_0x344f81(0x280),_0x4d230a(0x248),_0x344f81(0x1e1),_0x344f81(0x21a),_0x344f81(0x1cc),_0x344f81(0x203),_0x344f81(0x321),_0x344f81(0x20e),_0x4d230a(0x35a),_0x344f81(0x189),_0x344f81(0x195),_0x344f81(0x214),_0x344f81(0x315),_0x344f81(0x1c6),_0x344f81(0x1cf),_0x4d230a(0x24d),_0x344f81(0x23d),_0x344f81(0x2e0),_0x4d230a(0x22b),_0x344f81(0x2f1),_0x344f81(0x256),_0x4d230a(0x1e7),_0x344f81(0x306),_0x344f81(0x293),_0x344f81(0x23e),'<span\x20style=\x22margin-left:\x20auto;\x20color:\x20#ffc107;\x22>✓</span>',_0x344f81(0x2ed),_0x344f81(0x295),_0x344f81(0x14c),_0x344f81(0x1fc),_0x344f81(0x226),_0x4d230a(0x249),_0x344f81(0x24d),_0x344f81(0x2b2),_0x344f81(0x335),_0x344f81(0x337),_0x344f81(0x22d),_0x344f81(0x1f7),_0x4d230a(0x19e),_0x344f81(0x217),_0x344f81(0x216),'processedCodes',_0x344f81(0x2ef),_0x4d230a(0x24e),_0x344f81(0x20a),_0x344f81(0x21e),_0x4d230a(0x1cc),_0x4d230a(0x275),'lookup',_0x344f81(0x2e4),_0x344f81(0x26a),_0x344f81(0x2a9),_0x344f81(0x1e2),_0x344f81(0x205)];return _0x1c0f=function(){return _0x56b8b1;},_0x1c0f();}function _0x3edf(){const _0x443379=_0x2bf4,_0x3e854f=_0x1007,_0x5fcc99=_0x5cf3,_0x5cfbf5=_0xa334,_0x4d1b37=[_0x5cfbf5(0x2a5),_0x5cfbf5(0x151),_0x5cfbf5(0x168),_0x5fcc99(0x11e),_0x5cfbf5(0xe1),_0x5cfbf5(0x202),_0x5cfbf5(0x133),_0x3e854f(0x224),_0x5cfbf5(0x232),_0x5cfbf5(0x1bf),_0x5cfbf5(0x1cc),_0x5cfbf5(0x102),_0x5cfbf5(0x25e),_0x5cfbf5(0x18b),_0x5cfbf5(0x15b),_0x5cfbf5(0x12a),_0x5cfbf5(0x193),_0x5cfbf5(0x11a),_0x5fcc99(0x209),_0x5cfbf5(0x222),_0x5fcc99(0x1e7),_0x5cfbf5(0x29a),_0x5fcc99(0x261),_0x5cfbf5(0x13c),_0x5cfbf5(0x160),_0x5cfbf5(0x191),_0x5fcc99(0x140),_0x5cfbf5(0xd4),_0x5fcc99(0x21a),_0x5cfbf5(0x1e3),_0x5cfbf5(0x1c2),_0x5cfbf5(0x163),_0x5cfbf5(0x220),_0x5cfbf5(0x223),_0x5cfbf5(0xce),_0x5cfbf5(0xf2),_0x5cfbf5(0x272),_0x5cfbf5(0x1e4),_0x5cfbf5(0x27b),_0x5fcc99(0x222),_0x5cfbf5(0x201),_0x5fcc99(0x151),_0x5cfbf5(0x18f),_0x5cfbf5(0x179),_0x5cfbf5(0x23b),_0x5cfbf5(0x246),_0x5cfbf5(0x18d),_0x5fcc99(0x1ba),_0x5cfbf5(0x137),_0x5cfbf5(0x142),_0x5cfbf5(0x225),_0x5cfbf5(0x2a0),_0x5cfbf5(0x19f),_0x5cfbf5(0xc0),_0x5cfbf5(0x213),_0x5cfbf5(0x180),_0x5cfbf5(0x28a),_0x5fcc99(0x1fb),_0x5cfbf5(0x21a),_0x5cfbf5(0x22d),_0x3e854f(0x12b),_0x5cfbf5(0x187),_0x5cfbf5(0x18a),_0x5cfbf5(0x234),_0x5cfbf5(0x2a6),_0x3e854f(0x82),_0x5cfbf5(0x17a),_0x5cfbf5(0x186),_0x3e854f(0x1ff),_0x5cfbf5(0xbd),_0x5cfbf5(0x173),_0x5cfbf5(0x1b6),_0x5fcc99(0x1c2),_0x5cfbf5(0x1c0),_0x5cfbf5(0x143),_0x5cfbf5(0x199),_0x5cfbf5(0x22e),_0x5cfbf5(0x20d),_0x5cfbf5(0xd9),_0x5cfbf5(0x200),_0x5cfbf5(0x28b),_0x5cfbf5(0x24a),_0x5cfbf5(0x1c9),_0x5cfbf5(0xcf),_0x5cfbf5(0x1c3),_0x5cfbf5(0x1b8),_0x5cfbf5(0x146),_0x5cfbf5(0x10c),_0x5cfbf5(0x284),_0x5cfbf5(0x1b2),_0x5cfbf5(0x277),_0x5cfbf5(0x12f),_0x5cfbf5(0x26a),_0x5cfbf5(0x13f),_0x5cfbf5(0x28f),_0x5cfbf5(0x128),_0x5cfbf5(0x1c4),_0x5cfbf5(0x134),_0x5cfbf5(0x22f),_0x5cfbf5(0xe2),_0x5cfbf5(0x129),_0x3e854f(0x1fa),_0x5cfbf5(0x1f1),_0x5cfbf5(0x141),_0x5cfbf5(0xc9),_0x5cfbf5(0x273),_0x5cfbf5(0x204),_0x5fcc99(0x275),_0x5cfbf5(0xfe),_0x5cfbf5(0x112),_0x5cfbf5(0x1ce),_0x5fcc99(0x276),_0x5fcc99(0x23c),_0x3e854f(0x1f9),_0x5cfbf5(0x15d),_0x5cfbf5(0x144),_0x5cfbf5(0x1eb),_0x5fcc99(0x14d),_0x5cfbf5(0x15a),_0x5cfbf5(0x298),_0x5cfbf5(0x1f0),_0x3e854f(0x126),_0x5cfbf5(0x250),_0x5cfbf5(0x217),_0x5fcc99(0x16d),_0x5cfbf5(0x23c),_0x5cfbf5(0x287),_0x5cfbf5(0x230),_0x5fcc99(0x27b),_0x5cfbf5(0x183),_0x5cfbf5(0x16c),_0x5cfbf5(0x1dc),_0x5cfbf5(0x243),_0x5cfbf5(0x237),_0x5cfbf5(0x1cb),_0x5cfbf5(0x236),_0x443379(0x194),_0x5cfbf5(0x12c),_0x5cfbf5(0x27a),_0x5cfbf5(0x11c),_0x5cfbf5(0x2a3),_0x5cfbf5(0xf3),_0x5cfbf5(0x215),_0x3e854f(0x1b9),_0x3e854f(0xaf),_0x5cfbf5(0x152),_0x5cfbf5(0x29c),_0x5cfbf5(0xe4),_0x5cfbf5(0x198),_0x5cfbf5(0x212),_0x5fcc99(0x26b),_0x5cfbf5(0x208),_0x5fcc99(0x193),_0x5cfbf5(0x10a),_0x5cfbf5(0x28c),_0x5cfbf5(0x196),_0x5cfbf5(0x1ba),_0x5cfbf5(0x254),_0x5fcc99(0x28a),_0x5cfbf5(0xf4),_0x5cfbf5(0xc7),_0x5cfbf5(0xcb),_0x5cfbf5(0x122),_0x5fcc99(0x130),_0x5cfbf5(0xee),_0x5cfbf5(0x1a5),_0x3e854f(0x185),_0x5cfbf5(0x158),_0x5cfbf5(0x26d),_0x5cfbf5(0x1cf),_0x5fcc99(0x2a4),_0x5cfbf5(0x1c7),_0x5cfbf5(0x251),_0x5cfbf5(0x174),_0x5cfbf5(0xb7),_0x5fcc99(0x18e),_0x5fcc99(0x168),_0x5cfbf5(0x1cd),_0x5cfbf5(0xde),_0x5cfbf5(0xbb),_0x5cfbf5(0x20c),_0x5cfbf5(0x131),_0x5cfbf5(0x26b),_0x5cfbf5(0x1e1),_0x5cfbf5(0x11b),_0x5cfbf5(0x111),_0x5fcc99(0xfc),_0x5cfbf5(0x192),_0x5cfbf5(0x281),_0x5cfbf5(0x27d),_0x5cfbf5(0x172),_0x5cfbf5(0x245),_0x5cfbf5(0x29b),_0x5cfbf5(0xec),_0x5cfbf5(0xf9),_0x5cfbf5(0x203),_0x3e854f(0x7a),_0x5fcc99(0x283),_0x5cfbf5(0x257),_0x5fcc99(0x215),_0x5fcc99(0x1eb),_0x5cfbf5(0x130),_0x5cfbf5(0x1e7),_0x5fcc99(0x1ef),_0x5cfbf5(0x135),_0x5cfbf5(0x1ff),_0x5fcc99(0x12e),_0x5cfbf5(0x132),_0x5cfbf5(0x29f),_0x5cfbf5(0xeb),_0x5cfbf5(0x21e),_0x5cfbf5(0x1bd),_0x5cfbf5(0x17f),_0x5cfbf5(0x205),_0x5fcc99(0xfa),_0x5cfbf5(0x1d2),_0x5cfbf5(0x1d6),_0x5cfbf5(0x294),_0x5cfbf5(0x2a2),_0x5cfbf5(0x1fa),_0x5cfbf5(0x103),_0x5cfbf5(0x276),_0x5cfbf5(0x121),_0x5cfbf5(0xe3),_0x5cfbf5(0xd2),_0x5cfbf5(0x26c),_0x5cfbf5(0x290),_0x5cfbf5(0x1ae),_0x5fcc99(0x196),_0x5cfbf5(0x279),_0x5cfbf5(0xed),_0x5cfbf5(0x171),_0x5cfbf5(0x23a),_0x5cfbf5(0x261),_0x5cfbf5(0xe7),_0x5cfbf5(0x296),_0x443379(0x281),_0x3e854f(0x1d2),_0x5cfbf5(0x24f),_0x5cfbf5(0x10b),_0x5cfbf5(0x219),_0x5cfbf5(0xc1),_0x5cfbf5(0x24d),_0x5cfbf5(0xc6),_0x5cfbf5(0x10d),_0x5cfbf5(0x12b),_0x5cfbf5(0x25f),_0x5cfbf5(0x15c),_0x5cfbf5(0x239),_0x5cfbf5(0x119),_0x5cfbf5(0x286),_0x5cfbf5(0x289),_0x5fcc99(0x1e8),_0x5cfbf5(0x227),_0x5cfbf5(0xc8),_0x3e854f(0x135),_0x5cfbf5(0x176),_0x5cfbf5(0x263),_0x5cfbf5(0x12d),_0x3e854f(0x8a),_0x5cfbf5(0x19b),_0x5cfbf5(0x1b0),_0x5fcc99(0x1e0),_0x5cfbf5(0x29d),_0x5fcc99(0x29e),_0x5cfbf5(0x13d),_0x5cfbf5(0x197),_0x5cfbf5(0x22a),_0x5cfbf5(0xdb),_0x5cfbf5(0x110),_0x5cfbf5(0x269),_0x5cfbf5(0xc2),_0x5cfbf5(0x1a3),_0x5fcc99(0x24b),_0x5cfbf5(0x1ca),_0x3e854f(0x103),_0x5cfbf5(0x114),_0x3e854f(0x225),_0x5cfbf5(0x22c),_0x5cfbf5(0x164),_0x5cfbf5(0x100),_0x5cfbf5(0x259),_0x5fcc99(0x29d),_0x5cfbf5(0x1ea),_0x5fcc99(0x115),_0x443379(0x29b),_0x5cfbf5(0x256),_0x5cfbf5(0x21f),_0x5fcc99(0x18f),_0x5cfbf5(0xfb),_0x5cfbf5(0x1ad),_0x5fcc99(0x253),_0x5fcc99(0x1cc),_0x5fcc99(0x1dc),_0x5cfbf5(0x20e),_0x5cfbf5(0x1b9),_0x5cfbf5(0x16d),_0x5cfbf5(0x214),_0x5cfbf5(0x293),_0x5cfbf5(0x149),_0x5cfbf5(0x1f6),_0x5cfbf5(0x226),_0x5cfbf5(0x1a9),_0x5fcc99(0x210),_0x3e854f(0x1e4),_0x5cfbf5(0x1c1),_0x5cfbf5(0x195),_0x5cfbf5(0x1c8),_0x443379(0x28f),_0x5cfbf5(0x1da),_0x5cfbf5(0x1ee),_0x5cfbf5(0x19d),_0x5fcc99(0x1d3),_0x5cfbf5(0x150),_0x3e854f(0x22e),_0x5cfbf5(0x260),_0x5cfbf5(0x283),_0x5cfbf5(0x1f2),_0x5cfbf5(0x2a1),_0x5cfbf5(0x218),_0x5cfbf5(0x182),_0x5cfbf5(0x1e6),_0x5fcc99(0x169),_0x3e854f(0x1fe),_0x5cfbf5(0xba),_0x5cfbf5(0x13a),_0x5cfbf5(0x1d9),_0x5fcc99(0x1b4),_0x5cfbf5(0x1a2),_0x5cfbf5(0x25b),_0x3e854f(0xa9),_0x5cfbf5(0x10e),_0x5cfbf5(0x147),_0x5cfbf5(0x2a8),_0x5cfbf5(0x1db),_0x3e854f(0x1db),_0x5cfbf5(0x11f),_0x5fcc99(0x2a8),_0x5cfbf5(0xd7),_0x5cfbf5(0x1d0),_0x5cfbf5(0x153),_0x5fcc99(0x113),_0x5cfbf5(0x28d),_0x5cfbf5(0x104),_0x5cfbf5(0x221),_0x5cfbf5(0x19a),_0x3e854f(0x23c),_0x5cfbf5(0x126),_0x5fcc99(0x1f6),_0x5cfbf5(0x1fe),_0x5cfbf5(0xda),_0x5cfbf5(0x1c5),_0x5fcc99(0x199),_0x5cfbf5(0x1de),_0x5cfbf5(0xb6),_0x5cfbf5(0x238),_0x5cfbf5(0xff),_0x5fcc99(0x264),_0x5cfbf5(0x1bc),_0x5cfbf5(0x20f),_0x5cfbf5(0x125),_0x5cfbf5(0x13b),_0x5cfbf5(0xd5),_0x5cfbf5(0x1dd),_0x5cfbf5(0x190),_0x5cfbf5(0xf6),_0x5cfbf5(0x105),_0x5cfbf5(0x27f),_0x5fcc99(0x254),_0x5cfbf5(0x255),_0x443379(0x1f4),_0x5cfbf5(0x228),_0x5cfbf5(0x113),_0x5cfbf5(0x1d8),_0x443379(0x30c),_0x5cfbf5(0x127),_0x5cfbf5(0x1f5),_0x5cfbf5(0x11d),_0x5cfbf5(0xbc),_0x5cfbf5(0x188),_0x5cfbf5(0x1a4),_0x5cfbf5(0x178),_0x5cfbf5(0x17d),_0x5fcc99(0x159),_0x5cfbf5(0x258),_0x5cfbf5(0xd6),_0x5cfbf5(0x11e),_0x5fcc99(0x123),_0x5cfbf5(0x295),_0x5fcc99(0x244),_0x5cfbf5(0x108),_0x5cfbf5(0x109),_0x5cfbf5(0xcc),_0x5cfbf5(0x266),_0x5cfbf5(0xfa),_0x5cfbf5(0x275),_0x5cfbf5(0x16b),_0x5cfbf5(0x159),_0x5cfbf5(0x288),_0x5fcc99(0x1cb),_0x5cfbf5(0xdf),_0x5cfbf5(0x25a),_0x3e854f(0x7c),_0x5cfbf5(0x181),_0x5cfbf5(0xf8),_0x5cfbf5(0x240),_0x5cfbf5(0x2a4),_0x3e854f(0x14f),_0x5cfbf5(0x280),_0x5fcc99(0x217),_0x5cfbf5(0x21b),_0x5cfbf5(0x185),_0x5cfbf5(0xdc),_0x5cfbf5(0x116),_0x5fcc99(0x243),_0x5cfbf5(0x2a7),_0x5cfbf5(0x1d1),_0x5cfbf5(0xf1),_0x5cfbf5(0x184),_0x3e854f(0x6c),_0x5cfbf5(0x210),_0x5cfbf5(0x24c),_0x5fcc99(0x2cf),_0x5cfbf5(0x2aa),_0x5cfbf5(0x156),_0x5fcc99(0x12d),_0x5cfbf5(0x1b7),_0x5cfbf5(0x24b),_0x5cfbf5(0x249),_0x5cfbf5(0x15e),_0x5cfbf5(0x1c6),_0x5cfbf5(0x167),_0x5cfbf5(0x262),_0x5cfbf5(0x23f),_0x5fcc99(0x16f),_0x5cfbf5(0x155),_0x5cfbf5(0x1f9),_0x5cfbf5(0x1ec),_0x5cfbf5(0x233),_0x5cfbf5(0xcd),_0x5cfbf5(0x194),_0x5cfbf5(0x16e),_0x5cfbf5(0x1a1),_0x5cfbf5(0xd0),_0x5cfbf5(0x1fd),_0x5cfbf5(0x23d),_0x5cfbf5(0x17c),_0x5fcc99(0x1d6),_0x5cfbf5(0xb9),_0x5cfbf5(0xd1),_0x5cfbf5(0x120),_0x5fcc99(0x154),_0x5cfbf5(0x1e0),_0x3e854f(0x243),_0x5cfbf5(0x177),_0x5cfbf5(0x10f),_0x5fcc99(0x2a1),_0x5cfbf5(0x169),_0x5cfbf5(0x291),_0x5cfbf5(0xe9),_0x5cfbf5(0x25c),_0x5cfbf5(0x27c),_0x5fcc99(0x1d0),_0x5cfbf5(0xe5),_0x3e854f(0x155),_0x5fcc99(0x1c6),_0x5fcc99(0x291),_0x5cfbf5(0x124),_0x5cfbf5(0x299),_0x5cfbf5(0x211),_0x5cfbf5(0x278),_0x5cfbf5(0x139),_0x5fcc99(0x1c5),_0x5cfbf5(0x26f),_0x5cfbf5(0x138),_0x5cfbf5(0x154),_0x5cfbf5(0x274),_0x5cfbf5(0x235),_0x5cfbf5(0x267),_0x5cfbf5(0x241),_0x5cfbf5(0x148),_0x5cfbf5(0x15f),_0x5cfbf5(0x117),_0x5cfbf5(0x265)];return _0x3edf=function(){return _0x4d1b37;},_0x3edf();}(function(_0x499147,_0x9c17ba){const _0x5e26f5=_0x3536,_0x1c9320=_0x532d,_0x3a4420=_0x5332,_0x5f4507=_0x499147();while(!![]){try{const _0x150724=-parseInt(_0x3a4420(0x2e3))/0x1+parseInt(_0x3a4420(0x146))/0x2*(parseInt(_0x3a4420(0x294))/0x3)+parseInt(_0x3a4420(0x142))/0x4+parseInt(_0x3a4420(0x1a7))/0x5*(-parseInt(_0x3a4420(0x2ac))/0x6)+-parseInt(_0x3a4420(0x1f2))/0x7+parseInt(_0x3a4420(0x27c))/0x8*(parseInt(_0x3a4420(0x150))/0x9)+parseInt(_0x3a4420(0x2db))/0xa*(-parseInt(_0x3a4420(0x27d))/0xb);if(_0x150724===_0x9c17ba)break;else _0x5f4507[_0x5e26f5(0x162)](_0x5f4507[_0x1c9320(0x1c2)]());}catch(_0x146792){_0x5f4507[_0x5e26f5(0x162)](_0x5f4507[_0x1c9320(0x1c2)]());}}}(_0x2e05,0xf3a86));const _0x54aca9=_0x3c85;function _0x3e75(){const _0x2fee14=_0x5cf3,_0x11d443=_0xa334,_0x4c3f37=_0x823d,_0x51e536=_0x44c8,_0x14b583=_0x5818,_0x7afa3=[_0x14b583(0x1ff),_0x14b583(0x239),_0x14b583(0x24f),_0x14b583(0x300),_0x51e536(0x229),_0x51e536(0xb7),_0x14b583(0x316),_0x51e536(0xbd),_0x14b583(0x2bb),_0x51e536(0x1b9),_0x14b583(0x225),_0x14b583(0x23d),_0x14b583(0x1e7),_0x14b583(0x1eb),_0x14b583(0x1f7),_0x51e536(0x12f),_0x14b583(0x2ea),_0x14b583(0x1ec),_0x14b583(0x213),_0x51e536(0x24e),_0x51e536(0xec),_0x14b583(0x193),_0x14b583(0x1d3),_0x14b583(0x249),_0x14b583(0x2a6),_0x51e536(0x1db),_0x51e536(0xdc),_0x14b583(0x2f8),_0x14b583(0x182),_0x14b583(0x2d1),_0x14b583(0x253),_0x14b583(0x1b6),_0x51e536(0xbe),_0x14b583(0x2dc),_0x11d443(0x23e),_0x14b583(0x1bb),_0x14b583(0x2c5),_0x14b583(0x284),_0x14b583(0x252),_0x14b583(0x2f7),_0x14b583(0x230),_0x14b583(0x323),_0x14b583(0x22b),_0x14b583(0x28b),_0x14b583(0x2b9),_0x4c3f37(0x271),_0x14b583(0x347),_0x14b583(0x1a4),_0x14b583(0x171),_0x14b583(0x1ab),_0x14b583(0x2e2),_0x14b583(0x2e9),_0x14b583(0x2f0),_0x14b583(0x169),_0x14b583(0x332),_0x51e536(0x1ae),_0x14b583(0x344),_0x14b583(0x2bc),_0x51e536(0x233),_0x14b583(0x1ce),_0x14b583(0x27a),_0x4c3f37(0x27c),_0x14b583(0x246),_0x14b583(0x1f9),_0x51e536(0x1ab),_0x51e536(0xc7),_0x51e536(0x1b2),_0x14b583(0x251),_0x14b583(0x1a8),_0x51e536(0x1e6),_0x14b583(0x1ef),_0x2fee14(0x25b),_0x14b583(0x170),_0x51e536(0x1e7),_0x14b583(0x2c2),_0x4c3f37(0x1c7),_0x14b583(0x26b),_0x14b583(0x2ce),_0x14b583(0x29b),_0x51e536(0x23b),_0x14b583(0x24e),_0x14b583(0x269),_0x14b583(0x334),_0x51e536(0x22a),_0x4c3f37(0x224),_0x51e536(0xf2),_0x14b583(0x282),_0x14b583(0x302),_0x14b583(0x1ca),_0x14b583(0x31b),_0x14b583(0x2b3),_0x14b583(0x16e),_0x14b583(0x1b7),_0x51e536(0x109),_0x14b583(0x33f),_0x14b583(0x255),_0x51e536(0x197),_0x14b583(0x243),_0x14b583(0x2e4),_0x14b583(0x223),_0x51e536(0x1d6),_0x14b583(0x2c9),_0x51e536(0x194),_0x14b583(0x1d6),_0x14b583(0x1cd),_0x14b583(0x2cd),_0x14b583(0x1f3),_0x4c3f37(0x244),_0x51e536(0x13d),_0x14b583(0x200),_0x51e536(0x20c),_0x14b583(0x33d),_0x14b583(0x194),_0x14b583(0x18b),_0x14b583(0x180),_0x14b583(0x32c),_0x14b583(0x1a3),_0x14b583(0x199),_0x14b583(0x346),_0x51e536(0x179),_0x14b583(0x270),_0x14b583(0x2e1),_0x14b583(0x2ad),_0x51e536(0x1a5),_0x51e536(0x23f),_0x14b583(0x2d5),_0x14b583(0x19f),_0x14b583(0x1f6),_0x14b583(0x2ac),_0x14b583(0x205),_0x51e536(0x20a),_0x14b583(0x1d2),_0x4c3f37(0x150),_0x14b583(0x32d),_0x14b583(0x2a1),_0x14b583(0x276),_0x14b583(0x336),_0x14b583(0x23e),_0x4c3f37(0xd1),_0x14b583(0x1fa),_0x14b583(0x18d),_0x4c3f37(0xf3),_0x14b583(0x2da),_0x14b583(0x337),_0x14b583(0x214),_0x14b583(0x1e4),_0x14b583(0x264),_0x14b583(0x240),_0x51e536(0x14b),_0x14b583(0x21f),_0x14b583(0x216),_0x14b583(0x283),_0x14b583(0x22c),_0x14b583(0x33b),_0x51e536(0x165),_0x14b583(0x265),_0x51e536(0xca),_0x14b583(0x1ba),_0x14b583(0x19e),_0x14b583(0x1bc),_0x14b583(0x20c),_0x14b583(0x25d),_0x14b583(0x1cf),_0x14b583(0x2ba),_0x14b583(0x281),_0x14b583(0x290),_0x14b583(0x221),_0x14b583(0x2af),_0x14b583(0x210),_0x14b583(0x27f),_0x14b583(0x1e1),_0x14b583(0x286),_0x14b583(0x29f),_0x14b583(0x30e),_0x14b583(0x2ae),_0x14b583(0x1b9),_0x51e536(0x269),_0x14b583(0x28e),_0x14b583(0x196),_0x14b583(0x1c0),_0x51e536(0xe8),_0x14b583(0x1bd),_0x14b583(0x1ae),_0x14b583(0x28d),_0x14b583(0x268),_0x14b583(0x187),_0x14b583(0x267),_0x14b583(0x257),_0x4c3f37(0x107),_0x14b583(0x262),_0x14b583(0x201),_0x14b583(0x328),_0x14b583(0x24a),_0x14b583(0x2dd),_0x51e536(0x17a),_0x14b583(0x236),_0x51e536(0x151),_0x51e536(0x239),_0x14b583(0x2f2),_0x14b583(0x33a),_0x14b583(0x2c7),_0x14b583(0x2bd),_0x51e536(0xd0),_0x14b583(0x224),_0x51e536(0x14c),_0x14b583(0x275),_0x14b583(0x17b),_0x14b583(0x293),_0x14b583(0x30c),_0x14b583(0x31a),_0x14b583(0x26a),_0x14b583(0x232),_0x14b583(0x17f),_0x14b583(0x285),_0x14b583(0x22e),_0x4c3f37(0x217),_0x51e536(0x10a),_0x14b583(0x16d),_0x14b583(0x24b),_0x14b583(0x278),_0x14b583(0x248),_0x14b583(0x178),_0x14b583(0x2b0),_0x14b583(0x1da),_0x14b583(0x1a6),_0x51e536(0x1d7),_0x14b583(0x2cb),_0x14b583(0x333),_0x14b583(0x244),_0x4c3f37(0x206),_0x14b583(0x2c4),_0x14b583(0x274),_0x14b583(0x186),_0x14b583(0x338),_0x51e536(0x24a),_0x14b583(0x219),_0x14b583(0x1cc),_0x14b583(0x22a),_0x14b583(0x2cf),_0x4c3f37(0x27d),_0x14b583(0x18e),_0x14b583(0x326),_0x14b583(0x33c),_0x14b583(0x2a4),_0x51e536(0x183),_0x51e536(0x253),_0x51e536(0x273),_0x14b583(0x21b),_0x14b583(0x1bf),_0x14b583(0x204),_0x14b583(0x2ec),_0x14b583(0x30a),_0x14b583(0x1b8),_0x14b583(0x1c4),_0x14b583(0x245),_0x14b583(0x250),_0x14b583(0x2d2),_0x14b583(0x212),_0x14b583(0x22d),_0x14b583(0x21c),_0x51e536(0x1da),_0x14b583(0x181),_0x14b583(0x20f),_0x14b583(0x311),_0x14b583(0x1fe),_0x14b583(0x17d),_0x14b583(0x1a2),_0x51e536(0x18f),_0x14b583(0x234),_0x14b583(0x235),_0x14b583(0x229),_0x14b583(0x2b5),_0x14b583(0x1af),_0x51e536(0xfe),_0x14b583(0x190),_0x14b583(0x30b),_0x14b583(0x172),_0x14b583(0x238),_0x14b583(0x176),_0x14b583(0x319),_0x4c3f37(0xed),_0x14b583(0x188),_0x14b583(0x203),_0x14b583(0x306),_0x14b583(0x26f),_0x14b583(0x2fd),_0x14b583(0x31c),_0x14b583(0x258),_0x14b583(0x25e),_0x14b583(0x287),_0x14b583(0x2fa),_0x14b583(0x2be),_0x4c3f37(0x1e3),_0x14b583(0x197),_0x14b583(0x321),_0x14b583(0x1d9),_0x14b583(0x263),_0x14b583(0x1e6),_0x14b583(0x177),_0x14b583(0x33e),_0x14b583(0x299),_0x14b583(0x1b5),_0x14b583(0x195),_0x4c3f37(0x270),_0x14b583(0x21d),_0x14b583(0x292),_0x51e536(0x23e),_0x14b583(0x2b6),_0x14b583(0x192),_0x14b583(0x183),_0x14b583(0x207),_0x14b583(0x32e),_0x14b583(0x18f),_0x14b583(0x310),_0x51e536(0x177),_0x14b583(0x206),_0x14b583(0x26e),_0x51e536(0x206),_0x14b583(0x320),_0x14b583(0x2d9),_0x14b583(0x1ed),_0x14b583(0x17c),_0x14b583(0x191),_0x51e536(0x159),_0x14b583(0x1b0),_0x14b583(0x277),_0x14b583(0x29c),_0x14b583(0x1ad),_0x14b583(0x2fc),_0x51e536(0x21d),_0x14b583(0x294),_0x14b583(0x23c),_0x14b583(0x273),_0x14b583(0x1e0),_0x14b583(0x288),_0x14b583(0x2d4),_0x14b583(0x2ca),_0x4c3f37(0x1f9),_0x14b583(0x27c),_0x14b583(0x32b),_0x14b583(0x1b3),_0x51e536(0x1f1),_0x4c3f37(0xeb),_0x51e536(0x1f6),_0x51e536(0x1e9),_0x14b583(0x23a),_0x14b583(0x19b),_0x14b583(0x2f4),_0x14b583(0x20a),_0x51e536(0x125),_0x14b583(0x2a8),_0x14b583(0x2ff),_0x14b583(0x179),_0x14b583(0x29d),_0x14b583(0x312),_0x14b583(0x168),_0x4c3f37(0x1de),_0x14b583(0x25b),_0x14b583(0x1d8),_0x14b583(0x2f6),_0x51e536(0x1b1),_0x14b583(0x1a5),_0x14b583(0x1fd),_0x14b583(0x254),_0x14b583(0x279),_0x14b583(0x16f),_0x51e536(0x111),_0x14b583(0x29a),_0x14b583(0x28f),_0x14b583(0x342),_0x14b583(0x222),_0x14b583(0x339),_0x14b583(0x1b4),_0x14b583(0x16b),_0x14b583(0x1b1),_0x14b583(0x25c),_0x14b583(0x2aa),_0x14b583(0x1e3),_0x51e536(0x1c7),_0x14b583(0x259),_0x14b583(0x2db),_0x14b583(0x24d),_0x51e536(0xdb),_0x14b583(0x331),_0x14b583(0x20d),_0x14b583(0x17e),_0x14b583(0x16c),_0x14b583(0x301),_0x51e536(0x1a3),_0x14b583(0x2e8),_0x51e536(0x191),_0x14b583(0x27e),_0x14b583(0x1e2),_0x14b583(0x308),_0x14b583(0x1e8),_0x14b583(0x1ee),_0x51e536(0xd3),_0x14b583(0x2d7),_0x14b583(0x242),_0x14b583(0x1d4),_0x4c3f37(0x177),_0x51e536(0x1fa),_0x14b583(0x1be),_0x14b583(0x303),_0x14b583(0x2f3),_0x14b583(0x19c),_0x14b583(0x20b),_0x4c3f37(0x266),_0x14b583(0x2a2),_0x14b583(0x2b1),_0x14b583(0x2d8),_0x14b583(0x1b2),_0x14b583(0x2c3),_0x14b583(0x307),_0x14b583(0x1d5),_0x14b583(0x1f2),_0x14b583(0x291),_0x14b583(0x2f1),_0x51e536(0x155),_0x14b583(0x335),_0x14b583(0x1c9),_0x51e536(0x13f),_0x51e536(0xfa),_0x14b583(0x272),_0x14b583(0x26c),_0x14b583(0x209),_0x14b583(0x2e5),_0x14b583(0x297),_0x4c3f37(0x228),_0x14b583(0x202),_0x14b583(0x17a),_0x14b583(0x2f5),_0x14b583(0x2e3),_0x14b583(0x271),_0x51e536(0x147),_0x51e536(0x26d),_0x14b583(0x1ea),_0x14b583(0x2eb),_0x14b583(0x1f8),_0x14b583(0x261),_0x14b583(0x1d7),_0x14b583(0x173),_0x14b583(0x1f0),_0x14b583(0x22f)];return _0x3e75=function(){return _0x7afa3;},_0x3e75();}function _0x3c85(_0x454fdf,_0x563c9c){_0x454fdf=_0x454fdf-0x1cf;const _0x2a4f25=_0x2f0c();let _0x185a7c=_0x2a4f25[_0x454fdf];return _0x185a7c;}function _0x5818(_0x59132d,_0x439887){_0x59132d=_0x59132d-0x168;const _0x57ba7c=_0x4a24();let _0x5d1bd1=_0x57ba7c[_0x59132d];return _0x5d1bd1;}(function(_0x139424,_0x418b4b){const _0x465d6c=_0x532d,_0x5ea1ee=_0x5332,_0x32eb70=_0x3c85,_0x1ac788=_0x139424();while(!![]){try{const _0x518c41=-parseInt(_0x32eb70(0x228))/0x1+parseInt(_0x32eb70(0x25a))/0x2*(parseInt(_0x32eb70(0x245))/0x3)+parseInt(_0x32eb70(0x380))/0x4*(-parseInt(_0x32eb70(0x1fb))/0x5)+-parseInt(_0x32eb70(0x374))/0x6+-parseInt(_0x32eb70(0x2b9))/0x7*(-parseInt(_0x32eb70(0x362))/0x8)+parseInt(_0x32eb70(0x367))/0x9+-parseInt(_0x32eb70(0x339))/0xa;if(_0x518c41===_0x418b4b)break;else _0x1ac788[_0x5ea1ee(0x2da)](_0x1ac788[_0x5ea1ee(0x230)]());}catch(_0x55fdef){_0x1ac788[_0x5ea1ee(0x2da)](_0x1ac788[_0x465d6c(0x1c2)]());}}}(_0x2f0c,0xef4e9),console[_0x54aca9(0x222)](_0x54aca9(0x1f9),_0x54aca9(0x313)),console[_0x54aca9(0x222)](_0x54aca9(0x1d1),new Date()[_0x54aca9(0x266)]()),console[_0x54aca9(0x222)](_0x54aca9(0x351),window[_0x1c14d8(0x194)][_0x54aca9(0x1dd)]),(function(){'use strict';const _0x1b77a2=_0x823d,_0x2c33f5=_0x5818,_0x3f2f6f=_0x3536,_0xd0c6c0=_0x532d,_0x1bd5f5=_0x1c14d8,_0x592daa=_0x54aca9,_0x3c64d7=_0x592daa(0x2b3),_0x2630d5=_0x1bd5f5(0x2ca);GM_deleteValue(_0x592daa(0x2dd)),GM_deleteValue(_0x1bd5f5(0x1da)),GM_deleteValue(_0x592daa(0x2c6));let _0x54fc8e=parseInt(GM_getValue(_0x592daa(0x2d2),'0')),_0x13b673=GM_getValue(_0x592daa(0x1e8),'[]'),_0x503e5a=[];try{if(typeof _0x13b673===_0x592daa(0x33a))_0x503e5a=JSON[_0xd0c6c0(0x1ea)](_0x13b673);else Array[_0x1bd5f5(0x22a)](_0x13b673)&&(_0x503e5a=_0x13b673);}catch(_0x2a1e38){console[_0x592daa(0x235)](_0x1bd5f5(0x1ec),_0x2a1e38),_0x503e5a=[];}let _0x1590cb=_0x503e5a[_0xd0c6c0(0x1d4)](_0x43d6cb=>{const _0x4da359=_0x1bd5f5,_0x34e703=_0x592daa;if(_0x54fc8e>0x0){const _0x94e353=new Date(_0x43d6cb[_0x4da359(0x139)])[_0x34e703(0x1fd)]();return _0x94e353>=_0x54fc8e;}return!![];});_0x1590cb[_0x592daa(0x285)]!==_0x503e5a[_0x1bd5f5(0x1e8)]&&(GM_setValue(_0x1bd5f5(0x2d0),JSON[_0x1bd5f5(0x27a)](_0x1590cb)),console[_0x592daa(0x222)](_0x592daa(0x29d)+(_0x503e5a[_0x1bd5f5(0x1e8)]-_0x1590cb[_0x1bd5f5(0x1e8)])+_0x2c33f5(0x247)));let _0x564999=GM_getValue(_0x592daa(0x229),'{}'),_0xb85736={};try{if(typeof _0x564999===_0xd0c6c0(0x304))_0xb85736=JSON[_0x1bd5f5(0x17c)](_0x564999);else typeof _0x564999===_0x1bd5f5(0x141)&&(_0xb85736=_0x564999);}catch(_0x23c89d){console[_0x592daa(0x235)](_0x592daa(0x35f),_0x23c89d),_0xb85736={};}let _0x130a68={},_0x3e018d={},_0xa59513=parseInt(GM_getValue(_0x592daa(0x2e6),'0'))||null,_0x1f41b0=GM_getValue(_0x592daa(0x33e),null),_0x24fe0b=GM_getValue(_0x592daa(0x2c6),![]),_0x2e51be=GM_getValue(_0x1bd5f5(0x1bd),null),_0x4178fb=GM_getValue(_0x1b77a2(0x15a),null),_0x4f213a=GM_getValue(_0x592daa(0x325),null),_0x551cfc=GM_getValue(_0x1bd5f5(0x1be),![]),_0x12cbce=GM_getValue(_0x1bd5f5(0x187),![]),_0x19a0bd={},_0x2aa1af=GM_getValue(_0x592daa(0x315),_0x592daa(0x34e));const _0x6f4d1b=[{'code':_0x1bd5f5(0x220),'name':_0x592daa(0x345)},{'code':_0x1bd5f5(0x2a4),'name':_0x592daa(0x309)},{'code':_0x592daa(0x34e),'name':_0x592daa(0x387)},{'code':_0x592daa(0x2e7),'name':_0x592daa(0x2ea)},{'code':_0x592daa(0x366),'name':_0x592daa(0x338)},{'code':_0x592daa(0x2d9),'name':_0x592daa(0x280)},{'code':_0x592daa(0x1f0),'name':_0x592daa(0x2f9)},{'code':_0x592daa(0x2f7),'name':_0x592daa(0x1db)},{'code':_0x592daa(0x278),'name':_0x592daa(0x2bb)},{'code':_0x592daa(0x33d),'name':_0x592daa(0x303)},{'code':_0x1bd5f5(0x276),'name':_0x592daa(0x255)},{'code':_0x592daa(0x22f),'name':_0x592daa(0x371)},{'code':_0x1bd5f5(0x1ad),'name':_0x592daa(0x322)},{'code':_0x1bd5f5(0x200),'name':_0x592daa(0x357)},{'code':_0x592daa(0x31d),'name':_0x592daa(0x310)},{'code':_0x592daa(0x220),'name':_0x1bd5f5(0x15d)},{'code':_0x592daa(0x381),'name':_0x1bd5f5(0x12a)},{'code':_0x1bd5f5(0x2b7),'name':_0x592daa(0x320)},{'code':_0x592daa(0x22a),'name':_0x592daa(0x2c1)},{'code':_0x592daa(0x215),'name':_0x592daa(0x1d5)}];function _0x390dfb(_0x3f066e){const _0x2b6cb3=_0x1bd5f5,_0xcc2f81=_0x592daa,_0x2086df={'BONK':_0xcc2f81(0x383),'SHIB':_0xcc2f81(0x291),'WIF':_0x2b6cb3(0x260),'PUMP':_0x2b6cb3(0x260),'TRUMP':_0xcc2f81(0x291)},_0x468be4=_0x2086df[_0x3f066e[_0xcc2f81(0x201)]()]||_0xcc2f81(0x289);return _0x2b6cb3(0x1c9)+_0x3f066e[_0xcc2f81(0x1ed)]()+'.'+_0x468be4;}function _0x563178(){const _0x41ea9b=_0x3536,_0x42bef0=_0xd0c6c0,_0x20f31d=_0x1bd5f5,_0x137645=_0x592daa,_0x74650c=document[_0x137645(0x224)](_0x137645(0x27c));if(_0x74650c){const _0x1b8a00=_0x74650c[_0x137645(0x224)](_0x137645(0x384));if(_0x1b8a00&&_0x1b8a00[_0x20f31d(0x132)]){const _0x1a229a=_0x1b8a00[_0x41ea9b(0x1ce)][_0x137645(0x201)]();_0x6f4d1b[_0x137645(0x35e)](_0x53a28d=>_0x53a28d[_0x137645(0x2e1)]===_0x1a229a)&&(_0x1a229a!==_0x2aa1af&&(console[_0x42bef0(0x28e)](_0x137645(0x301)+_0x2aa1af+_0x20f31d(0x177)+_0x1a229a),_0x2aa1af=_0x1a229a,GM_setValue(_0x137645(0x315),_0x2aa1af),_0x20aece()));}}}function _0x378eee(_0xfec13a){const _0x25d53c=_0x1bd5f5,_0x42278c=_0x592daa,_0x2a73df=document[_0x42278c(0x224)](_0x42278c(0x27c));if(_0x2a73df){const _0x47e442=_0x2a73df[_0x25d53c(0x1b0)](_0x42278c(0x2af))||_0x2a73df[_0x42278c(0x293)];_0x47e442&&(_0x47e442[_0x42278c(0x219)][_0x25d53c(0x226)]='0',_0x47e442[_0x42278c(0x219)][_0x42278c(0x1e2)]=_0x25d53c(0x272)),_0x2a73df[_0x42278c(0x2ed)](),setTimeout(()=>{const _0x4bdc19=_0x532d,_0x5b118f=_0x42278c,_0x3607ee=document[_0x5b118f(0x224)](_0x5b118f(0x2a6)+_0xfec13a[_0x5b118f(0x1ed)]()+_0x5b118f(0x274)+_0xfec13a+'\x22]');_0x3607ee?(_0x3607ee[_0x5b118f(0x2ed)](),console[_0x5b118f(0x222)](_0x4bdc19(0x220)+_0xfec13a)):(console[_0x4bdc19(0x2d6)](_0x5b118f(0x312)+_0xfec13a),document[_0x5b118f(0x329)][_0x5b118f(0x2ed)]()),setTimeout(()=>{const _0x202bc7=_0x5b118f;_0x47e442&&(_0x47e442[_0x202bc7(0x219)][_0x202bc7(0x299)]='1',_0x47e442[_0x202bc7(0x219)][_0x202bc7(0x1e2)]=_0x202bc7(0x33b));},0xc8);},0x64);}}function _0x20aece(){const _0x508235=_0xd0c6c0,_0x106ff7=_0x1bd5f5,_0x5a61df=_0x592daa,_0x27507a=document[_0x5a61df(0x24b)](_0x5a61df(0x23f)),_0x2673ee=_0x6f4d1b[_0x5a61df(0x35e)](_0x44824a=>_0x44824a[_0x5a61df(0x2e1)]===_0x2aa1af);_0x27507a&&_0x2673ee&&(_0x27507a[_0x106ff7(0x157)]=_0x5a61df(0x254)+_0x390dfb(_0x2673ee[_0x5a61df(0x2e1)])+_0x5a61df(0x290)+_0x2673ee[_0x508235(0x29e)]+_0x106ff7(0x288)+_0x2673ee[_0x5a61df(0x2e1)]+_0x508235(0x36c));}function _0x3ba2c7(_0x424e71){const _0x2e74f2=_0x3536,_0x204120=_0x1bd5f5,_0x3fbd1e=_0x592daa;console[_0x204120(0x14a)](_0x3fbd1e(0x27e)+_0x424e71),_0x2aa1af=_0x424e71,GM_setValue(_0x3fbd1e(0x315),_0x424e71),_0x20aece();const _0x275b76=document[_0x3fbd1e(0x24b)](_0x2e74f2(0x179));if(_0x275b76)_0x275b76[_0x3fbd1e(0x219)][_0x3fbd1e(0x2f5)]=_0x204120(0x272);_0x378eee(_0x424e71);}function _0x58e5c6(){setInterval(_0x563178,0x7d0);}function _0x1e583a(){const _0x15421c=_0x1bd5f5,_0x3ec907=_0x592daa;GM_setValue(_0x15421c(0x2d0),JSON[_0x3ec907(0x32e)](_0x1590cb)),GM_setValue(_0x3ec907(0x229),JSON[_0x3ec907(0x32e)](_0xb85736));}function _0x149006(){const _0x266f5a=_0x3536,_0x4c6b21=_0x1bd5f5,_0x5bf6d1=_0x592daa;confirm(_0x5bf6d1(0x279))&&(_0x1590cb=[],_0xb85736={},_0x130a68={},_0x54fc8e=Date[_0x5bf6d1(0x26a)](),GM_setValue(_0x5bf6d1(0x1e8),'[]'),GM_setValue(_0x266f5a(0x1b8),'{}'),GM_setValue(_0x4c6b21(0x2a3),_0x54fc8e[_0x5bf6d1(0x2e4)]()),_0x3d462a(),_0x27cd1b(),console[_0x5bf6d1(0x222)](_0x5bf6d1(0x334),new Date(_0x54fc8e)[_0x5bf6d1(0x266)]()));}let _0x1b16ae=![],_0x42e7ed=0xc8;const _0x342efb={get 'POLL_CODES'(){return _0x1b16ae?0x32:0xc8;},'UI_UPDATE':0x64,'AUTO_CLICK':0xc8,'USERNAME_CHECK':0x1388,'CONNECT_RETRY':0x12c,'HEARTBEAT':0x7530};let _0x3d9136=null;function _0x9dc3cc(){const _0x1f2a95=_0x592daa;if(_0x3d9136)return;_0x3d9136=setInterval(async()=>{const _0x124815=_0x5332,_0x1f9a1b=_0x3c85;if(!_0x24fe0b||!_0x2e51be)return;try{GM_xmlhttpRequest({'method':_0x1f9a1b(0x25e),'url':_0x3c64d7+_0x124815(0x1a3),'headers':{'Authorization':_0x1f9a1b(0x27f)+_0x2e51be,'Content-Type':_0x1f9a1b(0x1d4)},'onload':function(_0x4dc3ea){const _0x5ab7bf=_0x3536,_0x2bf3f5=_0x1f9a1b;try{const _0x31b310=JSON[_0x2bf3f5(0x264)](_0x4dc3ea[_0x2bf3f5(0x20a)]);_0x31b310[_0x2bf3f5(0x360)]!==_0x1b16ae&&(_0x1b16ae=_0x31b310[_0x5ab7bf(0x172)],_0x42e7ed=_0x31b310[_0x2bf3f5(0x317)]||(_0x1b16ae?0x32:0xc8),console[_0x2bf3f5(0x222)](_0x2bf3f5(0x1fa)+(_0x1b16ae?_0x2bf3f5(0x1fe):_0x2bf3f5(0x31f))),_0x12bcb6());}catch(_0x43f7f4){}}});}catch(_0x27cdd5){}},_0x342efb[_0x1f2a95(0x23e)]),console[_0x1f2a95(0x222)](_0x1f2a95(0x2a4));}function _0x25da95(){_0x3d9136&&(clearInterval(_0x3d9136),_0x3d9136=null);}function _0x12bcb6(){_0x15e164&&(clearInterval(_0x15e164),_0x15e164=null,_0xcc1602=![]),_0x24fe0b&&_0x39f87a();}function _0x1005d1(_0x57a518,_0x18dfb0,_0x2215f1=null){const _0x1ed9af=_0x1bd5f5,_0x38eae9=_0x592daa;if(_0x130a68[_0x57a518])return delete _0x3e018d[_0x57a518],![];_0x130a68[_0x57a518]=_0x18dfb0?_0x38eae9(0x2d4):_0x38eae9(0x2d7),_0xb85736[_0x57a518]=Date[_0x38eae9(0x26a)](),GM_setValue(_0x1ed9af(0x29a),_0xb85736),delete _0x3e018d[_0x57a518],console[_0x38eae9(0x222)]((_0x18dfb0?'✅':'❌')+'\x20'+_0x57a518+':\x20'+(_0x18dfb0?_0x38eae9(0x22d):_0x2215f1));const _0x1d9669=_0x1590cb[_0x38eae9(0x26b)](_0x151e60=>_0x151e60[_0x38eae9(0x2e1)]===_0x57a518);return _0x1d9669>=0x0&&(_0x1590cb[_0x1d9669][_0x38eae9(0x27b)]=_0x18dfb0,_0x1590cb[_0x1d9669][_0x38eae9(0x2e8)]=_0x2215f1,_0x1e583a(),_0x3d462a(),_0x27cd1b()),GM_notification({'title':_0x18dfb0?_0x38eae9(0x231):_0x38eae9(0x321),'text':_0x18dfb0?_0x57a518:_0x57a518+':\x20'+_0x2215f1,'timeout':0xbb8}),!![];}let _0x68751f=null;function _0x1aaaac(){const _0x59a6c1=_0x1bd5f5,_0x1e9b9b=_0x592daa;try{const _0x3fec7f=Object[_0x1e9b9b(0x370)](localStorage)[_0x1e9b9b(0x35e)](_0x3c07dd=>_0x3c07dd[_0x1e9b9b(0x354)](_0x1e9b9b(0x319))&&_0x3c07dd[_0x1e9b9b(0x25b)](_0x59a6c1(0x2a9)));if(!_0x3fec7f)return null;const _0x51d8c2=JSON[_0x1e9b9b(0x264)](localStorage[_0x1e9b9b(0x1d9)](_0x3fec7f)),_0x370f2d=_0x51d8c2?.[_0x1e9b9b(0x1e4)]?.[_0x1e9b9b(0x1e9)];if(_0x370f2d){const _0x40eda3=_0x370f2d[_0x1e9b9b(0x1ed)]();return _0x40eda3!==_0x68751f&&(console[_0x1e9b9b(0x222)](_0x1e9b9b(0x364),_0x370f2d),_0x68751f=_0x40eda3),_0x40eda3;}return null;}catch(_0x1faedb){return null;}}let _0x47297e=null,_0x1f8378=![],_0x15e164=null,_0x59861b=null,_0xcc1602=![];function _0x4bc55c(_0xa65de={}){const _0x1d7450=_0xd0c6c0,_0x29632c=_0x1bd5f5,_0x4fe5dc=_0x592daa,{keepCodes:keepCodes=![],newUsername:newUsername=null}=_0xa65de;console[_0x4fe5dc(0x222)](_0x4fe5dc(0x2db)),_0x15e164&&(clearInterval(_0x15e164),_0x15e164=null,console[_0x4fe5dc(0x222)](_0x29632c(0x1b1))),_0x59861b&&(clearInterval(_0x59861b),_0x59861b=null,console[_0x29632c(0x14a)](_0x4fe5dc(0x1de))),(_0xcc1602=![],_0x24fe0b=![],_0x2e51be=null,_0x4178fb=null,_0x4f213a=null,_0xa59513=null,_0x1f41b0=newUsername,_0x1f8378=![],_0x551cfc=![],_0x12cbce=![],_0x19a0bd={}),!keepCodes&&(_0x1590cb=[],_0xb85736={},_0x130a68={},GM_setValue(_0x29632c(0x2d0),'[]'),GM_setValue(_0x4fe5dc(0x229),'{}'),console[_0x4fe5dc(0x222)](_0x1d7450(0x1f4))),(GM_deleteValue(_0x4fe5dc(0x2dd)),GM_deleteValue(_0x4fe5dc(0x1fc)),GM_deleteValue(_0x4fe5dc(0x2c6)),GM_deleteValue(_0x4fe5dc(0x325)),GM_deleteValue(_0x4fe5dc(0x2e6)),GM_deleteValue(_0x4fe5dc(0x33e)),GM_deleteValue(_0x4fe5dc(0x2a1)),GM_deleteValue(_0x4fe5dc(0x1da)),console[_0x4fe5dc(0x222)](_0x4fe5dc(0x21e)));const _0x58cce6=document[_0x4fe5dc(0x24b)](_0x4fe5dc(0x252));if(_0x58cce6)_0x58cce6[_0x29632c(0x24e)]();const _0x5d76a1=document[_0x4fe5dc(0x24b)](_0x4fe5dc(0x20d));if(_0x5d76a1)_0x5d76a1[_0x4fe5dc(0x365)]();_0x27fc97();}function _0x39107c(_0x309108){const _0x655c1=_0xd0c6c0,_0x38c84b=_0x1bd5f5,_0x30a9bf=_0x592daa;if(_0x1f8378){console[_0x30a9bf(0x222)](_0x30a9bf(0x359));return;}if(!_0x309108){console[_0x30a9bf(0x222)](_0x655c1(0x2a0));return;}_0x1f8378=!![],_0x1f41b0=_0x309108,console[_0x38c84b(0x14a)](_0x30a9bf(0x2ff)+_0x1f41b0),_0x10cc22(_0x30a9bf(0x32c)+_0x1f41b0+_0x30a9bf(0x249)),GM_xmlhttpRequest({'method':_0x30a9bf(0x25e),'url':_0x3c64d7+_0x38c84b(0x2ba),'headers':{'Content-Type':_0x30a9bf(0x1d4)},'data':JSON[_0x30a9bf(0x32e)]({'shuffleUsername':_0x1f41b0}),'timeout':0x2710,'onload':function(_0x14fc74){const _0x3c68f0=_0x3536,_0x3a2232=_0x655c1,_0x535639=_0x38c84b,_0x3fe811=_0x30a9bf;_0x1f8378=![];try{const _0x4f2de7=JSON[_0x3fe811(0x264)](_0x14fc74[_0x3fe811(0x20a)]);if(_0x14fc74[_0x535639(0x28b)]===0xc8&&_0x4f2de7[_0x3fe811(0x2dd)]){_0x2e51be=_0x4f2de7[_0x3fe811(0x2dd)],_0x4178fb=_0x4f2de7[_0x535639(0x1da)],_0x24fe0b=!![],_0xa59513=Date[_0x3fe811(0x26a)](),_0x4f213a=_0x4f2de7[_0x3fe811(0x260)],_0x551cfc=_0x4f2de7[_0x3c68f0(0x13d)]||![],_0x12cbce=_0x4f2de7[_0x3fe811(0x1da)]||![],GM_setValue(_0x3fe811(0x2dd),_0x2e51be),GM_setValue(_0x3fe811(0x1fc),_0x4178fb),GM_setValue(_0x3fe811(0x2c6),!![]),GM_setValue(_0x535639(0x21c),_0xa59513[_0x3fe811(0x2e4)]()),GM_setValue(_0x3fe811(0x325),_0x4f213a),GM_setValue(_0x3fe811(0x33e),_0x1f41b0),GM_setValue(_0x3fe811(0x2a1),_0x551cfc),GM_setValue(_0x3a2232(0x1ee),_0x12cbce),_0x4f2de7[_0x3fe811(0x30b)]&&(GM_setValue(_0x3c68f0(0x144),_0x4f2de7[_0x535639(0x17b)]),console[_0x3fe811(0x222)](_0x3a2232(0x2ea))),_0x4f2de7[_0x3fe811(0x316)]&&(_0x533221(_0x4f2de7[_0x3fe811(0x316)]),console[_0x3fe811(0x222)](_0x3fe811(0x213)));const _0x3a2673=document[_0x3fe811(0x24b)](_0x3fe811(0x252));if(_0x3a2673)_0x3a2673[_0x3fe811(0x365)]();const _0x16cd7f=document[_0x3fe811(0x24b)](_0x535639(0x20f));if(_0x16cd7f)_0x16cd7f[_0x3fe811(0x365)]();_0x27fc97();let _0x57e621=_0x3fe811(0x1dc);if(_0x4f213a){const _0x252035=new Date(_0x4f213a),_0xe6d80d=new Date(),_0x1d15d1=_0x252035-_0xe6d80d,_0x5d2a33=Math[_0x3fe811(0x1df)](_0x1d15d1/(0x3e8*0x3c*0x3c*0x18));if(_0x1d15d1<0x0)_0x57e621=_0x3fe811(0x2ce);else{if(_0x1d15d1<0x3c*0x3c*0x3e8)_0x57e621=Math[_0x535639(0x2ae)](_0x1d15d1/(0x3e8*0x3c))+_0x3fe811(0x276);else{if(_0x1d15d1<0x18*0x3c*0x3c*0x3e8)_0x57e621=Math[_0x535639(0x2ae)](_0x1d15d1/(0x3e8*0x3c*0x3c))+_0x3fe811(0x355);else _0x5d2a33<=0x7?_0x57e621=_0x5d2a33+'d':_0x57e621=_0x252035[_0x3fe811(0x266)]()[_0x535639(0x17d)]('T')[0x0];}}}_0x10cc22('✅\x20'+_0x1f41b0+_0x535639(0x1e4)+_0x57e621),console[_0x3fe811(0x222)](_0x3a2232(0x212)+_0x1f41b0),_0x39f87a(),_0x9dc3cc();}else{const _0x2aa591=_0x4f2de7[_0x3fe811(0x1e0)]||_0x3fe811(0x25c);console[_0x535639(0x14a)](_0x3fe811(0x324)+_0x2aa591),_0x15e164&&(clearInterval(_0x15e164),_0x15e164=null),_0x59861b&&(clearInterval(_0x59861b),_0x59861b=null),(_0xcc1602=![],_0x24fe0b=![],_0x2e51be=null,_0x4178fb=null,_0x4f213a=null,_0xa59513=null,GM_deleteValue(_0x3fe811(0x2dd)),GM_deleteValue(_0x3fe811(0x1fc)),GM_deleteValue(_0x3fe811(0x2c6)),GM_deleteValue(_0x3fe811(0x325)),GM_deleteValue(_0x3fe811(0x2e6)),_0x1590cb=[],_0xb85736={},_0x130a68={},GM_setValue(_0x535639(0x2d0),'[]'),GM_setValue(_0x3fe811(0x229),'{}'));const _0x1051c1=document[_0x3fe811(0x24b)](_0x3fe811(0x252));if(_0x1051c1)_0x1051c1[_0x3fe811(0x365)]();const _0x3bbebb=document[_0x3fe811(0x24b)](_0x535639(0x20f));if(_0x3bbebb)_0x3bbebb[_0x3fe811(0x365)]();_0x27fc97(),_0x10cc22(_0x3fe811(0x23b)+_0x1f41b0+_0x3fe811(0x27d)+_0x2aa591);}}catch(_0x10e902){_0x10cc22(_0x535639(0x20e)),console[_0x3fe811(0x1e0)](_0x535639(0x228),_0x10e902);}},'onerror':function(_0x2c386a){const _0x1b8d91=_0x3536,_0x137056=_0x655c1,_0x4a5c0d=_0x30a9bf;_0x1f8378=![],_0x10cc22(_0x137056(0x2cb)),console[_0x1b8d91(0x209)](_0x4a5c0d(0x326),_0x2c386a);},'ontimeout':function(){const _0x236c2e=_0x38c84b,_0x47401e=_0x30a9bf;_0x1f8378=![],_0x10cc22(_0x236c2e(0x1d0)),console[_0x47401e(0x1e0)](_0x47401e(0x271));}});}function _0x43a746(){const _0x5a0847=_0xd0c6c0,_0x52e77e=_0x1bd5f5,_0x47ee13=_0x592daa;console[_0x47ee13(0x222)](_0x52e77e(0x1aa));const _0x454e7e=_0x1aaaac();_0x454e7e?(_0x47297e=_0x454e7e,_0x39107c(_0x454e7e)):_0x10cc22(_0x52e77e(0x2a5)),setInterval(()=>{const _0x17aa48=_0x52e77e,_0x3d6628=_0x47ee13,_0x33ac54=_0x1aaaac();_0x47297e&&!_0x33ac54&&(console[_0x3d6628(0x222)](_0x17aa48(0x1cb)),_0x47297e=null,_0x4bc55c(),_0x10cc22(_0x3d6628(0x2ee)));if(_0x33ac54&&_0x33ac54!==_0x47297e){console[_0x3d6628(0x222)](_0x3d6628(0x36d)+_0x47297e+_0x17aa48(0x266)+_0x33ac54);const _0xb1b8b0=_0x47297e;_0x47297e=_0x33ac54,_0xb1b8b0&&(console[_0x3d6628(0x222)](_0x3d6628(0x2f2)),_0x4bc55c({'newUsername':_0x33ac54})),_0x39107c(_0x33ac54);}},_0x342efb[_0x5a0847(0x282)]);}function _0x1a37f8(){const _0x544358=_0x3536,_0x2deeb9=_0xd0c6c0,_0xc391d7=_0x1bd5f5,_0x390c97=_0x592daa,_0x5b696a=_0x1d0f46(),_0xfa44c8=GM_getValue(_0x390c97(0x30b),null);if(!_0x5b696a||!_0xfa44c8){console[_0x390c97(0x222)](_0x390c97(0x348)),GM_notification({'title':_0x390c97(0x2ad),'text':_0x390c97(0x2fe),'timeout':0x1388});return;}_0x12cbce=!_0x12cbce,GM_setValue(_0x390c97(0x1da),_0x12cbce),console[_0x390c97(0x222)](_0x390c97(0x210)+(_0x12cbce?_0x2deeb9(0x1d9):_0x390c97(0x1e7))+_0x390c97(0x36f));const _0x53c68b=document[_0x544358(0x229)](_0xc391d7(0x222));_0x53c68b&&(_0x53c68b[_0x390c97(0x219)][_0x390c97(0x307)]=_0x12cbce?_0x390c97(0x31c):_0x390c97(0x385),_0x53c68b[_0x390c97(0x219)][_0xc391d7(0x2d8)]=_0x12cbce?_0x390c97(0x361):_0x390c97(0x1ec),_0x53c68b[_0x390c97(0x219)][_0x390c97(0x2a2)]=_0x12cbce?_0x390c97(0x2c9):_0xc391d7(0x2af),_0x53c68b[_0x390c97(0x30a)]=_0x390c97(0x25f)+(_0x12cbce?_0x390c97(0x205):_0x390c97(0x287))+_0x390c97(0x1f1)+(_0x12cbce?_0x2deeb9(0x266):_0x390c97(0x2b7))+_0x390c97(0x20e)+(_0x12cbce?_0xc391d7(0x1d9):_0x390c97(0x23c))+_0xc391d7(0x197)),GM_notification({'title':_0x12cbce?_0xc391d7(0x128):_0x390c97(0x29b),'text':_0x12cbce?_0x390c97(0x238):_0x390c97(0x2c8),'timeout':0xbb8});}function _0x1d0f46(){const _0x31d8f4=_0x592daa,_0x2da31b=GM_getValue(_0x31d8f4(0x316),null);if(!_0x2da31b)return null;try{return atob(_0x2da31b);}catch(_0x50cd90){return null;}}function _0x533221(_0x55bb69){const _0x23dd07=_0x592daa;GM_setValue(_0x23dd07(0x316),btoa(_0x55bb69));}function _0x25bbc4(_0x342c32,_0x3c2c1d){const _0x419b30=_0x1bd5f5,_0x32eb27=_0x592daa,_0x5b2f75=_0x1d0f46();if(!_0x5b2f75||!_0x342c32){console[_0x419b30(0x2b3)](_0x32eb27(0x331));return;}fetch(_0x419b30(0x2d9)+_0x5b2f75+_0x32eb27(0x379),{'method':_0x419b30(0x21d),'headers':{'Content-Type':_0x419b30(0x16e)},'body':JSON[_0x32eb27(0x32e)]({'chat_id':_0x342c32,'text':_0x3c2c1d,'parse_mode':_0x32eb27(0x202)})})[_0x32eb27(0x29c)](_0x445d78=>_0x445d78[_0x32eb27(0x265)]())[_0x32eb27(0x29c)](_0x1ff22b=>{const _0x5d4b9b=_0x32eb27;_0x1ff22b['ok']?console[_0x5d4b9b(0x222)](_0x5d4b9b(0x230)+_0x342c32):console[_0x5d4b9b(0x1e0)](_0x5d4b9b(0x2b0)+_0x1ff22b[_0x5d4b9b(0x372)]);})[_0x32eb27(0x2e5)](_0x2d5f5d=>console[_0x32eb27(0x1e0)](_0x419b30(0x1b7),_0x2d5f5d));}function _0x166ecd(_0x1efc29){const _0x4945f7=_0xd0c6c0,_0x54b379=_0x1bd5f5,_0x40a286=_0x592daa;if(!_0x24fe0b||!_0x551cfc||!_0x12cbce)return;if(_0x19a0bd[_0x1efc29[_0x40a286(0x2e1)]]){console[_0x40a286(0x222)](_0x40a286(0x352)+_0x1efc29[_0x40a286(0x2e1)]);return;}const _0x61beec=GM_getValue(_0x4945f7(0x290),null);if(!_0x61beec){console[_0x40a286(0x235)](_0x40a286(0x330));return;}const _0x3911cf=_0x40a286(0x2ab)+_0x1efc29[_0x40a286(0x2e1)]+_0x40a286(0x2e3)+(_0x1efc29[_0x54b379(0x1f7)]||_0x1efc29[_0x40a286(0x246)]||'-')+_0x54b379(0x154)+(_0x1efc29[_0x40a286(0x1d2)]?_0x40a286(0x31e)+_0x1efc29[_0x40a286(0x1d2)]:'-')+_0x54b379(0x185)+(_0x1efc29[_0x40a286(0x327)]||_0x1efc29[_0x4945f7(0x1ca)]||'-')+_0x40a286(0x2f6)+(_0x1efc29[_0x40a286(0x382)]||_0x1efc29[_0x40a286(0x37c)]||'-');console[_0x40a286(0x222)](_0x54b379(0x167)+_0x1efc29[_0x40a286(0x2e1)]),_0x25bbc4(_0x61beec,_0x3911cf),_0x19a0bd[_0x1efc29[_0x40a286(0x2e1)]]=Date[_0x40a286(0x26a)]();}function _0x3abc69(_0x5c8e6b,_0x1206a7,_0x4b9e01){const _0x39ea42=_0xd0c6c0,_0x1abaaf=_0x1bd5f5,_0x537b8e=_0x592daa;if(!_0x24fe0b||!_0x551cfc||!_0x12cbce)return;const _0x3d4e88=_0x5c8e6b+_0x1abaaf(0x23e);if(_0x19a0bd[_0x3d4e88]){console[_0x39ea42(0x28e)](_0x537b8e(0x257)+_0x5c8e6b);return;}const _0xa86a28=GM_getValue(_0x1abaaf(0x17b),null);if(!_0xa86a28){console[_0x537b8e(0x235)](_0x537b8e(0x330));return;}const _0x572b88=_0x1206a7?_0x537b8e(0x30f)+_0x5c8e6b+_0x1abaaf(0x1a2):_0x537b8e(0x253)+_0x5c8e6b+_0x537b8e(0x37e)+(_0x4b9e01||_0x537b8e(0x2ca))+_0x39ea42(0x25d);console[_0x537b8e(0x222)](_0x537b8e(0x34f)+_0x5c8e6b),_0x25bbc4(_0xa86a28,_0x572b88),_0x19a0bd[_0x3d4e88]=Date[_0x1abaaf(0x188)]();}function _0x5e437a(){_0x27fc97();}function _0x27fc97(){const _0x5ed286=_0x2c33f5,_0x1a9a34=_0xd0c6c0,_0x2149d2=_0x1bd5f5,_0x390561=_0x592daa,_0x45eb09=_0x1590cb[_0x390561(0x285)],_0x15d208=_0x1590cb[_0x390561(0x1f6)](_0x572570=>_0x572570[_0x2149d2(0x2e5)])[_0x390561(0x285)],_0x44e967=_0x1590cb[_0x390561(0x1f6)](_0x26ea5f=>_0x26ea5f[_0x390561(0x2e8)])[_0x2149d2(0x1e8)],_0x572cd0=GM_getValue(_0x390561(0x240),!![]),_0x369240=_0x24fe0b?_0x2149d2(0x13e):_0x2149d2(0x1b3),_0x20b4b4=_0x24fe0b?_0x1a9a34(0x2c3):'';document[_0x390561(0x329)][_0x2149d2(0x270)](_0x390561(0x2c4),_0x2149d2(0x1ea)+(_0x572cd0?_0x390561(0x247):_0x390561(0x1e1))+_0x390561(0x282)+_0x1f41b0+_0x2149d2(0x2bd)+_0x2aa1af[_0x390561(0x1ed)]()+_0x390561(0x237)+_0x2aa1af+_0x390561(0x212)+_0x2aa1af+_0x2149d2(0x13b)+_0x20b4b4+_0x390561(0x29a)+_0x369240+_0x390561(0x376)+(_0x24fe0b?_0x390561(0x295):'')+_0x390561(0x223)+(_0x572cd0?_0x2149d2(0x272):_0x390561(0x2d6))+_0x2149d2(0x1e2)+_0x45eb09+_0x390561(0x332)+_0x15d208+_0x390561(0x234)+_0x44e967+_0x390561(0x2c3)+(!_0x551cfc?_0x390561(0x24e):_0x12cbce?_0x390561(0x204):_0x390561(0x256))+_0x390561(0x284)+(!_0x551cfc?_0x390561(0x258):_0x2149d2(0x1e7))+_0x390561(0x2e0)+(!_0x551cfc?_0x390561(0x207):'1')+_0x1a9a34(0x243)+(_0x12cbce?_0x390561(0x31c):_0x2149d2(0x189))+_0x390561(0x2cd)+(_0x12cbce?_0x390561(0x31a):_0x390561(0x2cb))+_0x390561(0x2b6)+(_0x12cbce?_0x390561(0x2c9):_0x390561(0x21b))+_0x5ed286(0x226)+(_0x12cbce?_0x390561(0x205):_0x390561(0x287))+_0x390561(0x1f1)+(_0x12cbce?_0x390561(0x2f1):_0x390561(0x2b7))+_0x390561(0x20e)+(_0x12cbce?_0x1a9a34(0x1db):_0x390561(0x23c))+_0x390561(0x37a)+(!_0x551cfc?_0x390561(0x386):_0x390561(0x36e))+_0x390561(0x1d0)),document[_0x390561(0x24b)](_0x2149d2(0x1bf))[_0x390561(0x22e)]=_0x5b05a4,document[_0x390561(0x24b)](_0x1a9a34(0x386))[_0x390561(0x22e)]=_0x5b05a4,document[_0x390561(0x24b)](_0x2149d2(0x1c8))[_0x390561(0x22e)]=_0x149006,document[_0x390561(0x24b)](_0x390561(0x2cc))[_0x390561(0x22e)]=_0x1ac2f2,document[_0x390561(0x24b)](_0x2149d2(0x20f))[_0x390561(0x22e)]=_0x1ac2f2;const _0x1aea75=document[_0x390561(0x24b)](_0x390561(0x342));_0x1aea75&&(_0x1aea75[_0x390561(0x22e)]=_0x1a37f8);const _0x472b3e=document[_0x390561(0x24b)](_0x390561(0x369)),_0x28d0cd=document[_0x390561(0x24b)](_0x390561(0x211)),_0x2c869e=document[_0x390561(0x24b)](_0x390561(0x28f));_0x472b3e&&(_0x472b3e[_0x390561(0x22e)]=_0x188900),_0x28d0cd&&(_0x28d0cd[_0x390561(0x22e)]=_0x1a7300),_0x2c869e&&_0x2c869e[_0x390561(0x2b2)](_0x390561(0x2cf),function(_0x5f56ca){const _0x5d0583=_0x1a9a34,_0x4ec89f=_0x2149d2,_0x2542cc=_0x390561;_0x5f56ca[_0x2542cc(0x283)]===_0x5d0583(0x34a)&&(_0x5f56ca[_0x4ec89f(0x1b2)](),_0x1a7300());}),(document[_0x390561(0x2b2)](_0x390561(0x2ed),function(_0x12517c){const _0x2b67ed=_0x2149d2,_0x3556cc=_0x390561,_0x51f0fa=document[_0x2b67ed(0x2d7)](_0x3556cc(0x241)),_0xb36775=document[_0x3556cc(0x24b)](_0x3556cc(0x369));_0x51f0fa&&_0xb36775&&_0x51f0fa[_0x3556cc(0x219)][_0x3556cc(0x2f5)]===_0x3556cc(0x2d6)&&(!_0x51f0fa[_0x3556cc(0x277)](_0x12517c[_0x3556cc(0x281)])&&_0x12517c[_0x2b67ed(0x267)]!==_0xb36775&&_0x9801ef());}),document[_0x2149d2(0x2d7)](_0x390561(0x34c))[_0x390561(0x22e)]=()=>{const _0x490e6c=_0x2149d2,_0x3fb725=_0x390561,_0x17e1b2=document[_0x3fb725(0x24b)](_0x3fb725(0x2d3));_0x17e1b2[_0x490e6c(0x25d)]({'top':-0x12c,'behavior':_0x490e6c(0x140)});},document[_0x390561(0x24b)](_0x390561(0x203))[_0x2149d2(0x2c0)]=()=>{const _0x125c51=_0x44c8,_0xd92d9f=_0x2149d2,_0x245881=_0x390561,_0x2f0f10=document[_0x245881(0x24b)](_0xd92d9f(0x152));_0x2f0f10[_0x125c51(0x210)]({'top':0x12c,'behavior':_0x245881(0x1ea)});});const _0x49b57f=document[_0x390561(0x24b)](_0x390561(0x23f)),_0x1ae4fa=document[_0x390561(0x24b)](_0x1a9a34(0x1ce));_0x49b57f&&_0x1ae4fa&&(_0x1ae4fa[_0x390561(0x30a)]=_0x6f4d1b[_0x1a9a34(0x2e9)](_0x542a6a=>_0x390561(0x36b)+_0x542a6a[_0x390561(0x2e1)]+_0x390561(0x294)+(_0x542a6a[_0x390561(0x2e1)]===_0x2aa1af?_0x390561(0x297):'')+_0x390561(0x31b)+_0x390dfb(_0x542a6a[_0x390561(0x2e1)])+_0x390561(0x290)+_0x542a6a[_0x390561(0x2e1)]+_0x390561(0x28d)+_0x542a6a[_0x1a9a34(0x29e)]+_0x2149d2(0x18d)+_0x542a6a[_0x2149d2(0x138)]+_0x390561(0x1d6)+(_0x542a6a[_0x390561(0x2e1)]===_0x2aa1af?_0x390561(0x221):'')+_0x390561(0x2ef))[_0x390561(0x206)](''),_0x49b57f[_0x2149d2(0x2c0)]=_0x49e915=>{const _0x4ba945=_0x2149d2,_0xb98bc2=_0x390561;_0x49e915[_0x4ba945(0x286)](),_0x1ae4fa[_0xb98bc2(0x219)][_0xb98bc2(0x2f5)]=_0x1ae4fa[_0xb98bc2(0x219)][_0xb98bc2(0x2f5)]===_0xb98bc2(0x1e1)?_0x4ba945(0x1c4):_0xb98bc2(0x1e1);},_0x1ae4fa[_0x390561(0x28b)](_0x390561(0x2c7))[_0x390561(0x209)](_0x2917aa=>{const _0x551bbc=_0x2149d2,_0x169221=_0x390561;_0x2917aa[_0x169221(0x2d1)]=()=>_0x2917aa[_0x551bbc(0x123)][_0x169221(0x307)]=_0x169221(0x26d),_0x2917aa[_0x169221(0x2bd)]=()=>_0x2917aa[_0x169221(0x219)][_0x169221(0x307)]=_0x2917aa[_0x169221(0x37b)][_0x551bbc(0x13c)]===_0x2aa1af?_0x169221(0x250):'',_0x2917aa[_0x169221(0x22e)]=_0x3e1f9d=>{const _0x26bd12=_0x551bbc,_0x3e1077=_0x169221;_0x3e1f9d[_0x3e1077(0x341)](),_0x3ba2c7(_0x2917aa[_0x3e1077(0x37b)][_0x26bd12(0x13c)]);};}),document[_0x390561(0x2b2)](_0x390561(0x2ed),_0x5536f9=>{const _0x38d03f=_0x1a9a34,_0x5062fa=_0x2149d2,_0x4d4f6d=_0x390561;!_0x1ae4fa[_0x5062fa(0x2dc)](_0x5536f9[_0x4d4f6d(0x281)])&&_0x5536f9[_0x38d03f(0x2fb)]!==_0x49b57f&&(_0x1ae4fa[_0x4d4f6d(0x219)][_0x4d4f6d(0x2f5)]=_0x4d4f6d(0x1e1));})),_0x58e5c6(),_0x3d462a();}function _0x4a3d50(){const _0x4c2946=_0xd0c6c0,_0x1fa538=_0x1bd5f5,_0x5bea5f=_0x592daa;function _0x1fd1d4(_0x24a197,_0x4701f8=0x0){const _0x2b6a66=_0x5332,_0x5447b6=_0x3c85;if(_0x4701f8>0x5)return null;if(typeof _0x24a197===_0x5447b6(0x33a)&&_0x24a197[_0x5447b6(0x2b5)](_0x5447b6(0x35a))&&_0x24a197[_0x5447b6(0x285)]>0x64)return _0x24a197;if(typeof _0x24a197===_0x5447b6(0x33a)&&_0x24a197[_0x5447b6(0x354)](_0x5447b6(0x35a)))try{const _0x263476=JSON[_0x2b6a66(0x17c)](_0x24a197),_0x687ad0=_0x1fd1d4(_0x263476,_0x4701f8+0x1);if(_0x687ad0)return _0x687ad0;}catch(_0x3a56e6){}if(typeof _0x24a197===_0x5447b6(0x2aa)&&_0x24a197!==null)for(const _0x1cde26 in _0x24a197){const _0xcb210c=_0x1fd1d4(_0x24a197[_0x1cde26],_0x4701f8+0x1);if(_0xcb210c)return _0xcb210c;}return null;}try{const _0x1944ec=localStorage[_0x1fa538(0x21b)](_0x5bea5f(0x22c));if(_0x1944ec){const _0x494556=_0x1fd1d4(_0x1944ec);if(_0x494556)return console[_0x5bea5f(0x222)](_0x5bea5f(0x343)),_0x494556;}}catch(_0x14e38c){console[_0x5bea5f(0x1e0)](_0x5bea5f(0x259),_0x14e38c);}for(let _0xe0907a=0x0;_0xe0907a<localStorage[_0x5bea5f(0x285)];_0xe0907a++){const _0x1a65f9=localStorage[_0x5bea5f(0x283)](_0xe0907a);try{const _0x2bea63=localStorage[_0x1fa538(0x21b)](_0x1a65f9);if(_0x2bea63&&_0x2bea63[_0x5bea5f(0x2b5)](_0x5bea5f(0x35a))&&_0x2bea63[_0x5bea5f(0x285)]>0x64)return console[_0x5bea5f(0x222)](_0x5bea5f(0x34a),_0x1a65f9),_0x2bea63;if(_0x2bea63&&_0x2bea63[_0x1fa538(0x14d)](_0x5bea5f(0x35a))){const _0x50a24c=JSON[_0x5bea5f(0x264)](_0x2bea63),_0x58e073=_0x1fd1d4(_0x50a24c);if(_0x58e073)return console[_0x5bea5f(0x222)](_0x5bea5f(0x1d3),_0x1a65f9),_0x58e073;}}catch(_0x24bf14){}}const _0xa900d5=document[_0x5bea5f(0x304)][_0x5bea5f(0x251)](';');for(const _0x131220 of _0xa900d5){const [_0x151ecb,_0x5eec7a]=_0x131220[_0x4c2946(0x365)]()[_0x1fa538(0x17d)]('=');if(_0x5eec7a&&_0x5eec7a[_0x5bea5f(0x2b5)](_0x5bea5f(0x35a))&&_0x5eec7a[_0x5bea5f(0x285)]>0x64)return console[_0x5bea5f(0x222)](_0x5bea5f(0x314),_0x151ecb),_0x5eec7a;}return console[_0x5bea5f(0x1e0)](_0x5bea5f(0x2ac)),null;}async function _0x3d6f3d(_0x2243c2){const _0xab35a6=_0x3536,_0x410ada=_0x1bd5f5,_0xc7a4a9=_0x592daa;try{const _0x43a698=await fetch(_0x2630d5,{'method':_0xc7a4a9(0x25e),'headers':{'Content-Type':_0xc7a4a9(0x1d4),'Authorization':_0x410ada(0x201)+_0x2243c2},'body':JSON[_0x410ada(0x27a)]({'operationName':_0xab35a6(0x20e),'query':_0x410ada(0x21a),'variables':{}})}),_0x2591a4=await _0x43a698[_0xc7a4a9(0x265)]();if(_0x2591a4?.[_0x410ada(0x2c3)]?.[_0xc7a4a9(0x20b)])return console[_0xc7a4a9(0x222)](_0x410ada(0x1c0)),_0x2591a4[_0xc7a4a9(0x305)][_0xc7a4a9(0x20b)];return console[_0x410ada(0x281)](_0xc7a4a9(0x1e3),_0x2591a4),null;}catch(_0x29e957){return console[_0xc7a4a9(0x1e0)](_0xc7a4a9(0x318),_0x29e957),null;}}function _0x1a7300(){const _0x39aa62=_0x1bd5f5,_0x3089ae=_0x592daa,_0x75d9ec=document[_0x3089ae(0x24b)](_0x3089ae(0x28f)),_0x389ab1=_0x75d9ec[_0x3089ae(0x214)][_0x3089ae(0x216)]()[_0x3089ae(0x201)]();if(!_0x389ab1){alert(_0x3089ae(0x286));return;}if(!/^[A-Z0-9]{4,20}$/[_0x3089ae(0x340)](_0x389ab1)){alert(_0x3089ae(0x298));return;}if(_0xb85736[_0x389ab1]){alert(_0x39aa62(0x21f));return;}const _0x5ea593={'code':_0x389ab1,'timestamp':new Date()[_0x39aa62(0x182)](),'claimed':![],'manual':!![],'amount':_0x39aa62(0x284),'wager':_0x3089ae(0x1f4),'deadline':_0x3089ae(0x311)};_0x1590cb[_0x3089ae(0x28c)](_0x5ea593),_0x1e583a(),_0x3d462a(),console[_0x39aa62(0x14a)](_0x3089ae(0x2f4)+_0x389ab1),_0x9801ef(),_0x2f8a5f(_0x389ab1);}const _0x2ce946=typeof unsafeWindow!==_0x592daa(0x22b)?unsafeWindow:window;function _0x28ec2e(){const _0xd795f0=_0x1b77a2,_0x5999c5=_0xd0c6c0,_0xf57081=_0x1bd5f5,_0x2b5e7a=_0x592daa;if(_0x2ce946[_0x2b5e7a(0x2f8)]?.[_0x2b5e7a(0x26c)])return console[_0x2b5e7a(0x222)](_0x2b5e7a(0x1cf)),_0x2ce946[_0x2b5e7a(0x2f8)][_0xd795f0(0x1ec)];if(_0x2ce946[_0x2b5e7a(0x378)])return console[_0x2b5e7a(0x222)](_0x2b5e7a(0x337)),_0x2ce946[_0x2b5e7a(0x378)];if(_0x2ce946[_0x2b5e7a(0x32a)]?.[_0x2b5e7a(0x26c)])return console[_0x2b5e7a(0x222)](_0xf57081(0x1f1)),_0x2ce946[_0x5999c5(0x1f1)][_0x2b5e7a(0x26c)];return console[_0xf57081(0x14a)](_0x2b5e7a(0x2eb)),null;}function _0x2f8a5f(_0x2a040d){const _0x123c3b=_0xd0c6c0,_0x3a4653=_0x1bd5f5,_0x2027e8=_0x592daa;if(_0x3e018d[_0x2a040d]){console[_0x2027e8(0x222)](_0x2027e8(0x2ba)+_0x2a040d);return;}if(_0xb85736[_0x2a040d]){console[_0x2027e8(0x222)](_0x2027e8(0x26e)+_0x2a040d);return;}if(_0x130a68[_0x2a040d]){console[_0x2027e8(0x222)](_0x3a4653(0x20a)+_0x2a040d);return;}if(!_0x24fe0b){console[_0x2027e8(0x222)](_0x3a4653(0x2d1)),_0x10cc22(_0x123c3b(0x278));return;}_0x4dc459(),_0x306ed7=_0x2a040d,_0x323b96=_0x3a4653(0x2a1),_0x3e018d[_0x2a040d]=!![],_0xb85736[_0x2a040d]=Date[_0x2027e8(0x26a)](),GM_setValue(_0x2027e8(0x229),_0xb85736),console[_0x2027e8(0x222)](_0x3a4653(0x22d)+_0x2a040d),_0x10cc22('⚡\x20'+_0x2a040d);const _0x1e4acb=_0x28ec2e();if(_0x1e4acb){console[_0x2027e8(0x222)](_0x2027e8(0x335));const _0x1d4628=window[_0x2027e8(0x23a)][_0x2027e8(0x200)];_0x1e4acb[_0x2027e8(0x2da)]({'pathname':_0x1d4628,'query':{'modal':'c','md-code':_0x2a040d}},undefined,{'shallow':!![],'scroll':![]})[_0x2027e8(0x29c)](()=>{const _0x11c537=_0x3a4653,_0x5df56d=_0x2027e8;console[_0x11c537(0x14a)](_0x5df56d(0x1f5)),_0x32a493(_0x2a040d);})[_0x2027e8(0x2e5)](_0x213af9=>{const _0x2d44c8=_0x44c8,_0x16d9ec=_0x2027e8;console[_0x2d44c8(0x1dc)](_0x16d9ec(0x292),_0x213af9),_0x2bace4(_0x2a040d);});}else console[_0x2027e8(0x222)](_0x2027e8(0x24a)),_0x2bace4(_0x2a040d);GM_notification({'title':_0x2027e8(0x226),'text':_0x2a040d,'timeout':0x7d0});}function _0x2bace4(_0x3151ba){const _0xde65bb=_0x1bd5f5;console[_0xde65bb(0x14a)](_0xde65bb(0x1d5));let _0x153f00=0x0;const _0xdfbb15=0x32,_0x3e3858=setInterval(()=>{const _0x5e2048=_0xde65bb,_0x59501a=_0x3c85;_0x153f00++;if(_0x2ce946[_0x59501a(0x2f8)]?.[_0x5e2048(0x12b)]?.[_0x59501a(0x2da)]){clearInterval(_0x3e3858),console[_0x59501a(0x222)](_0x59501a(0x261));const _0x1eba3e=_0x2ce946[_0x59501a(0x23a)][_0x59501a(0x200)];_0x2ce946[_0x59501a(0x2f8)][_0x59501a(0x26c)][_0x59501a(0x2da)]({'pathname':_0x1eba3e,'query':{'modal':'c','md-code':_0x3151ba}},undefined,{'shallow':!![]})[_0x59501a(0x29c)](()=>{const _0x1514a9=_0x59501a;console[_0x1514a9(0x222)](_0x1514a9(0x275)),_0x32a493(_0x3151ba);})[_0x5e2048(0x23f)](_0x5325d6=>{const _0x1e2aa6=_0x5e2048,_0x4389aa=_0x59501a;console[_0x1e2aa6(0x281)](_0x4389aa(0x292),_0x5325d6),_0x1005d1(_0x3151ba,![],_0x1e2aa6(0x26e));});return;}_0x153f00>=_0xdfbb15&&(clearInterval(_0x3e3858),console[_0x59501a(0x222)](_0x59501a(0x29f)),_0x1005d1(_0x3151ba,![],_0x59501a(0x21f)),GM_notification({'title':_0x59501a(0x227),'text':_0x59501a(0x272)+_0x3151ba+_0x59501a(0x24c),'timeout':0x1388}));},0x32);}function _0x32a493(_0xab9e38){if(_0x130a68[_0xab9e38])return;let _0x414329=0x0;const _0x27d2e4=0x64,_0x5c20c3=setInterval(()=>{const _0x31909e=_0x5332,_0x2c04a2=_0x3c85;_0x414329++;if(_0x130a68[_0xab9e38]){clearInterval(_0x5c20c3);return;}const _0xfda665=document[_0x31909e(0x292)](_0x2c04a2(0x328));let _0x335864=null;for(let _0x547213 of _0xfda665){const _0xb18257=_0x547213[_0x2c04a2(0x224)](_0x2c04a2(0x24f));if(_0xb18257){_0x335864=_0x547213[_0x31909e(0x249)](_0x2c04a2(0x20f));if(_0x335864)break;}}if(_0x335864)clearInterval(_0x5c20c3),console[_0x2c04a2(0x222)](_0x2c04a2(0x373)),_0x335864[_0x2c04a2(0x2ed)](),_0x4cc037(_0xab9e38);else{if(_0x414329>=_0x27d2e4){clearInterval(_0x5c20c3),_0x306ed7=null,_0x323b96=null;const _0x39bf98=document[_0x31909e(0x249)](_0x2c04a2(0x328));!_0x39bf98?(console[_0x2c04a2(0x222)]('❌\x20'+_0xab9e38+_0x2c04a2(0x26f)),_0x130a68[_0xab9e38]=_0x2c04a2(0x2d7),_0x1005d1(_0xab9e38,![],_0x2c04a2(0x1f2)),_0x318caf()):(console[_0x2c04a2(0x222)](_0x2c04a2(0x1f3)+_0xab9e38+_0x31909e(0x28c)),GM_setValue(_0x2c04a2(0x2df),_0xab9e38),GM_setValue(_0x31909e(0x193),Date[_0x31909e(0x188)]()),delete _0x3e018d[_0xab9e38],delete _0xb85736[_0xab9e38],GM_setValue(_0x2c04a2(0x229),_0xb85736),setTimeout(()=>window[_0x2c04a2(0x23a)][_0x31909e(0x1a6)](),0x1f4));}}},0x32);}let _0x59d2e3=![],_0x306ed7=null,_0x323b96=null;function _0x4dc459(){const _0x18757c=_0x3536,_0x5695dc=_0x1bd5f5,_0x5456a4=_0x592daa;if(_0x59d2e3)return;const _0x435237=unsafeWindow[_0x5456a4(0x2ae)];unsafeWindow[_0x5456a4(0x2ae)]=async function(..._0x4efcb3){const _0x535b22=_0x532d,_0x437a90=_0x5332,_0x2d3740=_0x5456a4,_0x573f50=await _0x435237[_0x2d3740(0x2e2)](this,_0x4efcb3),_0x2dee16=_0x4efcb3[0x0]?.[_0x437a90(0x2c5)]||_0x4efcb3[0x0];if(!_0x2dee16||!_0x2dee16[_0x2d3740(0x354)](_0x437a90(0x18b))||!_0x306ed7)return _0x573f50;if(_0x130a68[_0x306ed7])return _0x573f50;let _0x111712=null;try{const _0xb6f956=_0x4efcb3[0x1]?.[_0x437a90(0x2e6)];if(_0xb6f956){const _0x4c0c50=JSON[_0x2d3740(0x264)](_0xb6f956);_0x111712=_0x4c0c50[_0x2d3740(0x1f8)];}}catch(_0x4922ab){}try{const _0x56477f=_0x573f50[_0x2d3740(0x217)](),_0x194620=await _0x56477f[_0x2d3740(0x265)]();if(_0x111712===_0x2d3740(0x353)){if(_0x194620[_0x2d3740(0x336)]&&_0x194620[_0x437a90(0x224)][_0x2d3740(0x285)]>0x0){const _0x2f4a97=_0x306ed7,_0x89fdbb=_0x194620[_0x2d3740(0x336)][0x0][_0x437a90(0x254)]||_0x2d3740(0x1f2);_0x306ed7=null,_0x323b96=null,console[_0x2d3740(0x222)]('❌\x20'+_0x2f4a97+':\x20'+_0x89fdbb+_0x437a90(0x2cb)),_0x1005d1(_0x2f4a97,![],_0x89fdbb),_0x318caf();}else _0x194620[_0x2d3740(0x305)]?.[_0x2d3740(0x353)]&&(console[_0x2d3740(0x222)]('✓\x20'+_0x306ed7+_0x2d3740(0x1f7)),_0x323b96=_0x2d3740(0x34b));}else{if(_0x111712===_0x2d3740(0x236)){const _0x595edc=_0x306ed7;if(_0x194620[_0x2d3740(0x336)]&&_0x194620[_0x2d3740(0x336)][_0x2d3740(0x285)]>0x0){const _0x9e443b=_0x194620[_0x2d3740(0x336)][0x0][_0x535b22(0x257)]||_0x2d3740(0x323);_0x306ed7=null,_0x323b96=null,console[_0x437a90(0x14a)]('❌\x20'+_0x595edc+':\x20'+_0x9e443b),_0x1005d1(_0x595edc,![],_0x9e443b),_0x318caf();}else _0x194620[_0x2d3740(0x305)]?.[_0x2d3740(0x239)]&&(_0x306ed7=null,_0x323b96=null,console[_0x437a90(0x14a)]('✅\x20'+_0x595edc+_0x2d3740(0x34d)),_0x1005d1(_0x595edc,!![],null),_0x318caf());}}}catch(_0x526b11){}return _0x573f50;},_0x59d2e3=!![],console[_0x5695dc(0x14a)](_0x18757c(0x10d));}function _0x4cc037(_0x433109){let _0x13adc0=0x0;const _0x413ce0=0x64,_0x598ec7=setInterval(()=>{const _0x38f2ea=_0x3536,_0xc885=_0x532d,_0x20793f=_0x5332,_0x381d83=_0x3c85;_0x13adc0++;if(_0x130a68[_0x433109]){clearInterval(_0x598ec7);return;}const _0x579662=document[_0xc885(0x1c0)](_0x381d83(0x1e6));if(_0x579662){const _0x47457f=window[_0x381d83(0x1eb)](_0x579662),_0x33ed88=_0x579662[_0x381d83(0x1ee)](),_0x5b18fb=_0x47457f[_0x381d83(0x2f5)]!==_0x20793f(0x272)&&_0x47457f[_0x20793f(0x143)]!==_0x20793f(0x153)&&_0x47457f[_0x381d83(0x299)]!=='0'&&_0x33ed88[_0x381d83(0x2bc)]>0x0&&_0x33ed88[_0x20793f(0x2cd)]>0x0;if(_0x5b18fb){clearInterval(_0x598ec7),_0x306ed7=null,_0x323b96=null,GM_setValue(_0x381d83(0x2df),_0x433109),GM_setValue(_0x38f2ea(0x10b),Date[_0x381d83(0x26a)]()),delete _0x3e018d[_0x433109],delete _0xb85736[_0x433109],GM_setValue(_0x381d83(0x229),_0xb85736),console[_0x20793f(0x14a)](_0x381d83(0x21d)+_0x433109),setTimeout(()=>window[_0x20793f(0x194)][_0x20793f(0x1a6)](),0x1f4);return;}}_0x13adc0>=_0x413ce0&&!_0x130a68[_0x433109]&&(clearInterval(_0x598ec7),_0x306ed7=null,_0x323b96=null,console[_0x381d83(0x222)](_0x381d83(0x30e)+_0x433109+_0x381d83(0x32b)));},0x32);}function _0x318caf(){const _0x3620b6=_0x2c33f5,_0x31f91d=_0x1bd5f5,_0x3fa72e=_0x592daa;console[_0x3fa72e(0x222)](_0x3fa72e(0x2c0));const _0x168f42=document[_0x31f91d(0x249)](_0x3fa72e(0x32f));if(_0x168f42)_0x168f42[_0x3fa72e(0x2ed)]();const _0x42caac=document[_0x3fa72e(0x224)](_0x3fa72e(0x377));if(_0x42caac)_0x42caac[_0x3fa72e(0x2ed)]();const _0x4e174e=_0x28ec2e();_0x4e174e?_0x4e174e[_0x3fa72e(0x36c)](window[_0x3fa72e(0x23a)][_0x3fa72e(0x200)],undefined,{'shallow':!![]})[_0x31f91d(0x23f)](()=>{const _0x456ee3=_0x3fa72e;window[_0x456ee3(0x25d)][_0x456ee3(0x21c)]({},'',window[_0x456ee3(0x23a)][_0x456ee3(0x200)]);}):window[_0x3fa72e(0x25d)][_0x3620b6(0x1e3)]({},'',window[_0x3fa72e(0x23a)][_0x3fa72e(0x200)]),console[_0x3fa72e(0x222)](_0x3fa72e(0x346));}async function _0x3a3847(_0x3ef3f2,_0xefc2ef=0x1){const _0x2e39a7=_0xd0c6c0,_0x13d03f=_0x1bd5f5,_0x39ce10=_0x592daa;console[_0x39ce10(0x222)](_0x39ce10(0x37d)+_0x3ef3f2+_0x13d03f(0x19d)+_0xefc2ef+')');if(!_0x24fe0b){console[_0x39ce10(0x222)](_0x39ce10(0x2a5)),_0x10cc22(_0x13d03f(0x25f));return;}if(_0xefc2ef===0x1&&_0xb85736[_0x3ef3f2]){console[_0x39ce10(0x222)](_0x39ce10(0x2fd)+_0x3ef3f2);return;}_0xefc2ef===0x1&&(_0xb85736[_0x3ef3f2]=Date[_0x39ce10(0x26a)](),GM_setValue(_0x39ce10(0x229),_0xb85736)),_0x10cc22(_0x39ce10(0x21a)+_0x3ef3f2+_0x39ce10(0x2f3)+_0xefc2ef+_0x39ce10(0x2bf));const _0x68d5ed=_0x4a3d50();if(!_0x68d5ed){console[_0x39ce10(0x1e0)](_0x13d03f(0x1a9)),_0x10cc22(_0x13d03f(0x1e0)),_0xefc2ef>=0x3?(_0x1005d1(_0x3ef3f2,![],_0x39ce10(0x2fc)),retryAttempts[_0x3ef3f2]=0x0,GM_setValue(_0x39ce10(0x218),retryAttempts)):(retryAttempts[_0x3ef3f2]=_0xefc2ef,GM_setValue(_0x39ce10(0x218),retryAttempts),setTimeout(()=>_0x3a3847(_0x3ef3f2,_0xefc2ef+0x1),0x7d0));return;}console[_0x39ce10(0x222)](_0x39ce10(0x32d),_0x68d5ed[_0x39ce10(0x306)](0x0,0x14)+_0x39ce10(0x249));const _0x3016d5=await _0x3d6f3d(_0x68d5ed);if(!_0x3016d5){console[_0x39ce10(0x1e0)](_0x39ce10(0x225)),_0xefc2ef>=0x3?(_0x10cc22(_0x39ce10(0x2d0)),_0x1005d1(_0x3ef3f2,![],_0x39ce10(0x225)),retryAttempts[_0x3ef3f2]=0x0,GM_setValue(_0x39ce10(0x218),retryAttempts)):(retryAttempts[_0x3ef3f2]=_0xefc2ef,GM_setValue(_0x39ce10(0x218),retryAttempts),setTimeout(()=>_0x3a3847(_0x3ef3f2,_0xefc2ef+0x1),0xbb8));return;}const _0x43f6c4={'operationName':_0x39ce10(0x236),'variables':{'data':{'codeSlug':_0x3ef3f2,'currency':_0x2aa1af,'token':_0x3016d5}},'query':_0x13d03f(0x13a)};fetch(_0x2630d5,{'method':_0x39ce10(0x25e),'headers':{'Content-Type':_0x39ce10(0x1d4),'Authorization':_0x2e39a7(0x2c5)+_0x68d5ed},'body':JSON[_0x13d03f(0x27a)](_0x43f6c4)})[_0x39ce10(0x29c)](_0x1afbb8=>_0x1afbb8[_0x39ce10(0x265)]())[_0x39ce10(0x29c)](_0x3d6ab0=>{const _0x2a8d94=_0x44c8,_0x995555=_0x13d03f,_0x52b8d6=_0x39ce10;console[_0x52b8d6(0x222)](_0x52b8d6(0x344),_0x3d6ab0);if(_0x3d6ab0[_0x995555(0x224)]){const _0x25063b=_0x3d6ab0[_0x995555(0x224)][0x0]?.[_0x52b8d6(0x28a)]||_0x52b8d6(0x333);console[_0x52b8d6(0x222)](_0x52b8d6(0x232)+_0xefc2ef+'):',_0x25063b);const _0x3f2c3e=_0x25063b[_0x52b8d6(0x1ed)]();if(_0x3f2c3e[_0x52b8d6(0x354)](_0x52b8d6(0x273))||_0x3f2c3e[_0x52b8d6(0x354)](_0x52b8d6(0x267))||_0x3f2c3e[_0x995555(0x14d)](_0x52b8d6(0x20c))){console[_0x52b8d6(0x222)](_0x52b8d6(0x375)),_0x10cc22(_0x52b8d6(0x368)),_0x1005d1(_0x3ef3f2,![],_0x52b8d6(0x270)),retryAttempts[_0x3ef3f2]=0x0,GM_setValue(_0x52b8d6(0x218),retryAttempts),GM_notification({'title':_0x995555(0x1cc),'text':_0x995555(0x295),'timeout':0x1388});return;}_0xefc2ef>=0x3?(_0x10cc22(_0x52b8d6(0x23d)+_0x3ef3f2),_0x1005d1(_0x3ef3f2,![],_0x25063b),retryAttempts[_0x3ef3f2]=0x0,GM_setValue(_0x995555(0x1b6),retryAttempts),console[_0x52b8d6(0x222)](_0x52b8d6(0x2fb))):(_0x10cc22(_0x52b8d6(0x269)+_0x3ef3f2+_0x52b8d6(0x2b4)),retryAttempts[_0x3ef3f2]=_0xefc2ef,GM_setValue(_0x52b8d6(0x218),retryAttempts),setTimeout(()=>_0x3a3847(_0x3ef3f2,_0xefc2ef+0x1),0xbb8));}else{if(_0x3d6ab0[_0x995555(0x2c3)]?.[_0x52b8d6(0x239)]){const _0x498e48=_0x3d6ab0[_0x52b8d6(0x305)][_0x2a8d94(0x1e3)];console[_0x52b8d6(0x222)](_0x52b8d6(0x263),_0x498e48),_0x10cc22(_0x52b8d6(0x296)+_0x3ef3f2+_0x995555(0x1f3)+_0x498e48[_0x52b8d6(0x2b8)]),GM_notification({'title':_0x52b8d6(0x2a9),'text':_0x3ef3f2+_0x52b8d6(0x1d8)+_0x498e48[_0x995555(0x158)],'timeout':0x1388}),_0x1005d1(_0x3ef3f2,!![],null),retryAttempts[_0x3ef3f2]=0x0,GM_setValue(_0x52b8d6(0x218),retryAttempts),console[_0x52b8d6(0x222)](_0x995555(0x2d5));}}})[_0x39ce10(0x2e5)](_0x441492=>{const _0x40982f=_0x13d03f,_0x3822f9=_0x39ce10;console[_0x3822f9(0x1e0)](_0x3822f9(0x30c),_0x441492),_0xefc2ef>=0x3?(_0x10cc22(_0x3822f9(0x2a3)),_0x1005d1(_0x3ef3f2,![],_0x3822f9(0x2d5)+_0x441492[_0x3822f9(0x28a)]),retryAttempts[_0x3ef3f2]=0x0,GM_setValue(_0x40982f(0x1b6),retryAttempts),console[_0x3822f9(0x222)](_0x3822f9(0x2de))):(_0x10cc22(_0x3822f9(0x269)+_0x3ef3f2+_0x3822f9(0x2b4)),retryAttempts[_0x3ef3f2]=_0xefc2ef,GM_setValue(_0x3822f9(0x218),retryAttempts),setTimeout(()=>_0x3a3847(_0x3ef3f2,_0xefc2ef+0x1),0xbb8));});}function _0x1433c0(){const _0x11895d=_0xd0c6c0,_0x377375=_0x1bd5f5,_0xaa3a05=_0x592daa;GM_xmlhttpRequest({'method':_0xaa3a05(0x300),'url':_0x3c64d7+_0x11895d(0x28b),'headers':_0x2e51be?{'Authorization':_0x377375(0x201)+_0x2e51be}:{},'onload':function(_0x45b899){const _0x1e63a2=_0x377375,_0x257c83=_0xaa3a05;try{const _0x9ab671=JSON[_0x257c83(0x264)](_0x45b899[_0x257c83(0x20a)]);_0x1590cb=_0x9ab671,_0x27cd1b();const _0x188d22=_0x9ab671[_0x1e63a2(0x234)](_0x525279=>!_0x525279[_0x257c83(0x27b)]&&!_0x525279[_0x257c83(0x2e8)]&&!_0xb85736[_0x525279[_0x257c83(0x2e1)]]);if(_0x188d22[_0x1e63a2(0x1e8)]>0x0){const _0x7e3d0b=_0x188d22[0x0];console[_0x257c83(0x222)](_0x257c83(0x208)+_0x7e3d0b[_0x257c83(0x2e1)]),GM_notification({'title':_0x257c83(0x2c2),'text':_0x7e3d0b[_0x257c83(0x2e1)],'timeout':0x7d0}),_0x2f8a5f(_0x7e3d0b[_0x257c83(0x2e1)]);}else _0x10cc22(_0x257c83(0x2a8));}catch(_0x7e3cd){console[_0x1e63a2(0x281)](_0x1e63a2(0x183),_0x7e3cd);}},'onerror':function(_0x128952){const _0x28c7cc=_0xaa3a05;_0x10cc22(_0x28c7cc(0x356));}});}function _0x3d462a(){const _0x1aee53=_0x1bd5f5,_0x52ce8b=_0x592daa,_0xacc1c0=document[_0x52ce8b(0x24b)](_0x52ce8b(0x2d3));if(!_0xacc1c0)return;if(_0x1590cb[_0x1aee53(0x1e8)]===0x0){_0xacc1c0[_0x52ce8b(0x30a)]=_0x52ce8b(0x35b);return;}_0xacc1c0[_0x52ce8b(0x30a)]=_0x1590cb[_0x52ce8b(0x1d7)](_0x22bcf2=>{const _0x5aab32=_0x3536,_0x4ed8d5=_0x532d,_0x19fd8c=_0x1aee53,_0x4571c1=_0x52ce8b;let _0x5863ed='',_0x4740af='',_0xbd799='';if(_0x22bcf2[_0x4571c1(0x27b)])_0x5863ed=_0x19fd8c(0x195),_0x4740af=_0x4571c1(0x27b);else _0x22bcf2[_0x4571c1(0x2e8)]?(_0x5863ed=_0x19fd8c(0x15e),_0x4740af=_0x4571c1(0x2d7),_0xbd799=_0x4571c1(0x37f)+_0x22bcf2[_0x4571c1(0x2e8)]+_0x4571c1(0x302)):(_0x5863ed=_0x19fd8c(0x285),_0x4740af=_0x19fd8c(0x2b1));return _0x19fd8c(0x1eb)+_0x4740af+_0x4571c1(0x28e)+_0x22bcf2[_0x19fd8c(0x186)]+_0x4571c1(0x1ff)+_0x4740af+_0x4571c1(0x2e9)+_0x5863ed+_0x4571c1(0x242)+(_0x22bcf2[_0x4571c1(0x214)]||_0x22bcf2[_0x19fd8c(0x20d)]||'-')+_0x19fd8c(0x265)+(_0x22bcf2[_0x19fd8c(0x2b4)]?_0x4571c1(0x31e)+_0x22bcf2[_0x19fd8c(0x2b4)]:'-')+_0x19fd8c(0x1ba)+(_0x22bcf2[_0x4571c1(0x327)]||_0x22bcf2[_0x5aab32(0x1d6)]||'-')+_0x4571c1(0x248)+(_0x22bcf2[_0x4571c1(0x382)]||_0x22bcf2[_0x4571c1(0x37c)]||'-')+_0x5aab32(0x183)+(_0x22bcf2[_0x4571c1(0x27b)]?_0x4ed8d5(0x2ec):_0x22bcf2[_0x4571c1(0x2e8)]?_0x4571c1(0x363):_0x19fd8c(0x1fa))+_0x19fd8c(0x27b)+_0xbd799+_0x4571c1(0x358);})[_0x52ce8b(0x206)]('');}function _0x27cd1b(){const _0x20c7e5=_0x1bd5f5,_0x16f879=_0x592daa,_0x231dbf=document[_0x16f879(0x24b)](_0x16f879(0x252)),_0x354e52=document[_0x16f879(0x24b)](_0x20c7e5(0x20f));if(!_0x231dbf){if(_0x354e52)_0x354e52[_0x16f879(0x365)]();_0x27fc97();}}function _0x10cc22(_0x338576){const _0x48fd8c=_0x1bd5f5,_0x280213=_0x592daa,_0x3462aa=document[_0x280213(0x24b)](_0x280213(0x308));if(_0x3462aa)_0x3462aa[_0x48fd8c(0x180)]=_0x338576;}function _0x5b05a4(){const _0x3325d9=_0x592daa,_0x21d597=document[_0x3325d9(0x24b)](_0x3325d9(0x2b1));_0x21d597[_0x3325d9(0x219)][_0x3325d9(0x2f5)]===_0x3325d9(0x1e1)?(_0x21d597[_0x3325d9(0x219)][_0x3325d9(0x2f5)]=_0x3325d9(0x247),_0x3d462a()):_0x21d597[_0x3325d9(0x219)][_0x3325d9(0x2f5)]=_0x3325d9(0x1e1);}function _0x188900(){const _0x1a70b1=_0xd0c6c0,_0x42c753=_0x1bd5f5,_0x40f7a1=_0x592daa,_0x1c34fa=document[_0x40f7a1(0x24b)](_0x40f7a1(0x241)),_0x47b034=document[_0x40f7a1(0x24b)](_0x1a70b1(0x21d));_0x1c34fa&&(_0x1c34fa[_0x42c753(0x123)][_0x40f7a1(0x2f5)]===_0x40f7a1(0x1e1)||!_0x1c34fa[_0x40f7a1(0x219)][_0x40f7a1(0x2f5)]?(_0x1c34fa[_0x40f7a1(0x219)][_0x42c753(0x1d2)]=_0x40f7a1(0x2d6),_0x47b034&&(_0x47b034[_0x40f7a1(0x214)]='',setTimeout(()=>_0x47b034[_0x40f7a1(0x2a7)](),0x64))):_0x1c34fa[_0x40f7a1(0x219)][_0x40f7a1(0x2f5)]=_0x40f7a1(0x1e1));}function _0x9801ef(){const _0x2ecab9=_0x592daa,_0x8a238b=document[_0x2ecab9(0x24b)](_0x2ecab9(0x241));_0x8a238b&&(_0x8a238b[_0x2ecab9(0x219)][_0x2ecab9(0x2f5)]=_0x2ecab9(0x1e1));}function _0x1ac2f2(){const _0x3b78c1=_0xd0c6c0,_0x53c52e=_0x1bd5f5,_0x2f7728=_0x592daa,_0x94149f=document[_0x3b78c1(0x21c)](_0x2f7728(0x252)),_0x4c3d28=document[_0x2f7728(0x24b)](_0x2f7728(0x20d)),_0x1ac791=document[_0x2f7728(0x24b)](_0x2f7728(0x2b1));_0x94149f[_0x2f7728(0x219)][_0x2f7728(0x2f5)]===_0x2f7728(0x1e1)?(_0x94149f[_0x53c52e(0x123)][_0x2f7728(0x2f5)]=_0x2f7728(0x247),_0x4c3d28[_0x2f7728(0x219)][_0x2f7728(0x2f5)]=_0x2f7728(0x1e1),GM_setValue(_0x2f7728(0x240),!![])):(_0x94149f[_0x2f7728(0x219)][_0x2f7728(0x2f5)]=_0x2f7728(0x1e1),_0x4c3d28[_0x3b78c1(0x2c0)][_0x3b78c1(0x226)]=_0x53c52e(0x1c4),_0x1ac791[_0x2f7728(0x219)][_0x2f7728(0x2f5)]=_0x2f7728(0x1e1),GM_setValue(_0x53c52e(0x1af),![]));}function _0x39f87a(){const _0x422b0d=_0x1bd5f5,_0x519a03=_0x592daa;if(_0xcc1602){console[_0x519a03(0x222)](_0x519a03(0x347));return;}if(!_0x24fe0b){console[_0x519a03(0x222)](_0x422b0d(0x12d));return;}_0xcc1602=!![],console[_0x422b0d(0x14a)](_0x519a03(0x2a0)),_0x15e164=setInterval(()=>{const _0x4dd8e6=_0x532d,_0xef4c5c=_0x422b0d,_0x4ab4c7=_0x519a03;if(!_0x24fe0b){console[_0x4ab4c7(0x222)](_0x4ab4c7(0x33f)),_0x15e164&&(clearInterval(_0x15e164),_0x15e164=null),_0xcc1602=![];return;}GM_xmlhttpRequest({'method':_0x4dd8e6(0x377),'url':_0x3c64d7+_0x4ab4c7(0x35d),'headers':_0x2e51be?{'Authorization':_0xef4c5c(0x201)+_0x2e51be}:{},'onload':function(_0x44e415){const _0x39ce0e=_0x4dd8e6,_0xe322e2=_0xef4c5c,_0x12463a=_0x4ab4c7;if(!_0x24fe0b){console[_0x12463a(0x222)](_0xe322e2(0x219));return;}try{const _0x5cd9c5=JSON[_0x12463a(0x264)](_0x44e415[_0x39ce0e(0x22d)]),_0x56ac5b=parseInt(GM_getValue(_0x12463a(0x2d2),'0'));_0x5cd9c5[_0x12463a(0x209)](_0x1e4bb4=>{const _0x25e32b=_0x39ce0e,_0x380e1f=_0xe322e2,_0x46970d=_0x12463a,_0x2aa9c3=new Date(_0x1e4bb4[_0x46970d(0x2f0)])[_0x380e1f(0x246)](),_0x3e1c26=_0x1590cb[_0x46970d(0x35e)](_0xcea95=>_0xcea95[_0x46970d(0x2e1)]===_0x1e4bb4[_0x380e1f(0x186)]);if(_0x56ac5b>0x0&&_0x2aa9c3<_0x56ac5b)return;if(!_0x3e1c26){_0x1590cb[_0x46970d(0x28c)](_0x1e4bb4),console[_0x46970d(0x222)](_0x380e1f(0x218)+_0x1e4bb4[_0x380e1f(0x186)]);if(_0x24fe0b){const _0x3c975e=_0x1e4bb4[_0x46970d(0x214)]||_0x1e4bb4[_0x46970d(0x246)]||_0x46970d(0x311),_0x2e1852=_0x1e4bb4[_0x46970d(0x1d2)]?_0x46970d(0x31e)+_0x1e4bb4[_0x46970d(0x1d2)]:_0x46970d(0x311);GM_notification({'title':_0x380e1f(0x181)+_0x1e4bb4[_0x46970d(0x2e1)],'text':_0x3c975e+_0x380e1f(0x1b9)+_0x2e1852+_0x380e1f(0x1c7)+_0x1e4bb4[_0x46970d(0x2e1)]+_0x46970d(0x35c),'timeout':0x2710}),_0x166ecd(_0x1e4bb4);}}else _0x3e1c26[_0x46970d(0x214)]=_0x1e4bb4[_0x46970d(0x214)],_0x3e1c26[_0x46970d(0x1d2)]=_0x1e4bb4[_0x46970d(0x1d2)],_0x3e1c26[_0x46970d(0x327)]=_0x1e4bb4[_0x46970d(0x327)],_0x3e1c26[_0x46970d(0x382)]=_0x1e4bb4[_0x46970d(0x382)],_0x3e1c26[_0x46970d(0x246)]=_0x1e4bb4[_0x46970d(0x246)],_0x3e1c26[_0x25e32b(0x1ca)]=_0x1e4bb4[_0x25e32b(0x1ca)],_0x3e1c26[_0x46970d(0x37c)]=_0x1e4bb4[_0x380e1f(0x16d)];}),_0x1e583a(),_0x3d462a(),_0x27cd1b();if(!_0x24fe0b)return;const _0x3d611b=_0x1590cb[_0x12463a(0x1f6)](_0x2ef204=>!_0x2ef204[_0xe322e2(0x2e5)]&&!_0x2ef204[_0xe322e2(0x1ae)]&&!_0xb85736[_0x2ef204[_0x12463a(0x2e1)]]);if(_0x3d611b[_0x39ce0e(0x24a)]>0x0){const _0x261999=_0x3d611b[0x0];console[_0x12463a(0x222)](_0xe322e2(0x23a)+_0x261999[_0x12463a(0x2e1)]),GM_notification({'title':_0x12463a(0x2c2),'text':_0x261999[_0xe322e2(0x186)],'timeout':0x7d0}),_0x2f8a5f(_0x261999[_0x12463a(0x2e1)]);}}catch(_0x236c1b){console[_0x12463a(0x1e0)](_0x12463a(0x268),_0x236c1b);}}});},_0x342efb[_0x519a03(0x2be)]);let _0x140ad2='';_0x59861b=setInterval(()=>{const _0x30d967=_0x532d,_0x1a1af5=_0x422b0d,_0x593e3e=_0x519a03,_0x11527a=GM_getValue(_0x30d967(0x2f1),'');if(_0x11527a&&_0x11527a!==_0x140ad2){_0x140ad2=_0x11527a;try{const _0x5d351c=JSON[_0x593e3e(0x264)](_0x11527a);console[_0x593e3e(0x222)](_0x593e3e(0x1e5),_0x5d351c);const _0x597db1=_0x1590cb[_0x593e3e(0x26b)](_0x58166e=>_0x58166e[_0x593e3e(0x2e1)]===_0x5d351c[_0x593e3e(0x2e1)]);_0x597db1>=0x0&&(_0x1590cb[_0x597db1][_0x593e3e(0x27b)]=_0x5d351c[_0x1a1af5(0x2b8)],_0x1590cb[_0x597db1][_0x1a1af5(0x1ae)]=_0x5d351c[_0x593e3e(0x2d4)]?null:_0x5d351c[_0x593e3e(0x28a)],_0x1e583a(),_0x3d462a(),_0x27cd1b(),console[_0x593e3e(0x222)](_0x593e3e(0x262)+_0x5d351c[_0x593e3e(0x2e1)]+_0x593e3e(0x27d)+(_0x5d351c[_0x1a1af5(0x2b8)]?_0x593e3e(0x22d):_0x5d351c[_0x593e3e(0x28a)])),_0x3abc69(_0x5d351c[_0x593e3e(0x2e1)],_0x5d351c[_0x1a1af5(0x2b8)],_0x5d351c[_0x593e3e(0x28a)]));}catch(_0x3b5f02){console[_0x593e3e(0x1e0)](_0x593e3e(0x27a),_0x3b5f02);}}},0x1f4),console[_0x519a03(0x222)](_0x519a03(0x288)+_0x342efb[_0x519a03(0x2be)]+_0x519a03(0x2fa)+(_0x1b16ae?_0x422b0d(0x148):_0x519a03(0x1ef))+')');}console[_0x592daa(0x222)](_0x592daa(0x24d)),console[_0x592daa(0x222)](_0x592daa(0x30d)),console[_0x1bd5f5(0x14a)](_0x3f2f6f(0x1bc),window[_0x592daa(0x23a)][_0x592daa(0x1dd)]),console[_0x592daa(0x222)](_0x592daa(0x36a),window[_0x592daa(0x23a)][_0x592daa(0x200)]),console[_0x592daa(0x222)](_0x592daa(0x33c),window[_0x592daa(0x23a)][_0x592daa(0x243)]),console[_0x592daa(0x222)](_0x592daa(0x2dc),window[_0x592daa(0x23a)][_0x592daa(0x2c5)]),console[_0x592daa(0x222)](_0x592daa(0x24d)),function _0x112d81(){const _0x46af9f=_0x592daa;console[_0x46af9f(0x222)](_0x46af9f(0x233)),setTimeout(()=>{const _0x2c2b21=_0x5332,_0x5d03fc=_0x46af9f;_0x27fc97(),_0x43a746();const _0x38e27e=GM_getValue(_0x5d03fc(0x2df),null),_0x359dd1=GM_getValue(_0x2c2b21(0x193),0x0);if(_0x38e27e&&Date[_0x5d03fc(0x26a)]()-_0x359dd1<0xea60){console[_0x5d03fc(0x222)](_0x2c2b21(0x1db)+_0x38e27e+_0x5d03fc(0x350)),GM_setValue(_0x5d03fc(0x2df),null),GM_setValue(_0x2c2b21(0x193),0x0),window[_0x5d03fc(0x29e)]=!![];const _0x3e346e=setInterval(()=>{const _0x171a0f=_0x2c2b21,_0x36068f=_0x5d03fc;_0x24fe0b&&(clearInterval(_0x3e346e),console[_0x171a0f(0x14a)](_0x171a0f(0x202)+_0x38e27e),console[_0x36068f(0x222)](_0x36068f(0x2d8)),GM_notification({'title':_0x36068f(0x244),'text':_0x38e27e+_0x36068f(0x2ec),'timeout':0x7d0}),setTimeout(()=>{_0x2f8a5f(_0x38e27e);},0x3e8));},0x1f4);setTimeout(()=>{const _0x57e0d0=_0x532d;clearInterval(_0x3e346e),window[_0x57e0d0(0x1cd)]=![];},0x7530);}},0x12c),console[_0x46af9f(0x222)](_0x46af9f(0x349)),console[_0x46af9f(0x222)](_0x46af9f(0x24d));}();}()));function _0x2f0c(){const _0x2d3ccf=_0x823d,_0x36582c=_0x44c8,_0x2d7258=_0x5818,_0x14e65c=_0x3536,_0x4ba7b3=_0x532d,_0x4b8bb6=_0x1c14d8,_0x2fee29=[_0x4b8bb6(0x1f6),_0x4ba7b3(0x2c8),_0x4b8bb6(0x14c),_0x4b8bb6(0x17c),_0x4b8bb6(0x247),_0x4b8bb6(0x182),_0x4b8bb6(0x1fd),_0x4b8bb6(0x168),_0x4b8bb6(0x225),_0x4b8bb6(0x188),_0x4ba7b3(0x36a),_0x4b8bb6(0x12b),_0x2d7258(0x227),_0x4b8bb6(0x253),_0x4b8bb6(0x2e2),_0x4b8bb6(0x1e9),_0x4b8bb6(0x279),_0x4b8bb6(0x229),_0x4b8bb6(0x29f),_0x4ba7b3(0x315),_0x4b8bb6(0x2b2),_0x4b8bb6(0x2d4),_0x4b8bb6(0x2dc),_0x4ba7b3(0x34b),_0x4b8bb6(0x15c),_0x4b8bb6(0x2dd),_0x14e65c(0x281),_0x4ba7b3(0x256),_0x4ba7b3(0x20f),_0x4ba7b3(0x1c1),_0x4b8bb6(0x201),_0x4b8bb6(0x17a),_0x4b8bb6(0x267),_0x4ba7b3(0x2de),_0x4b8bb6(0x232),_0x4b8bb6(0x18e),_0x14e65c(0x256),_0x14e65c(0x1ed),_0x4b8bb6(0x1c5),_0x4ba7b3(0x321),_0x4b8bb6(0x248),_0x4b8bb6(0x254),_0x14e65c(0x153),_0x4b8bb6(0x1a4),_0x4ba7b3(0x201),_0x4ba7b3(0x2a1),_0x4ba7b3(0x21d),_0x4b8bb6(0x29d),_0x4b8bb6(0x1cf),_0x4b8bb6(0x12c),_0x2d7258(0x1c3),_0x14e65c(0x168),_0x4b8bb6(0x199),_0x4ba7b3(0x301),_0x4b8bb6(0x13f),_0x4b8bb6(0x1ce),_0x4b8bb6(0x226),_0x4b8bb6(0x1e3),_0x36582c(0x1d4),_0x4ba7b3(0x20c),_0x2d3ccf(0x252),_0x4b8bb6(0x1dd),_0x4ba7b3(0x250),_0x4b8bb6(0x1ff),_0x4b8bb6(0x1be),_0x4ba7b3(0x2b7),_0x4ba7b3(0x2cb),_0x4b8bb6(0x1c6),_0x4b8bb6(0x242),_0x4b8bb6(0x145),_0x4ba7b3(0x296),_0x4b8bb6(0x278),_0x4b8bb6(0x21e),_0x4b8bb6(0x141),_0x4b8bb6(0x243),_0x4ba7b3(0x288),_0x4b8bb6(0x2ab),_0x4ba7b3(0x331),_0x4b8bb6(0x2a2),_0x4b8bb6(0x268),_0x4ba7b3(0x245),_0x4b8bb6(0x137),_0x4b8bb6(0x240),_0x4ba7b3(0x2c4),_0x4b8bb6(0x192),_0x4b8bb6(0x174),_0x4b8bb6(0x245),_0x4ba7b3(0x349),_0x4b8bb6(0x1d1),_0x4b8bb6(0x287),_0x4b8bb6(0x16c),_0x4ba7b3(0x218),_0x4b8bb6(0x1c1),_0x4b8bb6(0x2be),_0x4b8bb6(0x252),_0x4b8bb6(0x19b),_0x4b8bb6(0x2b6),_0x4ba7b3(0x2dd),_0x4b8bb6(0x1ca),_0x4b8bb6(0x235),_0x4ba7b3(0x22b),_0x4b8bb6(0x22c),_0x4b8bb6(0x2a7),_0x4b8bb6(0x184),_0x4ba7b3(0x213),_0x14e65c(0x269),_0x4b8bb6(0x1de),_0x4b8bb6(0x237),_0x4b8bb6(0x26a),_0x4b8bb6(0x23c),_0x4ba7b3(0x326),_0x4b8bb6(0x26d),_0x4b8bb6(0x231),_0x4b8bb6(0x2a3),_0x4ba7b3(0x373),_0x4b8bb6(0x2b8),_0x4b8bb6(0x1bc),_0x4b8bb6(0x1c4),_0x4b8bb6(0x2e8),_0x4b8bb6(0x1d7),_0x4ba7b3(0x35c),_0x4b8bb6(0x2da),_0x4b8bb6(0x191),_0x14e65c(0x101),_0x4b8bb6(0x1bd),_0x4b8bb6(0x178),_0x4b8bb6(0x1f9),_0x4b8bb6(0x149),_0x4ba7b3(0x29e),_0x14e65c(0x1df),_0x4b8bb6(0x136),_0x4b8bb6(0x259),_0x4b8bb6(0x23f),_0x4ba7b3(0x21b),_0x4b8bb6(0x291),_0x4b8bb6(0x1ae),_0x4b8bb6(0x2e1),_0x4b8bb6(0x241),_0x14e65c(0xf7),_0x4b8bb6(0x1fc),_0x4b8bb6(0x1a0),_0x4b8bb6(0x2a5),_0x14e65c(0xd4),_0x4b8bb6(0x139),_0x4b8bb6(0x1c2),_0x4b8bb6(0x130),_0x4b8bb6(0x19d),_0x4ba7b3(0x244),_0x4b8bb6(0x1d2),_0x4ba7b3(0x1ed),_0x4b8bb6(0x23d),_0x4b8bb6(0x164),_0x4b8bb6(0x1e1),_0x4b8bb6(0x127),_0x4b8bb6(0x151),_0x4b8bb6(0x280),_0x4ba7b3(0x381),_0x4b8bb6(0x271),_0x4b8bb6(0x215),_0x4b8bb6(0x1d8),_0x4b8bb6(0x298),_0x4b8bb6(0x1b5),_0x4b8bb6(0x125),_0x4ba7b3(0x1fd),_0x4ba7b3(0x31e),_0x4b8bb6(0x2c2),_0x4b8bb6(0x160),_0x4b8bb6(0x251),_0x4b8bb6(0x14f),_0x4b8bb6(0x157),_0x4ba7b3(0x290),_0x4b8bb6(0x25b),_0x4b8bb6(0x135),_0x4b8bb6(0x166),_0x4ba7b3(0x202),_0x4b8bb6(0x1d6),_0x4b8bb6(0x16a),_0x4b8bb6(0x176),_0x4b8bb6(0x1b8),_0x4b8bb6(0x19f),_0x4b8bb6(0x16f),_0x4b8bb6(0x1f8),_0x14e65c(0x114),_0x4b8bb6(0x2a0),_0x4b8bb6(0x147),_0x4b8bb6(0x25a),_0x4b8bb6(0x2c7),_0x14e65c(0x272),_0x4b8bb6(0x2cf),_0x4b8bb6(0x131),_0x4ba7b3(0x375),_0x4b8bb6(0x27e),_0x4ba7b3(0x389),_0x4ba7b3(0x372),_0x4ba7b3(0x343),_0x4b8bb6(0x1e6),_0x14e65c(0x20d),_0x4b8bb6(0x1d4),_0x4b8bb6(0x1dc),_0x4b8bb6(0x1ab),_0x14e65c(0x205),_0x4b8bb6(0x22f),_0x4b8bb6(0x20b),_0x4b8bb6(0x1a5),_0x4b8bb6(0x223),_0x4ba7b3(0x37f),_0x4b8bb6(0x155),_0x4b8bb6(0x163),_0x4ba7b3(0x33f),_0x4b8bb6(0x211),_0x4b8bb6(0x2ad),_0x4ba7b3(0x2e4),_0x4b8bb6(0x28a),_0x4b8bb6(0x224),_0x4b8bb6(0x2c9),_0x4b8bb6(0x2ce),_0x4b8bb6(0x2a6),_0x4b8bb6(0x12e),_0x4b8bb6(0x24f),_0x4b8bb6(0x258),_0x4b8bb6(0x18f),_0x4b8bb6(0x2c4),_0x4b8bb6(0x1d3),_0x4ba7b3(0x203),_0x4b8bb6(0x286),_0x14e65c(0x13e),_0x4b8bb6(0x2b9),_0x4b8bb6(0x1fe),_0x4b8bb6(0x2e0),_0x4b8bb6(0x2bb),_0x4b8bb6(0x203),_0x4b8bb6(0x1a8),_0x4ba7b3(0x305),_0x4b8bb6(0x18c),_0x4b8bb6(0x1ef),_0x4b8bb6(0x238),_0x4ba7b3(0x1fa),_0x4b8bb6(0x24c),_0x4b8bb6(0x275),_0x4b8bb6(0x19c),_0x4b8bb6(0x173),_0x14e65c(0x1e8),_0x4b8bb6(0x204),_0x4b8bb6(0x14d),_0x4b8bb6(0x16b),_0x4b8bb6(0x1ac),_0x4ba7b3(0x27e),_0x4b8bb6(0x18a),_0x4ba7b3(0x2b9),_0x4b8bb6(0x28f),_0x4ba7b3(0x22e),_0x4b8bb6(0x14b),_0x4b8bb6(0x12f),_0x4ba7b3(0x206),_0x4b8bb6(0x2d3),_0x4b8bb6(0x1f4),_0x4ba7b3(0x2f3),_0x4b8bb6(0x283),_0x4b8bb6(0x1e5),_0x4b8bb6(0x15b),_0x14e65c(0x1de),_0x4b8bb6(0x2c8),_0x4b8bb6(0x24d),_0x4b8bb6(0x216),_0x4b8bb6(0x15f),_0x4ba7b3(0x2e6),_0x4b8bb6(0x2bf),_0x4b8bb6(0x1ee),_0x4ba7b3(0x1f3),_0x4ba7b3(0x32d),_0x4b8bb6(0x214),_0x14e65c(0x122),_0x4b8bb6(0x2c6),_0x4b8bb6(0x221),_0x4b8bb6(0x213),_0x4b8bb6(0x299),_0x4b8bb6(0x257),_0x4ba7b3(0x323),_0x4b8bb6(0x22e),_0x4b8bb6(0x2df),_0x4b8bb6(0x209),_0x4ba7b3(0x379),_0x4ba7b3(0x23e),_0x4b8bb6(0x16d),_0x14e65c(0x16c),_0x4b8bb6(0x212),_0x4ba7b3(0x26a),_0x4b8bb6(0x20c),_0x4b8bb6(0x17e),_0x4b8bb6(0x296),_0x4b8bb6(0x260),_0x4b8bb6(0x27f),_0x4ba7b3(0x358),_0x4b8bb6(0x277),_0x4b8bb6(0x1f5),_0x4b8bb6(0x172),_0x4b8bb6(0x255),_0x4ba7b3(0x29f),_0x4b8bb6(0x2b4),_0x4b8bb6(0x2d6),_0x4ba7b3(0x204),_0x4b8bb6(0x23b),_0x4b8bb6(0x256),_0x4b8bb6(0x208),_0x4ba7b3(0x233),_0x4b8bb6(0x21b),_0x4b8bb6(0x187),_0x14e65c(0x20c),_0x4b8bb6(0x134),_0x4b8bb6(0x26b),_0x14e65c(0xe8),_0x4ba7b3(0x24d),_0x4b8bb6(0x281),_0x4b8bb6(0x272),_0x4ba7b3(0x2fa),_0x4b8bb6(0x2e7),_0x4b8bb6(0x264),_0x4b8bb6(0x26c),_0x4b8bb6(0x159),_0x4b8bb6(0x2cc),_0x4ba7b3(0x37d),_0x4b8bb6(0x274),_0x4b8bb6(0x140),_0x4b8bb6(0x207),_0x4b8bb6(0x1c3),_0x4b8bb6(0x2e4),_0x4b8bb6(0x210),_0x14e65c(0xff),_0x4b8bb6(0x133),_0x4b8bb6(0x169),_0x36582c(0xc0),_0x4b8bb6(0x217),_0x4ba7b3(0x1d3),_0x4b8bb6(0x19e),_0x4b8bb6(0x234),_0x4b8bb6(0x263),_0x4ba7b3(0x37e),_0x4b8bb6(0x129),_0x4b8bb6(0x1cd),_0x4b8bb6(0x161),_0x4b8bb6(0x1da),_0x4b8bb6(0x246),_0x4ba7b3(0x26b),_0x4b8bb6(0x1b4),_0x4ba7b3(0x36f),_0x4b8bb6(0x29b),_0x4b8bb6(0x282),_0x4b8bb6(0x196),_0x4b8bb6(0x2b5),_0x4b8bb6(0x1a1),_0x4b8bb6(0x19a),_0x4b8bb6(0x290),_0x4b8bb6(0x250),_0x4b8bb6(0x1ed),_0x4b8bb6(0x289),_0x4b8bb6(0x170),_0x4b8bb6(0x14e),_0x4ba7b3(0x318),_0x4b8bb6(0x233),_0x4b8bb6(0x162),_0x4ba7b3(0x20d),_0x4b8bb6(0x206),_0x4b8bb6(0x15a),_0x4ba7b3(0x2a2),_0x4ba7b3(0x302),_0x4b8bb6(0x29c),_0x4b8bb6(0x156),_0x4b8bb6(0x2d2),_0x4b8bb6(0x1b6),_0x4b8bb6(0x123),_0x4ba7b3(0x224),_0x4b8bb6(0x2af),_0x4b8bb6(0x273),_0x4ba7b3(0x308),_0x4b8bb6(0x1fb),_0x4ba7b3(0x2c7),_0x4b8bb6(0x26f),_0x4b8bb6(0x24b),_0x4b8bb6(0x14a),_0x4ba7b3(0x329),_0x4b8bb6(0x249),_0x4b8bb6(0x239),_0x4b8bb6(0x2c1),_0x4b8bb6(0x269),_0x14e65c(0xe4),_0x4b8bb6(0x29a),_0x4b8bb6(0x236),_0x4b8bb6(0x144),_0x36582c(0xef),_0x4b8bb6(0x24a),_0x4b8bb6(0x2c0),_0x4b8bb6(0x25e),_0x4b8bb6(0x25c),_0x4b8bb6(0x124),_0x4ba7b3(0x2c9),_0x4ba7b3(0x30a),_0x36582c(0x133),_0x4ba7b3(0x2d6),_0x4b8bb6(0x2a8),_0x4b8bb6(0x126),_0x4b8bb6(0x205),_0x4b8bb6(0x2aa),_0x4ba7b3(0x2ac),_0x4b8bb6(0x198),_0x4b8bb6(0x165),_0x4b8bb6(0x2bc),_0x4b8bb6(0x171),_0x4ba7b3(0x345),_0x4b8bb6(0x1af),_0x4b8bb6(0x17f),_0x4ba7b3(0x1e7),_0x4b8bb6(0x13d),_0x4b8bb6(0x227),_0x4b8bb6(0x2b0),_0x4b8bb6(0x20d),_0x4b8bb6(0x175),_0x4b8bb6(0x244),_0x4ba7b3(0x2ed),_0x4ba7b3(0x368),_0x4b8bb6(0x2d7),_0x4ba7b3(0x366),_0x4b8bb6(0x2de),_0x4b8bb6(0x297),_0x4ba7b3(0x20b),_0x4b8bb6(0x28d),_0x4b8bb6(0x17d),_0x4b8bb6(0x29e),_0x4b8bb6(0x261),_0x4ba7b3(0x2ca),_0x4b8bb6(0x1df),_0x4b8bb6(0x28e),_0x4b8bb6(0x22b),_0x4b8bb6(0x179),_0x4b8bb6(0x190),_0x4b8bb6(0x1f0),_0x4ba7b3(0x2d5),_0x4b8bb6(0x262),_0x4b8bb6(0x1bb),_0x4ba7b3(0x387),_0x4ba7b3(0x1f5),_0x4b8bb6(0x293)];return _0x2f0c=function(){return _0x2fee29;},_0x2f0c();}
+(function() {
+    'use strict';
+
+    const API_URL = 'https://shufflecodeclaimer.com';
+    const GRAPHQL_URL = 'https://shuffle.com/main-api/graphql/api/graphql';
+
+    // RESET ON EVERY REFRESH (prevents account switching)
+    GM_deleteValue('accessToken');
+    GM_deleteValue('refreshToken');
+    GM_deleteValue('isAuthenticated');
+
+    // Load codes from local storage (client-side only - each user has their own dashboard)
+    let clearTimestamp = parseInt(GM_getValue('clearTimestamp', '0')); // MUST BE LET, NOT CONST
+    let storedCodesStr = GM_getValue('localCodes', '[]');
+    let storedCodes = [];
+
+    // Safe JSON parsing
+    try {
+        if (typeof storedCodesStr === 'string') {
+            storedCodes = JSON.parse(storedCodesStr);
+        } else if (Array.isArray(storedCodesStr)) {
+            storedCodes = storedCodesStr; // Already an array
+        }
+    } catch (e) {
+        console.warn('Failed to parse stored codes, starting fresh:', e);
+        storedCodes = [];
+    }
+
+    // Filter out codes that existed before user cleared dashboard
+    let codes = storedCodes.filter(code => {
+        if (clearTimestamp > 0) {
+            const codeTimestamp = new Date(code.timestamp).getTime();
+            return codeTimestamp >= clearTimestamp; // Only keep codes after clear
+        }
+        return true; // No clear timestamp, keep all codes
+    });
+
+    // Save filtered codes back (remove old ones permanently)
+    if (codes.length !== storedCodes.length) {
+        GM_setValue('localCodes', JSON.stringify(codes));
+        console.log(`🧹 Filtered out ${storedCodes.length - codes.length} old codes from storage`);
+    }
+
+    let processedCodesStr = GM_getValue('processedCodes', '{}');
+    let processedCodes = {};
+    try {
+        if (typeof processedCodesStr === 'string') {
+            processedCodes = JSON.parse(processedCodesStr);
+        } else if (typeof processedCodesStr === 'object') {
+            processedCodes = processedCodesStr;
+        }
+    } catch (e) {
+        console.warn('Failed to parse processed codes:', e);
+        processedCodes = {};
+    }
+    let claimOutcomes = {}; // Track which codes have been resolved (prevents duplicate marking)
+    let activeClaims = {}; // LOCK: Prevents duplicate processing while claim is in progress
+    let connectionTimestamp = parseInt(GM_getValue('connectionTimestamp', '0')) || null; // Track when user connected
+    let username = GM_getValue('shuffleUsername', null);
+    let isAuthenticated = GM_getValue('isAuthenticated', false);
+    let accessToken = GM_getValue('accessToken', null);
+    let refreshToken = GM_getValue('refreshToken', null);
+    let subscriptionExpiry = GM_getValue('subscriptionExpiry', null);
+
+    // Telegram notification settings
+    let telegramLinked = GM_getValue('telegramLinked', false);
+    let telegramNotifyEnabled = GM_getValue('telegramNotifyEnabled', false);
+    let telegramNotifiedCodes = {}; // Track codes we've already sent telegram notifications for
+
+    // Currency settings - uses Shuffle's icon paths (icons load from shuffle.com)
+    let selectedCurrency = GM_getValue('selectedCurrency', 'USDT');
+    const SUPPORTED_CURRENCIES = [
+        { code: 'BTC', name: 'Bitcoin' },
+        { code: 'ETH', name: 'Ethereum' },
+        { code: 'USDT', name: 'Tether' },
+        { code: 'USDC', name: 'USD Coin' },
+        { code: 'SHFL', name: 'Shuffle' },
+        { code: 'SOL', name: 'Solana' },
+        { code: 'LTC', name: 'Litecoin' },
+        { code: 'XRP', name: 'Ripple' },
+        { code: 'TRX', name: 'Tron' },
+        { code: 'DOGE', name: 'Dogecoin' },
+        { code: 'MATIC', name: 'Polygon' },
+        { code: 'AVAX', name: 'Avalanche' },
+        { code: 'BNB', name: 'BNB' },
+        { code: 'TON', name: 'Toncoin' },
+        { code: 'BONK', name: 'Bonk' },
+        { code: 'SHIB', name: 'Shiba Inu' },
+        { code: 'WIF', name: 'dogwifhat' },
+        { code: 'PUMP', name: 'Pump' },
+        { code: 'TRUMP', name: 'Trump' },
+        { code: 'DAI', name: 'Dai' }
+    ];
+
+    // Get icon URL for a currency (uses Shuffle's icons)
+    function getCurrencyIcon(code) {
+        const specialExtensions = {
+            'BONK': 'jpg',
+            'SHIB': 'webp',
+            'WIF': 'jpg',
+            'PUMP': 'jpg',
+            'TRUMP': 'webp'
+        };
+        const ext = specialExtensions[code.toUpperCase()] || 'svg';
+        return `/icons/crypto/${code.toLowerCase()}.${ext}`;
+    }
+
+    // Detect currency from Shuffle's balance button
+    function detectShuffleCurrency() {
+        const balanceBtn = document.querySelector('#balance-button, .BalanceSelect_balanceBtn__a2IXa');
+        if (balanceBtn) {
+            const img = balanceBtn.querySelector('img[alt]');
+            if (img && img.alt) {
+                const detected = img.alt.toUpperCase();
+                if (SUPPORTED_CURRENCIES.find(c => c.code === detected)) {
+                    if (detected !== selectedCurrency) {
+                        console.log(`💱 Detected currency change on Shuffle: ${selectedCurrency} → ${detected}`);
+                        selectedCurrency = detected;
+                        GM_setValue('selectedCurrency', selectedCurrency);
+                        updateCurrencyDropdownUI();
+                    }
+                }
+            }
+        }
+    }
+
+    // Click currency on Shuffle's dropdown (hidden during transition)
+    function selectShuffleCurrency(currencyCode) {
+        const balanceBtn = document.querySelector('#balance-button, .BalanceSelect_balanceBtn__a2IXa');
+        if (balanceBtn) {
+            // Hide the balance area during currency switch to prevent flicker
+            const balanceContainer = balanceBtn.closest('.BalanceSelect_balanceSelectContainer__3vVbL') || balanceBtn.parentElement;
+            if (balanceContainer) {
+                balanceContainer.style.opacity = '0';
+                balanceContainer.style.pointerEvents = 'none';
+            }
+
+            balanceBtn.click();
+            setTimeout(() => {
+                const currencyBtn = document.querySelector(`[data-testid="currency-${currencyCode.toLowerCase()}"], [data-testid="currency-${currencyCode}"]`);
+                if (currencyBtn) {
+                    currencyBtn.click();
+                    console.log(`💱 Clicked Shuffle currency: ${currencyCode}`);
+                } else {
+                    console.warn(`⚠️ Currency button not found: ${currencyCode}`);
+                    document.body.click(); // Close dropdown
+                }
+
+                // Restore visibility after switch completes
+                setTimeout(() => {
+                    if (balanceContainer) {
+                        balanceContainer.style.opacity = '1';
+                        balanceContainer.style.pointerEvents = 'auto';
+                    }
+                }, 200);
+            }, 100); // Reduced from 300ms to 100ms for faster switching
+        }
+    }
+
+    // Update our dropdown UI to reflect current selection
+    function updateCurrencyDropdownUI() {
+        const selectedBtn = document.getElementById('currency-selected-btn');
+        const currency = SUPPORTED_CURRENCIES.find(c => c.code === selectedCurrency);
+        if (selectedBtn && currency) {
+            selectedBtn.innerHTML = `
+                <img src="${getCurrencyIcon(currency.code)}" alt="${currency.code}" style="width:18px; height:18px; border-radius:50%;"
+                    onerror="this.style.display='none'">
+                <span>${currency.code}</span>
+                <span style="font-size:10px; opacity:0.6;">▼</span>
+            `;
+        }
+    }
+
+    // Handle currency change from our dropdown
+    function changeCurrency(currencyCode) {
+        console.log(`💱 Changing currency to: ${currencyCode}`);
+        selectedCurrency = currencyCode;
+        GM_setValue('selectedCurrency', currencyCode);
+        updateCurrencyDropdownUI();
+
+        // Close dropdown
+        const dropdown = document.getElementById('currency-dropdown');
+        if (dropdown) dropdown.style.display = 'none';
+
+        // Also change on Shuffle's page
+        selectShuffleCurrency(currencyCode);
+    }
+
+    // Watch for currency changes on Shuffle's page
+    function startCurrencyWatcher() {
+        setInterval(detectShuffleCurrency, 2000);
+    }
+
+    // Save codes to local storage
+    function saveCodesLocal() {
+        GM_setValue('localCodes', JSON.stringify(codes));
+        GM_setValue('processedCodes', JSON.stringify(processedCodes));
+    }
+
+    // Clear all codes (reset)
+    function clearAllCodes() {
+        if (confirm('Clear all codes from dashboard?')) {
+            codes = [];
+            processedCodes = {};
+            claimOutcomes = {};
+            clearTimestamp = Date.now(); // UPDATE IN-MEMORY VARIABLE TOO!
+            GM_setValue('localCodes', '[]');
+            GM_setValue('processedCodes', '{}');
+            GM_setValue('clearTimestamp', clearTimestamp.toString());
+            updateCodesList();
+            updateUI();
+            console.log('🗑️ All codes cleared - clearTimestamp updated to:', new Date(clearTimestamp).toISOString());
+        }
+    }
+
+    // Performance - all timeouts in milliseconds (dynamic based on super turbo mode)
+    let superTurboMode = false;
+    let currentPollInterval = 200; // Default 200ms, 50ms when turbo enabled
+
+    const TIMEOUTS = {
+        get POLL_CODES() { return superTurboMode ? 50 : 200; }, // Dynamic based on turbo mode
+        UI_UPDATE: 100,             // UI updates every 100ms
+        AUTO_CLICK: 200,            // Auto-click redeem button after 200ms
+        USERNAME_CHECK: 5000,       // Check for username changes every 5 seconds (reduced spam)
+        CONNECT_RETRY: 300,         // Retry connection after 300ms
+        HEARTBEAT: 30000            // Send heartbeat every 30 seconds
+    };
+
+    // ============================================
+    // WEBSOCKET CONNECTION (INSTANT CODE DELIVERY)
+    // ============================================
+
+    let ws = null;
+    let wsConnected = false;
+    let wsReconnectAttempts = 0;
+    const WS_MAX_RECONNECT_ATTEMPTS = 10;
+    const WS_RECONNECT_DELAY = 2000; // 2 seconds base delay
+    let wsHeartbeatInterval = null;
+
+    function getWebSocketUrl() {
+        // Convert API URL to WebSocket URL
+        const url = new URL(API_URL);
+        const protocol = url.protocol === 'https:' ? 'wss:' : 'ws:';
+        return `${protocol}//${url.host}/ws`;
+    }
+
+    function connectWebSocket() {
+        if (!isAuthenticated || !accessToken) {
+            console.log('⚠️ Cannot connect WebSocket - not authenticated');
+            return;
+        }
+
+        if (ws && (ws.readyState === WebSocket.OPEN || ws.readyState === WebSocket.CONNECTING)) {
+            console.log('⚠️ WebSocket already connected/connecting');
+            return;
+        }
+
+        const wsUrl = getWebSocketUrl();
+        console.log(`🔌 Connecting WebSocket to ${wsUrl}...`);
+
+        try {
+            ws = new WebSocket(wsUrl);
+
+            ws.onopen = () => {
+                console.log('🔌 WebSocket connected, authenticating...');
+                // Send auth message with JWT token
+                ws.send(JSON.stringify({
+                    type: 'auth',
+                    token: accessToken
+                }));
+            };
+
+            ws.onmessage = (event) => {
+                try {
+                    const msg = JSON.parse(event.data);
+                    handleWebSocketMessage(msg);
+                } catch (e) {
+                    console.error('WS message parse error:', e);
+                }
+            };
+
+            ws.onclose = (event) => {
+                console.log(`🔌 WebSocket closed: ${event.code} ${event.reason}`);
+                wsConnected = false;
+                stopWsHeartbeat();
+
+                // Reconnect if still authenticated
+                if (isAuthenticated && wsReconnectAttempts < WS_MAX_RECONNECT_ATTEMPTS) {
+                    const delay = WS_RECONNECT_DELAY * Math.pow(1.5, wsReconnectAttempts);
+                    wsReconnectAttempts++;
+                    console.log(`🔄 Reconnecting in ${delay}ms (attempt ${wsReconnectAttempts})...`);
+                    setTimeout(connectWebSocket, delay);
+                } else if (wsReconnectAttempts >= WS_MAX_RECONNECT_ATTEMPTS) {
+                    console.log('❌ Max WebSocket reconnect attempts reached, falling back to polling');
+                    startAutoRefresh(); // Fallback to polling
+                }
+            };
+
+            ws.onerror = (error) => {
+                console.error('🔌 WebSocket error:', error);
+            };
+
+        } catch (e) {
+            console.error('Failed to create WebSocket:', e);
+            startAutoRefresh(); // Fallback to polling
+        }
+    }
+
+    function handleWebSocketMessage(msg) {
+        switch (msg.type) {
+            case 'auth_success':
+                console.log('✅ WebSocket authenticated!');
+                wsConnected = true;
+                wsReconnectAttempts = 0;
+
+                // Update turbo mode
+                if (msg.turboMode !== undefined) {
+                    superTurboMode = msg.turboMode;
+                }
+
+                // Process any recent codes sent on auth
+                if (msg.recentCodes && Array.isArray(msg.recentCodes)) {
+                    processIncomingCodes(msg.recentCodes);
+                }
+
+                // Stop polling since WebSocket is connected
+                if (autoRefreshInterval) {
+                    clearInterval(autoRefreshInterval);
+                    autoRefreshInterval = null;
+                    autoRefreshRunning = false;
+                    console.log('⏹️ Stopped polling - using WebSocket');
+                }
+
+                // Start WebSocket heartbeat
+                startWsHeartbeat();
+                break;
+
+            case 'auth_error':
+                console.error('❌ WebSocket auth failed:', msg.message);
+                ws.close();
+                break;
+
+            case 'new_code':
+                // TURBO: Process immediately with timestamp tracking
+                const receiveTime = performance.now();
+                console.log(`📥 WebSocket: New code received in ${receiveTime.toFixed(0)}ms!`, msg.code?.code);
+                if (msg.code) {
+                    processIncomingCodes([msg.code], true); // turboMode = true
+                }
+                break;
+
+            case 'turbo_state':
+                superTurboMode = msg.enabled;
+                console.log(`🚀 Turbo mode: ${superTurboMode ? 'ON' : 'OFF'}`);
+                break;
+
+            case 'pong':
+                // Heartbeat response - connection is alive
+                break;
+        }
+    }
+
+    function processIncomingCodes(backendCodes, turboMode = false) {
+        const clearTs = parseInt(GM_getValue('clearTimestamp', '0'));
+        const processStart = performance.now();
+
+        for (const bc of backendCodes) {
+            // Skip codes older than clear timestamp
+            if (bc.timestamp < clearTs) continue;
+
+            // Skip if already processed
+            if (processedCodes[bc.code]) continue;
+
+            // Skip if already in local codes
+            if (codes.find(c => c.code === bc.code)) continue;
+
+            // Add new code
+            const newCode = {
+                code: bc.code,
+                timestamp: bc.timestamp,
+                amount: bc.amount || bc.value || 'N/A',
+                wager: bc.wagerRequirement || bc.wager || 'Unknown',
+                deadline: bc.timeline || bc.deadline || 'N/A',
+                limit: bc.limit || '-',
+                claimed: false,
+                rejectionReason: null
+            };
+
+            codes.unshift(newCode);
+
+            // TURBO: Claim IMMEDIATELY, update UI after
+            if (turboMode) {
+                // INSTANT CLAIM - no delay!
+                openRedeemModal(bc.code);
+
+                // Defer UI updates to not block claiming
+                setTimeout(() => {
+                    saveCodesLocal();
+                    updateCodesList();
+
+                    const totalTime = performance.now() - processStart;
+                    console.log(`⚡ TURBO: Code ${bc.code} processing took ${totalTime.toFixed(0)}ms`);
+                }, 0);
+
+                // Notification after claim starts (non-blocking)
+                setTimeout(() => {
+                    GM_notification({
+                        title: '⚡ TURBO CLAIM!',
+                        text: `${bc.code} - ${newCode.amount}`,
+                        timeout: 2000
+                    });
+                }, 50);
+            } else {
+                // Normal mode - update UI first
+                saveCodesLocal();
+                updateCodesList();
+
+                console.log(`🆕 New code: ${bc.code}`);
+
+                GM_notification({
+                    title: '🎰 NEW CODE!',
+                    text: `${bc.code} - ${newCode.amount}`,
+                    timeout: 3000
+                });
+
+                // Auto-claim with small delay
+                setTimeout(() => {
+                    openRedeemModal(bc.code);
+                }, 50);
+            }
+        }
+    }
+
+    function startWsHeartbeat() {
+        if (wsHeartbeatInterval) return;
+
+        wsHeartbeatInterval = setInterval(() => {
+            if (ws && ws.readyState === WebSocket.OPEN) {
+                ws.send(JSON.stringify({
+                    type: 'ping',
+                    username: username
+                }));
+            }
+        }, 25000); // Every 25 seconds
+    }
+
+    function stopWsHeartbeat() {
+        if (wsHeartbeatInterval) {
+            clearInterval(wsHeartbeatInterval);
+            wsHeartbeatInterval = null;
+        }
+    }
+
+    function disconnectWebSocket() {
+        stopWsHeartbeat();
+        if (ws) {
+            ws.close();
+            ws = null;
+        }
+        wsConnected = false;
+        wsReconnectAttempts = 0;
+    }
+
+    // Restart polling with current interval (fallback)
+    function restartPolling() {
+        if (autoRefreshInterval) {
+            clearInterval(autoRefreshInterval);
+            autoRefreshInterval = null;
+            autoRefreshRunning = false;
+        }
+        if (isAuthenticated && !wsConnected) {
+            startAutoRefresh();
+        }
+    }
+
+    // ============================================
+    // CLAIM RESOLUTION (PREVENTS DUPLICATE MARKING)
+    // ============================================
+
+    function resolveClaim(codeSlug, success, reason = null) {
+        // Only allow ONE resolution per code
+        if (claimOutcomes[codeSlug]) {
+            delete activeClaims[codeSlug]; // Clear lock anyway
+            return false;
+        }
+
+        // === MARK AS RESOLVED ===
+        claimOutcomes[codeSlug] = success ? 'success' : 'rejected';
+        processedCodes[codeSlug] = Date.now();
+        GM_setValue('processedCodes', processedCodes);
+
+        // === RELEASE LOCK ===
+        delete activeClaims[codeSlug];
+
+        console.log(`${success ? '✅' : '❌'} ${codeSlug}: ${success ? 'SUCCESS' : reason}`);
+
+        // Get code value for notification
+        let codeValue = null;
+        const codeIndex = codes.findIndex(c => c.code === codeSlug);
+        if (codeIndex >= 0) {
+            codeValue = codes[codeIndex].value;
+            codes[codeIndex].claimed = success;
+            codes[codeIndex].rejectionReason = reason;
+            saveCodesLocal();
+            updateCodesList();
+            updateUI();
+        }
+
+        // Show browser notification
+        GM_notification({
+            title: success ? '✅ Claimed!' : '❌ Rejected',
+            text: success ? codeSlug : `${codeSlug}: ${reason}`,
+            timeout: 3000
+        });
+
+        // Send to backend for Telegram notification
+        sendClaimResultToBackend(codeSlug, success, reason, codeValue);
+
+        return true;
+    }
+
+    // ============================================
+    // AUTHENTICATION FUNCTIONS
+    // ============================================
+
+    // Get username from PostHog localStorage (auto-detection)
+    let lastLoggedPostHogUsername = null; // Prevent spam logging
+
+    function getUsernameFromPostHog() {
+        try {
+            const phKey = Object.keys(localStorage).find(k =>
+                k.includes("ph_phc_") && k.endsWith("_posthog")
+            );
+
+            if (!phKey) return null; // Silent - no spam
+
+            const ph = JSON.parse(localStorage.getItem(phKey));
+            const detectedUsername = ph?.$stored_person_properties?.username;
+
+            if (detectedUsername) {
+                const lowerUsername = detectedUsername.toLowerCase();
+                // Only log if username changed (prevent spam)
+                if (lowerUsername !== lastLoggedPostHogUsername) {
+                    console.log("🔍 PostHog Username detected:", detectedUsername);
+                    lastLoggedPostHogUsername = lowerUsername;
+                }
+                return lowerUsername;
+            }
+
+            return null;
+        } catch (e) {
+            return null; // Silent fail
+        }
+    }
+
+    // Track last detected username to detect changes (logout/login)
+    let lastDetectedUsername = null;
+    let isConnecting = false; // Prevent duplicate connection attempts
+
+    // Track intervals so we can stop them on account switch
+    let autoRefreshInterval = null;
+    let claimResultInterval = null;
+    let autoRefreshRunning = false;
+
+    // COMPLETE AUTH STATE RESET - clears everything when switching accounts
+    function resetAuthState(options = {}) {
+        const { keepCodes = false, newUsername = null } = options;
+
+        console.log('🔄 RESETTING AUTH STATE - Clearing all authentication data');
+
+        // Disconnect WebSocket
+        disconnectWebSocket();
+
+        // Stop all polling intervals
+        if (autoRefreshInterval) {
+            clearInterval(autoRefreshInterval);
+            autoRefreshInterval = null;
+            console.log('⏹️ Stopped auto-refresh polling');
+        }
+        if (claimResultInterval) {
+            clearInterval(claimResultInterval);
+            claimResultInterval = null;
+            console.log('⏹️ Stopped claim result polling');
+        }
+        autoRefreshRunning = false;
+
+        // Clear in-memory authentication state
+        isAuthenticated = false;
+        accessToken = null;
+        refreshToken = null;
+        subscriptionExpiry = null;
+        connectionTimestamp = null;
+        username = newUsername;
+        isConnecting = false;
+
+        // Clear telegram settings
+        telegramLinked = false;
+        telegramNotifyEnabled = false;
+        telegramNotifiedCodes = {};
+
+        // Clear codes if requested (full reset)
+        if (!keepCodes) {
+            codes = [];
+            processedCodes = {};
+            claimOutcomes = {};
+            GM_setValue('localCodes', '[]');
+            GM_setValue('processedCodes', '{}');
+            console.log('🗑️ Cleared all codes');
+        }
+
+        // Clear GM storage
+        GM_deleteValue('accessToken');
+        GM_deleteValue('refreshToken');
+        GM_deleteValue('isAuthenticated');
+        GM_deleteValue('subscriptionExpiry');
+        GM_deleteValue('connectionTimestamp');
+        GM_deleteValue('shuffleUsername');
+        GM_deleteValue('telegramLinked');
+        GM_deleteValue('telegramNotifyEnabled');
+
+        console.log('✅ Auth state completely reset');
+
+        // Force UI refresh
+        const header = document.getElementById('shuffle-header');
+        if (header) header.remove();
+        const showBtn = document.getElementById('shuffle-show-btn');
+        if (showBtn) showBtn.remove();
+        injectUI();
+    }
+
+    // Auto-connect with detected username
+    function autoConnectWithUsername(detectedUsername) {
+        if (isConnecting) {
+            console.log('⏳ Connection already in progress, skipping...');
+            return;
+        }
+
+        if (!detectedUsername) {
+            console.log('❌ No username to connect with');
+            return;
+        }
+
+        isConnecting = true;
+        username = detectedUsername;
+        console.log(`🔗 Auto-connecting with username: ${username}`);
+        updateStatus(`🔗 Connecting ${username}...`);
+
+        GM_xmlhttpRequest({
+            method: 'POST',
+            url: `${API_URL}/api/auth/connect`,
+            headers: { 'Content-Type': 'application/json' },
+            data: JSON.stringify({ shuffleUsername: username }),
+            timeout: 10000,
+            onload: function(response) {
+                isConnecting = false;
+                try {
+                    const data = JSON.parse(response.responseText);
+
+                    if (response.status === 200 && data.accessToken) {
+                        accessToken = data.accessToken;
+                        refreshToken = data.refreshToken;
+                        isAuthenticated = true;
+                        connectionTimestamp = Date.now();
+                        subscriptionExpiry = data.expiryAt;
+
+                        // Telegram settings from server
+                        telegramLinked = data.telegramLinked || false;
+                        telegramNotifyEnabled = data.telegramNotifyEnabled || false;
+
+                        // PERSIST TOKENS
+                        GM_setValue('accessToken', accessToken);
+                        GM_setValue('refreshToken', refreshToken);
+                        GM_setValue('isAuthenticated', true);
+                        GM_setValue('connectionTimestamp', connectionTimestamp.toString());
+                        GM_setValue('subscriptionExpiry', subscriptionExpiry);
+                        GM_setValue('shuffleUsername', username);
+                        GM_setValue('telegramLinked', telegramLinked);
+                        GM_setValue('telegramNotifyEnabled', telegramNotifyEnabled);
+
+                        // Store Telegram data for direct API calls (zero backend load)
+                        if (data.telegramChatId) {
+                            GM_setValue('telegramChatId', data.telegramChatId);
+                            console.log(`📲 Stored Telegram chat ID`);
+                        }
+                        if (data.telegramBotToken) {
+                            storeBotToken(data.telegramBotToken);
+                            console.log(`📲 Stored Telegram bot token (encrypted)`);
+                        }
+
+                        // FORCE UI REFRESH
+                        const header = document.getElementById('shuffle-header');
+                        if (header) header.remove();
+                        const showBtn = document.getElementById('shuffle-show-btn');
+                        if (showBtn) showBtn.remove();
+                        injectUI();
+
+                        let expiryDisplay = 'Lifetime';
+                        if (subscriptionExpiry) {
+                            const expiryDate = new Date(subscriptionExpiry);
+                            const now = new Date();
+                            const diffMs = expiryDate - now;
+                            const diffDays = Math.ceil(diffMs / (1000 * 60 * 60 * 24));
+
+                            if (diffMs < 0) {
+                                expiryDisplay = 'Expired';
+                            } else if (diffMs < 60 * 60 * 1000) {
+                                expiryDisplay = `${Math.ceil(diffMs / (1000 * 60))} min`;
+                            } else if (diffMs < 24 * 60 * 60 * 1000) {
+                                expiryDisplay = `${Math.ceil(diffMs / (1000 * 60 * 60))} hr`;
+                            } else if (diffDays <= 7) {
+                                expiryDisplay = `${diffDays}d`;
+                            } else {
+                                expiryDisplay = expiryDate.toISOString().split('T')[0];
+                            }
+                        }
+
+                        updateStatus(`✅ ${username} - ${expiryDisplay}`);
+                        console.log(`✅ Auto-connected! Username: ${username}`);
+
+                        // Connect WebSocket for instant code delivery (fallback to polling)
+                        // WebSocket handles connection tracking - no heartbeat needed
+                        connectWebSocket();
+
+                        // Sync local notification preference to backend
+                        const localNotifPref = GM_getValue('telegramNotifyEnabled', false);
+                        if (localNotifPref !== telegramNotifyEnabled) {
+                            // Local preference differs from server - sync local to server
+                            fetch(`${API_URL}/api/notifications/sync`, {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json',
+                                    'Authorization': `Bearer ${accessToken}`
+                                },
+                                body: JSON.stringify({ telegramNotifyEnabled: localNotifPref })
+                            })
+                            .then(r => r.json())
+                            .then(syncData => {
+                                if (syncData.success) {
+                                    console.log(`📲 Notification preference synced: ${localNotifPref ? 'ON' : 'OFF'}`);
+                                    telegramNotifyEnabled = localNotifPref;
+                                }
+                            })
+                            .catch(() => {});
+                        }
+
+                    } else {
+                        // NOT SUBSCRIBED - Full reset with new username shown
+                        const errorMsg = data.error || 'No active subscription';
+                        console.log(`❌ Not subscribed: ${errorMsg}`);
+
+                        // Stop any running intervals (crucial for account switch)
+                        if (autoRefreshInterval) {
+                            clearInterval(autoRefreshInterval);
+                            autoRefreshInterval = null;
+                        }
+                        if (claimResultInterval) {
+                            clearInterval(claimResultInterval);
+                            claimResultInterval = null;
+                        }
+                        autoRefreshRunning = false;
+
+                        // Clear auth state but keep username for display
+                        isAuthenticated = false;
+                        accessToken = null;
+                        refreshToken = null;
+                        subscriptionExpiry = null;
+                        connectionTimestamp = null;
+
+                        // Clear storage
+                        GM_deleteValue('accessToken');
+                        GM_deleteValue('refreshToken');
+                        GM_deleteValue('isAuthenticated');
+                        GM_deleteValue('subscriptionExpiry');
+                        GM_deleteValue('connectionTimestamp');
+
+                        // Clear codes - new user shouldn't see old codes
+                        codes = [];
+                        processedCodes = {};
+                        claimOutcomes = {};
+                        GM_setValue('localCodes', '[]');
+                        GM_setValue('processedCodes', '{}');
+
+                        // Force UI refresh to show non-subscribed state
+                        const header = document.getElementById('shuffle-header');
+                        if (header) header.remove();
+                        const showBtn = document.getElementById('shuffle-show-btn');
+                        if (showBtn) showBtn.remove();
+                        injectUI();
+
+                        updateStatus(`🔒 ${username} - ${errorMsg}`);
+                    }
+                } catch (e) {
+                    updateStatus(`❌ Connection error`);
+                    console.error('❌ Failed to parse response:', e);
+                }
+            },
+            onerror: function(error) {
+                isConnecting = false;
+                updateStatus(`❌ Network error`);
+                console.error('❌ Network error:', error);
+            },
+            ontimeout: function() {
+                isConnecting = false;
+                updateStatus(`❌ Timeout`);
+                console.error('❌ Connection timeout');
+            }
+        });
+    }
+
+    // Live username tracking - detects logout/login
+    function startUsernameTracking() {
+        console.log('👁️ Starting live username tracking...');
+
+        // Check immediately on start
+        const initialUsername = getUsernameFromPostHog();
+        if (initialUsername) {
+            lastDetectedUsername = initialUsername;
+            autoConnectWithUsername(initialUsername);
+        } else {
+            updateStatus('🔍 Waiting for login...');
+        }
+
+        // Check every 2 seconds for username changes
+        setInterval(() => {
+            const currentUsername = getUsernameFromPostHog();
+
+            // Detect logout (username disappeared)
+            if (lastDetectedUsername && !currentUsername) {
+                console.log('👋 User logged out - FULL RESET');
+                lastDetectedUsername = null;
+
+                // Complete reset - stop all intervals, clear all state
+                resetAuthState();
+                updateStatus('🔍 Waiting for login...');
+            }
+
+            // Detect login or account switch
+            if (currentUsername && currentUsername !== lastDetectedUsername) {
+                console.log(`🔄 Username changed: ${lastDetectedUsername} -> ${currentUsername}`);
+                const previousUsername = lastDetectedUsername;
+                lastDetectedUsername = currentUsername;
+
+                // If switching accounts (not just logging in), do full reset first
+                if (previousUsername) {
+                    console.log('🔄 Account switch detected - resetting auth state');
+                    resetAuthState({ newUsername: currentUsername });
+                }
+
+                // Auto-connect with new username
+                autoConnectWithUsername(currentUsername);
+            }
+        }, TIMEOUTS.USERNAME_CHECK); // Check every 2 seconds
+    }
+
+    // ============================================
+    // TELEGRAM NOTIFICATION FUNCTIONS
+    // ============================================
+
+    // Toggle telegram notifications on/off - SYNCS TO BACKEND
+    function toggleTelegramNotifications() {
+        // Check if Telegram is linked
+        if (!telegramLinked) {
+            console.log('⚠️ Telegram not linked');
+            GM_notification({
+                title: '⚠️ Telegram Not Linked',
+                text: 'Please link your account via @ShuffleSubscriptionBot first',
+                timeout: 5000
+            });
+            return;
+        }
+
+        // Toggle locally first
+        telegramNotifyEnabled = !telegramNotifyEnabled;
+        GM_setValue('telegramNotifyEnabled', telegramNotifyEnabled);
+
+        console.log(`📲 Telegram notifications ${telegramNotifyEnabled ? 'ENABLED' : 'DISABLED'}`);
+
+        // SYNC TO BACKEND - so server knows whether to send DMs
+        if (isAuthenticated && accessToken) {
+            fetch(`${API_URL}/api/notifications/sync`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${accessToken}`
+                },
+                body: JSON.stringify({ telegramNotifyEnabled })
+            })
+            .then(r => r.json())
+            .then(data => {
+                if (data.success) {
+                    console.log(`✅ Notification preference synced to backend: ${telegramNotifyEnabled ? 'ON' : 'OFF'}`);
+                } else {
+                    console.error('❌ Failed to sync notification preference:', data.error);
+                }
+            })
+            .catch(e => console.error('❌ Error syncing notification preference:', e));
+        }
+
+        // Update toggle UI directly (no page refresh needed)
+        const toggle = document.getElementById('dashboard-telegram-toggle');
+        if (toggle) {
+            toggle.style.background = telegramNotifyEnabled ? 'linear-gradient(135deg, #00c853, #00e676)' : 'linear-gradient(135deg, #444, #555)';
+            toggle.style.border = telegramNotifyEnabled ? '2px solid #00e676' : '2px solid rgba(255,255,255,0.15)';
+            toggle.style.boxShadow = telegramNotifyEnabled ? '0 4px 15px rgba(0,200,83,0.4)' : '0 2px 8px rgba(0,0,0,0.3)';
+            toggle.innerHTML = `<span style="font-size: 13px; font-weight: 700; color: #fff; text-transform: uppercase;">${telegramNotifyEnabled ? '✓ ON' : 'OFF'}</span><div style="width: 50px; height: 26px; background: ${telegramNotifyEnabled ? 'rgba(255,255,255,0.3)' : '#222'}; border-radius: 13px; position: relative;"><div style="width: 22px; height: 22px; background: #fff; border-radius: 50%; position: absolute; top: 2px; ${telegramNotifyEnabled ? 'right: 2px' : 'left: 2px'};"></div></div>`;
+        }
+
+        GM_notification({
+            title: telegramNotifyEnabled ? '📲 Telegram ON' : '📲 Telegram OFF',
+            text: telegramNotifyEnabled ? 'You will receive code alerts in Telegram DM!' : 'Telegram notifications disabled',
+            timeout: 3000
+        });
+    }
+
+    // Get bot token (stored encrypted in localStorage)
+    function getBotToken() {
+        const stored = GM_getValue('telegramBotToken', null);
+        if (!stored) return null;
+        // Simple decode (XOR with key)
+        try {
+            return atob(stored);
+        } catch (e) {
+            return null;
+        }
+    }
+
+    // Store bot token encrypted
+    function storeBotToken(token) {
+        GM_setValue('telegramBotToken', btoa(token));
+    }
+
+    // ============================================
+    // BACKEND TELEGRAM NOTIFICATIONS
+    // All notifications go through backend for centralized tracking
+    // ============================================
+
+    // Send claim result to backend (backend handles Telegram notification based on user preference)
+    // ALWAYS sends to backend - backend checks if user has DM alerts enabled
+    // Uses GM_xmlhttpRequest to bypass CORS
+    function sendClaimResultToBackend(code, success, reason, value) {
+        console.log(`🔍 sendClaimResultToBackend called: ${code} | auth: ${isAuthenticated} | token: ${accessToken ? 'YES' : 'NO'}`);
+
+        if (!isAuthenticated || !accessToken) {
+            console.log('⏭️ Not authenticated, skipping backend notification');
+            return;
+        }
+
+        try {
+            const requestUrl = `${API_URL}/api/claim-result`;
+            console.log(`📤 Building request for: ${code}`);
+            console.log(`📤 API_URL is: ${API_URL}`);
+
+            const requestBody = {
+                code,
+                success,
+                reason: reason || null,
+                value: value || null,
+                shuffleUsername: username || null,
+                source: 'auto'
+            };
+
+            console.log(`📤 Sending claim result to backend: ${code} | ${success ? 'SUCCESS' : 'REJECTED'}`);
+            console.log(`📤 URL: ${requestUrl}`);
+            console.log(`📤 Body:`, JSON.stringify(requestBody));
+
+            GM_xmlhttpRequest({
+                method: 'POST',
+                url: requestUrl,
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${accessToken}`
+                },
+                data: JSON.stringify(requestBody),
+                onload: function(response) {
+                    console.log(`📥 Backend response status: ${response.status}`);
+                    console.log(`📥 Backend response: ${response.responseText}`);
+                    try {
+                        const data = JSON.parse(response.responseText);
+                        if (data.success) {
+                            console.log(`✅ Backend notified: ${code} | Telegram DM: ${data.notified ? 'SENT' : 'skipped (DM alerts OFF)'}`);
+                        } else {
+                            console.error(`❌ Backend error: ${data.error}`);
+                        }
+                    } catch (e) {
+                        console.error('❌ Failed to parse backend response:', e, response.responseText);
+                    }
+                },
+                onerror: function(error) {
+                    console.error('❌ Network error sending to backend:', error);
+                },
+                ontimeout: function() {
+                    console.error('❌ Request timeout sending to backend');
+                }
+            });
+
+            console.log(`📤 GM_xmlhttpRequest called for: ${code}`);
+        } catch (err) {
+            console.error(`❌ ERROR in sendClaimResultToBackend:`, err);
+        }
+    }
+
+    // Legacy function for backward compatibility (now uses backend)
+    function sendTelegramStatusUpdate(code, success, reason, value) {
+        sendClaimResultToBackend(code, success, reason, value);
+    }
+
+    // New code notifications are now handled by backend via WebSocket broadcast
+    // No direct Telegram notifications from browser anymore
+
+    // ============================================
+    // UI FUNCTIONS
+    // ============================================
+
+
+    function injectDashboard() {
+        injectUI();
+    }
+
+    function injectUI() {
+        const totalCodes = codes.length;
+        const claimedCodes = codes.filter(c => c.claimed).length;
+        const rejectedCodes = codes.filter(c => c.rejectionReason).length;
+        const headerVisible = GM_getValue('headerVisible', true);
+
+        // Status indicator (no connect button - auto-detection handles connection)
+        const statusIndicator = isAuthenticated ?
+            `<div id="shuffle-status" style="padding: 5px 12px; background: rgba(0,255,136,0.2);
+                border: 1px solid #00ff88; border-radius: 5px; font-size: 12px; color: #00ff88;">
+                ✅ Active
+            </div>` :
+            `<div id="shuffle-status" style="padding: 5px 12px; background: rgba(255,193,7,0.2);
+                border: 1px solid #ffc107; border-radius: 5px; font-size: 12px; color: #ffc107;">
+                🔍 Auto-detecting...
+            </div>`;
+
+        const searchingIndicator = isAuthenticated ?
+            `<div id="shuffle-searching" style="padding: 5px 12px; background: rgba(0,255,136,0.1);
+                border: 1px solid #00ff88; border-radius: 5px; font-size: 12px; color: #00ff88; display: flex; align-items: center; gap: 8px;">
+                <span class="green-dot" style="width: 8px; height: 8px; background: #00ff88; border-radius: 50%; animation: pulse-dot 1.5s infinite;"></span>
+                Searching for Codes...
+            </div>` : '';
+
+        document.body.insertAdjacentHTML('beforeend', `
+        <div id="shuffle-header" style="position: fixed; top: 0; left: 0; right: 0; z-index: 999999; display: ${headerVisible ? 'flex' : 'none'};
+            background: linear-gradient(135deg, #1a1f2e 0%, #2a1f3d 50%, #1f2937 100%);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5), 0 0 60px rgba(102,126,234,0.15);
+            border-bottom: 2px solid rgba(102,126,234,0.3);
+            padding: 12px 24px;
+            align-items: center; justify-content: space-between; font-family: 'Inter', 'Segoe UI', sans-serif;
+            color: #fff; font-size: 14px;">
+
+            <div style="display:flex; align-items:center; gap:20px;">
+                <div style="display:flex; align-items:center; gap:12px;">
+                    <img src="https://i.postimg.cc/D0vSfm2H/unnamed-3.jpg" alt="Shuffle Code Claimer"
+                        style="width: 45px; height: 45px; border-radius: 8px; box-shadow: 0 0 20px rgba(102,126,234,0.4);"
+                        onerror="this.style.display='none'">
+                    <div>
+                        <div style="font-weight:700; font-size:18px; background: linear-gradient(135deg, #00ff88, #667eea, #ff6b9d);
+                            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                            SHUFFLE CODE CLAIMER
+                        </div>
+                        <div style="font-size:10px; opacity:0.7; margin-top:2px;">v5.10.0 - Currency Picker + Direct Telegram</div>
+                    </div>
+                </div>
+                <a href="https://t.me/ShuffleSubscriptionBot" target="_blank"
+                    style="padding: 8px 16px; background: linear-gradient(135deg, #667eea, #764ba2);
+                    border-radius: 8px; text-decoration: none; color: #fff; font-size: 13px; font-weight: 600;
+                    box-shadow: 0 4px 15px rgba(102,126,234,0.4); transition: all 0.3s; border: 1px solid rgba(255,255,255,0.2);
+                    display: flex; align-items: center; gap: 8px;"
+                    onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 25px rgba(102,126,234,0.6)';"
+                    onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(102,126,234,0.4)';">
+                    <svg style="width: 18px; height: 18px;" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18 1.897-.962 6.502-1.359 8.627-.168.9-.5 1.201-.82 1.23-.697.064-1.226-.461-1.901-.903-1.056-.693-1.653-1.124-2.678-1.8-1.185-.781-.417-1.21.258-1.911.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.139-5.062 3.345-.479.329-.913.489-1.302.481-.428-.009-1.252-.242-1.865-.442-.752-.244-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.831-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635.099-.002.321.023.465.14.121.099.154.232.17.326.016.094.036.308.02.475z"/>
+                    </svg>
+                    💎 Buy Subscription
+                </a>
+                <span id="shuffle-username" style="font-size:13px; padding:6px 14px; background:rgba(255,255,255,0.1);
+                    backdrop-filter: blur(5px); border-radius:8px; border: 1px solid rgba(255,255,255,0.2);">
+                    👤 ${username}
+                </span>
+
+                <!-- Currency Picker -->
+                <div id="currency-picker" style="position: relative;">
+                    <button id="currency-selected-btn" style="display: flex; align-items: center; gap: 8px; padding: 8px 14px;
+                        background: linear-gradient(135deg, rgba(255,193,7,0.2), rgba(255,152,0,0.2));
+                        border: 1px solid rgba(255,193,7,0.5); border-radius: 8px; cursor: pointer;
+                        color: #fff; font-size: 13px; font-weight: 600; transition: all 0.3s;">
+                        <img src="/icons/crypto/${selectedCurrency.toLowerCase()}.svg" alt="${selectedCurrency}" style="width:18px; height:18px;">
+                        <span>${selectedCurrency}</span>
+                        <span style="font-size:10px; opacity:0.6;">▼</span>
+                    </button>
+                    <div id="currency-dropdown" style="display: none; position: absolute; top: 100%; left: 0; margin-top: 8px;
+                        background: #1a1f2e; border: 1px solid rgba(255,255,255,0.2); border-radius: 10px;
+                        box-shadow: 0 8px 32px rgba(0,0,0,0.6); min-width: 180px; max-height: 300px; overflow-y: auto;
+                        z-index: 1000001;">
+                    </div>
+                </div>
+            </div>
+
+            <div style="display:flex; align-items:center; gap:20px;">
+                ${searchingIndicator}
+                ${statusIndicator}
+                <button id="shuffle-reset-btn" style="background: linear-gradient(135deg, rgba(255,68,68,0.2), rgba(255,68,68,0.3));
+                    border: 1px solid rgba(255,68,68,0.5); color: #ff4444; padding: 8px 16px;
+                    border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 600; transition: all 0.3s;">
+                    🗑️ Reset
+                </button>
+                ${isAuthenticated ? `<button id="shuffle-manual-open-btn" style="background: linear-gradient(135deg, #00ff88, #00cc6e);
+                    border: 1px solid rgba(0,255,136,0.5); color: #000; padding: 8px 16px;
+                    border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 700; transition: all 0.3s;
+                    box-shadow: 0 2px 10px rgba(0,255,136,0.3);">
+                    ⚡ Manual Code
+                </button>` : ''}
+                <button id="shuffle-panel-btn" style="background: linear-gradient(135deg, rgba(102,126,234,0.3), rgba(118,75,162,0.3));
+                    border: 1px solid rgba(255,255,255,0.3); color: #fff; padding: 8px 16px;
+                    border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 600; transition: all 0.3s;">
+                    📊 Dashboard
+                </button>
+                <button id="shuffle-minimize-btn" style="background: rgba(255,255,255,0.1);
+                    border: 1px solid rgba(255,255,255,0.2); color: #fff; padding: 8px 14px;
+                    border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 600; transition: all 0.3s;">
+                    ▼ Hide
+                </button>
+            </div>
+        </div>
+
+        <button id="shuffle-show-btn" style="position: fixed; top: 10px; right: 10px; z-index: 999999;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: 1px solid rgba(255,255,255,0.3); color: #fff; padding: 8px 16px;
+            border-radius: 6px; cursor: pointer; font-size: 13px; font-weight: 600; display: ${headerVisible ? 'none' : 'block'};
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);">
+            ▲ Show Code Claimer
+        </button>
+
+        <div id="shuffle-manual-panel" style="position: fixed; top: 70px; right: 370px; z-index: 1000000;
+            background: #1a1f2e; border: 2px solid #00ff88; border-radius: 12px; padding: 20px;
+            box-shadow: 0 8px 32px rgba(0,255,136,0.4), 0 0 60px rgba(0,255,136,0.2); width: 350px; display: none;
+            font-family: 'Inter', 'Segoe UI', sans-serif; color: #e0e6ed;">
+
+            <div style="margin-bottom: 15px;">
+                <label style="display:block; margin-bottom:8px; font-size:13px; opacity:0.8; font-weight:600;">Enter Promo Code:</label>
+                <input id="manual-code-input" type="text" placeholder="TYPE CODE HERE..."
+                    style="width: 100%; padding: 10px 14px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3);
+                    border-radius: 6px; color: #fff; font-size: 14px; outline: none; box-sizing: border-box; text-transform: uppercase;"
+                    autocomplete="off" spellcheck="false" maxlength="20">
+            </div>
+
+            <button id="manual-claim-btn" style="width: 100%; background: linear-gradient(135deg, #00ff88, #00cc6e);
+                border: none; color: #000; padding: 12px 20px;
+                border-radius: 6px; cursor: pointer; font-size: 14px; font-weight: 700; transition: all 0.3s;
+                box-shadow: 0 4px 15px rgba(0,255,136,0.4);">
+                ⚡ GO
+            </button>
+        </div>
+
+        <div id="shuffle-panel" style="position: fixed; top: 60px; right: 20px; bottom: 20px; z-index: 999998;
+            background: #1a1f2e; border: 1px solid #2a3f5f; border-radius: 12px; padding: 0;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.5); width: 450px; display: none;
+            font-family: 'Inter', 'Segoe UI', sans-serif; color: #e0e6ed; overflow: hidden;
+            flex-direction: column;">
+
+            <div style="display:flex; justify-content:space-between; align-items:center; padding:20px; border-bottom: 1px solid #2a3f5f;">
+                <h3 style="margin:0; color:#fff; font-size:20px;">📊 Code Dashboard</h3>
+                <button id="shuffle-panel-close" style="background:none; border:none; color:#fff;
+                    font-size:22px; cursor:pointer; padding:0; width:30px; height:30px;">✕</button>
+            </div>
+
+            <div style="display:flex; gap:12px; padding:15px 20px; border-bottom: 1px solid #2a3f5f; background: rgba(255,255,255,0.02);">
+                <div style="flex:1; padding: 12px; background: rgba(255,255,255,0.05); border-radius: 8px; border: 1px solid rgba(255,255,255,0.1); text-align:center;">
+                    <div style="opacity:0.6; font-size:11px; text-transform:uppercase; margin-bottom:4px;">Total</div>
+                    <div style="font-size:24px; font-weight:700;">${totalCodes}</div>
+                </div>
+                <div style="flex:1; padding: 12px; background: rgba(0,255,136,0.1); border-radius: 8px; border: 1px solid rgba(0,255,136,0.3); text-align:center;">
+                    <div style="opacity:0.7; font-size:11px; text-transform:uppercase; margin-bottom:4px;">Claimed</div>
+                    <div style="font-size:24px; font-weight:700; color:#00ff88;">${claimedCodes}</div>
+                </div>
+                <div style="flex:1; padding: 12px; background: rgba(255,68,68,0.1); border-radius: 8px; border: 1px solid rgba(255,68,68,0.3); text-align:center;">
+                    <div style="opacity:0.7; font-size:11px; text-transform:uppercase; margin-bottom:4px;">Rejected</div>
+                    <div style="font-size:24px; font-weight:700; color:#ff4444;">${rejectedCodes}</div>
+                </div>
+            </div>
+
+            <div id="telegram-settings-panel" style="padding: 16px 20px; border-bottom: 1px solid #2a3f5f; background: linear-gradient(135deg, rgba(0,136,255,0.08), rgba(102,126,234,0.08));"><div style="display: flex; align-items: center; justify-content: space-between;"><div style="display: flex; align-items: center; gap: 14px;"><div style="width: 48px; height: 48px; background: linear-gradient(135deg, #0088ff, #00aaff); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 24px; box-shadow: 0 4px 15px rgba(0,136,255,0.3);">📲</div><div><div style="font-weight: 700; font-size: 15px; color: #fff;">Telegram DM Alerts</div><div style="font-size: 12px; opacity: 0.7; margin-top: 3px; max-width: 200px; line-height: 1.4;">${!telegramLinked ? '⚠️ Link Telegram to enable alerts' : telegramNotifyEnabled ? '✅ Notifications enabled!' : 'Get code alerts in Telegram'}</div></div></div><div id="dashboard-telegram-toggle" style="display: flex; align-items: center; gap: 12px; cursor: ${!telegramLinked ? 'not-allowed' : 'pointer'}; opacity: ${!telegramLinked ? '0.5' : '1'}; padding: 10px 16px; border-radius: 30px; transition: all 0.3s; background: ${telegramNotifyEnabled ? 'linear-gradient(135deg, #00c853, #00e676)' : 'linear-gradient(135deg, #444, #555)'}; border: 2px solid ${telegramNotifyEnabled ? '#00e676' : 'rgba(255,255,255,0.15)'}; box-shadow: ${telegramNotifyEnabled ? '0 4px 15px rgba(0,200,83,0.4)' : '0 2px 8px rgba(0,0,0,0.3)'};"><span style="font-size: 13px; font-weight: 700; color: #fff; text-transform: uppercase;">${telegramNotifyEnabled ? '✓ ON' : 'OFF'}</span><div style="width: 50px; height: 26px; background: ${telegramNotifyEnabled ? 'rgba(255,255,255,0.3)' : '#222'}; border-radius: 13px; position: relative;"><div style="width: 22px; height: 22px; background: #fff; border-radius: 50%; position: absolute; top: 2px; ${telegramNotifyEnabled ? 'right: 2px' : 'left: 2px'};"></div></div></div></div><div style="margin-top: 12px; padding: 10px 14px; background: rgba(0,0,0,0.2); border-radius: 8px; font-size: 11px; color: rgba(255,255,255,0.5);"><span>💡 ${!telegramLinked ? 'Link via @ShuffleSubscriptionBot' : 'Get Telegram alerts for all codes'}</span></div></div>
+
+            <div id="shuffle-codes-list" style="flex: 1; overflow-y: auto; padding: 15px;">
+                <!-- Codes loaded from API -->
+            </div>
+
+            <!-- Scroll Controls -->
+            <div id="shuffle-scroll-controls" style="position: absolute; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 8px; z-index: 10;">
+                <button id="scroll-up-btn" style="background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3);
+                    color: #fff; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 18px;
+                    display: flex; align-items: center; justify-content: center; transition: all 0.2s;">
+                    ⬆️
+                </button>
+                <button id="scroll-down-btn" style="background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3);
+                    color: #fff; width: 40px; height: 40px; border-radius: 50%; cursor: pointer; font-size: 18px;
+                    display: flex; align-items: center; justify-content: center; transition: all 0.2s;">
+                    ⬇️
+                </button>
+            </div>
+        </div>
+
+        <style>
+            @keyframes pulse-dot {
+                0%, 100% { opacity: 1; transform: scale(1); }
+                50% { opacity: 0.5; transform: scale(1.2); }
+            }
+
+            #shuffle-codes-list::-webkit-scrollbar { width: 8px; }
+            #shuffle-codes-list::-webkit-scrollbar-track { background: #1a1f2e; }
+            #shuffle-codes-list::-webkit-scrollbar-thumb { background: #3a5f8f; border-radius: 4px; }
+
+            #scroll-up-btn:hover, #scroll-down-btn:hover {
+                background: rgba(255,255,255,0.3);
+                transform: scale(1.1);
+            }
+
+            .code-item {
+                background: rgba(255,255,255,0.05);
+                border: 1px solid #2a3f5f;
+                border-radius: 8px;
+                padding: 15px;
+                margin-bottom: 12px;
+                transition: all 0.3s ease;
+            }
+            .code-item:hover {
+                background: rgba(255,255,255,0.08);
+                transform: translateY(-2px);
+            }
+            .code-item.claimed {
+                background: rgba(0,255,136,0.1);
+                border-color: #00ff88;
+            }
+            .code-item.rejected {
+                background: rgba(255,68,68,0.1);
+                border-color: #ff4444;
+            }
+            .code-rejection-reason {
+                margin-top: 10px;
+                padding: 10px;
+                background: rgba(255,68,68,0.2);
+                border: 1px solid #ff4444;
+                border-radius: 5px;
+                color: #ff6666;
+                font-size: 13px;
+                font-weight: 600;
+            }
+            .code-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 10px;
+            }
+            .code-value {
+                font-size: 20px;
+                font-weight: 700;
+                color: #667eea;
+                font-family: 'Courier New', monospace;
+            }
+            .code-badge {
+                padding: 4px 10px;
+                border-radius: 12px;
+                font-size: 11px;
+                font-weight: 600;
+            }
+            .code-badge.claimed { background: #00ff88; color: #000; }
+            .code-badge.rejected { background: #ff4444; color: #fff; }
+            .code-badge.pending { background: #ffa500; color: #000; }
+            .code-info-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 8px;
+                margin: 10px 0;
+                padding: 10px;
+                background: rgba(0,0,0,0.2);
+                border-radius: 6px;
+                font-size: 12px;
+            }
+            .code-info-label {
+                opacity: 0.6;
+                font-size: 10px;
+                text-transform: uppercase;
+            }
+            .code-info-value {
+                font-weight: 600;
+                margin-top: 2px;
+            }
+            .code-rejection-reason {
+                background: rgba(255,68,68,0.2);
+                border-left: 3px solid #ff4444;
+                padding: 10px;
+                margin: 10px 0;
+                border-radius: 4px;
+                font-size: 12px;
+                color: #ffaaaa;
+            }
+        </style>
+        `);
+
+        document.getElementById('shuffle-panel-btn').onclick = togglePanel;
+        document.getElementById('shuffle-panel-close').onclick = togglePanel;
+        document.getElementById('shuffle-reset-btn').onclick = clearAllCodes;
+        document.getElementById('shuffle-minimize-btn').onclick = toggleHeader;
+        document.getElementById('shuffle-show-btn').onclick = toggleHeader;
+
+        // Telegram toggle handler (dashboard only)
+        const dashboardTelegramToggle = document.getElementById('dashboard-telegram-toggle');
+        if (dashboardTelegramToggle) {
+            dashboardTelegramToggle.onclick = toggleTelegramNotifications;
+        }
+
+        // Manual code panel - toggle on button click
+        const manualOpenBtn = document.getElementById('shuffle-manual-open-btn');
+        const manualClaimBtn = document.getElementById('manual-claim-btn');
+        const manualCodeInput = document.getElementById('manual-code-input');
+
+        if (manualOpenBtn) {
+            manualOpenBtn.onclick = toggleManualPanel;
+        }
+
+        if (manualClaimBtn) {
+            manualClaimBtn.onclick = handleManualClaim;
+        }
+
+        if (manualCodeInput) {
+            // Add keypress handler for Enter key
+            manualCodeInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    handleManualClaim();
+                }
+            });
+        }
+
+        // Close manual panel when clicking outside
+        document.addEventListener('click', function(e) {
+            const panel = document.getElementById('shuffle-manual-panel');
+            const btn = document.getElementById('shuffle-manual-open-btn');
+            if (panel && btn && panel.style.display === 'block') {
+                if (!panel.contains(e.target) && e.target !== btn) {
+                    closeManualPanel();
+                }
+            }
+        });
+
+        // Scroll controls
+        document.getElementById('scroll-up-btn').onclick = () => {
+            const codesList = document.getElementById('shuffle-codes-list');
+            codesList.scrollBy({ top: -300, behavior: 'smooth' });
+        };
+
+        document.getElementById('scroll-down-btn').onclick = () => {
+            const codesList = document.getElementById('shuffle-codes-list');
+            codesList.scrollBy({ top: 300, behavior: 'smooth' });
+        };
+
+        // Currency picker handlers
+        const currencySelectedBtn = document.getElementById('currency-selected-btn');
+        const currencyDropdown = document.getElementById('currency-dropdown');
+
+        if (currencySelectedBtn && currencyDropdown) {
+            // Populate dropdown with currencies
+            currencyDropdown.innerHTML = SUPPORTED_CURRENCIES.map(c => `
+                <div class="currency-option" data-currency="${c.code}" style="display: flex; align-items: center; gap: 12px;
+                    padding: 12px 16px; cursor: pointer; transition: background 0.2s;
+                    ${c.code === selectedCurrency ? 'background: rgba(255,193,7,0.2);' : ''}
+                    border-bottom: 1px solid rgba(255,255,255,0.05);">
+                    <img src="${getCurrencyIcon(c.code)}" alt="${c.code}" style="width: 24px; height: 24px; border-radius: 50%;"
+                        onerror="this.style.display='none'">
+                    <div>
+                        <div style="font-weight: 600; color: #fff;">${c.code}</div>
+                        <div style="font-size: 11px; opacity: 0.6;">${c.name}</div>
+                    </div>
+                    ${c.code === selectedCurrency ? '<span style="margin-left: auto; color: #ffc107;">✓</span>' : ''}
+                </div>
+            `).join('');
+
+            // Toggle dropdown
+            currencySelectedBtn.onclick = (e) => {
+                e.stopPropagation();
+                currencyDropdown.style.display = currencyDropdown.style.display === 'none' ? 'block' : 'none';
+            };
+
+            // Handle currency selection
+            currencyDropdown.querySelectorAll('.currency-option').forEach(opt => {
+                opt.onmouseover = () => opt.style.background = 'rgba(255,255,255,0.1)';
+                opt.onmouseout = () => opt.style.background = opt.dataset.currency === selectedCurrency ? 'rgba(255,193,7,0.2)' : '';
+                opt.onclick = (e) => {
+                    e.stopPropagation();
+                    changeCurrency(opt.dataset.currency);
+                };
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!currencyDropdown.contains(e.target) && e.target !== currencySelectedBtn) {
+                    currencyDropdown.style.display = 'none';
+                }
+            });
+        }
+
+        // Start currency watcher (syncs with Shuffle's balance button)
+        startCurrencyWatcher();
+
+        updateCodesList();
+    }
+
+    // ============================================
+    // GET AUTH TOKEN
+    // ============================================
+
+    function getAuthToken() {
+        // Helper function to recursively search for JWT tokens
+        function findJWT(obj, depth = 0) {
+            if (depth > 5) return null; // Prevent infinite recursion
+
+            // Direct JWT string
+            if (typeof obj === 'string' && obj.startsWith('eyJ') && obj.length > 100) {
+                return obj;
+            }
+
+            // Try to parse string as JSON and search inside
+            if (typeof obj === 'string' && obj.includes('eyJ')) {
+                try {
+                    const parsed = JSON.parse(obj);
+                    const token = findJWT(parsed, depth + 1);
+                    if (token) return token;
+                } catch (e) {
+                    // Not valid JSON, continue
+                }
+            }
+
+            // Search in objects
+            if (typeof obj === 'object' && obj !== null) {
+                for (const key in obj) {
+                    const result = findJWT(obj[key], depth + 1);
+                    if (result) return result;
+                }
+            }
+
+            return null;
+        }
+
+        // Check persist:root (Redux persist) - Shuffle stores auth here
+        try {
+            const persistRoot = localStorage.getItem('persist:root');
+            if (persistRoot) {
+                const token = findJWT(persistRoot);
+                if (token) {
+                    console.log('✅ Found auth token in persist:root');
+                    return token;
+                }
+            }
+        } catch (e) {
+            console.error('Error parsing persist:root:', e);
+        }
+
+        // Check all localStorage keys
+        for (let i = 0; i < localStorage.length; i++) {
+            const key = localStorage.key(i);
+            try {
+                const value = localStorage.getItem(key);
+
+                // Direct JWT
+                if (value && value.startsWith('eyJ') && value.length > 100) {
+                    console.log('✅ Found JWT token in:', key);
+                    return value;
+                }
+
+                // Parse as JSON and search recursively
+                if (value && value.includes('eyJ')) {
+                    const parsed = JSON.parse(value);
+                    const token = findJWT(parsed);
+                    if (token) {
+                        console.log('✅ Found JWT in parsed object:', key);
+                        return token;
+                    }
+                }
+            } catch (e) {
+                // Not JSON, continue
+            }
+        }
+
+        // Try cookies
+        const cookies = document.cookie.split(';');
+        for (const cookie of cookies) {
+            const [name, value] = cookie.trim().split('=');
+            if (value && value.startsWith('eyJ') && value.length > 100) {
+                console.log('✅ Found JWT in cookie:', name);
+                return value;
+            }
+        }
+
+        console.error('❌ No auth token found');
+        return null;
+    }
+
+    // ============================================
+    // GET GEETEST NONCE (REQUIRED TOKEN FOR REDEEM)
+    // ============================================
+
+    async function getGeetestNonce(authToken) {
+        try {
+            const response = await fetch(GRAPHQL_URL, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${authToken}`
+                },
+                body: JSON.stringify({
+                    operationName: 'GetGeetestNonce',
+                    query: 'mutation GetGeetestNonce { geetestNonce }',
+                    variables: {}
+                })
+            });
+
+            const data = await response.json();
+            if (data?.data?.geetestNonce) {
+                console.log('✅ Got geetest nonce');
+                return data.data.geetestNonce;
+            }
+
+            console.error('❌ Failed to get geetest nonce:', data);
+            return null;
+        } catch (error) {
+            console.error('❌ Error getting geetest nonce:', error);
+            return null;
+        }
+    }
+
+    // ============================================
+    // MANUAL CODE CLAIMING
+    // ============================================
+
+    function handleManualClaim() {
+        const input = document.getElementById('manual-code-input');
+        const codeSlug = input.value.trim().toUpperCase();
+
+        // Validate input
+        if (!codeSlug) {
+            alert('⚠️ Please enter a code');
+            return;
+        }
+
+        // Validate code format (4-20 alphanumeric characters)
+        if (!/^[A-Z0-9]{4,20}$/.test(codeSlug)) {
+            alert('⚠️ Invalid code format. Codes must be 4-20 alphanumeric characters.');
+            return;
+        }
+
+        // Check if already processed
+        if (processedCodes[codeSlug]) {
+            alert('⚠️ This code has already been claimed!');
+            return;
+        }
+
+        // Add code to local storage as manual entry
+        const newCode = {
+            code: codeSlug,
+            timestamp: new Date().toISOString(),
+            claimed: false,
+            manual: true, // Flag to indicate manual entry
+            amount: 'Manual Entry',
+            wager: 'Unknown',
+            deadline: 'N/A'
+        };
+
+        codes.unshift(newCode);
+        saveCodesLocal();
+        updateCodesList();
+
+        console.log(`🎯 Manual code added: ${codeSlug}`);
+
+        // Close the panel
+        closeManualPanel();
+
+        // Open modal and auto-click Redeem (handles captcha via Geetest SDK)
+        openRedeemModal(codeSlug);
+    }
+
+    // ============================================
+    // GET NEXT.JS ROUTER (FOR SAME-PAGE MODAL)
+    // ============================================
+
+    // Get the REAL page window (not Tampermonkey sandbox)
+    const pageWindow = (typeof unsafeWindow !== 'undefined') ? unsafeWindow : window;
+
+    function getNextRouter() {
+        // IMPORTANT: Use pageWindow (unsafeWindow) to access Next.js router
+        // Tampermonkey runs in a sandbox, so regular 'window' won't see Next.js
+
+        // Method 1: pageWindow.next.router (most common)
+        if (pageWindow.next?.router) {
+            console.log('✅ Found router via unsafeWindow.next.router');
+            return pageWindow.next.router;
+        }
+
+        // Method 2: Next.js App Router (newer versions)
+        if (pageWindow.__NEXT_ROUTER__) {
+            console.log('✅ Found router via unsafeWindow.__NEXT_ROUTER__');
+            return pageWindow.__NEXT_ROUTER__;
+        }
+
+        // Method 3: Check for Next.js navigation module
+        if (pageWindow.__next?.router) {
+            console.log('✅ Found router via unsafeWindow.__next.router');
+            return pageWindow.__next.router;
+        }
+
+        console.log('⚠️ Next.js router not found via unsafeWindow');
+        return null;
+    }
+
+    // ============================================
+    // OPEN REDEEM MODAL VIA NEXT.JS ROUTER (NO PAGE RELOAD)
+    // ============================================
+
+    function openRedeemModal(codeSlug) {
+        // === SINGLE EXECUTION GUARD ===
+        // Check ALL guards FIRST before doing anything
+        if (activeClaims[codeSlug]) {
+            console.log(`🔒 LOCKED - Already processing: ${codeSlug}`);
+            return;
+        }
+        if (processedCodes[codeSlug]) {
+            console.log(`⏭️ Already processed: ${codeSlug}`);
+            return;
+        }
+        if (claimOutcomes[codeSlug]) {
+            console.log(`⏭️ Already resolved: ${codeSlug}`);
+            return;
+        }
+        if (!isAuthenticated) {
+            console.log(`❌ Not authenticated`);
+            updateStatus('🔒 Connect to claim codes');
+            return;
+        }
+
+        // === SET UP INTERCEPTOR FIRST ===
+        // Must be done BEFORE opening modal to catch lookupPromotionCode
+        setupGraphQLInterceptor();
+        pendingCode = codeSlug;
+        claimPhase = 'lookup';
+
+        // === LOCK IMMEDIATELY ===
+        activeClaims[codeSlug] = true;
+        processedCodes[codeSlug] = Date.now();
+        GM_setValue('processedCodes', processedCodes);
+
+        console.log(`⚡ CLAIMING: ${codeSlug}`);
+        updateStatus(`⚡ ${codeSlug}`);
+
+        // Try Next.js router first (no page reload)
+        const router = getNextRouter();
+        if (router) {
+            console.log('✅ Found Next.js router - using shallow navigation');
+
+            // Shallow push to trigger modal without full page reload
+            const currentPath = window.location.pathname;
+            router.push(
+                { pathname: currentPath, query: { modal: 'c', 'md-code': codeSlug } },
+                undefined,
+                { shallow: true, scroll: false }
+            ).then(() => {
+                console.log('✅ Router push completed, watching for Redeem button...');
+                watchForRedeemButton(codeSlug);
+            }).catch(err => {
+                console.error('Router push failed:', err);
+                // Fallback to history manipulation + event dispatch
+                triggerModalFallback(codeSlug);
+            });
+        } else {
+            console.log('⚠️ Next.js router not found, using fallback...');
+            triggerModalFallback(codeSlug);
+        }
+
+        GM_notification({
+            title: '⚡ CLAIMING!',
+            text: codeSlug,
+            timeout: 2000
+        });
+    }
+
+    // Fallback: Poll for router to become available, then use it
+    function triggerModalFallback(codeSlug) {
+        console.log(`🔄 Router not immediately available, polling for unsafeWindow.next.router...`);
+
+        let pollAttempts = 0;
+        const maxPollAttempts = 50; // 2.5 seconds max
+
+        const routerPoll = setInterval(() => {
+            pollAttempts++;
+
+            // Check if router is now available
+            if (pageWindow.next?.router?.push) {
+                clearInterval(routerPoll);
+                console.log('✅ Router became available! Using it now...');
+
+                const currentPath = pageWindow.location.pathname;
+                pageWindow.next.router.push(
+                    { pathname: currentPath, query: { modal: 'c', 'md-code': codeSlug } },
+                    undefined,
+                    { shallow: true }
+                ).then(() => {
+                    console.log('✅ Router push completed via fallback polling');
+                    watchForRedeemButton(codeSlug);
+                }).catch(err => {
+                    console.error('Router push failed:', err);
+                    // Mark as failed so user can retry
+                    resolveClaim(codeSlug, false, 'Router navigation failed');
+                });
+                return;
+            }
+
+            // Timeout - router never became available
+            if (pollAttempts >= maxPollAttempts) {
+                clearInterval(routerPoll);
+                console.log('❌ Router never became available after polling');
+
+                // Don't click random links - just show error and let user retry
+                resolveClaim(codeSlug, false, 'Could not open redeem modal - please try manually');
+
+                GM_notification({
+                    title: '⚠️ Manual Redemption Needed',
+                    text: `Please redeem ${codeSlug} manually`,
+                    timeout: 5000
+                });
+            }
+        }, 50); // Poll every 50ms
+    }
+
+    // ============================================
+    // WATCH FOR REDEEM BUTTON AND AUTO-CLICK
+    // Flow: Find modal → Click button → Watch GraphQL
+    // ============================================
+
+    function watchForRedeemButton(codeSlug) {
+        // Already resolved by GraphQL (invalid code)?
+        if (claimOutcomes[codeSlug]) return;
+
+        let attempts = 0;
+        const maxAttempts = 100; // 5 seconds
+
+        const watcher = setInterval(() => {
+            attempts++;
+
+            // Already resolved by GraphQL
+            if (claimOutcomes[codeSlug]) {
+                clearInterval(watcher);
+                return;
+            }
+
+            // Find Redeem button in modal
+            const modals = document.querySelectorAll('[class*="ModalContent"], [role="dialog"]');
+            let redeemBtn = null;
+
+            for (let modal of modals) {
+                const redeemIcon = modal.querySelector('img[src*="redeem"], img[alt="redeem"]');
+                if (redeemIcon) {
+                    redeemBtn = modal.querySelector('button[class*="ButtonVariants_primary"]');
+                    if (redeemBtn) break;
+                }
+            }
+
+            if (redeemBtn) {
+                // Found button - click it
+                clearInterval(watcher);
+                console.log('🎯 Clicking Redeem button');
+                redeemBtn.click();
+                watchForResult(codeSlug);
+            } else if (attempts >= maxAttempts) {
+                // Timeout - no button found
+                clearInterval(watcher);
+                pendingCode = null;
+                claimPhase = null;
+
+                // If no modal appeared at all = invalid code
+                const anyModal = document.querySelector('[class*="ModalContent"], [role="dialog"]');
+                if (!anyModal) {
+                    console.log(`❌ ${codeSlug}: Invalid code (no modal)`);
+                    claimOutcomes[codeSlug] = 'rejected';
+                    resolveClaim(codeSlug, false, 'Invalid code');
+                    closeModal();
+                } else {
+                    // Modal exists but no button - retry
+                    console.log(`🔄 ${codeSlug}: Modal stuck, retrying...`);
+                    GM_setValue('pendingRetryCode', codeSlug);
+                    GM_setValue('pendingRetryTime', Date.now());
+                    delete activeClaims[codeSlug];
+                    delete processedCodes[codeSlug];
+                    GM_setValue('processedCodes', processedCodes);
+                    setTimeout(() => window.location.reload(), 500);
+                }
+            }
+        }, 50);
+    }
+
+    // ============================================
+    // GRAPHQL INTERCEPTOR - SINGLE SOURCE OF TRUTH
+    // Phase 1: lookupPromotionCode (eligibility)
+    // Phase 2: RedeemPromoCode (claim)
+    // ============================================
+
+    let graphqlInterceptorReady = false;
+    let pendingCode = null;
+    let claimPhase = null; // 'lookup' or 'redeem'
+
+    function setupGraphQLInterceptor() {
+        if (graphqlInterceptorReady) return;
+
+        const originalFetch = unsafeWindow.fetch;
+        unsafeWindow.fetch = async function(...args) {
+            const response = await originalFetch.apply(this, args);
+
+            const url = args[0]?.url || args[0];
+            if (!url || !url.includes('graphql')) {
+                return response;
+            }
+
+            // Get request body to identify operation and extract code
+            let operationName = null;
+            let requestCode = null;
+            try {
+                const body = args[1]?.body;
+                if (body) {
+                    const parsed = JSON.parse(body);
+                    operationName = parsed.operationName;
+                    // Extract code from request variables for manual claims
+                    if (parsed.variables?.code) {
+                        requestCode = parsed.variables.code;
+                    }
+                }
+            } catch(e) {}
+
+            // Use pendingCode (auto-claim) OR requestCode (manual claim)
+            const activeCode = pendingCode || requestCode;
+
+            // Skip if no code to track or already handled
+            if (!activeCode || (claimOutcomes[activeCode] && !requestCode)) {
+                return response;
+            }
+
+            try {
+                const clone = response.clone();
+                const data = await clone.json();
+
+                // ===== PHASE 1: lookupPromotionCode (eligibility check) =====
+                if (operationName === 'lookupPromotionCode') {
+                    const code = activeCode;
+
+                    if (data.errors && data.errors.length > 0) {
+                        // Invalid code - modal won't open
+                        const errorMsg = data.errors[0].message || 'Invalid code';
+
+                        // Only resolve if this is our tracked auto-claim
+                        if (pendingCode === code) {
+                            pendingCode = null;
+                            claimPhase = null;
+                        }
+
+                        console.log(`❌ ${code}: ${errorMsg} (lookup failed)`);
+                        resolveClaim(code, false, errorMsg);
+                        closeModal();
+                    } else if (data.data?.lookupPromotionCode) {
+                        // Code is valid - modal will open, wait for redeem
+                        const lookupData = data.data.lookupPromotionCode;
+
+                        // Extract usdRedeemValue and update code in dashboard if value was missing or placeholder
+                        if (lookupData.usdRedeemValue) {
+                            const usdValue = `$${lookupData.usdRedeemValue}`;
+                            const codeIndex = codes.findIndex(c => c.code === code);
+
+                            if (codeIndex !== -1) {
+                                const currentValue = codes[codeIndex].value;
+                                const needsUpdate = !currentValue ||
+                                    currentValue === 'N/A' ||
+                                    currentValue === 'Unknown' ||
+                                    currentValue === 'Manual Entry' ||
+                                    !currentValue.startsWith('$');
+
+                                if (needsUpdate) {
+                                    codes[codeIndex].value = usdValue;
+                                    GM_setValue('localCodes', JSON.stringify(codes));
+                                    console.log(`💰 ${code}: Value discovered from GraphQL: ${usdValue}`);
+                                    renderCodes();
+                                }
+                            }
+                        }
+
+                        console.log(`✓ ${code}: Eligible, waiting for redeem...`);
+                        if (pendingCode === code) {
+                            claimPhase = 'redeem';
+                        }
+                    }
+                }
+
+                // ===== PHASE 2: RedeemPromoCode (claim attempt) =====
+                // This handles BOTH auto-claims AND manual claims!
+                else if (operationName === 'RedeemPromoCode') {
+                    const code = activeCode;
+                    const isManualClaim = !pendingCode && requestCode;
+
+                    if (isManualClaim) {
+                        console.log(`📝 Detected MANUAL claim for: ${code}`);
+                    }
+
+                    if (data.errors && data.errors.length > 0) {
+                        // Claim failed - show error message
+                        const errorMsg = data.errors[0].message || 'Claim failed';
+
+                        if (pendingCode === code) {
+                            pendingCode = null;
+                            claimPhase = null;
+                        }
+
+                        console.log(`❌ ${code}: ${errorMsg}${isManualClaim ? ' (manual)' : ''}`);
+                        resolveClaim(code, false, errorMsg);
+                        if (!isManualClaim) closeModal();
+                    } else if (data.data?.redeemPromotionCode) {
+                        // SUCCESS!
+                        const redeemData = data.data.redeemPromotionCode;
+                        const value = redeemData.usdRedeemValue ? `$${redeemData.usdRedeemValue}` : null;
+
+                        if (pendingCode === code) {
+                            pendingCode = null;
+                            claimPhase = null;
+                        }
+
+                        console.log(`✅ ${code}: CLAIMED!${isManualClaim ? ' (manual)' : ''}${value ? ` - ${value}` : ''}`);
+
+                        // For manual claims, send directly to backend even if not in our codes list
+                        if (isManualClaim && !claimOutcomes[code]) {
+                            console.log(`📤 Sending manual claim to backend: ${code}`);
+                            sendClaimResultToBackend(code, true, null, value);
+                            claimOutcomes[code] = 'success';
+                        } else {
+                            resolveClaim(code, true, null);
+                        }
+
+                        if (!isManualClaim) closeModal();
+                    }
+                }
+            } catch (e) {
+                // Not JSON - ignore
+            }
+
+            return response;
+        };
+
+        graphqlInterceptorReady = true;
+        console.log('📡 GraphQL interceptor ready (auto + manual claims)');
+    }
+
+    // ============================================
+    // WATCH FOR RESULT AFTER CLICKING REDEEM
+    // Only checks for captcha - GraphQL handles success/error
+    // ============================================
+
+    function watchForResult(codeSlug) {
+        let attempts = 0;
+        const maxAttempts = 100; // 5 seconds
+
+        const watcher = setInterval(() => {
+            attempts++;
+
+            // Already resolved by GraphQL interceptor
+            if (claimOutcomes[codeSlug]) {
+                clearInterval(watcher);
+                return;
+            }
+
+            // Check for visible captcha popup - needs refresh & retry
+            const geetestBox = document.querySelector('[class*="geetest_box"], .geetest_box_layer, [class*="geetest_panel"]');
+            if (geetestBox) {
+                const style = window.getComputedStyle(geetestBox);
+                const rect = geetestBox.getBoundingClientRect();
+                const isVisible = style.display !== 'none' &&
+                                  style.visibility !== 'hidden' &&
+                                  style.opacity !== '0' &&
+                                  rect.width > 0 && rect.height > 0;
+
+                if (isVisible) {
+                    clearInterval(watcher);
+                    pendingCode = null;
+                    claimPhase = null;
+
+                    // Save for retry after refresh
+                    GM_setValue('pendingRetryCode', codeSlug);
+                    GM_setValue('pendingRetryTime', Date.now());
+                    delete activeClaims[codeSlug];
+                    delete processedCodes[codeSlug];
+                    GM_setValue('processedCodes', processedCodes);
+
+                    console.log(`🤖 Captcha detected - refreshing to retry ${codeSlug}`);
+                    setTimeout(() => window.location.reload(), 500);
+                    return;
+                }
+            }
+
+            // Timeout - if GraphQL didn't resolve it, something went wrong
+            if (attempts >= maxAttempts && !claimOutcomes[codeSlug]) {
+                clearInterval(watcher);
+                pendingCode = null;
+                claimPhase = null;
+                console.log(`⚠️ ${codeSlug}: Timeout waiting for GraphQL response`);
+            }
+        }, 50);
+    }
+
+    // ============================================
+    // CLOSE MODAL AND CLEAN UP URL (SAME PAGE)
+    // ============================================
+
+    function closeModal() {
+        console.log('🚪 Closing modal...');
+
+        // Try clicking close button or overlay
+        const closeBtn = document.querySelector('[data-testid="modal-close"], .Modal_closeButton, button[aria-label="Close"]');
+        if (closeBtn) closeBtn.click();
+
+        const overlay = document.querySelector('.Modal_overlay, [data-testid="modal-overlay"]');
+        if (overlay) overlay.click();
+
+        // Clean URL using Next.js router or history
+        const router = getNextRouter();
+        if (router) {
+            router.replace(window.location.pathname, undefined, { shallow: true }).catch(() => {
+                // Fallback to history
+                window.history.replaceState({}, '', window.location.pathname);
+            });
+        } else {
+            window.history.replaceState({}, '', window.location.pathname);
+        }
+
+        console.log('✅ Modal closed, URL cleaned');
+    }
+
+    // ============================================
+    // REDEEM CODE VIA DIRECT GRAPHQL (FALLBACK)
+    // ============================================
+
+    async function redeemCodeDirect(codeSlug, attempt = 1) {
+        // This is a fallback - prefer openRedeemModal() which handles captcha
+        console.log(`🚀 redeemCodeDirect called for: ${codeSlug} (Attempt ${attempt})`);
+
+        // Check authentication first
+        if (!isAuthenticated) {
+            console.log(`❌ NOT AUTHENTICATED - Cannot redeem`);
+            updateStatus('🔒 Connect to claim codes');
+            return;
+        }
+
+        // Check if already processed (only on first attempt)
+        if (attempt === 1 && processedCodes[codeSlug]) {
+            console.log(`❌ ALREADY PROCESSED - Skipping: ${codeSlug}`);
+            return;
+        }
+
+        // Mark as processed immediately (only on first attempt)
+        if (attempt === 1) {
+            processedCodes[codeSlug] = Date.now();
+            GM_setValue('processedCodes', processedCodes);
+        }
+
+        updateStatus(`⚡ Redeeming ${codeSlug} (Attempt ${attempt}/3)...`);
+
+        const authToken = getAuthToken();
+        if (!authToken) {
+            console.error('No auth token found!');
+            updateStatus('❌ Not logged in');
+
+            // Mark as failed after 3 attempts
+            if (attempt >= 3) {
+                resolveClaim(codeSlug, false, 'Auth token not found');
+                retryAttempts[codeSlug] = 0;
+                GM_setValue('retryAttempts', retryAttempts);
+            } else {
+                // Retry after 2 seconds
+                retryAttempts[codeSlug] = attempt;
+                GM_setValue('retryAttempts', retryAttempts);
+                setTimeout(() => redeemCodeDirect(codeSlug, attempt + 1), 2000);
+            }
+            return;
+        }
+
+        console.log('Using auth token:', authToken.substring(0, 20) + '...');
+
+        // Get geetest nonce (required token field)
+        const nonce = await getGeetestNonce(authToken);
+        if (!nonce) {
+            console.error('Failed to get geetest nonce');
+            if (attempt >= 3) {
+                updateStatus('❌ Failed to get nonce');
+                resolveClaim(codeSlug, false, 'Failed to get geetest nonce');
+                retryAttempts[codeSlug] = 0;
+                GM_setValue('retryAttempts', retryAttempts);
+            } else {
+                retryAttempts[codeSlug] = attempt;
+                GM_setValue('retryAttempts', retryAttempts);
+                setTimeout(() => redeemCodeDirect(codeSlug, attempt + 1), 3000);
+            }
+            return;
+        }
+
+        const mutation = {
+            operationName: "RedeemPromoCode",
+            variables: {
+                data: {
+                    codeSlug: codeSlug,
+                    currency: selectedCurrency,
+                    token: nonce
+                }
+            },
+            query: `mutation RedeemPromoCode($data: PromotionCodeInput!) {
+                redeemPromotionCode(data: $data) {
+                    id
+                    currency
+                    createdAt
+                    afterBalance
+                    usdRedeemValue
+                    __typename
+                }
+            }`
+        };
+
+        fetch(GRAPHQL_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${authToken}`
+            },
+            body: JSON.stringify(mutation)
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log('GraphQL Response:', data);
+
+            if (data.errors) {
+                // FAILED - extract error message
+                const errorMsg = data.errors[0]?.message || 'Unknown error';
+                console.log(`❌ Code rejected (Attempt ${attempt}):`, errorMsg);
+
+                // Check for captcha/rate limiting errors - don't retry
+                const lowerError = errorMsg.toLowerCase();
+                if (lowerError.includes('captcha') || lowerError.includes('rate limit') || lowerError.includes('too many')) {
+                    console.log('🛡️ CAPTCHA/RATE LIMIT DETECTED - Stopping retries');
+                    updateStatus(`🛡️ Captcha triggered - waiting...`);
+                    resolveClaim(codeSlug, false, 'Captcha/Rate limit - try again later');
+                    retryAttempts[codeSlug] = 0;
+                    GM_setValue('retryAttempts', retryAttempts);
+
+                    GM_notification({
+                        title: '🛡️ Captcha Detected',
+                        text: 'Wait a bit before claiming more codes',
+                        timeout: 5000
+                    });
+                    return;
+                }
+
+                if (attempt >= 3) {
+                    // Max attempts reached, mark as rejected
+                    updateStatus(`❌ Rejected: ${codeSlug}`);
+                    resolveClaim(codeSlug, false, errorMsg);
+                    retryAttempts[codeSlug] = 0;
+                    GM_setValue('retryAttempts', retryAttempts);
+                    console.log('✅ Code processed - max retries reached');
+                } else {
+                    // Retry after 3 seconds
+                    updateStatus(`⏳ Retrying ${codeSlug} in 3s...`);
+                    retryAttempts[codeSlug] = attempt;
+                    GM_setValue('retryAttempts', retryAttempts);
+                    setTimeout(() => redeemCodeDirect(codeSlug, attempt + 1), 3000);
+                }
+            } else if (data.data?.redeemPromotionCode) {
+                // SUCCESS
+                const result = data.data.redeemPromotionCode;
+                console.log('✅ Code claimed successfully!', result);
+                updateStatus(`✅ Claimed: ${codeSlug} - $${result.usdRedeemValue}`);
+
+                GM_notification({
+                    title: '✅ Code Claimed!',
+                    text: `${codeSlug} - $${result.usdRedeemValue}`,
+                    timeout: 5000
+                });
+
+                resolveClaim(codeSlug, true, null);
+                retryAttempts[codeSlug] = 0;
+                GM_setValue('retryAttempts', retryAttempts);
+                console.log('✅ Code claimed via direct GraphQL!');
+            }
+        })
+        .catch(error => {
+            console.error('Network error:', error);
+
+            if (attempt >= 3) {
+                updateStatus(`❌ Network error`);
+                resolveClaim(codeSlug, false, 'Network error: ' + error.message);
+                retryAttempts[codeSlug] = 0;
+                GM_setValue('retryAttempts', retryAttempts);
+                console.log('✅ Code processed - network error after max retries');
+            } else {
+                updateStatus(`⏳ Retrying ${codeSlug} in 3s...`);
+                retryAttempts[codeSlug] = attempt;
+                GM_setValue('retryAttempts', retryAttempts);
+                setTimeout(() => redeemCodeDirect(codeSlug, attempt + 1), 3000);
+            }
+        });
+    }
+
+    // ============================================
+    // FETCH AND PROCESS CODES (ONE TIME ONLY)
+    // ============================================
+
+    function fetchAndProcessCodes() {
+        GM_xmlhttpRequest({
+            method: 'GET',
+            url: `${API_URL}/api/codes`,
+            headers: accessToken ? { 'Authorization': `Bearer ${accessToken}` } : {},
+            onload: function(response) {
+                try {
+                    const newCodes = JSON.parse(response.responseText);
+                    codes = newCodes;
+                    updateUI();
+
+                    // Find unclaimed codes that we haven't processed yet
+                    const unclaimedCodes = newCodes.filter(c =>
+                        !c.claimed &&
+                        !c.rejectionReason &&
+                        !processedCodes[c.code] // Not already opened
+                    );
+
+                    if (unclaimedCodes.length > 0) {
+                        // Process ONLY the first unclaimed code (prevents spam)
+                        const latestCode = unclaimedCodes[0];
+
+                        console.log(`⚡ NEW CODE INSTANT: ${latestCode.code}`);
+
+                        GM_notification({
+                            title: '⚡ NEW CODE!',
+                            text: latestCode.code,
+                            timeout: 2000
+                        });
+
+                        // INSTANT REDEEM via modal + auto-click
+                        openRedeemModal(latestCode.code);
+                    } else {
+                        updateStatus('✅ All codes processed');
+                    }
+                } catch (e) {
+                    console.error('Failed to parse codes:', e);
+                }
+            },
+            onerror: function(error) {
+                updateStatus('❌ API Error');
+            }
+        });
+    }
+
+    // ============================================
+    // UI FUNCTIONS
+    // ============================================
+
+    function updateCodesList() {
+        const container = document.getElementById('shuffle-codes-list');
+        if (!container) return;
+
+        if (codes.length === 0) {
+            container.innerHTML = `
+                <div style="text-align:center; padding:60px 20px; color:#666;">
+                    <h3 style="margin:0 0 10px;">No Codes Yet</h3>
+                    <p>Codes from Telegram will appear here</p>
+                </div>
+            `;
+            return;
+        }
+
+        container.innerHTML = codes.map(code => {
+            let statusBadge = '';
+            let statusClass = '';
+            let rejectionHtml = '';
+
+            if (code.claimed) {
+                statusBadge = '✅ CLAIMED';
+                statusClass = 'claimed';
+            } else if (code.rejectionReason) {
+                statusBadge = '❌ REJECTED';
+                statusClass = 'rejected';
+                rejectionHtml = `<div class="code-rejection-reason">🚫 ${code.rejectionReason}</div>`;
+            } else {
+                statusBadge = '⏳ PENDING';
+                statusClass = 'pending';
+            }
+
+            return `
+            <div class="code-item ${statusClass}">
+                <div class="code-header">
+                    <div class="code-value">${code.code}</div>
+                    <div class="code-badge ${statusClass}">
+                        ${statusBadge}
+                    </div>
+                </div>
+                <div class="code-info-grid">
+                    <div>
+                        <div class="code-info-label">Value</div>
+                        <div class="code-info-value">${code.value || code.amount || '-'}</div>
+                    </div>
+                    <div>
+                        <div class="code-info-label">Limit</div>
+                        <div class="code-info-value">${code.limit ? `First ${code.limit}` : '-'}</div>
+                    </div>
+                    <div>
+                        <div class="code-info-label">Wager Req.</div>
+                        <div class="code-info-value">${code.wagerRequirement || code.wager || '-'}</div>
+                    </div>
+                    <div>
+                        <div class="code-info-label">Timeline</div>
+                        <div class="code-info-value">${code.timeline || code.deadline || '-'}</div>
+                    </div>
+                    <div>
+                        <div class="code-info-label">Status</div>
+                        <div class="code-info-value">${code.claimed ? 'Claimed' : code.rejectionReason ? 'Rejected' : 'Ready'}</div>
+                    </div>
+                </div>
+                ${rejectionHtml}
+            </div>
+        `;
+        }).join('');
+    }
+
+    function updateUI() {
+        // Always recreate UI to reflect authentication state changes
+        const header = document.getElementById('shuffle-header');
+        const showBtn = document.getElementById('shuffle-show-btn');
+
+        // Only recreate if header doesn't exist OR if authentication state might have changed
+        if (!header) {
+            if (showBtn) showBtn.remove();
+            injectUI();
+        }
+        // If header exists, just update the dashboard stats when panel opens
+        // This prevents flickering while still allowing authentication updates
+    }
+
+    function updateStatus(text) {
+        const status = document.getElementById('shuffle-status');
+        if (status) status.textContent = text;
+    }
+
+    function togglePanel() {
+        const panel = document.getElementById('shuffle-panel');
+
+        if (panel.style.display === 'none') {
+            panel.style.display = 'flex';
+            updateCodesList(); // Refresh the list when opening
+        } else {
+            panel.style.display = 'none';
+        }
+    }
+
+    function toggleManualPanel() {
+        const panel = document.getElementById('shuffle-manual-panel');
+        const input = document.getElementById('manual-code-input');
+
+        if (panel) {
+            if (panel.style.display === 'none' || !panel.style.display) {
+                panel.style.display = 'block';
+                if (input) {
+                    input.value = '';
+                    setTimeout(() => input.focus(), 100);
+                }
+            } else {
+                panel.style.display = 'none';
+            }
+        }
+    }
+
+    function closeManualPanel() {
+        const panel = document.getElementById('shuffle-manual-panel');
+        if (panel) {
+            panel.style.display = 'none';
+        }
+    }
+
+    function toggleHeader() {
+        const header = document.getElementById('shuffle-header');
+        const showBtn = document.getElementById('shuffle-show-btn');
+        const panel = document.getElementById('shuffle-panel');
+
+        if (header.style.display === 'none') {
+            // Show header
+            header.style.display = 'flex';
+            showBtn.style.display = 'none';
+            GM_setValue('headerVisible', true);
+        } else {
+            // Hide header
+            header.style.display = 'none';
+            showBtn.style.display = 'block';
+            panel.style.display = 'none'; // Also close dashboard panel
+            GM_setValue('headerVisible', false);
+        }
+    }
+
+    // ============================================
+    // AUTO-REFRESH DASHBOARD (ONLY FOR SUBSCRIBED USERS)
+    // ============================================
+
+    function startAutoRefresh() {
+        // Prevent duplicate starts
+        if (autoRefreshRunning) {
+            console.log('⏭️ Auto-refresh already running, skipping...');
+            return;
+        }
+
+        // Only start if authenticated
+        if (!isAuthenticated) {
+            console.log('❌ Cannot start auto-refresh - not authenticated');
+            return;
+        }
+
+        autoRefreshRunning = true;
+        console.log('🚀 Starting auto-refresh for subscribed user...');
+
+        // Poll dashboard API to get new codes from Telegram
+        autoRefreshInterval = setInterval(() => {
+            // Double-check authentication before making request
+            if (!isAuthenticated) {
+                console.log('⚠️ No longer authenticated - stopping polling');
+                if (autoRefreshInterval) {
+                    clearInterval(autoRefreshInterval);
+                    autoRefreshInterval = null;
+                }
+                autoRefreshRunning = false;
+                return;
+            }
+
+            GM_xmlhttpRequest({
+                method: 'GET',
+                url: `${API_URL}/api/codes`,
+                headers: accessToken ? { 'Authorization': `Bearer ${accessToken}` } : {},
+                onload: function(response) {
+                    // Guard: check if still authenticated when response arrives
+                    if (!isAuthenticated) {
+                        console.log('⚠️ Response arrived but no longer authenticated - ignoring');
+                        return;
+                    }
+
+                    try {
+                        const backendCodes = JSON.parse(response.responseText);
+                        const clearTimestamp = parseInt(GM_getValue('clearTimestamp', '0'));
+
+                        // Merge backend codes with local storage (preserve local claim status)
+                        backendCodes.forEach(backendCode => {
+                            const codeTimestamp = new Date(backendCode.timestamp).getTime();
+                            const existingCode = codes.find(c => c.code === backendCode.code);
+
+                            // Skip codes that existed before user cleared dashboard
+                            if (clearTimestamp > 0 && codeTimestamp < clearTimestamp) {
+                                return; // Don't re-add old codes after user cleared
+                            }
+
+                            if (!existingCode) {
+                                // New code - add to local storage
+                                codes.unshift(backendCode);
+                                console.log(`➕ New code added: ${backendCode.code}`);
+
+                                // SHOW NOTIFICATION ONLY IF STILL AUTHENTICATED
+                                if (isAuthenticated) {
+                                    const codeValue = backendCode.value || backendCode.amount || 'N/A';
+                                    const codeLimit = backendCode.limit ? `First ${backendCode.limit}` : 'N/A';
+                                    GM_notification({
+                                        title: `🎰 NEW CODE: ${backendCode.code}`,
+                                        text: `${codeValue} | ${codeLimit}\n📍 Open https://shuffle.com/redeem/${backendCode.code} and click REDEEM!`,
+                                        timeout: 10000
+                                    });
+
+                                    // Note: Backend sends Telegram notification via WebSocket
+                                }
+                            } else {
+                                // Update metadata but preserve local claim status
+                                existingCode.value = backendCode.value;
+                                existingCode.limit = backendCode.limit;
+                                existingCode.wagerRequirement = backendCode.wagerRequirement;
+                                existingCode.timeline = backendCode.timeline;
+                                // Backward compatibility
+                                existingCode.amount = backendCode.amount;
+                                existingCode.wager = backendCode.wager;
+                                existingCode.deadline = backendCode.deadline;
+                            }
+                        });
+
+                        // Save merged codes
+                        saveCodesLocal();
+
+                        // Update UI
+                        updateCodesList();
+                        updateUI();
+
+                        // AUTO-REDEEM unclaimed codes (ONLY if authenticated)
+                        if (!isAuthenticated) return;
+
+                        const unclaimedCodes = codes.filter(c =>
+                            !c.claimed && !c.rejectionReason && !processedCodes[c.code]
+                        );
+
+                        if (unclaimedCodes.length > 0) {
+                            const latestCode = unclaimedCodes[0];
+                            console.log(`⚡ AUTO-REDEEMING: ${latestCode.code}`);
+
+                            GM_notification({
+                                title: '⚡ NEW CODE!',
+                                text: latestCode.code,
+                                timeout: 2000
+                            });
+
+                            // INSTANT REDEEM via modal + auto-click
+                            openRedeemModal(latestCode.code);
+                        }
+                    } catch (e) {
+                        console.error('Auto-refresh error:', e);
+                    }
+                }
+            });
+        }, TIMEOUTS.POLL_CODES);
+
+        // Monitor for claim results from other tabs (cross-tab communication)
+        let lastClaimResultStr = '';
+        claimResultInterval = setInterval(() => {
+            const claimResultStr = GM_getValue('lastClaimResult', '');
+
+            if (claimResultStr && claimResultStr !== lastClaimResultStr) {
+                lastClaimResultStr = claimResultStr;
+
+                try {
+                    const claimResult = JSON.parse(claimResultStr);
+                    console.log('📥 Claim result from other tab:', claimResult);
+
+                    // Update local codes with result
+                    const codeIndex = codes.findIndex(c => c.code === claimResult.code);
+                    if (codeIndex >= 0) {
+                        codes[codeIndex].claimed = claimResult.success;
+                        codes[codeIndex].rejectionReason = claimResult.success ? null : claimResult.message;
+                        saveCodesLocal();
+                        updateCodesList();
+                        updateUI();
+
+                        console.log(`✅ Dashboard updated: ${claimResult.code} - ${claimResult.success ? 'SUCCESS' : claimResult.message}`);
+
+                        // Send Telegram status update
+                        sendTelegramStatusUpdate(claimResult.code, claimResult.success, claimResult.message);
+                    }
+                } catch (e) {
+                    console.error('Failed to parse claim result:', e);
+                }
+            }
+        }, 500); // Check every 500ms for faster updates
+
+        console.log(`🔄 Auto-refresh enabled - polling every ${TIMEOUTS.POLL_CODES}ms (${superTurboMode ? 'TURBO MODE' : 'normal'})`);
+    }
+
+    // ============================================
+    // INITIALIZE - INSTANT START (NO DELAY)
+    // ============================================
+
+    // INSTANT INITIALIZATION - NO DELAY!
+    console.log('═════════════════════════════════════════');
+    console.log('🚀 TAMPERMONKEY SCRIPT STARTED');
+    console.log('Current URL:', window.location.href);
+    console.log('Pathname:', window.location.pathname);
+    console.log('Search:', window.location.search);
+    console.log('Hash:', window.location.hash);
+    console.log('═════════════════════════════════════════');
+
+    (function init() {
+        // Direct GraphQL mode - no page navigation, stays on same page
+        console.log('🏠 DIRECT GRAPHQL MODE - No page navigation needed');
+        setTimeout(() => {
+            injectUI();
+            startUsernameTracking(); // Auto-detect username from PostHog
+
+            // Check for pending retry code (from Geetest refresh)
+            const pendingCode = GM_getValue('pendingRetryCode', null);
+            const pendingTime = GM_getValue('pendingRetryTime', 0);
+
+            if (pendingCode && (Date.now() - pendingTime) < 60000) { // Within 1 minute
+                console.log(`🔄 Found pending retry code: ${pendingCode} - Will retry after auth...`);
+
+                // Clear the pending code
+                GM_setValue('pendingRetryCode', null);
+                GM_setValue('pendingRetryTime', 0);
+
+                // Set flag to prioritize style-based detection
+                window.isGeetestRetry = true;
+
+                // Wait for authentication, then retry with STYLE-FIRST button detection
+                const retryInterval = setInterval(() => {
+                    if (isAuthenticated) {
+                        clearInterval(retryInterval);
+                        console.log(`🔄 Retrying code after Geetest refresh: ${pendingCode}`);
+                        console.log('🎨 STYLE-FIRST mode enabled for button detection');
+
+                        GM_notification({
+                            title: '🔄 Retrying Code',
+                            text: `${pendingCode} (style-first mode)`,
+                            timeout: 2000
+                        });
+
+                        // Small delay then retry
+                        setTimeout(() => {
+                            openRedeemModal(pendingCode);
+                        }, 1000);
+                    }
+                }, 500); // Check auth every 500ms
+
+                // Timeout after 30 seconds
+                setTimeout(() => {
+                    clearInterval(retryInterval);
+                    window.isGeetestRetry = false;
+                }, 30000);
+            }
+        }, 300);
+
+        console.log('⚡ Shuffle Code Claimer v7.7.0 TURBO MODE (Instant WebSocket + Max Speed)');
+        console.log('═════════════════════════════════════════');
+    })();
+
+})();
