@@ -2,7 +2,7 @@
 // @name         Shuffle Code Claimer
 // @namespace    http://www.shufflecodeclaimer.com/
 // @version      1.5.0
-// @description  Shuffle Code Claimer - Auto-Detection + Telegram DM Notifications
+// @description  Shuffle Code Claimer
 // @author       Kylor07
 // @license      MIT
 // @match        https://shuffle.com/*
@@ -1088,7 +1088,7 @@ console.log('Current URL:', window.location.href);
                             -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
                             SHUFFLE CODE CLAIMER
                         </div>
-                        <div style="font-size:10px; opacity:0.7; margin-top:2px;">v5.10.0 - Currency Picker + Direct Telegram</div>
+                        <div style="font-size:10px; opacity:0.7; margin-top:2px;">v1.5.0</div>
                     </div>
                 </div>
                 <a href="https://t.me/ShuffleSubscriptionBot" target="_blank"
@@ -2649,7 +2649,7 @@ console.log('Current URL:', window.location.href);
             }
         }, 300);
 
-        console.log('⚡ Shuffle Code Claimer v7.7.0 TURBO MODE (Instant WebSocket + Max Speed)');
+        console.log('⚡ Shuffle Code Claimer ');
         console.log('═════════════════════════════════════════');
     })();
 
